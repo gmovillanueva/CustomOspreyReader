@@ -1,0 +1,121 @@
+\hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory}{}\section{Canberra\+:\+:Data\+Types\+:\+:Serialization\+:\+:Message\+Factory Class Reference}
+\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory}\index{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory@{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory}}
+
+
+Collaboration diagram for Canberra\+:\+:Data\+Types\+:\+:Serialization\+:\+:Message\+Factory\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \hyperlink{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a5def241bfd7f4c6138bca7b883420494_a5def241bfd7f4c6138bca7b883420494}{$\sim$\+Message\+Factory} (void)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_ab704cb86e488b8e441a7cd934d89cc6d}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_ab704cb86e488b8e441a7cd934d89cc6d}} 
+bool {\bfseries Get\+Digitally\+Sign} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a81d983d99c6d4160e49a3c8115b99241}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a81d983d99c6d4160e49a3c8115b99241}} 
+void {\bfseries Put\+Digitally\+Sign} (bool v)
+\item 
+void \hyperlink{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a04dda305fdbf7bb5345967f0529e6387_a04dda305fdbf7bb5345967f0529e6387}{Serialize\+To\+Message} (\hyperlink{class_canberra_1_1_serialization_1_1_serializable_object}{Canberra\+::\+Serialization\+::\+Serializable\+Object} $\ast$, \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&)
+\item 
+\hyperlink{class_canberra_1_1_serialization_1_1_serializable_object}{Canberra\+::\+Serialization\+::\+Serializable\+Object} $\ast$ \hyperlink{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a58d4f6449fcb585e027ab6aad1b4e799_a58d4f6449fcb585e027ab6aad1b4e799}{Deserialize\+From\+Message} (\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \hyperlink{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a65f9fac8fd218160a684f52d72fadb94_a65f9fac8fd218160a684f52d72fadb94}{Supports\+Msg\+Version} (const L\+O\+NG Version)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a57b5383123964bfe08aa9253805e9cba}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a57b5383123964bfe08aa9253805e9cba}} 
+\hyperlink{class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature}{Digital\+Signature} {\bfseries \+\_\+\+Signature}
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static L\+O\+NG \hyperlink{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_ae6f7663a578514f13d57031c407077ce_ae6f7663a578514f13d57031c407077ce}{M\+S\+G\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+1} = 1
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 16 of file Message\+Factory.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a5def241bfd7f4c6138bca7b883420494_a5def241bfd7f4c6138bca7b883420494}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a5def241bfd7f4c6138bca7b883420494_a5def241bfd7f4c6138bca7b883420494}} 
+\index{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory@{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory}!````~Message\+Factory@{$\sim$\+Message\+Factory}}
+\index{````~Message\+Factory@{$\sim$\+Message\+Factory}!Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory@{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory}}
+\subsubsection{\texorpdfstring{$\sim$\+Message\+Factory()}{~MessageFactory()}}
+{\footnotesize\ttfamily Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory\+::$\sim$\+Message\+Factory (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ Accessor to enable signing exceptions cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$Win32 error code $<$/exceptions$>$ /summary$>$
+
+summary$>$ This method will create a message containing the specified data and serialize it to the stream /summary$>$ param name=\char`\"{}\+Data\char`\"{}$>$The data to put in the message
+
+param name=\char`\"{}\+Str\char`\"{}$>$The stream
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$The Win32 error code
+
+Definition at line 15 of file Message\+Factory.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a58d4f6449fcb585e027ab6aad1b4e799_a58d4f6449fcb585e027ab6aad1b4e799}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a58d4f6449fcb585e027ab6aad1b4e799_a58d4f6449fcb585e027ab6aad1b4e799}} 
+\index{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory@{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory}!Deserialize\+From\+Message@{Deserialize\+From\+Message}}
+\index{Deserialize\+From\+Message@{Deserialize\+From\+Message}!Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory@{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory}}
+\subsubsection{\texorpdfstring{Deserialize\+From\+Message()}{DeserializeFromMessage()}}
+{\footnotesize\ttfamily \hyperlink{class_canberra_1_1_serialization_1_1_serializable_object}{Canberra\+::\+Serialization\+::\+Serializable\+Object} $\ast$ Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory\+::\+Deserialize\+From\+Message (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&}]{Str }\end{DoxyParamCaption})}
+
+summary$>$ This method will return information indicating whether the message version is supported /summary$>$ param name=\char`\"{}\+Version\char`\"{}$>$The message version number
+
+returns$>$The support state
+
+Definition at line 58 of file Message\+Factory.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a04dda305fdbf7bb5345967f0529e6387_a04dda305fdbf7bb5345967f0529e6387}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a04dda305fdbf7bb5345967f0529e6387_a04dda305fdbf7bb5345967f0529e6387}} 
+\index{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory@{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory}!Serialize\+To\+Message@{Serialize\+To\+Message}}
+\index{Serialize\+To\+Message@{Serialize\+To\+Message}!Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory@{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory}}
+\subsubsection{\texorpdfstring{Serialize\+To\+Message()}{SerializeToMessage()}}
+{\footnotesize\ttfamily void Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory\+::\+Serialize\+To\+Message (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_serialization_1_1_serializable_object}{Canberra\+::\+Serialization\+::\+Serializable\+Object} $\ast$}]{Data,  }\item[{\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&}]{Str }\end{DoxyParamCaption})}
+
+summary$>$ This method will deserialize the message and extract the data from it. The data type contained in the message is created and returned to the caller. The caller is responsible for releasing this memory /summary$>$ param name=\char`\"{}\+Str\char`\"{}$>$The stream
+
+returns$>$The deserialized data
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$The Win32 error code
+
+Definition at line 24 of file Message\+Factory.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a65f9fac8fd218160a684f52d72fadb94_a65f9fac8fd218160a684f52d72fadb94}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a65f9fac8fd218160a684f52d72fadb94_a65f9fac8fd218160a684f52d72fadb94}} 
+\index{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory@{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory}!Supports\+Msg\+Version@{Supports\+Msg\+Version}}
+\index{Supports\+Msg\+Version@{Supports\+Msg\+Version}!Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory@{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory}}
+\subsubsection{\texorpdfstring{Supports\+Msg\+Version()}{SupportsMsgVersion()}}
+{\footnotesize\ttfamily bool Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory\+::\+Supports\+Msg\+Version (\begin{DoxyParamCaption}\item[{const L\+O\+NG}]{Version }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+summary$>$ Accessor to enable signing exceptions cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$Win32 error code $<$/exceptions$>$ /summary$>$ 
+
+Definition at line 89 of file Message\+Factory.\+cpp.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_ae6f7663a578514f13d57031c407077ce_ae6f7663a578514f13d57031c407077ce}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_ae6f7663a578514f13d57031c407077ce_ae6f7663a578514f13d57031c407077ce}} 
+\index{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory@{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory}!M\+S\+G\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+1@{M\+S\+G\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+1}}
+\index{M\+S\+G\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+1@{M\+S\+G\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+1}!Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory@{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory}}
+\subsubsection{\texorpdfstring{M\+S\+G\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+1}{MSG\_VERSION\_1}}
+{\footnotesize\ttfamily L\+O\+NG Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory\+::\+M\+S\+G\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+1 = 1\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+summary$>$ An instance of this class is used to create/interpret messages /summary$>$ 
+
+Definition at line 23 of file Message\+Factory.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Message\+Factory.\+h\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Message\+Factory.\+cpp\end{DoxyCompactItemize}

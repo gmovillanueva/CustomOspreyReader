@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d5/d99/struct_command_info_s" kind="struct" language="C++" prot="public">
+    <compoundname>CommandInfoS</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d5/d99/struct_command_info_s_1aafb2f1e06117d55f5fca8e92b55889b8" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG CommandInfoS::Code</definition>
+        <argsstring></argsstring>
+        <name>Code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CommandData.h" line="10" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CommandData.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d99/struct_command_info_s_1a9c07e855e5e5ed3a3614fc747e812962" prot="public" static="no" mutable="no">
+        <type>USHORT</type>
+        <definition>USHORT CommandInfoS::Input</definition>
+        <argsstring></argsstring>
+        <name>Input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CommandData.h" line="11" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CommandData.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d99/struct_command_info_s_1a4a20f7982a7609ee531c5cbbdd85dc70" prot="public" static="no" mutable="no">
+        <type>USHORT</type>
+        <definition>USHORT CommandInfoS::NumArgs</definition>
+        <argsstring></argsstring>
+        <name>NumArgs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CommandData.h" line="12" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CommandData.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/CommandData.h" line="9" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CommandData.h" bodystart="9" bodyend="13"/>
+    <listofallmembers>
+      <member refid="d5/d99/struct_command_info_s_1aafb2f1e06117d55f5fca8e92b55889b8" prot="public" virt="non-virtual"><scope>CommandInfoS</scope><name>Code</name></member>
+      <member refid="d5/d99/struct_command_info_s_1a9c07e855e5e5ed3a3614fc747e812962" prot="public" virt="non-virtual"><scope>CommandInfoS</scope><name>Input</name></member>
+      <member refid="d5/d99/struct_command_info_s_1a4a20f7982a7609ee531c5cbbdd85dc70" prot="public" virt="non-virtual"><scope>CommandInfoS</scope><name>NumArgs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

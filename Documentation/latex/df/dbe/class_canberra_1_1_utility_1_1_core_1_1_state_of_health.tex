@@ -1,0 +1,242 @@
+\hypertarget{class_canberra_1_1_utility_1_1_core_1_1_state_of_health}{}\section{Canberra\+:\+:Utility\+:\+:Core\+:\+:State\+Of\+Health Class Reference}
+\label{class_canberra_1_1_utility_1_1_core_1_1_state_of_health}\index{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health@{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health}}
+
+
+Collaboration diagram for Canberra\+:\+:Utility\+:\+:Core\+:\+:State\+Of\+Health\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a9314518256957a39de6ee134bd101fd0}\label{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a9314518256957a39de6ee134bd101fd0}} 
+{\bfseries State\+Of\+Health} (\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_task}{Task} $\ast$T)
+\item 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_adbb3e21233f1821db0bede0aa822bcf8_adbb3e21233f1821db0bede0aa822bcf8}{State\+Of\+Health} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{String} \&N)
+\begin{DoxyCompactList}\small\item\em This method will intialize the watchdog information instance. \end{DoxyCompactList}\item 
+bool \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a7cb904e2fe8ecb7ff16760a0abb9da46_a7cb904e2fe8ecb7ff16760a0abb9da46}{Get\+Strobed} ()
+\begin{DoxyCompactList}\small\item\em This method will get the strobe events signal state \end{DoxyCompactList}\item 
+void \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a9c16550a6f35cbf8d96bb4e1c88c15cd_a9c16550a6f35cbf8d96bb4e1c88c15cd}{Put\+Strobed} (bool State)
+\begin{DoxyCompactList}\small\item\em This method will signal the strobed event \end{DoxyCompactList}\item 
+bool \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a3031980a79f1f22480dfc18071dac093_a3031980a79f1f22480dfc18071dac093}{Get\+Enabled} ()
+\begin{DoxyCompactList}\small\item\em This method will get the enabled state of the watchdog \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a5b3440569f1ff290ac65b7c6643b92f0}\label{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a5b3440569f1ff290ac65b7c6643b92f0}} 
+void {\bfseries Put\+Enabled} (bool v)
+\item 
+bool \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_acf1516a0f54b8ac3e5d05230ba9b3925_acf1516a0f54b8ac3e5d05230ba9b3925}{Policy\+Expired} (L\+O\+NG TimeO)
+\begin{DoxyCompactList}\small\item\em This method will see if the watchdog policy has expired. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a11e32924efe20e92579e814a3d26183a}\label{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a11e32924efe20e92579e814a3d26183a}} 
+{\bfseries State\+Of\+Health} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_state_of_health}{State\+Of\+Health} \&)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_aaeb569464177afe415f0b838436c8be7}\label{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_aaeb569464177afe415f0b838436c8be7}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_state_of_health}{State\+Of\+Health} \& {\bfseries operator=} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_state_of_health}{State\+Of\+Health} \&)
+\item 
+void \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a5c707d8203b969f0130c64850a31d09d_a5c707d8203b969f0130c64850a31d09d}{Initialize} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{String} \&Name)
+\begin{DoxyCompactList}\small\item\em This method will initialize the watchdog information instance. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_aa53de9f3416e2a98b56413f4e7930eb9}\label{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_aa53de9f3416e2a98b56413f4e7930eb9}} 
+bool {\bfseries \+\_\+\+Enabled}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a4fb8a1359b2e5525484c2675e60b2337}\label{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a4fb8a1359b2e5525484c2675e60b2337}} 
+clock\+\_\+t {\bfseries \+\_\+\+Last\+Strobed}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a1c481c78738569b7a786bff83966ed4a}\label{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a1c481c78738569b7a786bff83966ed4a}} 
+bool {\bfseries \+\_\+\+Strobe}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a2d36c9c45b41c18127f4423af518c58b}\label{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a2d36c9c45b41c18127f4423af518c58b}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_critical_section}{Critical\+Section} {\bfseries \+\_\+\+Lock}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 14 of file State\+Of\+Health.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_adbb3e21233f1821db0bede0aa822bcf8_adbb3e21233f1821db0bede0aa822bcf8}\label{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_adbb3e21233f1821db0bede0aa822bcf8_adbb3e21233f1821db0bede0aa822bcf8}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health@{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health}!State\+Of\+Health@{State\+Of\+Health}}
+\index{State\+Of\+Health@{State\+Of\+Health}!Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health@{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health}}
+\subsubsection{\texorpdfstring{State\+Of\+Health()}{StateOfHealth()}}
+{\footnotesize\ttfamily Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health\+::\+State\+Of\+Health (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{String} \&}]{Name }\end{DoxyParamCaption})}
+
+
+
+This method will intialize the watchdog information instance. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Name} & The name of the task to watch\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em U\+L\+O\+NG} & The error code\\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 17 of file State\+Of\+Health.\+cpp.
+
+
+\begin{DoxyCode}
+17                                                                   :
+18         \_Enabled(\textcolor{keyword}{false}), \_Strobe(\textcolor{keyword}{false}), \_Lock(Name+String(L\textcolor{stringliteral}{"Watchdog\_Lock"}))
+19 \{\}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a3031980a79f1f22480dfc18071dac093_a3031980a79f1f22480dfc18071dac093}\label{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a3031980a79f1f22480dfc18071dac093_a3031980a79f1f22480dfc18071dac093}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health@{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health}!Get\+Enabled@{Get\+Enabled}}
+\index{Get\+Enabled@{Get\+Enabled}!Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health@{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health}}
+\subsubsection{\texorpdfstring{Get\+Enabled()}{GetEnabled()}}
+{\footnotesize\ttfamily bool Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health\+::\+Get\+Enabled (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method will get the enabled state of the watchdog 
+
+\begin{DoxyReturn}{Returns}
+Enabled state
+\end{DoxyReturn}
+summary$>$ This method will set the enabled state of the watchdog /summary$>$ param name=\char`\"{}v\char`\"{}$>$Enabled state
+
+Definition at line 86 of file State\+Of\+Health.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a7cb904e2fe8ecb7ff16760a0abb9da46_a7cb904e2fe8ecb7ff16760a0abb9da46}\label{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a7cb904e2fe8ecb7ff16760a0abb9da46_a7cb904e2fe8ecb7ff16760a0abb9da46}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health@{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health}!Get\+Strobed@{Get\+Strobed}}
+\index{Get\+Strobed@{Get\+Strobed}!Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health@{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health}}
+\subsubsection{\texorpdfstring{Get\+Strobed()}{GetStrobed()}}
+{\footnotesize\ttfamily bool Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health\+::\+Get\+Strobed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method will get the strobe events signal state 
+
+\begin{DoxyReturn}{Returns}
+The signal state
+\end{DoxyReturn}
+
+
+Definition at line 60 of file State\+Of\+Health.\+cpp.
+
+
+\begin{DoxyCode}
+60 \{\textcolor{keywordflow}{return} \_Strobe;\}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a5c707d8203b969f0130c64850a31d09d_a5c707d8203b969f0130c64850a31d09d}\label{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a5c707d8203b969f0130c64850a31d09d_a5c707d8203b969f0130c64850a31d09d}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health@{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health@{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health}}
+\subsubsection{\texorpdfstring{Initialize()}{Initialize()}}
+{\footnotesize\ttfamily void Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health\+::\+Initialize (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{String} \&}]{Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+This method will initialize the watchdog information instance. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Name} & The task name\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em U\+L\+O\+NG} & The error code\\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 29 of file State\+Of\+Health.\+cpp.
+
+
+\begin{DoxyCode}
+30 \{
+31     \_Enabled = \textcolor{keyword}{false};
+32     \_LastStrobed = clock();
+33 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_acf1516a0f54b8ac3e5d05230ba9b3925_acf1516a0f54b8ac3e5d05230ba9b3925}\label{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_acf1516a0f54b8ac3e5d05230ba9b3925_acf1516a0f54b8ac3e5d05230ba9b3925}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health@{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health}!Policy\+Expired@{Policy\+Expired}}
+\index{Policy\+Expired@{Policy\+Expired}!Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health@{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health}}
+\subsubsection{\texorpdfstring{Policy\+Expired()}{PolicyExpired()}}
+{\footnotesize\ttfamily bool Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health\+::\+Policy\+Expired (\begin{DoxyParamCaption}\item[{L\+O\+NG}]{TimeO }\end{DoxyParamCaption})}
+
+
+
+This method will see if the watchdog policy has expired. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em TimeO} & The timeout for the watchdog (ms)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Policy expired state
+\end{DoxyReturn}
+
+
+Definition at line 68 of file State\+Of\+Health.\+cpp.
+
+
+\begin{DoxyCode}
+68                                                                \{
+69     \textcolor{keywordflow}{if} (!\_Enabled) \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+70     clock\_t Now=clock();
+71 
+72     \textcolor{keywordtype}{double} TimeOutSec=TimeO;
+73 
+74     LockManager LM(&\_Lock);
+75     \textcolor{keywordflow}{if} (abs(Now-\_LastStrobed) > TimeOutSec) \{
+76         \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+77     \}
+78     \textcolor{keywordflow}{else} \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+79 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a9c16550a6f35cbf8d96bb4e1c88c15cd_a9c16550a6f35cbf8d96bb4e1c88c15cd}\label{class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a9c16550a6f35cbf8d96bb4e1c88c15cd_a9c16550a6f35cbf8d96bb4e1c88c15cd}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health@{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health}!Put\+Strobed@{Put\+Strobed}}
+\index{Put\+Strobed@{Put\+Strobed}!Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health@{Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health}}
+\subsubsection{\texorpdfstring{Put\+Strobed()}{PutStrobed()}}
+{\footnotesize\ttfamily void Canberra\+::\+Utility\+::\+Core\+::\+State\+Of\+Health\+::\+Put\+Strobed (\begin{DoxyParamCaption}\item[{bool}]{State }\end{DoxyParamCaption})}
+
+
+
+This method will signal the strobed event 
+
+
+\begin{DoxyParams}{Parameters}
+{\em State} & The signal state\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 40 of file State\+Of\+Health.\+cpp.
+
+
+\begin{DoxyCode}
+41 \{
+42     ULONG Stat = 0;
+43     \textcolor{keywordflow}{if} (State) \{
+44         \_Strobe=\textcolor{keyword}{true};
+45 
+46         LockManager LM(&\_Lock);
+47         \_LastStrobed = clock();
+48     \}
+49     \textcolor{keywordflow}{else} \_Strobe = \textcolor{keyword}{false};
+50     \textcolor{keywordflow}{if} (Stat) \{
+51         DEBUG\_ERROR\_MESSAGE(\_T(\textcolor{stringliteral}{"StateOfHealth"}), \_T(\textcolor{stringliteral}{"PutStrobe"}), \_T(\textcolor{stringliteral}{"Error signaling strobe event"}), Stat)
+      ;
+52     \}
+53 \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/State\+Of\+Health.\+h\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/State\+Of\+Health.\+cpp\end{DoxyCompactItemize}

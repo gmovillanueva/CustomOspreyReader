@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d1/d85/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::DataTypes::Spectroscopy::ListData</compoundname>
+    <basecompoundref refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl" prot="public" virt="non-virtual">Canberra::DataTypes::Spectroscopy::ListDataImpl&lt; struct ListDataS, Canberra::DataTypes::Serialization::SerializableObjects::ListData &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d85/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_1a1c941491ca364ab2ae014c4e5b1f9d39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Spectroscopy::ListData::ListData</definition>
+        <argsstring>()</argsstring>
+        <name>ListData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ListData.h" line="261" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ListData.h" bodystart="261" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d85/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_1ab92092fa5e9909c1624dfb1f77a2fe9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Spectroscopy::ListData::ListData</definition>
+        <argsstring>(LONGLONG StartT, ULONGULONG RealT, ULONGULONG LiveT, ULONG TimeB, ULONG Flgs, ULONG NumData, struct ListDataS *Data)</argsstring>
+        <name>ListData</name>
+        <param>
+          <type>LONGLONG</type>
+          <declname>StartT</declname>
+        </param>
+        <param>
+          <type>ULONGULONG</type>
+          <declname>RealT</declname>
+        </param>
+        <param>
+          <type>ULONGULONG</type>
+          <declname>LiveT</declname>
+        </param>
+        <param>
+          <type>ULONG</type>
+          <declname>TimeB</declname>
+        </param>
+        <param>
+          <type>ULONG</type>
+          <declname>Flgs</declname>
+        </param>
+        <param>
+          <type>ULONG</type>
+          <declname>NumData</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="db/d25/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_s" kindref="compound">ListDataS</ref> *</type>
+          <declname>Data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ListData.h" line="262" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ListData.h" bodystart="262" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d85/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_1a1b0fa2eafbe7d09fcf57993b6b5257b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual Canberra::DataTypes::Spectroscopy::ListData::~ListData</definition>
+        <argsstring>()</argsstring>
+        <name>~ListData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ListData.h" line="263" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ListData.h" bodystart="263" bodyend="263"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d1/d85/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_1a3d6427816eeb489e3046f0bd0730decd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Spectroscopy::ListData::HandleEndianness</definition>
+        <argsstring>()</argsstring>
+        <name>HandleEndianness</name>
+        <reimplements refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl_1a66b294d000609f72d8e96888257bdc87">HandleEndianness</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ListData.h" line="265" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ListData.h" bodystart="265" bodyend="270"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="199">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="195">
+        <label>Canberra::DataTypes::Spectroscopy::ListData</label>
+        <link refid="d1/d85/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data"/>
+        <childnode refid="196" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="197">
+        <label>Canberra::DataTypes::Spectroscopy::ListDataBase</label>
+        <link refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base"/>
+        <childnode refid="198" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="198">
+        <label>Canberra::Serialization::SerializableObject</label>
+        <link refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object"/>
+        <childnode refid="199" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="196">
+        <label>Canberra::DataTypes::Spectroscopy::ListDataImpl&lt; struct ListDataS, Canberra::DataTypes::Serialization::SerializableObjects::ListData &gt;</label>
+        <link refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl"/>
+        <childnode refid="197" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="204">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="200">
+        <label>Canberra::DataTypes::Spectroscopy::ListData</label>
+        <link refid="d1/d85/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data"/>
+        <childnode refid="201" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="205">
+        <label>Canberra::DataTypes::Spectroscopy::ListDataS</label>
+        <link refid="db/d25/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_s"/>
+      </node>
+      <node id="202">
+        <label>Canberra::DataTypes::Spectroscopy::ListDataBase</label>
+        <link refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base"/>
+        <childnode refid="203" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="203">
+        <label>Canberra::Serialization::SerializableObject</label>
+        <link refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object"/>
+        <childnode refid="204" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="201">
+        <label>Canberra::DataTypes::Spectroscopy::ListDataImpl&lt; struct ListDataS, Canberra::DataTypes::Serialization::SerializableObjects::ListData &gt;</label>
+        <link refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl"/>
+        <childnode refid="202" relation="public-inheritance">
+        </childnode>
+        <childnode refid="205" relation="usage">
+          <edgelabel>_Events</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/ListData.h" line="259" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ListData.h" bodystart="259" bodyend="271"/>
+    <listofallmembers>
+      <member refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl_1acc16ba39909425c08dc86a49efb5eefa" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>_Events</name></member>
+      <member refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base_1abe6fee0b4193dbdec654f4133111c881" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>_Flags</name></member>
+      <member refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base_1a81591ca6c6e6f50da2c43902cde232a8" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>_LiveTime</name></member>
+      <member refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base_1a53679e1ac4e4f44154de38f4ab788a40" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>_NumEvents</name></member>
+      <member refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base_1a7281313da9a3a52ac927235b780a4080" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>_RealTime</name></member>
+      <member refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base_1a2666297f74d8eb01604780d502a34eca" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>_StartTime</name></member>
+      <member refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base_1a4cd5d6a50fc9eb59470d57612d41ecc5" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>_Timebase</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a62efa0d30e9df187718f2832622ac9fc" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>_Type</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a4821112683d68c98c1522d75f186fb21" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>_UseMetaData</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a42d74858b0cea8269da2b35ccd5cb1ff" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Array</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a13dfc3b38fa4101b58ed1e111954a696" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Blob</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a3810fac464221c267d15ac677b734ec9" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Bool</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aa3a10ebe6b68339ed5c951d1cd63323b" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Byte</name></member>
+      <member refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl_1a80cdeb10e7d40c63929f3c6abbabac8c" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Clear</name></member>
+      <member refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl_1a512a1a801e164344b6d1692ea8b8e3d9" prot="protected" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Copy</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ab559832d01dfcf5ec9d13560b03c05fe" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>CustomTypeOffset</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aea4d059479031ecb9556cb06274f398e" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>DateTime</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a430c3ea76c8389e480d48a97ff2df2d0" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Deserialize</name></member>
+      <member refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl_1ae6d30f15733e66c7c3beefd1cb12d5e2" prot="protected" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>DeserializeData</name></member>
+      <member refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl_1ac3dcc8cc2d49328ef2e1178fc3337c26" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>DeserializeDataEx</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ab41926d1cfcca9c142c69707c2f202c0" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Double</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a92fcae28fd44acf6ee83b77f8813df55" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Float</name></member>
+      <member refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl_1a8ab0538f48ffe667979e3c3b812960b8" prot="protected" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>GetDataSize</name></member>
+      <member refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl_1a14e5b071cd4c494511bb06fec83496db" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>GetEvent</name></member>
+      <member refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl_1a89f9631769bb3487dc867a1cb4000e06" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>GetEventPtr</name></member>
+      <member refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base_1ac172cefc78c8b1e96f8ae0b9cdd4f77d" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>GetFlags</name></member>
+      <member refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base_1a890b80acbe9c54836860342b7f2c075c" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>GetLiveTime</name></member>
+      <member refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base_1a069ae39f7d727361820914d004d4a0a2" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>GetNumberOfEvents</name></member>
+      <member refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base_1ae84fa971f0c787b27dadfa28d27be04d" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>GetRealTime</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_a1af5a56d77422d2d6f56d1fb8bc9f376_1a1af5a56d77422d2d6f56d1fb8bc9f376" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>GetSize</name></member>
+      <member refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base_1ad325e0a6b4fc231a584afff1d517c045" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>GetStartTime</name></member>
+      <member refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base_1ab402a8a20d8cef793b5b30e9b9cd0b81" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>GetTimebase</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1ab619feca491ffd7547c45f0ec6dcfe0b" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>GetType</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1aba841e892df8481bd3fdca757e6f10d4" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>GetUseMetaData</name></member>
+      <member refid="d1/d85/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_1a3d6427816eeb489e3046f0bd0730decd" prot="protected" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>HandleEndianness</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430af31a37f97d6cbec3e2439cf0b9f0efee" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Int64</name></member>
+      <member refid="d1/d85/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_1a1c941491ca364ab2ae014c4e5b1f9d39" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>ListData</name></member>
+      <member refid="d1/d85/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_1ab92092fa5e9909c1624dfb1f77a2fe9c" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>ListData</name></member>
+      <member refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base_1a0b97fc39c42d3a75254666ea8a30b4a1" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>ListDataBase</name></member>
+      <member refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base_1ae10a11bb8634cdff7e4e481380dd40ee" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>ListDataBase</name></member>
+      <member refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl_1a20278b8b7968ae2113034e2e1aa49706" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>ListDataImpl</name></member>
+      <member refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl_1ac3d4cadf8d2a4f28def1c08b06ce6d6a" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>ListDataImpl</name></member>
+      <member refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl_1adc87a0c39b52a6d9e58253b387fc2dc9" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>ListDataImpl</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aff35725740fbbbbb5495460560c13d54" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Long</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a6c938a0fc1bf14041406d0a6df5da2b3" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Null</name></member>
+      <member refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl_1af23f27f81d426b3fe4370e71073140d7" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>operator=</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a3fd4cc1bf197d9367f49b76c71582058" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>PutUseMetaData</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1a38579cdd4f2e813e7b0cca54e1b09529" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Serializable</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a0ef0ea4e4e766e15086f54ebb05744cd" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>SerializableObject</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_a33e593c04b50f36e8dad06b3b7471a9c_1a33e593c04b50f36e8dad06b3b7471a9c" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Serialize</name></member>
+      <member refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl_1ae3e0536520cfe3f55a69330980a317da" prot="protected" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>SerializeData</name></member>
+      <member refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl_1ae045027867f61e736fde091126d2c0cf" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>SerializeDataEx</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a583b6f9cb2b9d3e17b4886d87bdedc58" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Short</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a38fdc153d55d83bc2e228ae8a3ed7245" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>String</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a163e11a5f23b834ce8544f494084045e" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>TypeCode</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>TypeCodeTag</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430af81c78c9fb7d47514b6d549e17acbfd1" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Ubyte</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ad366730d966138edb3d1ab0dd5da08e6" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Uint64</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a2755dd9dd281c902476f2295855ee571" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Ulong</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430abfc7ae0d0aa2c1d6386055cdcbdb0d76" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Unknown</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a92cba09c4c79914db36ac8c31aea8d63" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>Ushort</name></member>
+      <member refid="d1/d85/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_1a1b0fa2eafbe7d09fcf57993b6b5257b1" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>~ListData</name></member>
+      <member refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base_1aadf10e85248756ba106161c249f19b30" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>~ListDataBase</name></member>
+      <member refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl_1aaea05502fdd711b08a50342487f1d05d" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>~ListDataImpl</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1ac760495914b0d7047d1dcbd3fed642d4" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>~Serializable</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a72f15771099cf139f28e839e480d0721" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::ListData</scope><name>~SerializableObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

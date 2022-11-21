@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d1/d22/class_canberra_1_1_utility_1_1_core_1_1_serializable_list" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Utility::Core::SerializableList</compoundname>
+    <basecompoundref refid="de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base" prot="public" virt="non-virtual">Canberra::Utility::Core::SerializableListBase&lt; T, LONG &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="405">
+        <label>Canberra::Utility::Core::SerializableList&lt; T &gt;</label>
+        <link refid="d1/d22/class_canberra_1_1_utility_1_1_core_1_1_serializable_list"/>
+        <childnode refid="406" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="407">
+        <label>Canberra::Utility::Core::ListBase&lt; T, LONG &gt;</label>
+        <link refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base"/>
+      </node>
+      <node id="406">
+        <label>Canberra::Utility::Core::SerializableListBase&lt; T, LONG &gt;</label>
+        <link refid="de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base"/>
+        <childnode refid="407" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="411">
+        <label>T</label>
+      </node>
+      <node id="408">
+        <label>Canberra::Utility::Core::SerializableList&lt; T &gt;</label>
+        <link refid="d1/d22/class_canberra_1_1_utility_1_1_core_1_1_serializable_list"/>
+        <childnode refid="409" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="410">
+        <label>Canberra::Utility::Core::ListBase&lt; T, LONG &gt;</label>
+        <link refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base"/>
+        <childnode refid="411" relation="usage">
+          <edgelabel>_List</edgelabel>
+        </childnode>
+      </node>
+      <node id="409">
+        <label>Canberra::Utility::Core::SerializableListBase&lt; T, LONG &gt;</label>
+        <link refid="de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base"/>
+        <childnode refid="410" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/list.h" line="183" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/list.h" bodystart="183" bodyend="183"/>
+    <listofallmembers>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_1a07367730f182c6b9c02aa566b76b152f" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableList</scope><name>_List</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_1a35fd987bd3f0ae3fb917b838c1a2ee85" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableList</scope><name>_Num</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_aaacf0eb537ee5765a6929dc4dd42c04b_1aaacf0eb537ee5765a6929dc4dd42c04b" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableList</scope><name>Add</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_ab8431d144c5e017b9e06502549f26833_1ab8431d144c5e017b9e06502549f26833" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableList</scope><name>Clear</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_1ad8b3c4d1f6cbba04f6495d5d13a6f0b5" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableList</scope><name>Copy</name></member>
+      <member refid="de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base_1ace559ab00eb5e0e40a5716bb5b09af39" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableList</scope><name>DeserializeData</name></member>
+      <member refid="de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base_a98ebee1f5c5ff3357e2602c0201c95f0_1a98ebee1f5c5ff3357e2602c0201c95f0" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableList</scope><name>GetDataSize</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_a2349c775780c9b7441411c96318a6639_1a2349c775780c9b7441411c96318a6639" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableList</scope><name>GetItem</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_1a0385763ebdcfda55e401ba477fb78ed0" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableList</scope><name>GetNumberOfItems</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_1aba1876d4b041d1d3efa90d404bb6ba5f" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableList</scope><name>ListBase</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_1a7e4d30726d87a96b7d9be1236f661ba3" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableList</scope><name>ListBase</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_a56a9f21b1e389b0b057ed3a200130b91_1a56a9f21b1e389b0b057ed3a200130b91" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableList</scope><name>operator=</name></member>
+      <member refid="de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base_a4a6021089fa90d9534541e6093972970_1a4a6021089fa90d9534541e6093972970" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableList</scope><name>SerializeData</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_a280204e71e12060a321cc5e12753e65d_1a280204e71e12060a321cc5e12753e65d" prot="public" virt="virtual"><scope>Canberra::Utility::Core::SerializableList</scope><name>~ListBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

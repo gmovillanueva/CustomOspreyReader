@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_a02403b15ef5df26b3d4343d9e6dd2de" kind="dir">
+    <compoundname>Project1</compoundname>
+    <innerdir refid="dir_62c18c638296eac2658cc423105896ee">Project1/CHI_OSPREY</innerdir>
+    <innerdir refid="dir_217243bc6f251c69053ca1bb36999176">Project1/CHI_VECTOR</innerdir>
+    <innerfile refid="df/d0a/main_8cpp">main.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/"/>
+  </compounddef>
+</doxygen>

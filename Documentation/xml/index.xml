@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="d3/d75/class_c_h_i___o_s_p_r_e_y" kind="class"><name>CHI_OSPREY</name>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a54c8ff029f901c396da3c0456da1bd12" kind="variable"><name>dtb</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1aea5477286efa68b5b232371a4a031054" kind="variable"><name>spectrumValues</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1ab55bdfc12320647a3454d777f61769fe" kind="variable"><name>ospInput</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a15536653f0d0c95d45f82b5e8f3938d4" kind="variable"><name>memGroup</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1aa268b72d81e7fd8a21478875e40d69d6" kind="variable"><name>spectrumMode</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1ace6e738bee717acedb8402b0ebceb5a7" kind="variable"><name>presetMode</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a67d74f515fd3bd7c72918a8069a32871" kind="variable"><name>voltageStatus</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a46a460dfc280246a2f05cc3e6ba16b36" kind="variable"><name>args</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a41b322381bcb58713cdd103862054607" kind="variable"><name>user</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a5d766efe3728f2509929ff32511cfc52" kind="variable"><name>password</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1aef7179a7b0f4c1f6d07d3a81c18df14f" kind="variable"><name>ipAddress</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a1aadac7d3240a6d8dfaef39f00a8807b" kind="variable"><name>curOsprey</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a7551a497cca8e0aaf4c7e192fb9a7e50" kind="variable"><name>channel</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a4671cf64201d511463c11e1f285a8d36" kind="variable"><name>lowerBound</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1ae9b94c01ae05d3a4152cf023b30cc3e5" kind="variable"><name>upperBound</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a20d5a98d264b3c6390b5c74732aee879" kind="variable"><name>userMode</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a70b0ff2a6aef4ed86c32f6841e28da86" kind="variable"><name>firstCycle</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_ab53100273a3288187b5f49ee4d14f1b2_1ab53100273a3288187b5f49ee4d14f1b2" kind="function"><name>CHI_OSPREY</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_adfb630759c9dfe8d0d55079cf1e2bf4e_1adfb630759c9dfe8d0d55079cf1e2bf4e" kind="function"><name>~CHI_OSPREY</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1ac8624fc743990f8b4777f424e3d36bc3" kind="function"><name>OspreyInitialize</name></member>
+    <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1adad798cc07dd2c23f939891eceb83a99" kind="function"><name>OspreyPullSpectrums</name></member>
+  </compound>
+  <compound refid="d7/de4/class_c_h_i___v_e_c_t_o_r" kind="class"><name>CHI_VECTOR</name>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_1a94251ea3ea221a20990749b7b662bd96" kind="typedef"><name>VectorTypePtr</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_1ae73d9f91b472ae07bc32236605934ddb" kind="variable"><name>capacity</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_1a587c8d362d5149da97ec6519430c4747" kind="variable"><name>expansionFactor</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_1a0d37a8a4650059da0888be2d9c38487a" kind="variable"><name>itemCount</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_1a91ef30712b0ead293dfe1adc29fee555" kind="variable"><name>stackCount</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_1a4c99e660a5201e6f11986b68ab78d468" kind="variable"><name>threadProtectionEnabled</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_1af00333accd1dbaf692e50bff3b703422" kind="variable"><name>Item</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_a2789baba8522fffd305476bab1b5e359_1a2789baba8522fffd305476bab1b5e359" kind="function"><name>CHI_VECTOR</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_a600ac6f3c5a721bd0d337f023624964c_1a600ac6f3c5a721bd0d337f023624964c" kind="function"><name>AddItem</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_a9a3e5ce973c6bf31abdb55b6dc4cda0e_1a9a3e5ce973c6bf31abdb55b6dc4cda0e" kind="function"><name>PushItem</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_1a838142e95db7a19aca572ba5fafa7d65" kind="function"><name>SetItem</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_a638665dbc1ed89dae665c77c9fe6af18_1a638665dbc1ed89dae665c77c9fe6af18" kind="function"><name>CreateAddItem</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_ada33203459caf93e3015d0c22c92a232_1ada33203459caf93e3015d0c22c92a232" kind="function"><name>CreatePushItem</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_ae6e5604e0fece87ee38645eba659bd46_1ae6e5604e0fece87ee38645eba659bd46" kind="function"><name>GetItem</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_a01ae3966671bdacf558ef5ddd5ea8b6e_1a01ae3966671bdacf558ef5ddd5ea8b6e" kind="function"><name>GetPopItem</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_ace37af4211b79d28e7921b3aecfcf5b1_1ace37af4211b79d28e7921b3aecfcf5b1" kind="function"><name>PopItem</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_ae646184dd90d776f313e502780adf636_1ae646184dd90d776f313e502780adf636" kind="function"><name>PullItem</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_ac2de16159d3b3bcc5bc9944121fccf51_1ac2de16159d3b3bcc5bc9944121fccf51" kind="function"><name>SwapItem</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_ae0c82697e82c997505baf414d13f31f2_1ae0c82697e82c997505baf414d13f31f2" kind="function"><name>InsertItem</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_a1b9cf7d3ed0c01de4f1aceb306cb0e65_1a1b9cf7d3ed0c01de4f1aceb306cb0e65" kind="function"><name>KickItem</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_a218fc2c4e4307955a008aba0a25989db_1a218fc2c4e4307955a008aba0a25989db" kind="function"><name>ClearItem</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_abc2f116e9f1b9f4bfb192c484d6dd71d_1abc2f116e9f1b9f4bfb192c484d6dd71d" kind="function"><name>ClearVector</name></member>
+    <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_a8a52d15a1ddb517edfb685765b96a057_1a8a52d15a1ddb517edfb685765b96a057" kind="function"><name>EmptyVector</name></member>
+  </compound>
+  <compound refid="d2/d03/struct_c_s_t___m_a_p_p_i_n_g" kind="struct"><name>CST_MAPPING</name>
+    <member refid="d2/d03/struct_c_s_t___m_a_p_p_i_n_g_1a00b4c49d7f865a80b2b92ef60049ae4c" kind="variable"><name>fTime</name></member>
+    <member refid="d2/d03/struct_c_s_t___m_a_p_p_i_n_g_1a15a94aba68ce13addacd8a8541fee0e5" kind="variable"><name>ospreyChannels</name></member>
+  </compound>
+  <compound refid="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o" kind="struct"><name>CST_OSPREY_INFO</name>
+    <member refid="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o_1a4aeec24f34c07993a2f44ac2f59bd163" kind="variable"><name>ospreyID</name></member>
+    <member refid="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o_1ac22eefe0f719df5a7980dc27559cf7c2" kind="variable"><name>ipAddress</name></member>
+    <member refid="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o_1a15cf8fd34c53039735f2553201d111cd" kind="variable"><name>channelBounds</name></member>
+    <member refid="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o_1a84b57c81785927b3f664ca366c674aa4" kind="variable"><name>calibrationSleepTime</name></member>
+    <member refid="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o_1a3668cf64637a9d61481f740f39b9e7d8" kind="variable"><name>acquisitionSleepTime</name></member>
+  </compound>
+  <compound refid="da/d18/chi__osprey_8h" kind="file"><name>chi_osprey.h</name>
+  </compound>
+  <compound refid="d1/df4/chi__osprey__00__constrdestr_8cpp" kind="file"><name>chi_osprey_00_constrdestr.cpp</name>
+  </compound>
+  <compound refid="d5/dbf/chi__osprey__01__functions_8cpp" kind="file"><name>chi_osprey_01_functions.cpp</name>
+    <member refid="d5/dbf/chi__osprey__01__functions_8cpp_1ab4018c51a1a2cb2d616245c86a1cd61c" kind="variable"><name>ospreyStack</name></member>
+  </compound>
+  <compound refid="d2/dcc/chi__vector_8h" kind="file"><name>chi_vector.h</name>
+  </compound>
+  <compound refid="df/d0a/main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="df/d0a/main_8cpp_1ac50762666aa00bd3a4308158510f1748" kind="define"><name>_WIN32_WINNT</name></member>
+    <member refid="df/d0a/main_8cpp_1a0d2117f1e8077a8a7b7175edaa068d57" kind="variable"><name>loopCount</name></member>
+    <member refid="df/d0a/main_8cpp_1a73f7a2c9f70067d4f45ddcb6a7dba5f0" kind="variable"><name>closeProgram</name></member>
+    <member refid="df/d0a/main_8cpp_1a5040252e575ddcc2bbfb251abe90e447" kind="variable"><name>calibrationMode</name></member>
+    <member refid="df/d0a/main_8cpp_1ab9ec31522d06b675fd50036e752dcc84" kind="variable"><name>osprey</name></member>
+    <member refid="df/d0a/main_8cpp_1ab4018c51a1a2cb2d616245c86a1cd61c" kind="variable"><name>ospreyStack</name></member>
+    <member refid="df/d0a/main_8cpp_a00c44aa4276ad8c70f0bd1be93002a66_1a00c44aa4276ad8c70f0bd1be93002a66" kind="function"><name>OspreyParseInput</name></member>
+    <member refid="df/d0a/main_8cpp_abecada661ceb15d45a4267ebee66c637_1abecada661ceb15d45a4267ebee66c637" kind="function"><name>OspreyExtractString</name></member>
+    <member refid="df/d0a/main_8cpp_a833a814abde34e116c360fbfd06a6193_1a833a814abde34e116c360fbfd06a6193" kind="function"><name>SigBreak_Handler</name></member>
+    <member refid="df/d0a/main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="dir_62c18c638296eac2658cc423105896ee" kind="dir"><name>Project1/CHI_OSPREY</name>
+  </compound>
+  <compound refid="dir_217243bc6f251c69053ca1bb36999176" kind="dir"><name>Project1/CHI_VECTOR</name>
+  </compound>
+  <compound refid="dir_a02403b15ef5df26b3d4343d9e6dd2de" kind="dir"><name>Project1</name>
+  </compound>
+</doxygenindex>

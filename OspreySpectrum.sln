@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OspreySampler", "OspreySpectrum\OspreySpectrum.vcxproj", "{D8FBBC83-32B3-46EE-9F81-84BD614A72F6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestReader", "TestReader\TestReader.vcxproj", "{B4B315FE-5E9E-4AC2-A9EA-F5503B9AF67B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8FBBC83-32B3-46EE-9F81-84BD614A72F6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D8FBBC83-32B3-46EE-9F81-84BD614A72F6}.Debug|Win32.Build.0 = Debug|Win32
+		{D8FBBC83-32B3-46EE-9F81-84BD614A72F6}.Release|Win32.ActiveCfg = Release|Win32
+		{D8FBBC83-32B3-46EE-9F81-84BD614A72F6}.Release|Win32.Build.0 = Release|Win32
+		{B4B315FE-5E9E-4AC2-A9EA-F5503B9AF67B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B4B315FE-5E9E-4AC2-A9EA-F5503B9AF67B}.Debug|Win32.Build.0 = Debug|Win32
+		{B4B315FE-5E9E-4AC2-A9EA-F5503B9AF67B}.Release|Win32.ActiveCfg = Release|Win32
+		{B4B315FE-5E9E-4AC2-A9EA-F5503B9AF67B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

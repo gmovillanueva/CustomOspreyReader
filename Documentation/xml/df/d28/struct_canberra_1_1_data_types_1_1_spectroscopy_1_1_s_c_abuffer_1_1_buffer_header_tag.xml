@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="df/d28/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_header_tag" kind="struct" language="C++" prot="public">
+    <compoundname>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferHeaderTag</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="df/d28/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_header_tag_1a12ca1d9f1b9bb61e26379e8c4c9403f1" prot="public" static="no" mutable="no">
+        <type>LONGLONG</type>
+        <definition>LONGLONG Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferHeaderTag::StartTime</definition>
+        <argsstring></argsstring>
+        <name>StartTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="125" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d28/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_header_tag_1acadde73229a883e51b0898d69f87caa8" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferHeaderTag::Flags</definition>
+        <argsstring></argsstring>
+        <name>Flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="126" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d28/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_header_tag_1a8236701b3680e2c999f57a4da26c9b3e" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferHeaderTag::BytesPerSample</definition>
+        <argsstring></argsstring>
+        <name>BytesPerSample</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="127" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="124" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.h" bodystart="124" bodyend="128"/>
+    <listofallmembers>
+      <member refid="df/d28/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_header_tag_1a8236701b3680e2c999f57a4da26c9b3e" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferHeaderTag</scope><name>BytesPerSample</name></member>
+      <member refid="df/d28/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_header_tag_1acadde73229a883e51b0898d69f87caa8" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferHeaderTag</scope><name>Flags</name></member>
+      <member refid="df/d28/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_header_tag_1a12ca1d9f1b9bb61e26379e8c4c9403f1" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferHeaderTag</scope><name>StartTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

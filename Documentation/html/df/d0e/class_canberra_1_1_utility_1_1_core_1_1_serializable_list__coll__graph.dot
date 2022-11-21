@@ -1,0 +1,12 @@
+digraph "Canberra::Utility::Core::SerializableList&lt; T &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="Canberra::Utility::\lCore::SerializableList\< T \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Canberra::Utility::\lCore::SerializableListBase\l\< T, LONG \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base.html"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Canberra::Utility::\lCore::ListBase\< T, LONG \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base.html"];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _List" ,fontname="Helvetica"];
+  Node6 [label="T",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

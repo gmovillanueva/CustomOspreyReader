@@ -1,0 +1,98 @@
+\hypertarget{class_canberra_1_1_serialization_1_1_blob}{}\section{Canberra\+:\+:Serialization\+:\+:Blob Class Reference}
+\label{class_canberra_1_1_serialization_1_1_blob}\index{Canberra\+::\+Serialization\+::\+Blob@{Canberra\+::\+Serialization\+::\+Blob}}
+
+
+Inheritance diagram for Canberra\+:\+:Serialization\+:\+:Blob\+:
+% FIG 0
+
+
+Collaboration diagram for Canberra\+:\+:Serialization\+:\+:Blob\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_blob_a92c3a616a81c6a24f522df1a2c601ca1}\label{class_canberra_1_1_serialization_1_1_blob_a92c3a616a81c6a24f522df1a2c601ca1}} 
+{\bfseries Blob} (\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_blob_a2836b4bead7c4583fc8397bfada74592}\label{class_canberra_1_1_serialization_1_1_blob_a2836b4bead7c4583fc8397bfada74592}} 
+void {\bfseries Put\+Value} (\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_blob_a01bee00d814dd21302c888b36685cfe5}\label{class_canberra_1_1_serialization_1_1_blob_a01bee00d814dd21302c888b36685cfe5}} 
+void {\bfseries Copy\+To} (\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&v)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_serialization_1_1_blob_af97e0642f5b289dc263650ce6dba478f_af97e0642f5b289dc263650ce6dba478f}{Get\+Data\+Size} ()
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_serialization_1_1_blob_a3ff71c78800fdabcddcff34642efbe1f_a3ff71c78800fdabcddcff34642efbe1f}{Serialize\+Data} (\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&Str, const \hyperlink{class_canberra_1_1_serialization_1_1_meta_data}{Meta\+Data} \&MD, const L\+O\+NG Offset=0)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_blob_aa7d35720c9c5845458d37b8298e985f4}\label{class_canberra_1_1_serialization_1_1_blob_aa7d35720c9c5845458d37b8298e985f4}} 
+U\+L\+O\+NG {\bfseries Deserialize\+Data} (\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&Str, const \hyperlink{class_canberra_1_1_serialization_1_1_meta_data}{Meta\+Data} \&MD, const L\+O\+NG Offset=0)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_blob_a084a56335012e21c786ea32ee369576c}\label{class_canberra_1_1_serialization_1_1_blob_a084a56335012e21c786ea32ee369576c}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} {\bfseries \+\_\+\+Value}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 376 of file Serializable\+Type.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_blob_af97e0642f5b289dc263650ce6dba478f_af97e0642f5b289dc263650ce6dba478f}\label{class_canberra_1_1_serialization_1_1_blob_af97e0642f5b289dc263650ce6dba478f_af97e0642f5b289dc263650ce6dba478f}} 
+\index{Canberra\+::\+Serialization\+::\+Blob@{Canberra\+::\+Serialization\+::\+Blob}!Get\+Data\+Size@{Get\+Data\+Size}}
+\index{Get\+Data\+Size@{Get\+Data\+Size}!Canberra\+::\+Serialization\+::\+Blob@{Canberra\+::\+Serialization\+::\+Blob}}
+\subsubsection{\texorpdfstring{Get\+Data\+Size()}{GetDataSize()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Serialization\+::\+Blob\+::\+Get\+Data\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+summary$>$ This method will serialize string into the byte stream /summary$>$ param name=\char`\"{}\+Str\char`\"{}$>$The stream
+
+param name=\char`\"{}\+M\+D\char`\"{}$>$The metadata
+
+param name=\char`\"{}\+Offset\char`\"{}$>$The byte position to start the write in the stream
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$The Win32 error code
+
+returns$>$The number of bytes serialized
+
+Implements \hyperlink{class_canberra_1_1_serialization_1_1_serializable_object}{Canberra\+::\+Serialization\+::\+Serializable\+Object}.
+
+
+
+Definition at line 389 of file Serializable\+Type.\+h.
+
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_blob_a3ff71c78800fdabcddcff34642efbe1f_a3ff71c78800fdabcddcff34642efbe1f}\label{class_canberra_1_1_serialization_1_1_blob_a3ff71c78800fdabcddcff34642efbe1f_a3ff71c78800fdabcddcff34642efbe1f}} 
+\index{Canberra\+::\+Serialization\+::\+Blob@{Canberra\+::\+Serialization\+::\+Blob}!Serialize\+Data@{Serialize\+Data}}
+\index{Serialize\+Data@{Serialize\+Data}!Canberra\+::\+Serialization\+::\+Blob@{Canberra\+::\+Serialization\+::\+Blob}}
+\subsubsection{\texorpdfstring{Serialize\+Data()}{SerializeData()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Serialization\+::\+Blob\+::\+Serialize\+Data (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&}]{Str,  }\item[{const \hyperlink{class_canberra_1_1_serialization_1_1_meta_data}{Meta\+Data} \&}]{MD,  }\item[{const L\+O\+NG}]{Offset = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+summary$>$ This method will deserialize info from the byte stream into this instance string /summary$>$ param name=\char`\"{}\+Str\char`\"{}$>$The stream
+
+param name=\char`\"{}\+M\+D\char`\"{}$>$The metadata
+
+param name=\char`\"{}\+Offset\char`\"{}$>$The byte position to start the read in the stream
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$The Win32 error code
+
+returns$>$The number of bytes deserialized
+
+Implements \hyperlink{class_canberra_1_1_serialization_1_1_serializable_object}{Canberra\+::\+Serialization\+::\+Serializable\+Object}.
+
+
+
+Definition at line 399 of file Serializable\+Type.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Serializable\+Type.\+h\end{DoxyCompactItemize}

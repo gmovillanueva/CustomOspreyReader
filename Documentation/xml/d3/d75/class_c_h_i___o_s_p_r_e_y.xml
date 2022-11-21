@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d3/d75/class_c_h_i___o_s_p_r_e_y" kind="class" language="C++" prot="public">
+    <compoundname>CHI_OSPREY</compoundname>
+    <includes refid="da/d18/chi__osprey_8h" local="no">chi_osprey.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1a54c8ff029f901c396da3c0456da1bd12" prot="public" static="no" mutable="no">
+        <type>DevCntl::IDevicePtr</type>
+        <definition>DevCntl::IDevicePtr CHI_OSPREY::dtb</definition>
+        <argsstring></argsstring>
+        <name>dtb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="41" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1aea5477286efa68b5b232371a4a031054" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CHI_OSPREY::spectrumValues[2048]</definition>
+        <argsstring>[2048]</argsstring>
+        <name>spectrumValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="42" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1ab55bdfc12320647a3454d777f61769fe" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long CHI_OSPREY::ospInput</definition>
+        <argsstring></argsstring>
+        <name>ospInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="43" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1a15536653f0d0c95d45f82b5e8f3938d4" prot="public" static="no" mutable="no">
+        <type>variant_t</type>
+        <definition>variant_t CHI_OSPREY::memGroup</definition>
+        <argsstring></argsstring>
+        <name>memGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="44" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1aa268b72d81e7fd8a21478875e40d69d6" prot="public" static="no" mutable="no">
+        <type>variant_t</type>
+        <definition>variant_t CHI_OSPREY::spectrumMode</definition>
+        <argsstring></argsstring>
+        <name>spectrumMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="45" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1ace6e738bee717acedb8402b0ebceb5a7" prot="public" static="no" mutable="no">
+        <type>variant_t</type>
+        <definition>variant_t CHI_OSPREY::presetMode</definition>
+        <argsstring></argsstring>
+        <name>presetMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="46" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1a67d74f515fd3bd7c72918a8069a32871" prot="public" static="no" mutable="no">
+        <type>variant_t</type>
+        <definition>variant_t CHI_OSPREY::voltageStatus</definition>
+        <argsstring></argsstring>
+        <name>voltageStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="47" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1a46a460dfc280246a2f05cc3e6ba16b36" prot="public" static="no" mutable="no">
+        <type>VARIANT</type>
+        <definition>VARIANT CHI_OSPREY::args</definition>
+        <argsstring></argsstring>
+        <name>args</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="48" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1a41b322381bcb58713cdd103862054607" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CHI_OSPREY::user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="49" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1a5d766efe3728f2509929ff32511cfc52" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CHI_OSPREY::password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="50" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1aef7179a7b0f4c1f6d07d3a81c18df14f" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CHI_OSPREY::ipAddress</definition>
+        <argsstring></argsstring>
+        <name>ipAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="51" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1a1aadac7d3240a6d8dfaef39f00a8807b" prot="public" static="no" mutable="no">
+        <type><ref refid="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o" kindref="compound">CST_OSPREY_INFO</ref> *</type>
+        <definition>CST_OSPREY_INFO* CHI_OSPREY::curOsprey</definition>
+        <argsstring></argsstring>
+        <name>curOsprey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="52" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1a7551a497cca8e0aaf4c7e192fb9a7e50" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CHI_OSPREY::channel[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="53" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1a4671cf64201d511463c11e1f285a8d36" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CHI_OSPREY::lowerBound[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>lowerBound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="54" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1ae9b94c01ae05d3a4152cf023b30cc3e5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CHI_OSPREY::upperBound[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>upperBound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="55" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1a20d5a98d264b3c6390b5c74732aee879" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CHI_OSPREY::userMode</definition>
+        <argsstring></argsstring>
+        <name>userMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="56" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1a70b0ff2a6aef4ed86c32f6841e28da86" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CHI_OSPREY::firstCycle</definition>
+        <argsstring></argsstring>
+        <name>firstCycle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="57" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d75/class_c_h_i___o_s_p_r_e_y_ab53100273a3288187b5f49ee4d14f1b2_1ab53100273a3288187b5f49ee4d14f1b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CHI_OSPREY::CHI_OSPREY</definition>
+        <argsstring>()</argsstring>
+        <name>CHI_OSPREY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="62" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey_00_constrdestr.cpp" bodystart="9" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d75/class_c_h_i___o_s_p_r_e_y_adfb630759c9dfe8d0d55079cf1e2bf4e_1adfb630759c9dfe8d0d55079cf1e2bf4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CHI_OSPREY::~CHI_OSPREY</definition>
+        <argsstring>()</argsstring>
+        <name>~CHI_OSPREY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default destructor . </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="63" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey_00_constrdestr.cpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1ac8624fc743990f8b4777f424e3d36bc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CHI_OSPREY::OspreyInitialize</definition>
+        <argsstring>(int ospID, bool userMode)</argsstring>
+        <name>OspreyInitialize</name>
+        <param>
+          <type>int</type>
+          <declname>ospID</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>userMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="66" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey_01_functions.cpp" bodystart="17" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d75/class_c_h_i___o_s_p_r_e_y_1adad798cc07dd2c23f939891eceb83a99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CHI_OSPREY::OspreyPullSpectrums</definition>
+        <argsstring>(int ospID, int sleepTime)</argsstring>
+        <name>OspreyPullSpectrums</name>
+        <param>
+          <type>int</type>
+          <declname>ospID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sleepTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="67" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey_01_functions.cpp" bodystart="117" bodyend="190"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Object for handling Osprey. <simplesect kind="author"><para>G-mo </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>CST_OSPREY_INFO</label>
+        <link refid="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o"/>
+      </node>
+      <node id="1">
+        <label>CHI_OSPREY</label>
+        <link refid="d3/d75/class_c_h_i___o_s_p_r_e_y"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>curOsprey</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/CHI_OSPREY/chi_osprey.h" line="38" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="37" bodyend="68"/>
+    <listofallmembers>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a46a460dfc280246a2f05cc3e6ba16b36" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>args</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a7551a497cca8e0aaf4c7e192fb9a7e50" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>channel</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_ab53100273a3288187b5f49ee4d14f1b2_1ab53100273a3288187b5f49ee4d14f1b2" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>CHI_OSPREY</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a1aadac7d3240a6d8dfaef39f00a8807b" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>curOsprey</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a54c8ff029f901c396da3c0456da1bd12" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>dtb</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a70b0ff2a6aef4ed86c32f6841e28da86" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>firstCycle</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1aef7179a7b0f4c1f6d07d3a81c18df14f" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>ipAddress</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a4671cf64201d511463c11e1f285a8d36" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>lowerBound</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a15536653f0d0c95d45f82b5e8f3938d4" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>memGroup</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1ab55bdfc12320647a3454d777f61769fe" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>ospInput</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1ac8624fc743990f8b4777f424e3d36bc3" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>OspreyInitialize</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1adad798cc07dd2c23f939891eceb83a99" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>OspreyPullSpectrums</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a5d766efe3728f2509929ff32511cfc52" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>password</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1ace6e738bee717acedb8402b0ebceb5a7" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>presetMode</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1aa268b72d81e7fd8a21478875e40d69d6" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>spectrumMode</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1aea5477286efa68b5b232371a4a031054" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>spectrumValues</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1ae9b94c01ae05d3a4152cf023b30cc3e5" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>upperBound</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a41b322381bcb58713cdd103862054607" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>user</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a20d5a98d264b3c6390b5c74732aee879" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>userMode</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_1a67d74f515fd3bd7c72918a8069a32871" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>voltageStatus</name></member>
+      <member refid="d3/d75/class_c_h_i___o_s_p_r_e_y_adfb630759c9dfe8d0d55079cf1e2bf4e_1adfb630759c9dfe8d0d55079cf1e2bf4e" prot="public" virt="non-virtual"><scope>CHI_OSPREY</scope><name>~CHI_OSPREY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::DataTypes::Serialization::MessageHeader</compoundname>
+    <basecompoundref refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable" prot="public" virt="non-virtual">Canberra::Serialization::Serializable</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_1aa11672975bfddfa22618a273c1bfe371" prot="protected" static="no" mutable="no">
+        <type>struct <ref refid="db/d76/struct_message_header_s" kindref="compound">MessageHeaderS</ref></type>
+        <definition>struct MessageHeaderS Canberra::DataTypes::Serialization::MessageHeader::_Data</definition>
+        <argsstring></argsstring>
+        <name>_Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" line="11" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_1a9c3e958012b60987c1ef658dd8ead799" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Serialization::MessageHeader::MessageHeader</definition>
+        <argsstring>(ULONG PayloadSize=0, ULONG Version=1, ULONG Seq=0)</argsstring>
+        <name>MessageHeader</name>
+        <param>
+          <type>ULONG</type>
+          <declname>PayloadSize</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>ULONG</type>
+          <declname>Version</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>ULONG</type>
+          <declname>Seq</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>An instance of this class is used to define a message header /summary&gt; param name=&quot;PayloadSize&quot;&gt;The number of bytes for the payload</para><para>param name=&quot;Version&quot;&gt;The version of the messaging system</para><para>param name=&quot;Seq&quot;&gt;The seq number</para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" line="29" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageHeader.cpp" bodystart="15" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_aa2a70c41a1faa824a497842935c4e8dc_1aa2a70c41a1faa824a497842935c4e8dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Serialization::MessageHeader::~MessageHeader</definition>
+        <argsstring>(void)</argsstring>
+        <name>~MessageHeader</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will serialize this instance into the byte stream /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the write in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes serialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" line="30" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageHeader.cpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_a862c47b37152bb3cce530584e3a9feb4_1a862c47b37152bb3cce530584e3a9feb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Serialization::MessageHeader::Serialize</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;, const LONG Offset=0)</argsstring>
+        <name>Serialize</name>
+        <reimplements refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1a19b5d226ca748ca5fb9aca0078165537">Serialize</reimplements>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <defname>Str</defname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will deserialize info from the byte stream into this instance /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the read in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes deserialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" line="33" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageHeader.cpp" bodystart="32" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_1a783e14faad035c9073b7b9645889c7bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Serialization::MessageHeader::Deserialize</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;, const LONG Offset=0)</argsstring>
+        <name>Deserialize</name>
+        <reimplements refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1ab8f9a9f50d0abfa31f2e35a4bd8189d3">Deserialize</reimplements>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <defname>Str</defname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" line="36" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageHeader.cpp" bodystart="62" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_1a05fa30ee4001caa14c7afa1f80e84aff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Serialization::MessageHeader::GetSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" line="39" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageHeader.cpp" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_1a1a084bb351d79f3d4c8dc18bcddd3420" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Serialization::MessageHeader::GetHeaderSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetHeaderSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" line="42" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageHeader.cpp" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_1ad954c3c5a4bec6646067c030e8a9085e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Serialization::MessageHeader::GetVersion</definition>
+        <argsstring>()</argsstring>
+        <name>GetVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" line="45" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageHeader.cpp" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_1ae924e2c2db89181533f8b26869c7e038" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Serialization::MessageHeader::GetSequenceNumber</definition>
+        <argsstring>()</argsstring>
+        <name>GetSequenceNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" line="48" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageHeader.cpp" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_1acf97f1911dad8810c631f3682c3ec9c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Serialization::MessageHeader::GetCheckSum</definition>
+        <argsstring>()</argsstring>
+        <name>GetCheckSum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" line="51" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageHeader.cpp" bodystart="102" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="264">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="263">
+        <label>Canberra::DataTypes::Serialization::MessageHeader</label>
+        <link refid="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header"/>
+        <childnode refid="264" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="266">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="265">
+        <label>Canberra::DataTypes::Serialization::MessageHeader</label>
+        <link refid="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header"/>
+        <childnode refid="266" relation="public-inheritance">
+        </childnode>
+        <childnode refid="267" relation="usage">
+          <edgelabel>_Data</edgelabel>
+        </childnode>
+      </node>
+      <node id="267">
+        <label>MessageHeaderS</label>
+        <link refid="db/d76/struct_message_header_s"/>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" line="24" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" bodystart="23" bodyend="53"/>
+    <listofallmembers>
+      <member refid="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_1aa11672975bfddfa22618a273c1bfe371" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageHeader</scope><name>_Data</name></member>
+      <member refid="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_1a783e14faad035c9073b7b9645889c7bc" prot="public" virt="virtual"><scope>Canberra::DataTypes::Serialization::MessageHeader</scope><name>Deserialize</name></member>
+      <member refid="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_1acf97f1911dad8810c631f3682c3ec9c0" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageHeader</scope><name>GetCheckSum</name></member>
+      <member refid="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_1a1a084bb351d79f3d4c8dc18bcddd3420" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageHeader</scope><name>GetHeaderSize</name></member>
+      <member refid="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_1ae924e2c2db89181533f8b26869c7e038" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageHeader</scope><name>GetSequenceNumber</name></member>
+      <member refid="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_1a05fa30ee4001caa14c7afa1f80e84aff" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageHeader</scope><name>GetSize</name></member>
+      <member refid="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_1ad954c3c5a4bec6646067c030e8a9085e" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageHeader</scope><name>GetVersion</name></member>
+      <member refid="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_1a9c3e958012b60987c1ef658dd8ead799" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageHeader</scope><name>MessageHeader</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1a38579cdd4f2e813e7b0cca54e1b09529" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageHeader</scope><name>Serializable</name></member>
+      <member refid="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_a862c47b37152bb3cce530584e3a9feb4_1a862c47b37152bb3cce530584e3a9feb4" prot="public" virt="virtual"><scope>Canberra::DataTypes::Serialization::MessageHeader</scope><name>Serialize</name></member>
+      <member refid="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_aa2a70c41a1faa824a497842935c4e8dc_1aa2a70c41a1faa824a497842935c4e8dc" prot="public" virt="virtual"><scope>Canberra::DataTypes::Serialization::MessageHeader</scope><name>~MessageHeader</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1ac760495914b0d7047d1dcbd3fed642d4" prot="public" virt="virtual"><scope>Canberra::DataTypes::Serialization::MessageHeader</scope><name>~Serializable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

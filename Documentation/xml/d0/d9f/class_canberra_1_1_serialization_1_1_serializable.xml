@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d0/d9f/class_canberra_1_1_serialization_1_1_serializable" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Canberra::Serialization::Serializable</compoundname>
+    <derivedcompoundref refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature" prot="public" virt="non-virtual">Canberra::DataTypes::Serialization::DigitalSignature</derivedcompoundref>
+    <derivedcompoundref refid="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header" prot="public" virt="non-virtual">Canberra::DataTypes::Serialization::MessageHeader</derivedcompoundref>
+    <derivedcompoundref refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data" prot="public" virt="non-virtual">Canberra::Serialization::MetaData</derivedcompoundref>
+    <derivedcompoundref refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object" prot="public" virt="non-virtual">Canberra::Serialization::SerializableObject</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1a38579cdd4f2e813e7b0cca54e1b09529" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Serialization::Serializable::Serializable</definition>
+        <argsstring>(void)</argsstring>
+        <name>Serializable</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Serializable.h" line="15" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Serializable.h" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1ac760495914b0d7047d1dcbd3fed642d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual Canberra::Serialization::Serializable::~Serializable</definition>
+        <argsstring>(void)</argsstring>
+        <name>~Serializable</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Serializable.h" line="16" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Serializable.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1a19b5d226ca748ca5fb9aca0078165537" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ULONG</type>
+        <definition>virtual ULONG Canberra::Serialization::Serializable::Serialize</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;, const LONG Offset=0)=0</argsstring>
+        <name>Serialize</name>
+        <reimplementedby refid="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_a862c47b37152bb3cce530584e3a9feb4_1a862c47b37152bb3cce530584e3a9feb4">Serialize</reimplementedby>
+        <reimplementedby refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_a2699805d188817a8e62446b4119615dc_1a2699805d188817a8e62446b4119615dc">Serialize</reimplementedby>
+        <reimplementedby refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a22fda5263703438775acd080c00a872c_1a22fda5263703438775acd080c00a872c">Serialize</reimplementedby>
+        <reimplementedby refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_a33e593c04b50f36e8dad06b3b7471a9c_1a33e593c04b50f36e8dad06b3b7471a9c">Serialize</reimplementedby>
+        <reimplementedby refid="dd/ddf/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectrum_ac5f0fa880e88960afa1547a60ed8c8f4_1ac5f0fa880e88960afa1547a60ed8c8f4">Serialize</reimplementedby>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Serializable.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1ab8f9a9f50d0abfa31f2e35a4bd8189d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ULONG</type>
+        <definition>virtual ULONG Canberra::Serialization::Serializable::Deserialize</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;, const LONG Offset=0)=0</argsstring>
+        <name>Deserialize</name>
+        <reimplementedby refid="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_1a783e14faad035c9073b7b9645889c7bc">Deserialize</reimplementedby>
+        <reimplementedby refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_1ae5148a78ac0efed0fea149cee2471a2f">Deserialize</reimplementedby>
+        <reimplementedby refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a0ac2ccfe7af9da4fab5f87783d226cb3_1a0ac2ccfe7af9da4fab5f87783d226cb3">Deserialize</reimplementedby>
+        <reimplementedby refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a430c3ea76c8389e480d48a97ff2df2d0">Deserialize</reimplementedby>
+        <reimplementedby refid="dd/ddf/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectrum_a49ea96089690bc9c4dbe010785f72252_1a49ea96089690bc9c4dbe010785f72252">Deserialize</reimplementedby>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Serializable.h" line="22" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="367">
+        <label>Canberra::DataTypes::Application::CommandData</label>
+        <link refid="d2/d2c/class_canberra_1_1_data_types_1_1_application_1_1_command_data"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="395">
+        <label>Canberra::Serialization::Int64</label>
+        <link refid="db/d74/class_canberra_1_1_serialization_1_1_int64"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="388">
+        <label>Canberra::DataTypes::Spectroscopy::Spectrum</label>
+        <link refid="dd/ddf/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectrum"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="389">
+        <label>Canberra::Serialization::Blob</label>
+        <link refid="df/de3/class_canberra_1_1_serialization_1_1_blob"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="386">
+        <label>Canberra::DataTypes::Spectroscopy::SpectralDataImpl&lt; struct PhaDataS &gt;</label>
+        <link refid="dd/dc6/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectral_data_impl"/>
+        <childnode refid="380" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="362">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="380">
+        <label>Canberra::DataTypes::Spectroscopy::SpectralData</label>
+        <link refid="d2/dbc/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectral_data"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="374">
+        <label>Canberra::DataTypes::Spectroscopy::ListData</label>
+        <link refid="d1/d85/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data"/>
+        <childnode refid="373" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="392">
+        <label>Canberra::Serialization::DateTime</label>
+        <link refid="df/d8b/class_canberra_1_1_serialization_1_1_date_time"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="393">
+        <label>Canberra::Serialization::Double</label>
+        <link refid="d0/df8/class_canberra_1_1_serialization_1_1_double"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="390">
+        <label>Canberra::Serialization::Bool</label>
+        <link refid="d6/df6/class_canberra_1_1_serialization_1_1_bool"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="372">
+        <label>Canberra::DataTypes::Spectroscopy::ListDataImpl&lt; EventT, ListTypeT &gt;</label>
+        <link refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="384">
+        <label>Canberra::DataTypes::Spectroscopy::SpectralDataImpl&lt; struct McsDataS &gt;</label>
+        <link refid="dd/dc6/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectral_data_impl"/>
+        <childnode refid="380" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="375">
+        <label>Canberra::DataTypes::Spectroscopy::ListDataImpl&lt; struct TlistDataS, Canberra::DataTypes::Serialization::SerializableObjects::TlistData &gt;</label>
+        <link refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="370">
+        <label>Canberra::DataTypes::Spectroscopy::CounterData</label>
+        <link refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="382">
+        <label>Canberra::DataTypes::Spectroscopy::SpectralDataImpl&lt; struct DlfcDataS &gt;</label>
+        <link refid="dd/dc6/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectral_data_impl"/>
+        <childnode refid="380" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="391">
+        <label>Canberra::Serialization::Byte</label>
+        <link refid="de/daf/class_canberra_1_1_serialization_1_1_byte"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="397">
+        <label>Canberra::Serialization::Null</label>
+        <link refid="d4/dd7/class_canberra_1_1_serialization_1_1_null"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="371">
+        <label>Canberra::DataTypes::Spectroscopy::ListDataBase</label>
+        <link refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="387">
+        <label>Canberra::DataTypes::Spectroscopy::PhaData</label>
+        <link refid="df/d46/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_pha_data"/>
+        <childnode refid="386" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="385">
+        <label>Canberra::DataTypes::Spectroscopy::McsData</label>
+        <link refid="d1/de0/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="364">
+        <label>Canberra::DataTypes::Serialization::MessageHeader</label>
+        <link refid="df/d57/class_canberra_1_1_data_types_1_1_serialization_1_1_message_header"/>
+        <childnode refid="362" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="401">
+        <label>Canberra::Serialization::Ulong</label>
+        <link refid="dd/dff/class_canberra_1_1_serialization_1_1_ulong"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="399">
+        <label>Canberra::Serialization::Ubyte</label>
+        <link refid="da/da9/class_canberra_1_1_serialization_1_1_ubyte"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="394">
+        <label>Canberra::Serialization::Float</label>
+        <link refid="d1/d5d/class_canberra_1_1_serialization_1_1_float"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="398">
+        <label>Canberra::Serialization::Short</label>
+        <link refid="d2/d0a/class_canberra_1_1_serialization_1_1_short"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="402">
+        <label>Canberra::Serialization::Ushort</label>
+        <link refid="d5/d70/class_canberra_1_1_serialization_1_1_ushort"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="366">
+        <label>Canberra::Serialization::SerializableObject</label>
+        <link refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object"/>
+        <childnode refid="362" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="379">
+        <label>Canberra::DataTypes::Spectroscopy::SCAdefinitions</label>
+        <link refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="373">
+        <label>Canberra::DataTypes::Spectroscopy::ListDataImpl&lt; struct ListDataS, Canberra::DataTypes::Serialization::SerializableObjects::ListData &gt;</label>
+        <link refid="dc/d36/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_impl"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="368">
+        <label>Canberra::DataTypes::Application::Parameter</label>
+        <link refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="369">
+        <label>Canberra::DataTypes::Application::ParameterMetaData</label>
+        <link refid="dd/d65/class_canberra_1_1_data_types_1_1_application_1_1_parameter_meta_data"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="403">
+        <label>Canberra::Serialization::Wstring</label>
+        <link refid="d2/d76/class_canberra_1_1_serialization_1_1_wstring"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="381">
+        <label>Canberra::DataTypes::Spectroscopy::SpectralDataImpl&lt; Data &gt;</label>
+        <link refid="dd/dc6/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectral_data_impl"/>
+        <childnode refid="380" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="400">
+        <label>Canberra::Serialization::Uint64</label>
+        <link refid="d2/dab/class_canberra_1_1_serialization_1_1_uint64"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="376">
+        <label>Canberra::DataTypes::Spectroscopy::TlistData</label>
+        <link refid="dc/d97/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_tlist_data"/>
+        <childnode refid="375" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="383">
+        <label>Canberra::DataTypes::Spectroscopy::DlfcData</label>
+        <link refid="df/d5b/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_dlfc_data"/>
+        <childnode refid="382" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="365">
+        <label>Canberra::Serialization::MetaData</label>
+        <link refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data"/>
+        <childnode refid="362" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="396">
+        <label>Canberra::Serialization::Long</label>
+        <link refid="da/d8a/class_canberra_1_1_serialization_1_1_long"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="378">
+        <label>Canberra::DataTypes::Spectroscopy::SCAbuffer</label>
+        <link refid="d1/d08/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="363">
+        <label>Canberra::DataTypes::Serialization::DigitalSignature</label>
+        <link refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature"/>
+        <childnode refid="362" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="377">
+        <label>Canberra::DataTypes::Spectroscopy::RegionOfInterest</label>
+        <link refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest"/>
+        <childnode refid="366" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/Serializable.h" line="13" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Serializable.h" bodystart="12" bodyend="23"/>
+    <listofallmembers>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1ab8f9a9f50d0abfa31f2e35a4bd8189d3" prot="public" virt="pure-virtual"><scope>Canberra::Serialization::Serializable</scope><name>Deserialize</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1a38579cdd4f2e813e7b0cca54e1b09529" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Serializable</scope><name>Serializable</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1a19b5d226ca748ca5fb9aca0078165537" prot="public" virt="pure-virtual"><scope>Canberra::Serialization::Serializable</scope><name>Serialize</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1ac760495914b0d7047d1dcbd3fed642d4" prot="public" virt="virtual"><scope>Canberra::Serialization::Serializable</scope><name>~Serializable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

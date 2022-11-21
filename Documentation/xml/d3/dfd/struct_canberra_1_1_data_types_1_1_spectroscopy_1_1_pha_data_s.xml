@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d3/dfd/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_pha_data_s" kind="struct" language="C++" prot="public">
+    <compoundname>Canberra::DataTypes::Spectroscopy::PhaDataS</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/dfd/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_pha_data_s_1a2fc68ebf467de43e8216b212ada03120" prot="public" static="no" mutable="no">
+        <type>LONGLONG</type>
+        <definition>LONGLONG Canberra::DataTypes::Spectroscopy::PhaDataS::LiveTime</definition>
+        <argsstring></argsstring>
+        <name>LiveTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/PhaData.h" line="13" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/PhaData.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/dfd/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_pha_data_s_1ae086a3574d4c84f098a19233839e42e7" prot="public" static="no" mutable="no">
+        <type>LONGLONG</type>
+        <definition>LONGLONG Canberra::DataTypes::Spectroscopy::PhaDataS::RealTime</definition>
+        <argsstring></argsstring>
+        <name>RealTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/PhaData.h" line="14" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/PhaData.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/dfd/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_pha_data_s_1a140fd263db596d90e43d8e1c69c68e26" prot="public" static="no" mutable="no">
+        <type>LONGLONG</type>
+        <definition>LONGLONG Canberra::DataTypes::Spectroscopy::PhaDataS::CompValue</definition>
+        <argsstring></argsstring>
+        <name>CompValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/PhaData.h" line="15" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/PhaData.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/PhaData.h" line="12" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/PhaData.h" bodystart="12" bodyend="16"/>
+    <listofallmembers>
+      <member refid="d3/dfd/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_pha_data_s_1a140fd263db596d90e43d8e1c69c68e26" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::PhaDataS</scope><name>CompValue</name></member>
+      <member refid="d3/dfd/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_pha_data_s_1a2fc68ebf467de43e8216b212ada03120" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::PhaDataS</scope><name>LiveTime</name></member>
+      <member refid="d3/dfd/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_pha_data_s_1ae086a3574d4c84f098a19233839e42e7" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::PhaDataS</scope><name>RealTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

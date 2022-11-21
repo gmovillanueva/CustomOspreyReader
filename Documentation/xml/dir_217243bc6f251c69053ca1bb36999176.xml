@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_217243bc6f251c69053ca1bb36999176" kind="dir">
+    <compoundname>Project1/CHI_VECTOR</compoundname>
+    <innerfile refid="d2/dcc/chi__vector_8h">chi_vector.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/CHI_VECTOR/"/>
+  </compounddef>
+</doxygen>

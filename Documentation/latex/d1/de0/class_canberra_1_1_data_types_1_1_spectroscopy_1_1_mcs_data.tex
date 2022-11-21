@@ -1,0 +1,78 @@
+\hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data}{}\section{Canberra\+:\+:Data\+Types\+:\+:Spectroscopy\+:\+:Mcs\+Data Class Reference}
+\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data}\index{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Mcs\+Data@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Mcs\+Data}}
+
+
+Inheritance diagram for Canberra\+:\+:Data\+Types\+:\+:Spectroscopy\+:\+:Mcs\+Data\+:
+% FIG 0
+
+
+Collaboration diagram for Canberra\+:\+:Data\+Types\+:\+:Spectroscopy\+:\+:Mcs\+Data\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_a4de6a933495d029dba9abec79fc0c7f7}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_a4de6a933495d029dba9abec79fc0c7f7}} 
+{\bfseries Mcs\+Data} (U\+L\+O\+NG Chans=0)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_af3b95a1dc9e579e7e9629c3ca73de380}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_af3b95a1dc9e579e7e9629c3ca73de380}} 
+L\+O\+N\+G\+L\+O\+NG {\bfseries Get\+Sweeps} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_a007010471021bb51751923b1b0df0e9b}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_a007010471021bb51751923b1b0df0e9b}} 
+void {\bfseries Put\+Sweeps} (L\+O\+N\+G\+L\+O\+NG v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_a92fe69c22dd67835726de7c26b1d2a57}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_a92fe69c22dd67835726de7c26b1d2a57}} 
+L\+O\+N\+G\+L\+O\+NG {\bfseries Get\+Dwell} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_a37d504632b3b59601ba622e678202318}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_a37d504632b3b59601ba622e678202318}} 
+void {\bfseries Put\+Dwell} (L\+O\+N\+G\+L\+O\+NG v)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_a7b3b725c711c1720c6c434d269f8664c_a7b3b725c711c1720c6c434d269f8664c}{Handle\+Endianness} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 25 of file Mcs\+Data.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_a7b3b725c711c1720c6c434d269f8664c_a7b3b725c711c1720c6c434d269f8664c}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_a7b3b725c711c1720c6c434d269f8664c_a7b3b725c711c1720c6c434d269f8664c}} 
+\index{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Mcs\+Data@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Mcs\+Data}!Handle\+Endianness@{Handle\+Endianness}}
+\index{Handle\+Endianness@{Handle\+Endianness}!Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Mcs\+Data@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Mcs\+Data}}
+\subsubsection{\texorpdfstring{Handle\+Endianness()}{HandleEndianness()}}
+{\footnotesize\ttfamily void Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Mcs\+Data\+::\+Handle\+Endianness (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+summary$>$ This method will serialize this instance into the byte stream /summary$>$ param name=\char`\"{}\+Str\char`\"{}$>$The stream
+
+param name=\char`\"{}\+M\+D\char`\"{}$>$The metadata
+
+param name=\char`\"{}\+Offset\char`\"{}$>$The byte position to start the write in the stream
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$The Win32 error code
+
+returns$>$The number of bytes serialized
+
+Reimplemented from \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectral_data_impl_add8a76fab9523229280ad47efb9b5bf0_add8a76fab9523229280ad47efb9b5bf0}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Spectral\+Data\+Impl$<$ struct Mcs\+Data\+S $>$}.
+
+
+
+Definition at line 33 of file Mcs\+Data.\+h.
+
+
+\begin{DoxyCode}
+33                                         \{
+34                     SWAPNBYTES(&(\_Data.Dwell), \textcolor{keyword}{sizeof}(\_Data.Dwell));
+35                     SWAPNBYTES(&(\_Data.Sweeps), \textcolor{keyword}{sizeof}(\_Data.Sweeps));
+36                 \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Mcs\+Data.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,25 @@
+digraph "Canberra::DataTypes::Spectroscopy::SpectralData"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="Canberra::DataTypes\l::Spectroscopy::SpectralData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="Canberra::Serialization\l::SerializableObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d98/class_canberra_1_1_serialization_1_1_serializable_object.html"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Canberra::Serialization\l::Serializable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d9f/class_canberra_1_1_serialization_1_1_serializable.html"];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Canberra::DataTypes\l::Spectroscopy::SpectralData\lImpl\< Data \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dc6/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectral_data_impl.html"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Canberra::DataTypes\l::Spectroscopy::SpectralData\lImpl\< struct DlfcDataS \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dc6/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectral_data_impl.html"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Canberra::DataTypes\l::Spectroscopy::DlfcData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d5b/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_dlfc_data.html"];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Canberra::DataTypes\l::Spectroscopy::SpectralData\lImpl\< struct McsDataS \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dc6/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectral_data_impl.html"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Canberra::DataTypes\l::Spectroscopy::McsData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/de0/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data.html"];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Canberra::DataTypes\l::Spectroscopy::SpectralData\lImpl\< struct PhaDataS \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dc6/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectral_data_impl.html"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Canberra::DataTypes\l::Spectroscopy::PhaData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d46/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_pha_data.html"];
+}

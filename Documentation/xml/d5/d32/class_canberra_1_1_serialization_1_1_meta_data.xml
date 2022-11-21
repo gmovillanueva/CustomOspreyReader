@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d5/d32/class_canberra_1_1_serialization_1_1_meta_data" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Serialization::MetaData</compoundname>
+    <basecompoundref refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable" prot="public" virt="non-virtual">Canberra::Serialization::Serializable</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_1af92b1f2a087fe1a0cca50e64500ae02a" prot="protected" static="no" mutable="no">
+        <type>struct <ref refid="db/d1d/struct_canberra_1_1_serialization_1_1_meta_header" kindref="compound">MetaHeader</ref></type>
+        <definition>struct MetaHeader Canberra::Serialization::MetaData::_Header</definition>
+        <argsstring></argsstring>
+        <name>_Header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MetaData.h" line="11" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MetaData.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_1ac0f5a7680de1ec98ee47f963813ce4b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Serialization::MetaData::MetaData</definition>
+        <argsstring>(void)</argsstring>
+        <name>MetaData</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>This method will initialize this instance. An instance of this class is used to define all of the metadata used to define a native type for serialization /summary&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MetaData.h" line="25" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MetaData.cpp" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_1afa100d4c0e3e07f5d4c793e2f33fd103" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Serialization::MetaData::MetaData</definition>
+        <argsstring>(ULONG Type, ULONG Size)</argsstring>
+        <name>MetaData</name>
+        <param>
+          <type>ULONG</type>
+          <declname>Type</declname>
+        </param>
+        <param>
+          <type>ULONG</type>
+          <declname>Size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MetaData.h" line="26" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MetaData.cpp" bodystart="14" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_a6f64327b5e5669fd8ffd8d17c6bc3671_1a6f64327b5e5669fd8ffd8d17c6bc3671" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Serialization::MetaData::~MetaData</definition>
+        <argsstring>(void)</argsstring>
+        <name>~MetaData</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will serialize this instance into the byte stream /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the write in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes serialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MetaData.h" line="27" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MetaData.cpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_1aa79bd26609d171f0323fbf421c383f3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Serialization::MetaData::GetSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MetaData.h" line="30" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MetaData.cpp" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_1aafa5c9bcde507cd372997dfda39324bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Serialization::MetaData::GetDataSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetDataSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MetaData.h" line="33" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MetaData.cpp" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_1a2bcc5a1a49c2ed6fc2dcd96482a931ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Serialization::MetaData::GetDataType</definition>
+        <argsstring>()</argsstring>
+        <name>GetDataType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MetaData.h" line="36" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MetaData.cpp" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_a2699805d188817a8e62446b4119615dc_1a2699805d188817a8e62446b4119615dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Serialization::MetaData::Serialize</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const LONG Offset=0)</argsstring>
+        <name>Serialize</name>
+        <reimplements refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1a19b5d226ca748ca5fb9aca0078165537">Serialize</reimplements>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will deserialize info from the byte stream into this instance /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the read in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes deserialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MetaData.h" line="38" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MetaData.cpp" bodystart="28" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_1ae5148a78ac0efed0fea149cee2471a2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Serialization::MetaData::Deserialize</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const LONG Offset=0)</argsstring>
+        <name>Deserialize</name>
+        <reimplements refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1ab8f9a9f50d0abfa31f2e35a4bd8189d3">Deserialize</reimplements>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MetaData.h" line="39" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MetaData.cpp" bodystart="59" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="271">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="270">
+        <label>Canberra::Serialization::MetaData</label>
+        <link refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data"/>
+        <childnode refid="271" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="273">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="274">
+        <label>Canberra::Serialization::MetaHeader</label>
+        <link refid="db/d1d/struct_canberra_1_1_serialization_1_1_meta_header"/>
+      </node>
+      <node id="272">
+        <label>Canberra::Serialization::MetaData</label>
+        <link refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data"/>
+        <childnode refid="273" relation="public-inheritance">
+        </childnode>
+        <childnode refid="274" relation="usage">
+          <edgelabel>_Header</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/MetaData.h" line="20" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MetaData.h" bodystart="19" bodyend="40"/>
+    <listofallmembers>
+      <member refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_1af92b1f2a087fe1a0cca50e64500ae02a" prot="protected" virt="non-virtual"><scope>Canberra::Serialization::MetaData</scope><name>_Header</name></member>
+      <member refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_1ae5148a78ac0efed0fea149cee2471a2f" prot="public" virt="virtual"><scope>Canberra::Serialization::MetaData</scope><name>Deserialize</name></member>
+      <member refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_1aafa5c9bcde507cd372997dfda39324bc" prot="public" virt="non-virtual"><scope>Canberra::Serialization::MetaData</scope><name>GetDataSize</name></member>
+      <member refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_1a2bcc5a1a49c2ed6fc2dcd96482a931ae" prot="public" virt="non-virtual"><scope>Canberra::Serialization::MetaData</scope><name>GetDataType</name></member>
+      <member refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_1aa79bd26609d171f0323fbf421c383f3b" prot="public" virt="non-virtual"><scope>Canberra::Serialization::MetaData</scope><name>GetSize</name></member>
+      <member refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_1ac0f5a7680de1ec98ee47f963813ce4b7" prot="public" virt="non-virtual"><scope>Canberra::Serialization::MetaData</scope><name>MetaData</name></member>
+      <member refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_1afa100d4c0e3e07f5d4c793e2f33fd103" prot="public" virt="non-virtual"><scope>Canberra::Serialization::MetaData</scope><name>MetaData</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1a38579cdd4f2e813e7b0cca54e1b09529" prot="public" virt="non-virtual"><scope>Canberra::Serialization::MetaData</scope><name>Serializable</name></member>
+      <member refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_a2699805d188817a8e62446b4119615dc_1a2699805d188817a8e62446b4119615dc" prot="public" virt="virtual"><scope>Canberra::Serialization::MetaData</scope><name>Serialize</name></member>
+      <member refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data_a6f64327b5e5669fd8ffd8d17c6bc3671_1a6f64327b5e5669fd8ffd8d17c6bc3671" prot="public" virt="virtual"><scope>Canberra::Serialization::MetaData</scope><name>~MetaData</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1ac760495914b0d7047d1dcbd3fed642d4" prot="public" virt="virtual"><scope>Canberra::Serialization::MetaData</scope><name>~Serializable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

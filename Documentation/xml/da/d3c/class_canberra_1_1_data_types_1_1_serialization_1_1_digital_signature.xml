@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::DataTypes::Serialization::DigitalSignature</compoundname>
+    <basecompoundref refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable" prot="public" virt="non-virtual">Canberra::Serialization::Serializable</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1ad09150a6e22b123ce1e7111fe972be18" prot="protected" static="no" mutable="no">
+        <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref></type>
+        <definition>Canberra::Utility::Core::ByteStream Canberra::DataTypes::Serialization::DigitalSignature::_Key</definition>
+        <argsstring></argsstring>
+        <name>_Key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="22" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1acae90231795fd8f32df9775a40e0889e" prot="protected" static="no" mutable="no">
+        <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref></type>
+        <definition>Canberra::Utility::Core::ByteStream Canberra::DataTypes::Serialization::DigitalSignature::_Signature</definition>
+        <argsstring></argsstring>
+        <name>_Signature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="23" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a3757ef1e0b90f1f6e59cfae65c2fa177" prot="protected" static="no" mutable="no">
+        <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref></type>
+        <definition>Canberra::Utility::Core::ByteStream Canberra::DataTypes::Serialization::DigitalSignature::_RandomData</definition>
+        <argsstring></argsstring>
+        <name>_RandomData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="24" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a240ffd09b6f77068bf4f4efe4fa49dda" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::DataTypes::Serialization::DigitalSignature::_ReverseBytes</definition>
+        <argsstring></argsstring>
+        <name>_ReverseBytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="25" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a2d73c87d52cb2cb275fcc5722ebbce0d" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::DataTypes::Serialization::DigitalSignature::_IncludeRandomData</definition>
+        <argsstring></argsstring>
+        <name>_IncludeRandomData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="26" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a20739c7595b8b7145ca0fa37ccb271cb" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::DataTypes::Serialization::DigitalSignature::_EnableSigning</definition>
+        <argsstring></argsstring>
+        <name>_EnableSigning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="27" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a8c20ea04109fe995b0aee73e6af60280" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Serialization::DigitalSignature::DigitalSignature</definition>
+        <argsstring>(const DigitalSignature &amp;)</argsstring>
+        <name>DigitalSignature</name>
+        <param>
+          <type>const <ref refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature" kindref="compound">DigitalSignature</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1ad7ae30b297b6ed58fd3b4543cb3ea545" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature" kindref="compound">DigitalSignature</ref> &amp;</type>
+        <definition>DigitalSignature&amp; Canberra::DataTypes::Serialization::DigitalSignature::operator=</definition>
+        <argsstring>(const DigitalSignature &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature" kindref="compound">DigitalSignature</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="19" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a66f229a0fa24c0429e46d5db733049a2_1a66f229a0fa24c0429e46d5db733049a2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Serialization::DigitalSignature::Allocate</definition>
+        <argsstring>()</argsstring>
+        <name>Allocate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will compute a digital signature for the stream /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;Offset&quot;&gt;The offset to start computing the signature at in the stream</para><para>returns&gt;0 == Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="33" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.cpp" bodystart="72" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a8fe4528232010235272ca132aba224c3_1a8fe4528232010235272ca132aba224c3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Serialization::DigitalSignature::Release</definition>
+        <argsstring>()</argsstring>
+        <name>Release</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An initializes the security provider /summary&gt; exceptions cref=&quot;ULONG&quot;&gt;Win32 error code &lt;/exceptions&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="34" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.cpp" bodystart="47" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a64bf1f9e2f96323e99abc845bff49198" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Serialization::DigitalSignature::DigitalSignature</definition>
+        <argsstring>(bool)</argsstring>
+        <name>DigitalSignature</name>
+        <param>
+          <type>bool</type>
+          <defname>EnableSigning</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="37" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.cpp" bodystart="29" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a3c469d1e6a379facc131ce5e08016fb6_1a3c469d1e6a379facc131ce5e08016fb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Serialization::DigitalSignature::DigitalSignature</definition>
+        <argsstring>(void)</argsstring>
+        <name>DigitalSignature</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>An instance of this class is used to create and verify a digital signature /summary&gt; </para>        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class is used to create and verify a digital signature /summary&gt; param name=&quot;EnableSigning&quot;&gt;Enable/disable signing data</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="38" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.cpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a0b4d8b470ad2169f3e0c570fe8543c81_1a0b4d8b470ad2169f3e0c570fe8543c81" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Serialization::DigitalSignature::~DigitalSignature</definition>
+        <argsstring>(void)</argsstring>
+        <name>~DigitalSignature</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An releases the security provider /summary&gt; exceptions cref=&quot;ULONG&quot;&gt;Win32 error code &lt;/exceptions&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="39" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a921db506de54c50ea512a93d7da67b24_1a921db506de54c50ea512a93d7da67b24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Serialization::DigitalSignature::Sign</definition>
+        <argsstring>(const Canberra::Utility::Core::ByteStream &amp;Str, const LONG Offset=0)</argsstring>
+        <name>Sign</name>
+        <param>
+          <type>const <ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will verify the data matches this digital signature information. Note: The random data is included int the verification. /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;Offset&quot;&gt;The offset to start verification of the signature in the stream</para><para>returns&gt;0 == Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="42" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.cpp" bodystart="117" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a338d5cd12ad24843b358e1d996429b4c_1a338d5cd12ad24843b358e1d996429b4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Serialization::DigitalSignature::Verify</definition>
+        <argsstring>(const Canberra::Utility::Core::ByteStream &amp;Str, const LONG Offset=0)</argsstring>
+        <name>Verify</name>
+        <param>
+          <type>const <ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will serialize this instance into the byte stream /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the write in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes serialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="45" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.cpp" bodystart="205" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a22fda5263703438775acd080c00a872c_1a22fda5263703438775acd080c00a872c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Serialization::DigitalSignature::Serialize</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;, const LONG Offset=0)</argsstring>
+        <name>Serialize</name>
+        <reimplements refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1a19b5d226ca748ca5fb9aca0078165537">Serialize</reimplements>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <defname>Str</defname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will deserialize info from the byte stream into this instance /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the read in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes deserialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="48" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.cpp" bodystart="267" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a0ac2ccfe7af9da4fab5f87783d226cb3_1a0ac2ccfe7af9da4fab5f87783d226cb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Serialization::DigitalSignature::Deserialize</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;, const LONG Offset=0)</argsstring>
+        <name>Deserialize</name>
+        <reimplements refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1ab8f9a9f50d0abfa31f2e35a4bd8189d3">Deserialize</reimplements>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <defname>Str</defname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; Accessor to enable signing /summary&gt; exceptions cref=&quot;ULONG&quot;&gt;Win32 error code &lt;/exceptions&gt;</para><para>summary&gt; This method will the number of bytes used to serialize this signature /summary&gt; returns&gt;The number of bytes</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="51" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.cpp" bodystart="328" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1abc4d5f99e2acaf31a1a121ee9837c416" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::DataTypes::Serialization::DigitalSignature::GetEnableSigning</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnableSigning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="57" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.cpp" bodystart="400" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1aefe1eae1d81109bd0f15911082b81e1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Serialization::DigitalSignature::PutEnableSigning</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>PutEnableSigning</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="58" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.cpp" bodystart="401" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a1ec1145235fddb430255417dd7337565" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::DataTypes::Serialization::DigitalSignature::GetReverseByte</definition>
+        <argsstring>()</argsstring>
+        <name>GetReverseByte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="61" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.cpp" bodystart="404" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a4be4c3edeffe844ef0fd38be3cf172dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Serialization::DigitalSignature::PutReverseByte</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>PutReverseByte</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="62" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.cpp" bodystart="405" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1ab6aa09b2426683ebfc77bac5ca2fe52b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::DataTypes::Serialization::DigitalSignature::GetIncludeRandomData</definition>
+        <argsstring>()</argsstring>
+        <name>GetIncludeRandomData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="65" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.cpp" bodystart="408" bodyend="408"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a06a4cdc00eb4acdaeb2e94be26bfec8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Serialization::DigitalSignature::PutIncludeRandomData</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>PutIncludeRandomData</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="66" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.cpp" bodystart="409" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a32357a654fc9dd78e75d0d427a6e5337_1a32357a654fc9dd78e75d0d427a6e5337" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Serialization::DigitalSignature::GetSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; Accessor to enable signing /summary&gt; exceptions cref=&quot;ULONG&quot;&gt;Win32 error code &lt;/exceptions&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="69" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.cpp" bodystart="386" bodyend="381"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="117">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="116">
+        <label>Canberra::DataTypes::Serialization::DigitalSignature</label>
+        <link refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature"/>
+        <childnode refid="117" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="119">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="120">
+        <label>Canberra::Utility::Core::ByteStream</label>
+        <link refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream"/>
+      </node>
+      <node id="118">
+        <label>Canberra::DataTypes::Serialization::DigitalSignature</label>
+        <link refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature"/>
+        <childnode refid="119" relation="public-inheritance">
+        </childnode>
+        <childnode refid="120" relation="usage">
+          <edgelabel>_Key</edgelabel>
+          <edgelabel>_Signature</edgelabel>
+          <edgelabel>_RandomData</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" line="17" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DigitalSignature.h" bodystart="16" bodyend="77"/>
+    <listofallmembers>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a20739c7595b8b7145ca0fa37ccb271cb" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>_EnableSigning</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a2d73c87d52cb2cb275fcc5722ebbce0d" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>_IncludeRandomData</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1ad09150a6e22b123ce1e7111fe972be18" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>_Key</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a3757ef1e0b90f1f6e59cfae65c2fa177" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>_RandomData</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a240ffd09b6f77068bf4f4efe4fa49dda" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>_ReverseBytes</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1acae90231795fd8f32df9775a40e0889e" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>_Signature</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a66f229a0fa24c0429e46d5db733049a2_1a66f229a0fa24c0429e46d5db733049a2" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>Allocate</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a0ac2ccfe7af9da4fab5f87783d226cb3_1a0ac2ccfe7af9da4fab5f87783d226cb3" prot="public" virt="virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>Deserialize</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a8c20ea04109fe995b0aee73e6af60280" prot="private" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>DigitalSignature</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a64bf1f9e2f96323e99abc845bff49198" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>DigitalSignature</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a3c469d1e6a379facc131ce5e08016fb6_1a3c469d1e6a379facc131ce5e08016fb6" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>DigitalSignature</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1abc4d5f99e2acaf31a1a121ee9837c416" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>GetEnableSigning</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1ab6aa09b2426683ebfc77bac5ca2fe52b" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>GetIncludeRandomData</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a1ec1145235fddb430255417dd7337565" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>GetReverseByte</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a32357a654fc9dd78e75d0d427a6e5337_1a32357a654fc9dd78e75d0d427a6e5337" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>GetSize</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1ad7ae30b297b6ed58fd3b4543cb3ea545" prot="private" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>operator=</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1aefe1eae1d81109bd0f15911082b81e1b" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>PutEnableSigning</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a06a4cdc00eb4acdaeb2e94be26bfec8a" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>PutIncludeRandomData</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_1a4be4c3edeffe844ef0fd38be3cf172dd" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>PutReverseByte</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a8fe4528232010235272ca132aba224c3_1a8fe4528232010235272ca132aba224c3" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>Release</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1a38579cdd4f2e813e7b0cca54e1b09529" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>Serializable</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a22fda5263703438775acd080c00a872c_1a22fda5263703438775acd080c00a872c" prot="public" virt="virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>Serialize</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a921db506de54c50ea512a93d7da67b24_1a921db506de54c50ea512a93d7da67b24" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>Sign</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a338d5cd12ad24843b358e1d996429b4c_1a338d5cd12ad24843b358e1d996429b4c" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>Verify</name></member>
+      <member refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature_a0b4d8b470ad2169f3e0c570fe8543c81_1a0b4d8b470ad2169f3e0c570fe8543c81" prot="public" virt="virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>~DigitalSignature</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1ac760495914b0d7047d1dcbd3fed642d4" prot="public" virt="virtual"><scope>Canberra::DataTypes::Serialization::DigitalSignature</scope><name>~Serializable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

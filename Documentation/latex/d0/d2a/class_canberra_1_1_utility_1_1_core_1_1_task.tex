@@ -1,0 +1,96 @@
+\hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task}{}\section{Canberra\+:\+:Utility\+:\+:Core\+:\+:Task Class Reference}
+\label{class_canberra_1_1_utility_1_1_core_1_1_task}\index{Canberra\+::\+Utility\+::\+Core\+::\+Task@{Canberra\+::\+Utility\+::\+Core\+::\+Task}}
+
+
+Inheritance diagram for Canberra\+:\+:Utility\+:\+:Core\+:\+:Task\+:
+% FIG 0
+
+
+Collaboration diagram for Canberra\+:\+:Utility\+:\+:Core\+:\+:Task\+:
+% FIG 1
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_af3df2c64e08ed6ba4f7d60ff26a5908a}\label{class_canberra_1_1_utility_1_1_core_1_1_task_af3df2c64e08ed6ba4f7d60ff26a5908a}} 
+enum {\bfseries Task\+State\+Tag} \{ {\bfseries Stopped} =0, 
+{\bfseries Stopping} =1, 
+{\bfseries Starting} =2, 
+{\bfseries Started} =3
+ \}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_a9072440f50482734bafa54c9d24550ee}\label{class_canberra_1_1_utility_1_1_core_1_1_task_a9072440f50482734bafa54c9d24550ee}} 
+typedef enum Canberra\+::\+Utility\+::\+Core\+::\+Task\+::\+Task\+State\+Tag {\bfseries Task\+State}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_a3df380ee480526aae62ae977494ab37d}\label{class_canberra_1_1_utility_1_1_core_1_1_task_a3df380ee480526aae62ae977494ab37d}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_task_a3df380ee480526aae62ae977494ab37d}{Task} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{String} \&Name)
+\begin{DoxyCompactList}\small\item\em This is a utility class used below for parsing strings /summary$>$ param name=\char`\"{}\+Name\char`\"{}$>$The name of the task\end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_a324ff17d5ddcd96853fa63afd339b1e9}\label{class_canberra_1_1_utility_1_1_core_1_1_task_a324ff17d5ddcd96853fa63afd339b1e9}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{String} {\bfseries Get\+Name} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_a311409b6377d6668ea0b1715a8757910}\label{class_canberra_1_1_utility_1_1_core_1_1_task_a311409b6377d6668ea0b1715a8757910}} 
+U\+L\+O\+NG {\bfseries Get\+Time\+Out} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_a7492c07cbdc9b45dd5a258c30b8cedf6}\label{class_canberra_1_1_utility_1_1_core_1_1_task_a7492c07cbdc9b45dd5a258c30b8cedf6}} 
+void {\bfseries Put\+Time\+Out} (U\+L\+O\+NG v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_a35e9f4a1b71f40bb15e6d6c2b38e61cf}\label{class_canberra_1_1_utility_1_1_core_1_1_task_a35e9f4a1b71f40bb15e6d6c2b38e61cf}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_state_of_health}{State\+Of\+Health} \& {\bfseries Get\+State\+Of\+Health} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_aaef15ad69f7b747b0fa3deac18149a3f}\label{class_canberra_1_1_utility_1_1_core_1_1_task_aaef15ad69f7b747b0fa3deac18149a3f}} 
+virtual U\+L\+O\+NG {\bfseries Start} ()=0
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_a02667d7d27a78e8c420ee878745bf694}\label{class_canberra_1_1_utility_1_1_core_1_1_task_a02667d7d27a78e8c420ee878745bf694}} 
+virtual U\+L\+O\+NG {\bfseries Stop} ()=0
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_a4dd3813fb31b17409e50a5bc6c603dc3}\label{class_canberra_1_1_utility_1_1_core_1_1_task_a4dd3813fb31b17409e50a5bc6c603dc3}} 
+virtual U\+L\+O\+NG {\bfseries Post\+Message} (U\+I\+NT, W\+P\+A\+R\+AM=0, L\+P\+A\+R\+AM=0)=0
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_a66cb7532efb005c7b779f4eb98188f26}\label{class_canberra_1_1_utility_1_1_core_1_1_task_a66cb7532efb005c7b779f4eb98188f26}} 
+virtual U\+L\+O\+NG {\bfseries Join} (L\+O\+NG Time\+Out=0)=0
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_a0c6eb0d8f9e14a5f8409216c561c028c}\label{class_canberra_1_1_utility_1_1_core_1_1_task_a0c6eb0d8f9e14a5f8409216c561c028c}} 
+virtual Task\+State {\bfseries Get\+State} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_a46f5b46e52bb7339f9407f2b2df58d56}\label{class_canberra_1_1_utility_1_1_core_1_1_task_a46f5b46e52bb7339f9407f2b2df58d56}} 
+bool {\bfseries Get\+Wait\+For\+Task\+Exit} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_a4ab5337159e3292f1986f5cb41a41b3a}\label{class_canberra_1_1_utility_1_1_core_1_1_task_a4ab5337159e3292f1986f5cb41a41b3a}} 
+void {\bfseries Put\+Wait\+For\+Task\+Exit} (bool v)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_a5ac2bc9406ef2e83a93249a930a6f636}\label{class_canberra_1_1_utility_1_1_core_1_1_task_a5ac2bc9406ef2e83a93249a930a6f636}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{String} {\bfseries \+\_\+\+Name}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_a5323a67348a28c7bf193082f77446efa}\label{class_canberra_1_1_utility_1_1_core_1_1_task_a5323a67348a28c7bf193082f77446efa}} 
+U\+L\+O\+NG {\bfseries \+\_\+\+Time\+Out}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_ae9e32f10943945f3749302c489747857}\label{class_canberra_1_1_utility_1_1_core_1_1_task_ae9e32f10943945f3749302c489747857}} 
+Task\+State {\bfseries \+\_\+\+State}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_aae5ae3af1ab26e8aa840874e60dea54f}\label{class_canberra_1_1_utility_1_1_core_1_1_task_aae5ae3af1ab26e8aa840874e60dea54f}} 
+bool {\bfseries \+\_\+\+Wait\+For\+Task\+Exit}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_a139475f6f0548e343dc98fc2a19bbe9f}\label{class_canberra_1_1_utility_1_1_core_1_1_task_a139475f6f0548e343dc98fc2a19bbe9f}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_critical_section}{Critical\+Section} {\bfseries \+\_\+\+Lock}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_task_a045e64444b00a9f905f460e221e6846f}\label{class_canberra_1_1_utility_1_1_core_1_1_task_a045e64444b00a9f905f460e221e6846f}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_state_of_health}{State\+Of\+Health} {\bfseries \+\_\+\+State\+Of\+Health}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 23 of file Task.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Task.\+h\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Task.\+cpp\end{DoxyCompactItemize}

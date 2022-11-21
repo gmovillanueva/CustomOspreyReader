@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::DataTypes::Serialization::MessageFactory</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_1a57b5383123964bfe08aa9253805e9cba" prot="protected" static="no" mutable="no">
+        <type><ref refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature" kindref="compound">DigitalSignature</ref></type>
+        <definition>DigitalSignature Canberra::DataTypes::Serialization::MessageFactory::_Signature</definition>
+        <argsstring></argsstring>
+        <name>_Signature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageFactory.h" line="22" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageFactory.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_ae6f7663a578514f13d57031c407077ce_1ae6f7663a578514f13d57031c407077ce" prot="protected" static="yes" mutable="no">
+        <type>LONG</type>
+        <definition>LONG Canberra::DataTypes::Serialization::MessageFactory::MSG_VERSION_1</definition>
+        <argsstring></argsstring>
+        <name>MSG_VERSION_1</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class is used to create/interpret messages /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageFactory.h" line="23" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageFactory.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_1a5c46fd5e32da8acf9ba0dc550dd7af4f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Serialization::MessageFactory::MessageFactory</definition>
+        <argsstring>(const MessageFactory &amp;)</argsstring>
+        <name>MessageFactory</name>
+        <param>
+          <type>const <ref refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory" kindref="compound">MessageFactory</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageFactory.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_1a2a714b848faf4156a80f144fa09dd8bf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory" kindref="compound">MessageFactory</ref> &amp;</type>
+        <definition>MessageFactory&amp; Canberra::DataTypes::Serialization::MessageFactory::operator=</definition>
+        <argsstring>(const MessageFactory &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory" kindref="compound">MessageFactory</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageFactory.h" line="19" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_1ac7550872e10be1c464e31365ad7d16cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Serialization::MessageFactory::MessageFactory</definition>
+        <argsstring>(void)</argsstring>
+        <name>MessageFactory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageFactory.h" line="26" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageFactory.cpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a5def241bfd7f4c6138bca7b883420494_1a5def241bfd7f4c6138bca7b883420494" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Serialization::MessageFactory::~MessageFactory</definition>
+        <argsstring>(void)</argsstring>
+        <name>~MessageFactory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; Accessor to enable signing exceptions cref=&quot;ULONG&quot;&gt;Win32 error code &lt;/exceptions&gt; /summary&gt;</para><para>summary&gt; This method will create a message containing the specified data and serialize it to the stream /summary&gt; param name=&quot;Data&quot;&gt;The data to put in the message</para><para>param name=&quot;Str&quot;&gt;The stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageFactory.h" line="27" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageFactory.cpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_1ab704cb86e488b8e441a7cd934d89cc6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::DataTypes::Serialization::MessageFactory::GetDigitallySign</definition>
+        <argsstring>()</argsstring>
+        <name>GetDigitallySign</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageFactory.h" line="33" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageFactory.cpp" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_1a81d983d99c6d4160e49a3c8115b99241" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Serialization::MessageFactory::PutDigitallySign</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>PutDigitallySign</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageFactory.h" line="34" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageFactory.cpp" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a04dda305fdbf7bb5345967f0529e6387_1a04dda305fdbf7bb5345967f0529e6387" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Serialization::MessageFactory::SerializeToMessage</definition>
+        <argsstring>(Canberra::Serialization::SerializableObject *, Canberra::Utility::Core::ByteStream &amp;)</argsstring>
+        <name>SerializeToMessage</name>
+        <param>
+          <type><ref refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object" kindref="compound">Canberra::Serialization::SerializableObject</ref> *</type>
+          <defname>Data</defname>
+        </param>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <defname>Str</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will deserialize the message and extract the data from it. The data type contained in the message is created and returned to the caller. The caller is responsible for releasing this memory /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>returns&gt;The deserialized data</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageFactory.h" line="37" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageFactory.cpp" bodystart="24" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a58d4f6449fcb585e027ab6aad1b4e799_1a58d4f6449fcb585e027ab6aad1b4e799" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object" kindref="compound">Canberra::Serialization::SerializableObject</ref> *</type>
+        <definition>Canberra::Serialization::SerializableObject * Canberra::DataTypes::Serialization::MessageFactory::DeserializeFromMessage</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;)</argsstring>
+        <name>DeserializeFromMessage</name>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <defname>Str</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return information indicating whether the message version is supported /summary&gt; param name=&quot;Version&quot;&gt;The message version number</para><para>returns&gt;The support state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageFactory.h" line="41" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageFactory.cpp" bodystart="58" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a65f9fac8fd218160a684f52d72fadb94_1a65f9fac8fd218160a684f52d72fadb94" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::DataTypes::Serialization::MessageFactory::SupportsMsgVersion</definition>
+        <argsstring>(const LONG Version)</argsstring>
+        <name>SupportsMsgVersion</name>
+        <param>
+          <type>const LONG</type>
+          <declname>Version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; Accessor to enable signing exceptions cref=&quot;ULONG&quot;&gt;Win32 error code &lt;/exceptions&gt; /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageFactory.h" line="44" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageFactory.cpp" bodystart="89" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="259">
+        <label>Canberra::DataTypes::Serialization::MessageFactory</label>
+        <link refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory"/>
+        <childnode refid="260" relation="usage">
+          <edgelabel>_Signature</edgelabel>
+        </childnode>
+      </node>
+      <node id="261">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="262">
+        <label>Canberra::Utility::Core::ByteStream</label>
+        <link refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream"/>
+      </node>
+      <node id="260">
+        <label>Canberra::DataTypes::Serialization::DigitalSignature</label>
+        <link refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+        <childnode refid="262" relation="usage">
+          <edgelabel>_Key</edgelabel>
+          <edgelabel>_Signature</edgelabel>
+          <edgelabel>_RandomData</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/MessageFactory.h" line="17" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageFactory.h" bodystart="16" bodyend="45"/>
+    <listofallmembers>
+      <member refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_1a57b5383123964bfe08aa9253805e9cba" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageFactory</scope><name>_Signature</name></member>
+      <member refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a58d4f6449fcb585e027ab6aad1b4e799_1a58d4f6449fcb585e027ab6aad1b4e799" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageFactory</scope><name>DeserializeFromMessage</name></member>
+      <member refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_1ab704cb86e488b8e441a7cd934d89cc6d" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageFactory</scope><name>GetDigitallySign</name></member>
+      <member refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_1a5c46fd5e32da8acf9ba0dc550dd7af4f" prot="private" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageFactory</scope><name>MessageFactory</name></member>
+      <member refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_1ac7550872e10be1c464e31365ad7d16cb" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageFactory</scope><name>MessageFactory</name></member>
+      <member refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_ae6f7663a578514f13d57031c407077ce_1ae6f7663a578514f13d57031c407077ce" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageFactory</scope><name>MSG_VERSION_1</name></member>
+      <member refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_1a2a714b848faf4156a80f144fa09dd8bf" prot="private" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageFactory</scope><name>operator=</name></member>
+      <member refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_1a81d983d99c6d4160e49a3c8115b99241" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageFactory</scope><name>PutDigitallySign</name></member>
+      <member refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a04dda305fdbf7bb5345967f0529e6387_1a04dda305fdbf7bb5345967f0529e6387" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageFactory</scope><name>SerializeToMessage</name></member>
+      <member refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a65f9fac8fd218160a684f52d72fadb94_1a65f9fac8fd218160a684f52d72fadb94" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Serialization::MessageFactory</scope><name>SupportsMsgVersion</name></member>
+      <member refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory_a5def241bfd7f4c6138bca7b883420494_1a5def241bfd7f4c6138bca7b883420494" prot="public" virt="virtual"><scope>Canberra::DataTypes::Serialization::MessageFactory</scope><name>~MessageFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

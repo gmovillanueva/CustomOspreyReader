@@ -1,0 +1,435 @@
+\hypertarget{main_8cpp}{}\section{Project1/main.cpp File Reference}
+\label{main_8cpp}\index{Project1/main.\+cpp@{Project1/main.\+cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$signal.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}C\+H\+I\+\_\+\+O\+S\+P\+R\+E\+Y\textbackslash{}chi\+\_\+osprey.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}C\+H\+I\+\_\+\+V\+E\+C\+T\+O\+R\textbackslash{}chi\+\_\+vector.\+h\char`\"{}}\newline
+Include dependency graph for main.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/dce/main_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{main_8cpp_d2/d03/struct_c_s_t___m_a_p_p_i_n_g}{C\+S\+T\+\_\+\+M\+A\+P\+P\+I\+NG}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8cpp_ac50762666aa00bd3a4308158510f1748}\label{main_8cpp_ac50762666aa00bd3a4308158510f1748}} 
+\#define {\bfseries \+\_\+\+W\+I\+N32\+\_\+\+W\+I\+N\+NT}~0x0501
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{main_8cpp_a00c44aa4276ad8c70f0bd1be93002a66_a00c44aa4276ad8c70f0bd1be93002a66}{Osprey\+Parse\+Input} (std\+::string file\+Name)
+\begin{DoxyCompactList}\small\item\em Utility Function used for parsing the input file. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{main_8cpp_abecada661ceb15d45a4267ebee66c637_abecada661ceb15d45a4267ebee66c637}{Osprey\+Extract\+String} (std\+::string str, char beg, char end)
+\begin{DoxyCompactList}\small\item\em Utility Function used for extracting a substring. \end{DoxyCompactList}\item 
+void \hyperlink{main_8cpp_a833a814abde34e116c360fbfd06a6193_a833a814abde34e116c360fbfd06a6193}{Sig\+Break\+\_\+\+Handler} (int n\+\_\+signal)
+\begin{DoxyCompactList}\small\item\em Utility Function used for exiting the program. \end{DoxyCompactList}\item 
+int \hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_ae66f6b31b5ad750f1fe042a706a4e3d4}{main} ()
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8cpp_a0d2117f1e8077a8a7b7175edaa068d57}\label{main_8cpp_a0d2117f1e8077a8a7b7175edaa068d57}} 
+bool \hyperlink{main_8cpp_a0d2117f1e8077a8a7b7175edaa068d57}{loop\+Count} = true
+\begin{DoxyCompactList}\small\item\em Checks to see if the program has looped before. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{main_8cpp_a73f7a2c9f70067d4f45ddcb6a7dba5f0}\label{main_8cpp_a73f7a2c9f70067d4f45ddcb6a7dba5f0}} 
+bool \hyperlink{main_8cpp_a73f7a2c9f70067d4f45ddcb6a7dba5f0}{close\+Program} = false
+\begin{DoxyCompactList}\small\item\em Handle to close the program. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{main_8cpp_a5040252e575ddcc2bbfb251abe90e447}\label{main_8cpp_a5040252e575ddcc2bbfb251abe90e447}} 
+bool \hyperlink{main_8cpp_a5040252e575ddcc2bbfb251abe90e447}{calibration\+Mode} = false
+\begin{DoxyCompactList}\small\item\em Usermode if it should be in calibration mode or run mode. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{main_8cpp_ab9ec31522d06b675fd50036e752dcc84}\label{main_8cpp_ab9ec31522d06b675fd50036e752dcc84}} 
+\hyperlink{class_c_h_i___o_s_p_r_e_y}{C\+H\+I\+\_\+\+O\+S\+P\+R\+EY} \hyperlink{main_8cpp_ab9ec31522d06b675fd50036e752dcc84}{osprey} \mbox{[}5\mbox{]}
+\begin{DoxyCompactList}\small\item\em Array of ospreys. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{main_8cpp_ab4018c51a1a2cb2d616245c86a1cd61c}\label{main_8cpp_ab4018c51a1a2cb2d616245c86a1cd61c}} 
+\hyperlink{class_c_h_i___v_e_c_t_o_r}{C\+H\+I\+\_\+\+V\+E\+C\+T\+OR}$<$ \hyperlink{class_c_h_i___o_s_p_r_e_y}{C\+H\+I\+\_\+\+O\+S\+P\+R\+EY} $>$ \hyperlink{main_8cpp_ab4018c51a1a2cb2d616245c86a1cd61c}{osprey\+Stack}
+\begin{DoxyCompactList}\small\item\em Osprey Object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Class Documentation}
+\index{C\+S\+T\+\_\+\+M\+A\+P\+P\+I\+NG@{C\+S\+T\+\_\+\+M\+A\+P\+P\+I\+NG}}\label{struct_c_s_t___m_a_p_p_i_n_g}
+\Hypertarget{main_8cpp_struct_c_s_t___m_a_p_p_i_n_g}
+\subsubsection{struct C\+S\+T\+\_\+\+M\+A\+P\+P\+I\+NG}
+Structure initializing information for memory mapping. 
+
+Definition at line 31 of file main.\+cpp.
+
+\begin{DoxyFields}{Class Members}
+\mbox{\Hypertarget{main_8cpp_a00b4c49d7f865a80b2b92ef60049ae4c}\label{main_8cpp_a00b4c49d7f865a80b2b92ef60049ae4c}} 
+float&
+fTime&
+Time in seconds. \\
+\hline
+
+\mbox{\Hypertarget{main_8cpp_a15a94aba68ce13addacd8a8541fee0e5}\label{main_8cpp_a15a94aba68ce13addacd8a8541fee0e5}} 
+float&
+ospreyChannels\mbox{[}25\mbox{]}&
+Total channels for 5 ospreys. \\
+\hline
+
+\end{DoxyFields}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{main.\+cpp@{main.\+cpp}!main@{main}}
+\index{main@{main}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Main function \begin{DoxyAuthor}{Author}
+Guillermo Villanueva 
+\end{DoxyAuthor}
+
+
+Definition at line 55 of file main.\+cpp.
+
+
+\begin{DoxyCode}
+56 \{
+57     \textcolor{comment}{//===================================================== Intializing Past Date for Timing}
+58     time\_t sTimer;
+59     \textcolor{keyword}{struct }tm pastTime = \{ 0 \};
+60     \textcolor{keywordtype}{double} tSeconds;
+61     pastTime.tm\_year = 100;
+62     pastTime.tm\_mon = 0;
+63     pastTime.tm\_mday = 1;
+64     pastTime.tm\_hour = 0;
+65     pastTime.tm\_min = 0;
+66     pastTime.tm\_sec = 0;
+67 
+68     \textcolor{comment}{//===================================================== Introductory text}
+69     printf(\textcolor{stringliteral}{"FAM Channels Mapping Program \(\backslash\)n"});
+70 
+71     \textcolor{comment}{//===================================================== Get a handle for a file mapping}
+72     HANDLE fileHandle=CreateFileMapping(    INVALID\_HANDLE\_VALUE,
+73                                             NULL,                    \textcolor{comment}{// default security}
+74                                             PAGE\_READWRITE,          \textcolor{comment}{// read/write access}
+75                                             0,                       \textcolor{comment}{// maximum object size (high-order
+       DWORD)}
+76                                             8,                       \textcolor{comment}{// maximum object size (low-order
+       DWORD)}
+77                                             \textcolor{stringliteral}{"FAM\_CHANNELS"});        \textcolor{comment}{// name of mapping object)}
+78 
+79     \textcolor{comment}{//===================================================== Handle error}
+80     \textcolor{keywordflow}{if} (fileHandle==NULL)
+81     \{
+82         std::cout << \textcolor{stringliteral}{"ERROR: Could not create file mapping\(\backslash\)n"};
+83         \textcolor{keywordflow}{return} 0;
+84     \}
+85     
+86     \textcolor{comment}{//===================================================== Creating a new map to copy over.}
+87     \hyperlink{main_8cpp_d2/d03/struct_c_s_t___m_a_p_p_i_n_g}{CST\_MAPPING}* newMap = (\hyperlink{main_8cpp_d2/d03/struct_c_s_t___m_a_p_p_i_n_g}{CST\_MAPPING}*)MapViewOfFile(        fileHandle,            
+       \textcolor{comment}{// handle to map object}
+88                                              FILE\_MAP\_ALL\_ACCESS,   \textcolor{comment}{// read/write permission}
+89                                              0,
+90                                              0,
+91                                              \textcolor{keyword}{sizeof}(\hyperlink{main_8cpp_d2/d03/struct_c_s_t___m_a_p_p_i_n_g}{CST\_MAPPING}));
+92 
+93     \textcolor{comment}{//===================================================== Handle error}
+94     \textcolor{keywordflow}{if} (newMap==NULL)
+95     \{
+96         std::cout << \textcolor{stringliteral}{"ERROR: Could not map view of file\(\backslash\)n"};
+97         \textcolor{keywordflow}{return} 0;
+98     \}
+99 
+100     \textcolor{comment}{//===================================================== Copy over initial variables}
+101     \hyperlink{main_8cpp_d2/d03/struct_c_s_t___m_a_p_p_i_n_g}{CST\_MAPPING} intValues;
+102     intValues.\hyperlink{main_8cpp_a00b4c49d7f865a80b2b92ef60049ae4c}{fTime} = 0;
+103     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < 25; i++)
+104     \{
+105         intValues.\hyperlink{main_8cpp_a15a94aba68ce13addacd8a8541fee0e5}{ospreyChannels}[i] = 0;
+106     \}
+107 
+108     CopyMemory(newMap, &intValues, \textcolor{keyword}{sizeof}(\hyperlink{main_8cpp_d2/d03/struct_c_s_t___m_a_p_p_i_n_g}{CST\_MAPPING}));
+109 
+110 
+111     \textcolor{comment}{//===================================================== Create a windows waitable timer (minimizes CPU
+       usage)}
+112     HANDLE hTimer = CreateWaitableTimer(NULL,                   \textcolor{comment}{// Default security attributes}
+113                                         NULL,                  \textcolor{comment}{// Create auto-reset timer}
+114                                         TEXT(\textcolor{stringliteral}{"FAMTIMER"}));       \textcolor{comment}{// Name of waitable timer}
+115 
+116     \textcolor{comment}{//===================================================== Set timer parameters}
+117     \_\_int64         qwDueTime;
+118     LARGE\_INTEGER   liDueTime;
+119     qwDueTime = -0 * 10000000;
+120     liDueTime.LowPart  = (DWORD) ( qwDueTime & 0xFFFFFFFF );
+121     liDueTime.HighPart = (LONG)  ( qwDueTime >> 32 );
+122 
+123     BOOL bSuccess = SetWaitableTimer(
+124                 hTimer,           \textcolor{comment}{// Handle to the timer object}
+125                 &liDueTime,       \textcolor{comment}{// When timer will become signaled}
+126                 16,             \textcolor{comment}{// Periodic timer interval of 16 milli-seconds}
+127                 NULL,     \textcolor{comment}{// Completion routine}
+128                 NULL,          \textcolor{comment}{// Argument to the completion routine}
+129                 FALSE );          \textcolor{comment}{// Do not restore a suspended system}
+130 
+131     \textcolor{comment}{//===================================================== Assign close signal handler}
+132     signal(SIGBREAK, &\hyperlink{main_8cpp_a833a814abde34e116c360fbfd06a6193_a833a814abde34e116c360fbfd06a6193}{SigBreak\_Handler});
+133 
+134 
+135     \textcolor{comment}{//===================================================== Running Script}
+136     \textcolor{keywordtype}{int} acquisitionTime = 500;
+137     \textcolor{keywordtype}{int} ospreyCount = \hyperlink{main_8cpp_ab4018c51a1a2cb2d616245c86a1cd61c}{ospreyStack}.itemCount;
+138 
+139     \hyperlink{main_8cpp_a00c44aa4276ad8c70f0bd1be93002a66_a00c44aa4276ad8c70f0bd1be93002a66}{OspreyParseInput}(\textcolor{stringliteral}{"init.ini"});
+140     
+141     \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int} k = 0; k < ospreyCount; k++)
+142     \{
+143         \hyperlink{main_8cpp_ab9ec31522d06b675fd50036e752dcc84}{osprey}[k].OspreyInitialize(k, \hyperlink{main_8cpp_a5040252e575ddcc2bbfb251abe90e447}{calibrationMode});
+144     \}
+145 
+146     time(&sTimer);
+147     \textcolor{keywordflow}{while} (\hyperlink{main_8cpp_a0d2117f1e8077a8a7b7175edaa068d57}{loopCount})
+148     \{
+149         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} k = 0; k < ospreyCount; k++)
+150         \{
+151             \hyperlink{class_c_h_i___o_s_p_r_e_y}{CHI\_OSPREY}* currentOsprey = \hyperlink{main_8cpp_ab4018c51a1a2cb2d616245c86a1cd61c}{ospreyStack}.GetItem(k);
+152             \hyperlink{main_8cpp_ab9ec31522d06b675fd50036e752dcc84}{osprey}[k].OspreyPullSpectrums(k, std::stoi(currentOsprey->curOsprey->acquisitionSleepTime
+      ));
+153             
+154             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < 5; i++)
+155             \{
+156                 intValues.\hyperlink{main_8cpp_a15a94aba68ce13addacd8a8541fee0e5}{ospreyChannels}[5 * k + i] = \hyperlink{main_8cpp_ab9ec31522d06b675fd50036e752dcc84}{osprey}[k].channel[i+1];
+157             \}
+158         
+159         \}
+160 
+161         intValues.\hyperlink{main_8cpp_a00b4c49d7f865a80b2b92ef60049ae4c}{fTime} = difftime(sTimer, mktime(&pastTime));
+162         CopyMemory(newMap, &intValues, \textcolor{keyword}{sizeof}(\hyperlink{main_8cpp_d2/d03/struct_c_s_t___m_a_p_p_i_n_g}{CST\_MAPPING}));
+163 
+164         \textcolor{keywordflow}{if} (HIBYTE(GetAsyncKeyState(VK\_RETURN))) 
+165         \{
+166             \hyperlink{main_8cpp_a0d2117f1e8077a8a7b7175edaa068d57}{loopCount} = \textcolor{keyword}{false};
+167         \}
+168     \}
+169 
+170     \textcolor{comment}{//===================================================== Close the file handle}
+171     UnmapViewOfFile(newMap);
+172     CloseHandle(fileHandle);
+173 
+174     std::cout<<\textcolor{stringliteral}{"Program finished!\(\backslash\)n"};
+175 
+176     \textcolor{keywordflow}{return} 0;
+177 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{main_8cpp_abecada661ceb15d45a4267ebee66c637_abecada661ceb15d45a4267ebee66c637}\label{main_8cpp_abecada661ceb15d45a4267ebee66c637_abecada661ceb15d45a4267ebee66c637}} 
+\index{main.\+cpp@{main.\+cpp}!Osprey\+Extract\+String@{Osprey\+Extract\+String}}
+\index{Osprey\+Extract\+String@{Osprey\+Extract\+String}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Osprey\+Extract\+String()}{OspreyExtractString()}}
+{\footnotesize\ttfamily std\+::string Osprey\+Extract\+String (\begin{DoxyParamCaption}\item[{std\+::string}]{str,  }\item[{char}]{beg,  }\item[{char}]{end }\end{DoxyParamCaption})}
+
+
+
+Utility Function used for extracting a substring. 
+
+The function extracts a substring from a given string, that is between two delimiters.
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & The main string. \\
+\hline
+{\em beg} & The beginning delimiter. \\
+\hline
+{\em end} & The ending delimiter.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Author}
+Guillermo Vilanueva 
+\end{DoxyAuthor}
+
+
+Definition at line 193 of file main.\+cpp.
+
+
+\begin{DoxyCode}
+194 \{
+195     std::size\_t begPos;
+196     \textcolor{keywordflow}{if} ((begPos = str.find(beg)) != std::string::npos)
+197     \{
+198         std::size\_t endPos;
+199         \textcolor{keywordflow}{if} ((endPos = str.find(end, begPos)) != std::string::npos && endPos != begPos + 1)
+200             \textcolor{keywordflow}{return} str.substr(begPos + 1, endPos - begPos - 1);
+201     \}
+202 
+203     \textcolor{keywordflow}{return} std::string();
+204 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{main_8cpp_a00c44aa4276ad8c70f0bd1be93002a66_a00c44aa4276ad8c70f0bd1be93002a66}\label{main_8cpp_a00c44aa4276ad8c70f0bd1be93002a66_a00c44aa4276ad8c70f0bd1be93002a66}} 
+\index{main.\+cpp@{main.\+cpp}!Osprey\+Parse\+Input@{Osprey\+Parse\+Input}}
+\index{Osprey\+Parse\+Input@{Osprey\+Parse\+Input}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Osprey\+Parse\+Input()}{OspreyParseInput()}}
+{\footnotesize\ttfamily void Osprey\+Parse\+Input (\begin{DoxyParamCaption}\item[{std\+::string}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Utility Function used for parsing the input file. 
+
+The function extracts the information provided by the input file, and stores the found information into a structure.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & The file to be parsed.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Author}
+Guillermo Vilanueva 
+\end{DoxyAuthor}
+
+
+Definition at line 218 of file main.\+cpp.
+
+
+\begin{DoxyCode}
+219 \{
+220     \textcolor{comment}{//==================================== Defining pointer array}
+221     \hyperlink{chi__osprey_8h_d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o}{CST\_OSPREY\_INFO}* newOsprey;
+222     std::string parserStruct[14];
+223 
+224 
+225     \textcolor{comment}{//==================================== Declaring variables}
+226     \textcolor{keywordtype}{int} indexCount = 0;
+227     \textcolor{keywordtype}{int} ospreyCount = 0;
+228     std::string currentLine;
+229 
+230     \textcolor{comment}{//==================================== Declaring filestream & opening file}
+231     std::ifstream inputFile;
+232     inputFile.open(fileName);
+233 
+234     \textcolor{comment}{//==================================== Checking to see if input failed}
+235     \textcolor{keywordflow}{if} (!inputFile.is\_open())
+236     \{
+237         printf(\textcolor{stringliteral}{"File: %s failed to load. \(\backslash\)n"}, fileName.c\_str());
+238         \textcolor{keywordflow}{return};
+239     \}
+240     \textcolor{keywordflow}{else}
+241     \{
+242         printf(\textcolor{stringliteral}{"File: %s succeeded to load. \(\backslash\)n"}, fileName.c\_str());
+243     \}
+244 
+245     \textcolor{comment}{//==================================== Searchs through loaded file.}
+246     \textcolor{keywordflow}{while} (std::getline(inputFile, currentLine))
+247     \{
+248         \textcolor{comment}{//==================================== Declaring variables}
+249         \textcolor{keywordtype}{size\_t} decCount;
+250         \textcolor{keywordtype}{size\_t} comCount;        
+251         \textcolor{keywordtype}{size\_t} tCount;          
+252 
+253         std::string mainString;
+254         std::string subStringOne;
+255         std::string subStringTwo;
+256         std::string subStringThree;
+257 
+258         \textcolor{comment}{//==================================== Parsing lines}
+259         mainString = \hyperlink{main_8cpp_abecada661ceb15d45a4267ebee66c637_abecada661ceb15d45a4267ebee66c637}{OspreyExtractString}(currentLine, \textcolor{charliteral}{'('}, \textcolor{charliteral}{')'});
+260         subStringOne = mainString.substr(0, mainString.find(\textcolor{charliteral}{','}));
+261         subStringTwo = mainString.substr(mainString.find(\textcolor{charliteral}{','}) + 1);
+262         subStringThree = mainString.substr(0, mainString.find(\textcolor{charliteral}{'t'}));
+263 
+264         \textcolor{comment}{//==================================== Counting Occurences}
+265         decCount = std::count(mainString.begin(), mainString.end(), \textcolor{charliteral}{'.'});
+266         comCount = std::count(mainString.begin(), mainString.end(), \textcolor{charliteral}{','});
+267         tCount = std::count(mainString.begin(), mainString.end(), \textcolor{charliteral}{'t'});
+268 
+269         \textcolor{comment}{//==================================== Checking for delimiter}
+270         \textcolor{keywordflow}{if} (currentLine.find(\textcolor{charliteral}{'\{'}) != std::string::npos)
+271         \{
+272             newOsprey = \textcolor{keyword}{new} \hyperlink{chi__osprey_8h_d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o}{CST\_OSPREY\_INFO};
+273             ospreyCount = ospreyCount + 1;
+274             parserStruct[indexCount] = std::to\_string(ospreyCount);
+275             indexCount = indexCount + 1;
+276         \}
+277 
+278         \textcolor{comment}{//==================================== Checking for delimiter}
+279         \textcolor{keywordflow}{if} (decCount >= 3)
+280         \{
+281             parserStruct[indexCount] = mainString;
+282             indexCount = indexCount + 1;
+283         \}
+284 
+285         \textcolor{comment}{//==================================== Checking for delimiter}
+286         \textcolor{keywordflow}{if} (comCount >= 1)
+287         \{
+288             parserStruct[indexCount] = subStringOne;
+289             indexCount = indexCount + 1;
+290             parserStruct[indexCount] = subStringTwo;
+291             indexCount = indexCount + 1;
+292         \}
+293 
+294         \textcolor{comment}{//==================================== Checking for delimiter}
+295         \textcolor{keywordflow}{if} (tCount >= 1)
+296         \{
+297             parserStruct[indexCount] = subStringThree;
+298             indexCount = indexCount + 1;
+299         \}
+300 
+301 
+302 
+303         \textcolor{comment}{//==================================== Checking for delimiter & pushing to stack}
+304         \textcolor{keywordflow}{if} (currentLine.find(\textcolor{charliteral}{'\}'}) != std::string::npos)
+305         \{
+306             newOsprey->ospreyID = parserStruct[0];
+307             newOsprey->ipAddress = parserStruct[1];
+308             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} k = 0; k < 10; k++)
+309             \{
+310                 newOsprey->channelBounds[k] = parserStruct[k+2];
+311             \}
+312             newOsprey->calibrationSleepTime = parserStruct[12];
+313             newOsprey->acquisitionSleepTime = parserStruct[13];
+314 
+315             \hyperlink{class_c_h_i___o_s_p_r_e_y}{CHI\_OSPREY}* newOspreyObject = \textcolor{keyword}{new} \hyperlink{class_c_h_i___o_s_p_r_e_y}{CHI\_OSPREY};
+316             newOspreyObject->curOsprey = newOsprey;
+317             \hyperlink{main_8cpp_ab4018c51a1a2cb2d616245c86a1cd61c}{ospreyStack}.PushItem(newOspreyObject);
+318 
+319 
+320             indexCount = 0;
+321         \}
+322     \}
+323 
+324     \textcolor{comment}{//==================================== Closing file}
+325     inputFile.close();
+326     \textcolor{keywordflow}{return};
+327 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{main_8cpp_a833a814abde34e116c360fbfd06a6193_a833a814abde34e116c360fbfd06a6193}\label{main_8cpp_a833a814abde34e116c360fbfd06a6193_a833a814abde34e116c360fbfd06a6193}} 
+\index{main.\+cpp@{main.\+cpp}!Sig\+Break\+\_\+\+Handler@{Sig\+Break\+\_\+\+Handler}}
+\index{Sig\+Break\+\_\+\+Handler@{Sig\+Break\+\_\+\+Handler}!main.\+cpp@{main.\+cpp}}
+\subsubsection{\texorpdfstring{Sig\+Break\+\_\+\+Handler()}{SigBreak\_Handler()}}
+{\footnotesize\ttfamily void Sig\+Break\+\_\+\+Handler (\begin{DoxyParamCaption}\item[{int}]{n\+\_\+signal }\end{DoxyParamCaption})}
+
+
+
+Utility Function used for exiting the program. 
+
+A signal is passed which calls for the program to be closed.
+
+
+\begin{DoxyParams}{Parameters}
+{\em n\+\_\+signal} & The signal to be passed.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Author}
+Guillermo Vilanueva 
+\end{DoxyAuthor}
+
+
+Definition at line 340 of file main.\+cpp.
+
+
+\begin{DoxyCode}
+341 \{
+342     \hyperlink{main_8cpp_a73f7a2c9f70067d4f45ddcb6a7dba5f0}{closeProgram} = \textcolor{keyword}{true};
+343 \}
+\end{DoxyCode}

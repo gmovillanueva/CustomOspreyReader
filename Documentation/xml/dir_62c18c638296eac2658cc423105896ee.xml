@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_62c18c638296eac2658cc423105896ee" kind="dir">
+    <compoundname>Project1/CHI_OSPREY</compoundname>
+    <innerfile refid="da/d18/chi__osprey_8h">chi_osprey.h</innerfile>
+    <innerfile refid="d1/df4/chi__osprey__00__constrdestr_8cpp">chi_osprey_00_constrdestr.cpp</innerfile>
+    <innerfile refid="d5/dbf/chi__osprey__01__functions_8cpp">chi_osprey_01_functions.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/CHI_OSPREY/"/>
+  </compounddef>
+</doxygen>

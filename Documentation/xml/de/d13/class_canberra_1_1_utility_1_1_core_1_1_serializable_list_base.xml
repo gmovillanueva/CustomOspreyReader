@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Utility::Core::SerializableListBase</compoundname>
+    <basecompoundref refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base" prot="public" virt="non-virtual">Canberra::Utility::Core::ListBase&lt; T, NumType &gt;</basecompoundref>
+    <includes refid="da/d23/list_8h" local="no">list.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+      <param>
+        <type>class</type>
+        <declname>NumType</declname>
+        <defname>NumType</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base_a98ebee1f5c5ff3357e2602c0201c95f0_1a98ebee1f5c5ff3357e2602c0201c95f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::SerializableListBase&lt; T, NumType &gt;::GetDataSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetDataSize</name>
+        <briefdescription>
+<para>This method will the number of bytes the data contained within uses /summary&gt; returns&gt;value</para>        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will serialize this instance into the byte stream /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the write in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes serialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/list.h" line="127" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/list.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base_a4a6021089fa90d9534541e6093972970_1a4a6021089fa90d9534541e6093972970" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::SerializableListBase&lt; T, NumType &gt;::SerializeData</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;BS, ULONG Offset=0)</argsstring>
+        <name>SerializeData</name>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>BS</declname>
+        </param>
+        <param>
+          <type>ULONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will deserialize this contents of the byte stream into this instance /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the write in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes serialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/list.h" line="136" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/list.h" bodystart="136" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base_1ace559ab00eb5e0e40a5716bb5b09af39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::SerializableListBase&lt; T, NumType &gt;::DeserializeData</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;BS, ULONG Offset=0)</argsstring>
+        <name>DeserializeData</name>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>BS</declname>
+        </param>
+        <param>
+          <type>ULONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/list.h" line="160" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/list.h" bodystart="160" bodyend="175"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>summary&gt; This provides basic list support with the ability to serialize the list contents /summary&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="412">
+        <label>Canberra::Utility::Core::SerializableListBase&lt; T, NumType &gt;</label>
+        <link refid="de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base"/>
+        <childnode refid="413" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="413">
+        <label>Canberra::Utility::Core::ListBase&lt; T, NumType &gt;</label>
+        <link refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="417">
+        <label>T</label>
+      </node>
+      <node id="414">
+        <label>Canberra::Utility::Core::SerializableListBase&lt; T, NumType &gt;</label>
+        <link refid="de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base"/>
+        <childnode refid="415" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="416">
+        <label>NumType</label>
+      </node>
+      <node id="415">
+        <label>Canberra::Utility::Core::ListBase&lt; T, NumType &gt;</label>
+        <link refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base"/>
+        <childnode refid="416" relation="usage">
+          <edgelabel>_Num</edgelabel>
+        </childnode>
+        <childnode refid="417" relation="usage">
+          <edgelabel>_List</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/list.h" line="120" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/list.h" bodystart="120" bodyend="176"/>
+    <listofallmembers>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_1a07367730f182c6b9c02aa566b76b152f" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableListBase</scope><name>_List</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_1a35fd987bd3f0ae3fb917b838c1a2ee85" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableListBase</scope><name>_Num</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_aaacf0eb537ee5765a6929dc4dd42c04b_1aaacf0eb537ee5765a6929dc4dd42c04b" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableListBase</scope><name>Add</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_ab8431d144c5e017b9e06502549f26833_1ab8431d144c5e017b9e06502549f26833" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableListBase</scope><name>Clear</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_1ad8b3c4d1f6cbba04f6495d5d13a6f0b5" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableListBase</scope><name>Copy</name></member>
+      <member refid="de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base_1ace559ab00eb5e0e40a5716bb5b09af39" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableListBase</scope><name>DeserializeData</name></member>
+      <member refid="de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base_a98ebee1f5c5ff3357e2602c0201c95f0_1a98ebee1f5c5ff3357e2602c0201c95f0" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableListBase</scope><name>GetDataSize</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_a2349c775780c9b7441411c96318a6639_1a2349c775780c9b7441411c96318a6639" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableListBase</scope><name>GetItem</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_1a0385763ebdcfda55e401ba477fb78ed0" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableListBase</scope><name>GetNumberOfItems</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_1aba1876d4b041d1d3efa90d404bb6ba5f" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableListBase</scope><name>ListBase</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_1a7e4d30726d87a96b7d9be1236f661ba3" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableListBase</scope><name>ListBase</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_a56a9f21b1e389b0b057ed3a200130b91_1a56a9f21b1e389b0b057ed3a200130b91" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableListBase</scope><name>operator=</name></member>
+      <member refid="de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base_a4a6021089fa90d9534541e6093972970_1a4a6021089fa90d9534541e6093972970" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SerializableListBase</scope><name>SerializeData</name></member>
+      <member refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base_a280204e71e12060a321cc5e12753e65d_1a280204e71e12060a321cc5e12753e65d" prot="public" virt="virtual"><scope>Canberra::Utility::Core::SerializableListBase</scope><name>~ListBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

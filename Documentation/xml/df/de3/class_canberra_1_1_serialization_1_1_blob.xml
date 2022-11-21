@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="df/de3/class_canberra_1_1_serialization_1_1_blob" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Serialization::Blob</compoundname>
+    <basecompoundref refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object" prot="public" virt="non-virtual">Canberra::Serialization::SerializableObject</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="df/de3/class_canberra_1_1_serialization_1_1_blob_1a084a56335012e21c786ea32ee369576c" prot="protected" static="no" mutable="no">
+        <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref></type>
+        <definition>Canberra::Utility::Core::ByteStream Canberra::Serialization::Blob::_Value</definition>
+        <argsstring></argsstring>
+        <name>_Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="386" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="386" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/de3/class_canberra_1_1_serialization_1_1_blob_1a8629723a3e6dbee9a27b55d261fa650a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Serialization::Blob::Blob</definition>
+        <argsstring>()</argsstring>
+        <name>Blob</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="379" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="379" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="df/de3/class_canberra_1_1_serialization_1_1_blob_1a92c3a616a81c6a24f522df1a2c601ca1" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Serialization::Blob::Blob</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;v)</argsstring>
+        <name>Blob</name>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="380" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="380" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="df/de3/class_canberra_1_1_serialization_1_1_blob_1a39b252f70e7fb591e023a82b38883d2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual Canberra::Serialization::Blob::~Blob</definition>
+        <argsstring>()</argsstring>
+        <name>~Blob</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="381" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="381" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="df/de3/class_canberra_1_1_serialization_1_1_blob_1a2836b4bead7c4583fc8397bfada74592" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Serialization::Blob::PutValue</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream v)</argsstring>
+        <name>PutValue</name>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="382" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="382" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="df/de3/class_canberra_1_1_serialization_1_1_blob_1a01bee00d814dd21302c888b36685cfe5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Serialization::Blob::CopyTo</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;v)</argsstring>
+        <name>CopyTo</name>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="383" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="383" bodyend="383"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="df/de3/class_canberra_1_1_serialization_1_1_blob_af97e0642f5b289dc263650ce6dba478f_1af97e0642f5b289dc263650ce6dba478f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Serialization::Blob::GetDataSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetDataSize</name>
+        <reimplements refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1aeea4076233d10b8d485e474e47455e36">GetDataSize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will serialize string into the byte stream /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;MD&quot;&gt;The metadata</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the write in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes serialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="389" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="389" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="df/de3/class_canberra_1_1_serialization_1_1_blob_a3ff71c78800fdabcddcff34642efbe1f_1a3ff71c78800fdabcddcff34642efbe1f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Serialization::Blob::SerializeData</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const MetaData &amp;MD, const LONG Offset=0)</argsstring>
+        <name>SerializeData</name>
+        <reimplements refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1ad53b676c25c6fdf48aa861b36709eba4">SerializeData</reimplements>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+          <declname>MD</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will deserialize info from the byte stream into this instance string /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;MD&quot;&gt;The metadata</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the read in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes deserialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="399" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="399" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="df/de3/class_canberra_1_1_serialization_1_1_blob_1aa7d35720c9c5845458d37b8298e985f4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Serialization::Blob::DeserializeData</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const MetaData &amp;MD, const LONG Offset=0)</argsstring>
+        <name>DeserializeData</name>
+        <reimplements refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1aea035ce63d01acfb02185016fb648ece">DeserializeData</reimplements>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+          <declname>MD</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="416" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="416" bodyend="427"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="8">
+        <label>Canberra::Serialization::Blob</label>
+        <link refid="df/de3/class_canberra_1_1_serialization_1_1_blob"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="9">
+        <label>Canberra::Serialization::SerializableObject</label>
+        <link refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>Canberra::Serialization::Blob</label>
+        <link refid="df/de3/class_canberra_1_1_serialization_1_1_blob"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>_Value</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="14">
+        <label>Canberra::Utility::Core::ByteStream</label>
+        <link refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream"/>
+      </node>
+      <node id="12">
+        <label>Canberra::Serialization::SerializableObject</label>
+        <link refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="376" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="376" bodyend="428"/>
+    <listofallmembers>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a62efa0d30e9df187718f2832622ac9fc" prot="protected" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>_Type</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a4821112683d68c98c1522d75f186fb21" prot="protected" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>_UseMetaData</name></member>
+      <member refid="df/de3/class_canberra_1_1_serialization_1_1_blob_1a084a56335012e21c786ea32ee369576c" prot="protected" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>_Value</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a42d74858b0cea8269da2b35ccd5cb1ff" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>Array</name></member>
+      <member refid="df/de3/class_canberra_1_1_serialization_1_1_blob_1a8629723a3e6dbee9a27b55d261fa650a" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>Blob</name></member>
+      <member refid="df/de3/class_canberra_1_1_serialization_1_1_blob_1a92c3a616a81c6a24f522df1a2c601ca1" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>Blob</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a13dfc3b38fa4101b58ed1e111954a696" prot="public" virt="non-virtual" ambiguityscope="Canberra::Serialization::SerializableObject::"><scope>Canberra::Serialization::Blob</scope><name>Blob</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a3810fac464221c267d15ac677b734ec9" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>Bool</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aa3a10ebe6b68339ed5c951d1cd63323b" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>Byte</name></member>
+      <member refid="df/de3/class_canberra_1_1_serialization_1_1_blob_1a01bee00d814dd21302c888b36685cfe5" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>CopyTo</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ab559832d01dfcf5ec9d13560b03c05fe" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>CustomTypeOffset</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aea4d059479031ecb9556cb06274f398e" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>DateTime</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a430c3ea76c8389e480d48a97ff2df2d0" prot="public" virt="virtual"><scope>Canberra::Serialization::Blob</scope><name>Deserialize</name></member>
+      <member refid="df/de3/class_canberra_1_1_serialization_1_1_blob_1aa7d35720c9c5845458d37b8298e985f4" prot="protected" virt="virtual"><scope>Canberra::Serialization::Blob</scope><name>DeserializeData</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ab41926d1cfcca9c142c69707c2f202c0" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>Double</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a92fcae28fd44acf6ee83b77f8813df55" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>Float</name></member>
+      <member refid="df/de3/class_canberra_1_1_serialization_1_1_blob_af97e0642f5b289dc263650ce6dba478f_1af97e0642f5b289dc263650ce6dba478f" prot="protected" virt="virtual"><scope>Canberra::Serialization::Blob</scope><name>GetDataSize</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_a1af5a56d77422d2d6f56d1fb8bc9f376_1a1af5a56d77422d2d6f56d1fb8bc9f376" prot="public" virt="virtual"><scope>Canberra::Serialization::Blob</scope><name>GetSize</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1ab619feca491ffd7547c45f0ec6dcfe0b" prot="public" virt="virtual"><scope>Canberra::Serialization::Blob</scope><name>GetType</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1aba841e892df8481bd3fdca757e6f10d4" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>GetUseMetaData</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430af31a37f97d6cbec3e2439cf0b9f0efee" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>Int64</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aff35725740fbbbbb5495460560c13d54" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>Long</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a6c938a0fc1bf14041406d0a6df5da2b3" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>Null</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a3fd4cc1bf197d9367f49b76c71582058" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>PutUseMetaData</name></member>
+      <member refid="df/de3/class_canberra_1_1_serialization_1_1_blob_1a2836b4bead7c4583fc8397bfada74592" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>PutValue</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1a38579cdd4f2e813e7b0cca54e1b09529" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>Serializable</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a0ef0ea4e4e766e15086f54ebb05744cd" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>SerializableObject</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_a33e593c04b50f36e8dad06b3b7471a9c_1a33e593c04b50f36e8dad06b3b7471a9c" prot="public" virt="virtual"><scope>Canberra::Serialization::Blob</scope><name>Serialize</name></member>
+      <member refid="df/de3/class_canberra_1_1_serialization_1_1_blob_a3ff71c78800fdabcddcff34642efbe1f_1a3ff71c78800fdabcddcff34642efbe1f" prot="protected" virt="virtual"><scope>Canberra::Serialization::Blob</scope><name>SerializeData</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a583b6f9cb2b9d3e17b4886d87bdedc58" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>Short</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a38fdc153d55d83bc2e228ae8a3ed7245" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>String</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a163e11a5f23b834ce8544f494084045e" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>TypeCode</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>TypeCodeTag</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430af81c78c9fb7d47514b6d549e17acbfd1" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>Ubyte</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ad366730d966138edb3d1ab0dd5da08e6" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>Uint64</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a2755dd9dd281c902476f2295855ee571" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>Ulong</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430abfc7ae0d0aa2c1d6386055cdcbdb0d76" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>Unknown</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a92cba09c4c79914db36ac8c31aea8d63" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Blob</scope><name>Ushort</name></member>
+      <member refid="df/de3/class_canberra_1_1_serialization_1_1_blob_1a39b252f70e7fb591e023a82b38883d2e" prot="public" virt="virtual"><scope>Canberra::Serialization::Blob</scope><name>~Blob</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1ac760495914b0d7047d1dcbd3fed642d4" prot="public" virt="virtual"><scope>Canberra::Serialization::Blob</scope><name>~Serializable</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a72f15771099cf139f28e839e480d0721" prot="public" virt="virtual"><scope>Canberra::Serialization::Blob</scope><name>~SerializableObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

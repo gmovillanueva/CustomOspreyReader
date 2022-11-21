@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o" kind="struct" language="C++" prot="public">
+    <compoundname>CST_OSPREY_INFO</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o_1a4aeec24f34c07993a2f44ac2f59bd163" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CST_OSPREY_INFO::ospreyID</definition>
+        <argsstring></argsstring>
+        <name>ospreyID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="21" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o_1ac22eefe0f719df5a7980dc27559cf7c2" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CST_OSPREY_INFO::ipAddress</definition>
+        <argsstring></argsstring>
+        <name>ipAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="24" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o_1a15cf8fd34c53039735f2553201d111cd" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CST_OSPREY_INFO::channelBounds[10]</definition>
+        <argsstring>[10]</argsstring>
+        <name>channelBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="27" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o_1a84b57c81785927b3f664ca366c674aa4" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CST_OSPREY_INFO::calibrationSleepTime</definition>
+        <argsstring></argsstring>
+        <name>calibrationSleepTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="29" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o_1a3668cf64637a9d61481f740f39b9e7d8" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string CST_OSPREY_INFO::acquisitionSleepTime</definition>
+        <argsstring></argsstring>
+        <name>acquisitionSleepTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_OSPREY/chi_osprey.h" line="30" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/CHI_OSPREY/chi_osprey.h" line="19" column="1" bodyfile="Project1/CHI_OSPREY/chi_osprey.h" bodystart="18" bodyend="31"/>
+    <listofallmembers>
+      <member refid="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o_1a3668cf64637a9d61481f740f39b9e7d8" prot="public" virt="non-virtual"><scope>CST_OSPREY_INFO</scope><name>acquisitionSleepTime</name></member>
+      <member refid="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o_1a84b57c81785927b3f664ca366c674aa4" prot="public" virt="non-virtual"><scope>CST_OSPREY_INFO</scope><name>calibrationSleepTime</name></member>
+      <member refid="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o_1a15cf8fd34c53039735f2553201d111cd" prot="public" virt="non-virtual"><scope>CST_OSPREY_INFO</scope><name>channelBounds</name></member>
+      <member refid="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o_1ac22eefe0f719df5a7980dc27559cf7c2" prot="public" virt="non-virtual"><scope>CST_OSPREY_INFO</scope><name>ipAddress</name></member>
+      <member refid="d2/d7a/struct_c_s_t___o_s_p_r_e_y___i_n_f_o_1a4aeec24f34c07993a2f44ac2f59bd163" prot="public" virt="non-virtual"><scope>CST_OSPREY_INFO</scope><name>ospreyID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

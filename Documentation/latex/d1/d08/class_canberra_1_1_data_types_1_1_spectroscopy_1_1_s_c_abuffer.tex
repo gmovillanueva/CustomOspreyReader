@@ -1,0 +1,266 @@
+\hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer}{}\section{Canberra\+:\+:Data\+Types\+:\+:Spectroscopy\+:\+:S\+C\+Abuffer Class Reference}
+\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer}\index{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}}
+
+
+Inheritance diagram for Canberra\+:\+:Data\+Types\+:\+:Spectroscopy\+:\+:S\+C\+Abuffer\+:
+% FIG 0
+
+
+Collaboration diagram for Canberra\+:\+:Data\+Types\+:\+:Spectroscopy\+:\+:S\+C\+Abuffer\+:
+% FIG 1
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry}{Buffer\+Entry}
+\begin{DoxyCompactList}\small\item\em This class encapsulates all S\+CA data associated with a specific instance in time Basically, there is one entry per S\+CA preset. When all S\+CA\textquotesingle{}s reach the S\+CA preset time an entry is created in the buffer /summary$>$ \end{DoxyCompactList}\item 
+struct \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_df/d28/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_header_tag}{Buffer\+Header\+Tag}
+\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_af861efe83ce424422624f75aaf487ecb}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_af861efe83ce424422624f75aaf487ecb}} 
+typedef struct \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_df/d28/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_header_tag}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer\+::\+Buffer\+Header\+Tag} {\bfseries Buffer\+Header}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a276c7d5483952f209b11e4d9d3a0831b_a276c7d5483952f209b11e4d9d3a0831b}{S\+C\+Abuffer} (const \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer}{S\+C\+Abuffer} \&v)
+\item 
+\hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_aec28b22d9a36de0cc737938a03695ffe_aec28b22d9a36de0cc737938a03695ffe}{S\+C\+Abuffer} ()
+\item 
+virtual \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a68e955a3f5b7027ed9d227ba2b05e65c_a68e955a3f5b7027ed9d227ba2b05e65c}{$\sim$\+S\+C\+Abuffer} ()
+\item 
+\hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer}{S\+C\+Abuffer} \& \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_aeefc09dfec140406091d7ba28b2d40a2_aeefc09dfec140406091d7ba28b2d40a2}{operator=} (const \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer}{S\+C\+Abuffer} \&Rhs)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a67d95b2a665bfdcc47311b748f5d7f08_a67d95b2a665bfdcc47311b748f5d7f08}{Get\+Data\+Size} ()
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a69ecf3e8a638642932466bd4f1dae471_a69ecf3e8a638642932466bd4f1dae471}{Serialize\+Data} (\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&Str, const \hyperlink{class_canberra_1_1_serialization_1_1_meta_data}{Canberra\+::\+Serialization\+::\+Meta\+Data} \&MD, const L\+O\+NG Offset=0)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a6e3c3bcb8ef561b6d67b1ba32f5d4840_a6e3c3bcb8ef561b6d67b1ba32f5d4840}{Deserialize\+Data} (\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&Str, const \hyperlink{class_canberra_1_1_serialization_1_1_meta_data}{Canberra\+::\+Serialization\+::\+Meta\+Data} \&MD, const L\+O\+NG Offset=0)
+\item 
+void \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a8d600a8c0884b568ba524a79e4773b0d_a8d600a8c0884b568ba524a79e4773b0d}{Clear} ()
+\item 
+\hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry}{Buffer\+Entry} \& \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_aa8225ba073de515b336660ef30b9311e_aa8225ba073de515b336660ef30b9311e}{Get\+Entry} (U\+L\+O\+NG i)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a7200d186a3a1f3ba7aaad0b6ec148703}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a7200d186a3a1f3ba7aaad0b6ec148703}} 
+\hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_df/d28/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_header_tag}{Buffer\+Header} \& {\bfseries Get\+Header} ()
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_aea86f6b340cadac297982a830c08e7f4_aea86f6b340cadac297982a830c08e7f4}{Get\+Number\+Of\+Entries} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a597f4d35ac60febc4fa6b67677c99b41_a597f4d35ac60febc4fa6b67677c99b41}{Copy} (const \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer}{S\+C\+Abuffer} \&v)
+\item 
+void \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a1b59d9ec4df489ec03ef14e6e7434d62_a1b59d9ec4df489ec03ef14e6e7434d62}{Handle\+Endianness} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a43b5b6db79e441ff05f885686ea35dde}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a43b5b6db79e441ff05f885686ea35dde}} 
+\hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_df/d28/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_header_tag}{Buffer\+Header} {\bfseries \+\_\+\+Header}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a93062afb05db7e01c36c6ba81f83dbdb}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a93062afb05db7e01c36c6ba81f83dbdb}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list}{Canberra\+::\+Utility\+::\+Core\+::\+List}$<$ \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry}{Buffer\+Entry} $>$ {\bfseries \+\_\+\+Data}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 62 of file Sca\+Data.\+h.
+
+
+
+\subsection{Class Documentation}
+\index{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer\+::\+Buffer\+Header\+Tag@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer\+::\+Buffer\+Header\+Tag}}\label{struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_header_tag}
+\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_header_tag}
+\subsubsection{struct Canberra\+:\+:Data\+Types\+:\+:Spectroscopy\+:\+:S\+C\+Abuffer\+:\+:Buffer\+Header\+Tag}
+
+
+Definition at line 124 of file Sca\+Data.\+h.
+
+\begin{DoxyFields}{Class Members}
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a8236701b3680e2c999f57a4da26c9b3e}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a8236701b3680e2c999f57a4da26c9b3e}} 
+ULONG&
+BytesPerSample&
+\\
+\hline
+
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_acadde73229a883e51b0898d69f87caa8}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_acadde73229a883e51b0898d69f87caa8}} 
+ULONG&
+Flags&
+\\
+\hline
+
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a12ca1d9f1b9bb61e26379e8c4c9403f1}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a12ca1d9f1b9bb61e26379e8c4c9403f1}} 
+LONGLONG&
+StartTime&
+\\
+\hline
+
+\end{DoxyFields}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a276c7d5483952f209b11e4d9d3a0831b_a276c7d5483952f209b11e4d9d3a0831b}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a276c7d5483952f209b11e4d9d3a0831b_a276c7d5483952f209b11e4d9d3a0831b}} 
+\index{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}!S\+C\+Abuffer@{S\+C\+Abuffer}}
+\index{S\+C\+Abuffer@{S\+C\+Abuffer}!Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}}
+\subsubsection{\texorpdfstring{S\+C\+Abuffer()}{SCAbuffer()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer\+::\+S\+C\+Abuffer (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer}{S\+C\+Abuffer} \&}]{v }\end{DoxyParamCaption})}
+
+summary$>$ This method will create an instance of this class with an empty buffer /summary$>$ 
+
+Definition at line 245 of file Sca\+Data.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_aec28b22d9a36de0cc737938a03695ffe_aec28b22d9a36de0cc737938a03695ffe}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_aec28b22d9a36de0cc737938a03695ffe_aec28b22d9a36de0cc737938a03695ffe}} 
+\index{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}!S\+C\+Abuffer@{S\+C\+Abuffer}}
+\index{S\+C\+Abuffer@{S\+C\+Abuffer}!Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}}
+\subsubsection{\texorpdfstring{S\+C\+Abuffer()}{SCAbuffer()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer\+::\+S\+C\+Abuffer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+summary$>$ This method will create an instance of this class with no S\+CA definitions /summary$>$ 
+
+Definition at line 250 of file Sca\+Data.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a68e955a3f5b7027ed9d227ba2b05e65c_a68e955a3f5b7027ed9d227ba2b05e65c}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a68e955a3f5b7027ed9d227ba2b05e65c_a68e955a3f5b7027ed9d227ba2b05e65c}} 
+\index{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}!````~S\+C\+Abuffer@{$\sim$\+S\+C\+Abuffer}}
+\index{````~S\+C\+Abuffer@{$\sim$\+S\+C\+Abuffer}!Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}}
+\subsubsection{\texorpdfstring{$\sim$\+S\+C\+Abuffer()}{~SCAbuffer()}}
+{\footnotesize\ttfamily Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer\+::$\sim$\+S\+C\+Abuffer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will perform a deep copy /summary$>$ param name=\char`\"{}v\char`\"{}$>$The src
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$Error code
+
+Definition at line 256 of file Sca\+Data.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a8d600a8c0884b568ba524a79e4773b0d_a8d600a8c0884b568ba524a79e4773b0d}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a8d600a8c0884b568ba524a79e4773b0d_a8d600a8c0884b568ba524a79e4773b0d}} 
+\index{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}!Clear@{Clear}}
+\index{Clear@{Clear}!Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}}
+\subsubsection{\texorpdfstring{Clear()}{Clear()}}
+{\footnotesize\ttfamily void Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer\+::\+Clear (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+summary$>$ This method will get a reference to the entry /summary$>$ param name=\char`\"{}v\char`\"{}$>$The index
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$The Win32 error code
+
+returns$>$The value
+
+Definition at line 339 of file Sca\+Data.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a597f4d35ac60febc4fa6b67677c99b41_a597f4d35ac60febc4fa6b67677c99b41}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a597f4d35ac60febc4fa6b67677c99b41_a597f4d35ac60febc4fa6b67677c99b41}} 
+\index{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}!Copy@{Copy}}
+\index{Copy@{Copy}!Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}}
+\subsubsection{\texorpdfstring{Copy()}{Copy()}}
+{\footnotesize\ttfamily void Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer\+::\+Copy (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer}{S\+C\+Abuffer} \&}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+summary$>$ This method will create an instance of this class based on the supplied instance. A deep copy of the argument is performed /summary$>$ param name=\char`\"{}v\char`\"{}$>$The src
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$Error code
+
+Definition at line 235 of file Sca\+Data.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a6e3c3bcb8ef561b6d67b1ba32f5d4840_a6e3c3bcb8ef561b6d67b1ba32f5d4840}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a6e3c3bcb8ef561b6d67b1ba32f5d4840_a6e3c3bcb8ef561b6d67b1ba32f5d4840}} 
+\index{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}!Deserialize\+Data@{Deserialize\+Data}}
+\index{Deserialize\+Data@{Deserialize\+Data}!Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}}
+\subsubsection{\texorpdfstring{Deserialize\+Data()}{DeserializeData()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer\+::\+Deserialize\+Data (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&}]{Str,  }\item[{const \hyperlink{class_canberra_1_1_serialization_1_1_meta_data}{Canberra\+::\+Serialization\+::\+Meta\+Data} \&}]{MD,  }\item[{const L\+O\+NG}]{Offset = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will clear all defs /summary$>$ 
+
+Implements \hyperlink{class_canberra_1_1_serialization_1_1_serializable_object}{Canberra\+::\+Serialization\+::\+Serializable\+Object}.
+
+
+
+Definition at line 319 of file Sca\+Data.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a67d95b2a665bfdcc47311b748f5d7f08_a67d95b2a665bfdcc47311b748f5d7f08}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a67d95b2a665bfdcc47311b748f5d7f08_a67d95b2a665bfdcc47311b748f5d7f08}} 
+\index{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}!Get\+Data\+Size@{Get\+Data\+Size}}
+\index{Get\+Data\+Size@{Get\+Data\+Size}!Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}}
+\subsubsection{\texorpdfstring{Get\+Data\+Size()}{GetDataSize()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer\+::\+Get\+Data\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will format the contained data for the processor /summary$>$ 
+
+Implements \hyperlink{class_canberra_1_1_serialization_1_1_serializable_object}{Canberra\+::\+Serialization\+::\+Serializable\+Object}.
+
+
+
+Definition at line 270 of file Sca\+Data.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_aa8225ba073de515b336660ef30b9311e_aa8225ba073de515b336660ef30b9311e}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_aa8225ba073de515b336660ef30b9311e_aa8225ba073de515b336660ef30b9311e}} 
+\index{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}!Get\+Entry@{Get\+Entry}}
+\index{Get\+Entry@{Get\+Entry}!Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}}
+\subsubsection{\texorpdfstring{Get\+Entry()}{GetEntry()}}
+{\footnotesize\ttfamily \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer\+::\+Buffer\+Entry} \& Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer\+::\+Get\+Entry (\begin{DoxyParamCaption}\item[{U\+L\+O\+NG}]{i }\end{DoxyParamCaption})}
+
+summary$>$ This method will return the \# of entries /summary$>$ returns$>$The number of data elements in the buffer
+
+Definition at line 347 of file Sca\+Data.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_aea86f6b340cadac297982a830c08e7f4_aea86f6b340cadac297982a830c08e7f4}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_aea86f6b340cadac297982a830c08e7f4_aea86f6b340cadac297982a830c08e7f4}} 
+\index{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}!Get\+Number\+Of\+Entries@{Get\+Number\+Of\+Entries}}
+\index{Get\+Number\+Of\+Entries@{Get\+Number\+Of\+Entries}!Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}}
+\subsubsection{\texorpdfstring{Get\+Number\+Of\+Entries()}{GetNumberOfEntries()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer\+::\+Get\+Number\+Of\+Entries (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+summary$>$ This method will get a reference to the buffer header /summary$>$ returns$>$The value
+
+Definition at line 353 of file Sca\+Data.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a1b59d9ec4df489ec03ef14e6e7434d62_a1b59d9ec4df489ec03ef14e6e7434d62}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a1b59d9ec4df489ec03ef14e6e7434d62_a1b59d9ec4df489ec03ef14e6e7434d62}} 
+\index{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}!Handle\+Endianness@{Handle\+Endianness}}
+\index{Handle\+Endianness@{Handle\+Endianness}!Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}}
+\subsubsection{\texorpdfstring{Handle\+Endianness()}{HandleEndianness()}}
+{\footnotesize\ttfamily void Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer\+::\+Handle\+Endianness (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+summary$>$ This method will serialize this instance into the byte stream /summary$>$ param name=\char`\"{}\+Str\char`\"{}$>$The stream
+
+param name=\char`\"{}\+Offset\char`\"{}$>$The byte position to start the write in the stream
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$The Win32 error code
+
+returns$>$The number of bytes serialized
+
+Definition at line 279 of file Sca\+Data.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_aeefc09dfec140406091d7ba28b2d40a2_aeefc09dfec140406091d7ba28b2d40a2}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_aeefc09dfec140406091d7ba28b2d40a2_aeefc09dfec140406091d7ba28b2d40a2}} 
+\index{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}!operator=@{operator=}}
+\index{operator=@{operator=}!Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer} \& Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer\+::operator= (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer}{S\+C\+Abuffer} \&}]{Rhs }\end{DoxyParamCaption})}
+
+summary$>$ This method will return the number of bytes the data contained within uses /summary$>$ returns$>$The number of bytes serialized
+
+Definition at line 263 of file Sca\+Data.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a69ecf3e8a638642932466bd4f1dae471_a69ecf3e8a638642932466bd4f1dae471}\label{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_a69ecf3e8a638642932466bd4f1dae471_a69ecf3e8a638642932466bd4f1dae471}} 
+\index{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}!Serialize\+Data@{Serialize\+Data}}
+\index{Serialize\+Data@{Serialize\+Data}!Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer@{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer}}
+\subsubsection{\texorpdfstring{Serialize\+Data()}{SerializeData()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+S\+C\+Abuffer\+::\+Serialize\+Data (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&}]{Str,  }\item[{const \hyperlink{class_canberra_1_1_serialization_1_1_meta_data}{Canberra\+::\+Serialization\+::\+Meta\+Data} \&}]{MD,  }\item[{const L\+O\+NG}]{Offset = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will deserialize this instance from the byte stream /summary$>$ param name=\char`\"{}\+Str\char`\"{}$>$The stream
+
+param name=\char`\"{}\+Offset\char`\"{}$>$The byte position to start the write in the stream
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$The Win32 error code
+
+returns$>$The number of bytes deserialized
+
+Implements \hyperlink{class_canberra_1_1_serialization_1_1_serializable_object}{Canberra\+::\+Serialization\+::\+Serializable\+Object}.
+
+
+
+Definition at line 292 of file Sca\+Data.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Sca\+Data.\+h\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Sca\+Data.\+cpp\end{DoxyCompactItemize}

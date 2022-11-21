@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Utility::Network::TcpClient</compoundname>
+    <basecompoundref refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket" prot="public" virt="non-virtual">Canberra::Utility::Network::TcpSocket</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client_1a7e4d58946889dd9fe3f471c0fff97c97" prot="protected" static="no" mutable="no">
+        <type><ref refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point" kindref="compound">EndPoint</ref></type>
+        <definition>EndPoint Canberra::Utility::Network::TcpClient::_ServerEP</definition>
+        <argsstring></argsstring>
+        <name>_ServerEP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/TcpClient.h" line="18" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/TcpClient.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client_1a1f9196ede888ed59bf4ea6033fd087ca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Network::TcpClient::TcpClient</definition>
+        <argsstring>(const TcpClient &amp;)</argsstring>
+        <name>TcpClient</name>
+        <param>
+          <type>const <ref refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client" kindref="compound">TcpClient</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/TcpClient.h" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client_1a81f243dd1c050ad4e091e97dfd979389" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client" kindref="compound">TcpClient</ref> &amp;</type>
+        <definition>TcpClient&amp; Canberra::Utility::Network::TcpClient::operator=</definition>
+        <argsstring>(const TcpClient &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client" kindref="compound">TcpClient</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/TcpClient.h" line="15" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client_1af0e4afad0f5cd6840ea940ac664c79d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Network::TcpClient::TcpClient</definition>
+        <argsstring>(const Canberra::Utility::Core::String &amp;Name)</argsstring>
+        <name>TcpClient</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>Name</declname>
+        </param>
+        <briefdescription>
+<para>An instance of this class is used to represent a TCP client. A TCP client is a TCP socket that requires a server to connect to in order to make the connection complete /summary&gt; param name=&quot;Name&quot;&gt;The name to associated with this socket</para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/TcpClient.h" line="21" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/TcpClient.cpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client_a2ecff6b14fa721d16b4ef8dcb3a1dd64_1a2ecff6b14fa721d16b4ef8dcb3a1dd64" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Utility::Network::TcpClient::~TcpClient</definition>
+        <argsstring>(void)</argsstring>
+        <name>~TcpClient</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will connect to the server /summary&gt; param name=&quot;ServerEP&quot;&gt;The server address</para><para>param name=&quot;Async&quot;&gt;Whether async connect is performed</para><para>returns&gt;Win32 code. 0==Sucess</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/TcpClient.h" line="22" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/TcpClient.cpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client_a4105885041a405512c99fe6864cb054f_1a4105885041a405512c99fe6864cb054f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Network::TcpClient::Connect</definition>
+        <argsstring>(EndPoint Server, bool Async=false)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type><ref refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point" kindref="compound">EndPoint</ref></type>
+          <declname>Server</declname>
+          <defname>ServerEP</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>Async</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method returns the address information of the TCP server /summary&gt; returns&gt;The server info</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/TcpClient.h" line="25" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/TcpClient.cpp" bodystart="29" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client_a068376947fe5eaf838713d3f1283223e_1a068376947fe5eaf838713d3f1283223e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point" kindref="compound">EndPoint</ref></type>
+        <definition>Canberra::Utility::Network::EndPoint Canberra::Utility::Network::TcpClient::GetServerAddress</definition>
+        <argsstring>()</argsstring>
+        <name>GetServerAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method sets the address information of the TCP server /summary&gt; param name=&quot;v&quot;&gt;The server info</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/TcpClient.h" line="28" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/TcpClient.cpp" bodystart="83" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client_1abae2cbd9dfba234fc4baef409f34ef9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Network::TcpClient::PutServerAddress</definition>
+        <argsstring>(EndPoint v)</argsstring>
+        <name>PutServerAddress</name>
+        <param>
+          <type><ref refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point" kindref="compound">EndPoint</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/TcpClient.h" line="29" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/TcpClient.cpp" bodystart="90" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="554">
+        <label>Canberra::Utility::Network::Socket</label>
+        <link refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket"/>
+      </node>
+      <node id="553">
+        <label>Canberra::Utility::Network::TcpSocket</label>
+        <link refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket"/>
+        <childnode refid="554" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="552">
+        <label>Canberra::Utility::Network::TcpClient</label>
+        <link refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client"/>
+        <childnode refid="553" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="557">
+        <label>Canberra::Utility::Network::Socket</label>
+        <link refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket"/>
+        <childnode refid="558" relation="usage">
+          <edgelabel>_EndPoint</edgelabel>
+        </childnode>
+        <childnode refid="559" relation="usage">
+          <edgelabel>_Name</edgelabel>
+        </childnode>
+      </node>
+      <node id="556">
+        <label>Canberra::Utility::Network::TcpSocket</label>
+        <link refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket"/>
+        <childnode refid="557" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="559">
+        <label>Canberra::Utility::Core::String</label>
+        <link refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string"/>
+      </node>
+      <node id="558">
+        <label>Canberra::Utility::Network::EndPoint</label>
+        <link refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point"/>
+      </node>
+      <node id="555">
+        <label>Canberra::Utility::Network::TcpClient</label>
+        <link refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client"/>
+        <childnode refid="556" relation="public-inheritance">
+        </childnode>
+        <childnode refid="558" relation="usage">
+          <edgelabel>_ServerEP</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/TcpClient.h" line="13" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/TcpClient.h" bodystart="12" bodyend="30"/>
+    <listofallmembers>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a29ce7fd0849fc2df8ef926f78559adbe" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>_EndPoint</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a178552d63dbbdccd9f67d04c82bc3b97" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>_Init</name></member>
+      <member refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket_1a15148ccf26b6dc892d49195bc80c6a51" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>_Interrupt</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a99ec7ac6e5174af0186e70b876fd07a8" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>_IsBlocking</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a9a2bb293853c1bc61c0c674bbaaf40da" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>_IsBound</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a48200ceab8e7fcd652e0d730be417296" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>_Name</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a1663e6e2c53ae8256b36ef4bd1b0b7e0" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>_Protocol</name></member>
+      <member refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client_1a7e4d58946889dd9fe3f471c0fff97c97" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>_ServerEP</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1ab2320fb84b2f96bac24afd8535c571fa" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>_Socket</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1aeb6cc1ee9330314f08263b4362bd5e2f" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>_Type</name></member>
+      <member refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket_a2dccf64827a818f8c6a778c9cc846929_1a2dccf64827a818f8c6a778c9cc846929" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>Attach</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_aeeb878451ad2858353a03d7314a9e21a_1aeeb878451ad2858353a03d7314a9e21a" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>Close</name></member>
+      <member refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client_a4105885041a405512c99fe6864cb054f_1a4105885041a405512c99fe6864cb054f" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>Connect</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_ace32db4f002b8c15c5b02ef539393909_1ace32db4f002b8c15c5b02ef539393909" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>GetAddress</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_adbd5500b2d1193695b5f537f913601e4_1adbd5500b2d1193695b5f537f913601e4" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>GetHandle</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a2a09b5340ebe47c2f94331d181697be2_1a2a09b5340ebe47c2f94331d181697be2" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>GetIsBlocking</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1ad448f0f8ff8abaa82795cf663cf8db9b" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>GetIsBound</name></member>
+      <member refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket_1a12fe6419529142cc358a5afe9cd267cd" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>GetIsInterrupted</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a2e9ac3c2718818efc8a555104af88447_1a2e9ac3c2718818efc8a555104af88447" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>GetIsOpen</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a70799039186510f37c795c475c75cf48_1a70799039186510f37c795c475c75cf48" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>GetIsReceiving</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a4dc838625ea0d6292d664477cf6116e7_1a4dc838625ea0d6292d664477cf6116e7" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>GetIsSending</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_abc8e2c926b5e61a08a8076fed2033058_1abc8e2c926b5e61a08a8076fed2033058" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>GetKeepAlive</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_aaa2d5b626ffd5bea01b1b2adb53eb446_1aaa2d5b626ffd5bea01b1b2adb53eb446" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>GetName</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_acea1b08155d9d26e7fa9d58607114c8f_1acea1b08155d9d26e7fa9d58607114c8f" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>GetNodelay</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a461a6bdb1f66e4e1630d2d7b8243dc48_1a461a6bdb1f66e4e1630d2d7b8243dc48" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>GetOption</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a99152360e98453ea36c869992a7a7741_1a99152360e98453ea36c869992a7a7741" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>GetReceiveBufferSize</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a1f7685d86280a534449da44a3250ff36_1a1f7685d86280a534449da44a3250ff36" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>GetSendBufferSize</name></member>
+      <member refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client_a068376947fe5eaf838713d3f1283223e_1a068376947fe5eaf838713d3f1283223e" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>GetServerAddress</name></member>
+      <member refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket_ad0329ac027d48c11de687d8bad972c0d_1ad0329ac027d48c11de687d8bad972c0d" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>Interrupt</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_ac0108800fa686483d5920a8b6ec7be61_1ac0108800fa686483d5920a8b6ec7be61" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>IOControl</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a0a1f3b3a4f569a49eacaf41b9f6c4e02_1a0a1f3b3a4f569a49eacaf41b9f6c4e02" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>Open</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_ae5de6f6855ad7428783fb30c2d1578ad_1ae5de6f6855ad7428783fb30c2d1578ad" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>operator SOCKET</name></member>
+      <member refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client_1a81f243dd1c050ad4e091e97dfd979389" prot="private" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>operator=</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_aeb44e9e2651d1285ee544746e46c16b1_1aeb44e9e2651d1285ee544746e46c16b1" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>PutAddress</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_aa56e083937cdcc636c1e2c7ef41f3ec7_1aa56e083937cdcc636c1e2c7ef41f3ec7" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>PutIsBlocking</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_ae977dbecee4bf6e6b9b098d1573a8240_1ae977dbecee4bf6e6b9b098d1573a8240" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>PutKeepAlive</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_ab6bafdac29d876f6f903fd626d97ab41_1ab6bafdac29d876f6f903fd626d97ab41" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>PutNodelay</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a9016d41e4f15e378a09c87bffef29318_1a9016d41e4f15e378a09c87bffef29318" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>PutReceiveBufferSize</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_adc3914a12a78a90fcee455fc3c20c308_1adc3914a12a78a90fcee455fc3c20c308" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>PutSendBufferSize</name></member>
+      <member refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client_1abae2cbd9dfba234fc4baef409f34ef9a" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>PutServerAddress</name></member>
+      <member refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket_a9b8045e1d4ed56ea0df27956e2e0e025_1a9b8045e1d4ed56ea0df27956e2e0e025" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>Receive</name></member>
+      <member refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket_a558fbc89e7a2682ef3370bf8d3020764_1a558fbc89e7a2682ef3370bf8d3020764" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>ResetInterrupt</name></member>
+      <member refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket_abcf2b78614e6cb9853ae90c6b4d4be7c_1abcf2b78614e6cb9853ae90c6b4d4be7c" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>Send</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a5909a3e5b2a91234dd38eed12733b906_1a5909a3e5b2a91234dd38eed12733b906" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>SetOption</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a95bcbcc02a2a066c7060d32aa0db24ff_1a95bcbcc02a2a066c7060d32aa0db24ff" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>Shutdown</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a389aebe967a9895427c19e1e49a39951_1a389aebe967a9895427c19e1e49a39951" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>Socket</name></member>
+      <member refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client_1a1f9196ede888ed59bf4ea6033fd087ca" prot="private" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>TcpClient</name></member>
+      <member refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client_1af0e4afad0f5cd6840ea940ac664c79d4" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>TcpClient</name></member>
+      <member refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket_1ac742e73beb53101dbc4aad1559ed7c51" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>TcpSocket</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a2dfd33d9c2d7c22d9d753c961b9b4cec_1a2dfd33d9c2d7c22d9d753c961b9b4cec" prot="protected" virt="virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>~Socket</name></member>
+      <member refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client_a2ecff6b14fa721d16b4ef8dcb3a1dd64_1a2ecff6b14fa721d16b4ef8dcb3a1dd64" prot="public" virt="virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>~TcpClient</name></member>
+      <member refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket_a25740725cab9a4c71c8e6de3b8ef7f54_1a25740725cab9a4c71c8e6de3b8ef7f54" prot="protected" virt="virtual"><scope>Canberra::Utility::Network::TcpClient</scope><name>~TcpSocket</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

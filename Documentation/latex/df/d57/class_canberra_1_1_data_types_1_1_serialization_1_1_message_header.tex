@@ -1,0 +1,103 @@
+\hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header}{}\section{Canberra\+:\+:Data\+Types\+:\+:Serialization\+:\+:Message\+Header Class Reference}
+\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header}\index{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Header@{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Header}}
+
+
+Inheritance diagram for Canberra\+:\+:Data\+Types\+:\+:Serialization\+:\+:Message\+Header\+:
+% FIG 0
+
+
+Collaboration diagram for Canberra\+:\+:Data\+Types\+:\+:Serialization\+:\+:Message\+Header\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_a9c3e958012b60987c1ef658dd8ead799}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_a9c3e958012b60987c1ef658dd8ead799}} 
+\hyperlink{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_a9c3e958012b60987c1ef658dd8ead799}{Message\+Header} (U\+L\+O\+NG Payload\+Size=0, U\+L\+O\+NG Version=1, U\+L\+O\+NG Seq=0)
+\begin{DoxyCompactList}\small\item\em An instance of this class is used to define a message header /summary$>$ param name=\char`\"{}\+Payload\+Size\char`\"{}$>$The number of bytes for the payload
+
+param name=\char`\"{}\+Version\char`\"{}$>$The version of the messaging system
+
+param name=\char`\"{}\+Seq\char`\"{}$>$The seq number\end{DoxyCompactList}\item 
+virtual \hyperlink{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_aa2a70c41a1faa824a497842935c4e8dc_aa2a70c41a1faa824a497842935c4e8dc}{$\sim$\+Message\+Header} (void)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_a862c47b37152bb3cce530584e3a9feb4_a862c47b37152bb3cce530584e3a9feb4}{Serialize} (\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&, const L\+O\+NG Offset=0)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_a783e14faad035c9073b7b9645889c7bc}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_a783e14faad035c9073b7b9645889c7bc}} 
+U\+L\+O\+NG {\bfseries Deserialize} (\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&, const L\+O\+NG Offset=0)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_a05fa30ee4001caa14c7afa1f80e84aff}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_a05fa30ee4001caa14c7afa1f80e84aff}} 
+U\+L\+O\+NG {\bfseries Get\+Size} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_a1a084bb351d79f3d4c8dc18bcddd3420}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_a1a084bb351d79f3d4c8dc18bcddd3420}} 
+U\+L\+O\+NG {\bfseries Get\+Header\+Size} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_ad954c3c5a4bec6646067c030e8a9085e}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_ad954c3c5a4bec6646067c030e8a9085e}} 
+U\+L\+O\+NG {\bfseries Get\+Version} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_ae924e2c2db89181533f8b26869c7e038}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_ae924e2c2db89181533f8b26869c7e038}} 
+U\+L\+O\+NG {\bfseries Get\+Sequence\+Number} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_acf97f1911dad8810c631f3682c3ec9c0}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_acf97f1911dad8810c631f3682c3ec9c0}} 
+U\+L\+O\+NG {\bfseries Get\+Check\+Sum} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_aa11672975bfddfa22618a273c1bfe371}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_aa11672975bfddfa22618a273c1bfe371}} 
+struct \hyperlink{struct_message_header_s}{Message\+HeaderS} {\bfseries \+\_\+\+Data}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 23 of file Message\+Header.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_aa2a70c41a1faa824a497842935c4e8dc_aa2a70c41a1faa824a497842935c4e8dc}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_aa2a70c41a1faa824a497842935c4e8dc_aa2a70c41a1faa824a497842935c4e8dc}} 
+\index{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Header@{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Header}!````~Message\+Header@{$\sim$\+Message\+Header}}
+\index{````~Message\+Header@{$\sim$\+Message\+Header}!Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Header@{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Header}}
+\subsubsection{\texorpdfstring{$\sim$\+Message\+Header()}{~MessageHeader()}}
+{\footnotesize\ttfamily Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Header\+::$\sim$\+Message\+Header (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will serialize this instance into the byte stream /summary$>$ param name=\char`\"{}\+Str\char`\"{}$>$The stream
+
+param name=\char`\"{}\+Offset\char`\"{}$>$The byte position to start the write in the stream
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$The Win32 error code
+
+returns$>$The number of bytes serialized
+
+Definition at line 22 of file Message\+Header.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_a862c47b37152bb3cce530584e3a9feb4_a862c47b37152bb3cce530584e3a9feb4}\label{class_canberra_1_1_data_types_1_1_serialization_1_1_message_header_a862c47b37152bb3cce530584e3a9feb4_a862c47b37152bb3cce530584e3a9feb4}} 
+\index{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Header@{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Header}!Serialize@{Serialize}}
+\index{Serialize@{Serialize}!Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Header@{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Header}}
+\subsubsection{\texorpdfstring{Serialize()}{Serialize()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Header\+::\+Serialize (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&}]{Str,  }\item[{const L\+O\+NG}]{Offset = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will deserialize info from the byte stream into this instance /summary$>$ param name=\char`\"{}\+Str\char`\"{}$>$The stream
+
+param name=\char`\"{}\+Offset\char`\"{}$>$The byte position to start the read in the stream
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$The Win32 error code
+
+returns$>$The number of bytes deserialized
+
+Implements \hyperlink{class_canberra_1_1_serialization_1_1_serializable}{Canberra\+::\+Serialization\+::\+Serializable}.
+
+
+
+Definition at line 32 of file Message\+Header.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Message\+Header.\+h\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Message\+Header.\+cpp\end{DoxyCompactItemize}

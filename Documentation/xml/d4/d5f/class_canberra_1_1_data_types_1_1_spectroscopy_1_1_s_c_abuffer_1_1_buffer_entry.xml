@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</compoundname>
+    <includes refid="df/d3b/_sca_data_8h" local="no">ScaData.h</includes>
+    <innerclass refid="de/d72/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1_1_entry_header_tag" prot="public">Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::EntryHeaderTag</innerclass>
+    <innerclass refid="de/dd8/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1_1_s_c_adata_tag" prot="public">Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::SCAdataTag</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1abd8e1a18ea8e2c402a732d26098a5333" prot="public" static="no">
+        <type>struct <ref refid="de/d72/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1_1_entry_header_tag" kindref="compound">Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::EntryHeaderTag</ref></type>
+        <definition>typedef struct Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::EntryHeaderTag  Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::EntryHeader</definition>
+        <argsstring></argsstring>
+        <name>EntryHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1a768aea5a3a0fcc7bab6307fb996f9bf7" prot="public" static="no">
+        <type>struct <ref refid="de/dd8/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1_1_s_c_adata_tag" kindref="compound">Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::SCAdataTag</ref></type>
+        <definition>typedef struct Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::SCAdataTag  Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::SCAdata</definition>
+        <argsstring></argsstring>
+        <name>SCAdata</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="86" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1a86afb4f8151b7393e9f96c3a0f518676" prot="protected" static="no" mutable="no">
+        <type><ref refid="de/d72/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1_1_entry_header_tag" kindref="compound">EntryHeader</ref></type>
+        <definition>EntryHeader Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::_Header</definition>
+        <argsstring></argsstring>
+        <name>_Header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="91" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1a81df3d677ae70aab2ca0666f79bc6d5c" prot="protected" static="no" mutable="no">
+        <type><ref refid="d1/d22/class_canberra_1_1_utility_1_1_core_1_1_serializable_list" kindref="compound">Canberra::Utility::Core::SerializableList</ref>&lt; <ref refid="de/dd8/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1_1_s_c_adata_tag" kindref="compound">SCAdata</ref> &gt;</type>
+        <definition>Canberra::Utility::Core::SerializableList&lt;SCAdata&gt; Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::_Data</definition>
+        <argsstring></argsstring>
+        <name>_Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="92" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_a93df0ddca5c24fe2c3890bf2eb44a8a0_1a93df0ddca5c24fe2c3890bf2eb44a8a0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::Copy</definition>
+        <argsstring>(const BufferEntry &amp;v)</argsstring>
+        <name>Copy</name>
+        <param>
+          <type>const <ref refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry" kindref="compound">BufferEntry</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will create an instance of this class based on the supplied instance. A deep copy of the argument is performed /summary&gt; param name=&quot;v&quot;&gt;The src</para><para>exception cref=&quot;ULONG&quot;&gt;Error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="93" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="113" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_abb874f7cb212076fa6b354e140f8c490_1abb874f7cb212076fa6b354e140f8c490" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::HandleEndianness</definition>
+        <argsstring>()</argsstring>
+        <name>HandleEndianness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will serialize this instance into the byte stream /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the write in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes serialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="94" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="154" bodyend="150"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_a87bdee67fbeeb3e33d65d51893a8c090_1a87bdee67fbeeb3e33d65d51893a8c090" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::BufferEntry</definition>
+        <argsstring>(const BufferEntry &amp;v)</argsstring>
+        <name>BufferEntry</name>
+        <param>
+          <type>const <ref refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry" kindref="compound">BufferEntry</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will create an instance of this class with an empty entry information /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="97" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="125" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_a340a5ef3ab24385d6f9bf6fddf28794b_1a340a5ef3ab24385d6f9bf6fddf28794b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::BufferEntry</definition>
+        <argsstring>()</argsstring>
+        <name>BufferEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will release all resources associated with this instance /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="98" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="130" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_ae8b69f5e4af25fcd5b169d8d5e6140a8_1ae8b69f5e4af25fcd5b169d8d5e6140a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::~BufferEntry</definition>
+        <argsstring>()</argsstring>
+        <name>~BufferEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will perform a deep copy /summary&gt; param name=&quot;v&quot;&gt;The src</para><para>exception cref=&quot;ULONG&quot;&gt;Error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="99" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="135" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_a533456f6d0ea0286a532d0ecef4ea5fe_1a533456f6d0ea0286a532d0ecef4ea5fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry" kindref="compound">BufferEntry</ref> &amp;</type>
+        <definition>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry &amp; Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::operator=</definition>
+        <argsstring>(const BufferEntry &amp;Rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry" kindref="compound">BufferEntry</ref> &amp;</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the number of bytes the data contained within uses /summary&gt; returns&gt;The number of bytes serialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="101" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="142" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_a273153da4624719a9034b671109b0a14_1a273153da4624719a9034b671109b0a14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="de/d72/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1_1_entry_header_tag" kindref="compound">EntryHeader</ref> &amp;</type>
+        <definition>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::EntryHeader &amp; Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::GetHeader</definition>
+        <argsstring>()</argsstring>
+        <name>GetHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will perform a deep copy /summary&gt; param name=&quot;v&quot;&gt;The src</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="104" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="229" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_a4b01f094c4cea1f45f2ff8ac1b663ec7_1a4b01f094c4cea1f45f2ff8ac1b663ec7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="de/dd8/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1_1_s_c_adata_tag" kindref="compound">SCAdata</ref> &amp;</type>
+        <definition>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::SCAdata &amp; Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::GetData</definition>
+        <argsstring>(LONG i)</argsstring>
+        <name>GetData</name>
+        <param>
+          <type>LONG</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the # data elements or SCAs contained in this instance /summary&gt; returns&gt;The number of data elements in the buffer</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="107" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="217" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_aeb09ea98560f5f1b4cf3e5819e3716a4_1aeb09ea98560f5f1b4cf3e5819e3716a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::GetNumberOfData</definition>
+        <argsstring>()</argsstring>
+        <name>GetNumberOfData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get a reference to the entry header /summary&gt; returns&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="110" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="223" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_ab601aea872106946d1aed9ea9cbaed34_1ab601aea872106946d1aed9ea9cbaed34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get a reference to the data associated with an SCA /summary&gt; param name=&quot;v&quot;&gt;The index or SCA #</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="113" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="209" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_aafed5052137dc51df72848cb419b7a93_1aafed5052137dc51df72848cb419b7a93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::GetDataSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetDataSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will format the contained data for the processor /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="116" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="149" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_a94b48a2e72e5f2da2e63de970e59f03d_1a94b48a2e72e5f2da2e63de970e59f03d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::SerializeData</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const Canberra::Serialization::MetaData &amp;MD, const LONG Offset=0)</argsstring>
+        <name>SerializeData</name>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data" kindref="compound">Canberra::Serialization::MetaData</ref> &amp;</type>
+          <declname>MD</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will deserialize this instance from the byte stream /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the write in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes deserialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="117" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="169" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_a99073f892171876a20a35b73150a145a_1a99073f892171876a20a35b73150a145a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::DeserializeData</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const Canberra::Serialization::MetaData &amp;MD, const LONG Offset=0)</argsstring>
+        <name>DeserializeData</name>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data" kindref="compound">Canberra::Serialization::MetaData</ref> &amp;</type>
+          <declname>MD</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will clear all defs /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="118" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="195" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class encapsulates all SCA data associated with a specific instance in time Basically, there is one entry per SCA preset. When all SCA&apos;s reach the SCA preset time an entry is created in the buffer /summary&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="26">
+        <label>Canberra::Utility::Core::SerializableList&lt; Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::SCAdataTag &gt;</label>
+        <link refid="d1/d22/class_canberra_1_1_utility_1_1_core_1_1_serializable_list"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::SCAdataTag</label>
+        <link refid="de/dd8/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1_1_s_c_adata_tag"/>
+      </node>
+      <node id="27">
+        <label>Canberra::Utility::Core::SerializableListBase&lt; Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::SCAdataTag, LONG &gt;</label>
+        <link refid="de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::EntryHeaderTag</label>
+        <link refid="de/d72/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1_1_entry_header_tag"/>
+      </node>
+      <node id="24">
+        <label>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</label>
+        <link refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry"/>
+        <childnode refid="25" relation="usage">
+          <edgelabel>_Header</edgelabel>
+        </childnode>
+        <childnode refid="26" relation="usage">
+          <edgelabel>_Data</edgelabel>
+        </childnode>
+      </node>
+      <node id="28">
+        <label>Canberra::Utility::Core::ListBase&lt; Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::SCAdataTag, LONG &gt;</label>
+        <link refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base"/>
+        <childnode refid="29" relation="usage">
+          <edgelabel>_List</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="70" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.h" bodystart="70" bodyend="120"/>
+    <listofallmembers>
+      <member refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1a81df3d677ae70aab2ca0666f79bc6d5c" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</scope><name>_Data</name></member>
+      <member refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1a86afb4f8151b7393e9f96c3a0f518676" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</scope><name>_Header</name></member>
+      <member refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_a87bdee67fbeeb3e33d65d51893a8c090_1a87bdee67fbeeb3e33d65d51893a8c090" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</scope><name>BufferEntry</name></member>
+      <member refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_a340a5ef3ab24385d6f9bf6fddf28794b_1a340a5ef3ab24385d6f9bf6fddf28794b" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</scope><name>BufferEntry</name></member>
+      <member refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_ab601aea872106946d1aed9ea9cbaed34_1ab601aea872106946d1aed9ea9cbaed34" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</scope><name>Clear</name></member>
+      <member refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_a93df0ddca5c24fe2c3890bf2eb44a8a0_1a93df0ddca5c24fe2c3890bf2eb44a8a0" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</scope><name>Copy</name></member>
+      <member refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_a99073f892171876a20a35b73150a145a_1a99073f892171876a20a35b73150a145a" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</scope><name>DeserializeData</name></member>
+      <member refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1abd8e1a18ea8e2c402a732d26098a5333" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</scope><name>EntryHeader</name></member>
+      <member refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_a4b01f094c4cea1f45f2ff8ac1b663ec7_1a4b01f094c4cea1f45f2ff8ac1b663ec7" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</scope><name>GetData</name></member>
+      <member refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_aafed5052137dc51df72848cb419b7a93_1aafed5052137dc51df72848cb419b7a93" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</scope><name>GetDataSize</name></member>
+      <member refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_a273153da4624719a9034b671109b0a14_1a273153da4624719a9034b671109b0a14" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</scope><name>GetHeader</name></member>
+      <member refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_aeb09ea98560f5f1b4cf3e5819e3716a4_1aeb09ea98560f5f1b4cf3e5819e3716a4" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</scope><name>GetNumberOfData</name></member>
+      <member refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_abb874f7cb212076fa6b354e140f8c490_1abb874f7cb212076fa6b354e140f8c490" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</scope><name>HandleEndianness</name></member>
+      <member refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_a533456f6d0ea0286a532d0ecef4ea5fe_1a533456f6d0ea0286a532d0ecef4ea5fe" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</scope><name>operator=</name></member>
+      <member refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1a768aea5a3a0fcc7bab6307fb996f9bf7" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</scope><name>SCAdata</name></member>
+      <member refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_a94b48a2e72e5f2da2e63de970e59f03d_1a94b48a2e72e5f2da2e63de970e59f03d" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</scope><name>SerializeData</name></member>
+      <member refid="d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_ae8b69f5e4af25fcd5b169d8d5e6140a8_1ae8b69f5e4af25fcd5b169d8d5e6140a8" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry</scope><name>~BufferEntry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

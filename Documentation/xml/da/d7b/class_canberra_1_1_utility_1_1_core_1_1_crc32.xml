@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Utility::Core::Crc32</compoundname>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_1a99dffa38097770d9c166e8b48cd40248" prot="protected" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::Crc32::_TableComputed</definition>
+        <argsstring></argsstring>
+        <name>_TableComputed</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Crc32.h" line="16" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Crc32.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_1a4f158b43316868b652d8e1d535853012" prot="protected" static="yes" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::Crc32::_Table</definition>
+        <argsstring>[256]</argsstring>
+        <name>_Table</name>
+        <initializer>= {0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Crc32.h" line="17" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Crc32.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_1aa104f9d4d79c5ed678c5f43cef9a75e3" prot="protected" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::Crc32::_Crc</definition>
+        <argsstring></argsstring>
+        <name>_Crc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Crc32.h" line="18" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Crc32.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_afab8e77da81f093171fecbeb0a7db492_1afab8e77da81f093171fecbeb0a7db492" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::Crc32::MakeTable</definition>
+        <argsstring>()</argsstring>
+        <name>MakeTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the computed CRC value that is based on the input stream. Note: The previous CRC value included into the computed value /summary&gt; param name=&quot;BS&quot;&gt;The byte stream to compute the CRC of </para><para>param name=&quot;Offset&quot;&gt;The offset in the stream to start the CRC calc </para><para>exception cref=&quot;ULONG&quot;&gt;Error code</para><para>returns&gt;The computed CRC value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Crc32.h" line="20" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Crc32.cpp" bodystart="19" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_1af4ac452fe8aa650741a10262535197e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::Crc32::Crc32</definition>
+        <argsstring>(void)</argsstring>
+        <name>Crc32</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>This is the constructor for this instance. It will compute the table on the very first object instantiation /summary&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Crc32.h" line="23" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Crc32.cpp" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_ab7c891d5761030db006e9d888a256fbd_1ab7c891d5761030db006e9d888a256fbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::Crc32::~Crc32</definition>
+        <argsstring>(void)</argsstring>
+        <name>~Crc32</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will compute the table of CRC values /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Crc32.h" line="24" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Crc32.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_1a7d109ce8e1198e26cd353da8e9a9dd62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::Crc32::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Crc32.h" line="30" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Crc32.cpp" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_a35635a2cd95023d7b01ccb9133361c23_1a35635a2cd95023d7b01ccb9133361c23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::Crc32::Update</definition>
+        <argsstring>(const ByteStream &amp;BS, LONG Offset=0)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>const <ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">ByteStream</ref> &amp;</type>
+          <declname>BS</declname>
+        </param>
+        <param>
+          <type>LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the computed CRC value that is based on the input stream. Note: The previous CRC value included into the computed value /summary&gt; param name=&quot;BS&quot;&gt;The byte stream to compute the CRC of </para><para>param name=&quot;Offset&quot;&gt;The offset in the stream to start the CRC calc </para><para>exception cref=&quot;ULONG&quot;&gt;Error code</para><para>returns&gt;The computed CRC value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Crc32.h" line="33" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Crc32.cpp" bodystart="47" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_a06b897033aec857f2f821ba48668b8e1_1a06b897033aec857f2f821ba48668b8e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::Crc32::Update</definition>
+        <argsstring>(const char *const Buf, LONG Size)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>const char *const</type>
+          <declname>Buf</declname>
+        </param>
+        <param>
+          <type>LONG</type>
+          <declname>Size</declname>
+          <defname>len</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will clear the CRC value /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Crc32.h" line="34" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Crc32.cpp" bodystart="84" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_1a292c0cafe7d61d1c51696517ba08ac39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::Crc32::GetValue</definition>
+        <argsstring>()</argsstring>
+        <name>GetValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Crc32.h" line="37" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Crc32.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_ad523792effe2750bc5aa6c8df262f4c7_1ad523792effe2750bc5aa6c8df262f4c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::Crc32::Compute</definition>
+        <argsstring>(const ByteStream &amp;BS, LONG Offset)</argsstring>
+        <name>Compute</name>
+        <param>
+          <type>const <ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">ByteStream</ref> &amp;</type>
+          <declname>BS</declname>
+        </param>
+        <param>
+          <type>LONG</type>
+          <declname>Offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the computed CRC value that is based on the input stream. Note: The previous CRC value included into the computed value /summary&gt; param name=&quot;Buf&quot;&gt;The byte stream to compute the CRC of </para><para>param name=&quot;len&quot;&gt;The number of bytes in the stream </para><para>returns&gt;The computed CRC value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Crc32.h" line="27" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Crc32.cpp" bodystart="68" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/Crc32.h" line="14" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Crc32.h" bodystart="13" bodyend="38"/>
+    <listofallmembers>
+      <member refid="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_1aa104f9d4d79c5ed678c5f43cef9a75e3" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Crc32</scope><name>_Crc</name></member>
+      <member refid="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_1a4f158b43316868b652d8e1d535853012" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Crc32</scope><name>_Table</name></member>
+      <member refid="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_1a99dffa38097770d9c166e8b48cd40248" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Crc32</scope><name>_TableComputed</name></member>
+      <member refid="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_ad523792effe2750bc5aa6c8df262f4c7_1ad523792effe2750bc5aa6c8df262f4c7" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Crc32</scope><name>Compute</name></member>
+      <member refid="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_1af4ac452fe8aa650741a10262535197e3" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Crc32</scope><name>Crc32</name></member>
+      <member refid="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_1a292c0cafe7d61d1c51696517ba08ac39" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Crc32</scope><name>GetValue</name></member>
+      <member refid="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_afab8e77da81f093171fecbeb0a7db492_1afab8e77da81f093171fecbeb0a7db492" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Crc32</scope><name>MakeTable</name></member>
+      <member refid="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_1a7d109ce8e1198e26cd353da8e9a9dd62" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Crc32</scope><name>Reset</name></member>
+      <member refid="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_a35635a2cd95023d7b01ccb9133361c23_1a35635a2cd95023d7b01ccb9133361c23" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Crc32</scope><name>Update</name></member>
+      <member refid="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_a06b897033aec857f2f821ba48668b8e1_1a06b897033aec857f2f821ba48668b8e1" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Crc32</scope><name>Update</name></member>
+      <member refid="da/d7b/class_canberra_1_1_utility_1_1_core_1_1_crc32_ab7c891d5761030db006e9d888a256fbd_1ab7c891d5761030db006e9d888a256fbd" prot="public" virt="virtual"><scope>Canberra::Utility::Core::Crc32</scope><name>~Crc32</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

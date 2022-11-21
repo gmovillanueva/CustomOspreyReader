@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Utility::Core::StateOfHealth</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1aa53de9f3416e2a98b56413f4e7930eb9" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::StateOfHealth::_Enabled</definition>
+        <argsstring></argsstring>
+        <name>_Enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" line="21" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1a4fb8a1359b2e5525484c2675e60b2337" prot="protected" static="no" mutable="no">
+        <type>clock_t</type>
+        <definition>clock_t Canberra::Utility::Core::StateOfHealth::_LastStrobed</definition>
+        <argsstring></argsstring>
+        <name>_LastStrobed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" line="22" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1a1c481c78738569b7a786bff83966ed4a" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::StateOfHealth::_Strobe</definition>
+        <argsstring></argsstring>
+        <name>_Strobe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" line="23" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1a2d36c9c45b41c18127f4423af518c58b" prot="protected" static="no" mutable="no">
+        <type><ref refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section" kindref="compound">CriticalSection</ref></type>
+        <definition>CriticalSection Canberra::Utility::Core::StateOfHealth::_Lock</definition>
+        <argsstring></argsstring>
+        <name>_Lock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" line="24" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1a11e32924efe20e92579e814a3d26183a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::StateOfHealth::StateOfHealth</definition>
+        <argsstring>(const StateOfHealth &amp;)</argsstring>
+        <name>StateOfHealth</name>
+        <param>
+          <type>const <ref refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health" kindref="compound">StateOfHealth</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1aaeb569464177afe415f0b838436c8be7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health" kindref="compound">StateOfHealth</ref> &amp;</type>
+        <definition>StateOfHealth&amp; Canberra::Utility::Core::StateOfHealth::operator=</definition>
+        <argsstring>(const StateOfHealth &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health" kindref="compound">StateOfHealth</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a5c707d8203b969f0130c64850a31d09d_1a5c707d8203b969f0130c64850a31d09d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::StateOfHealth::Initialize</definition>
+        <argsstring>(const String &amp;Name)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Name</declname>
+        </param>
+        <briefdescription>
+<para>This method will initialize the watchdog information instance. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The task name</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ULONG</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The error code</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" line="27" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StateOfHealth.cpp" bodystart="29" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1a9314518256957a39de6ee134bd101fd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::StateOfHealth::StateOfHealth</definition>
+        <argsstring>(Task *T)</argsstring>
+        <name>StateOfHealth</name>
+        <param>
+          <type><ref refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task" kindref="compound">Task</ref> *</type>
+          <declname>T</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_adbb3e21233f1821db0bede0aa822bcf8_1adbb3e21233f1821db0bede0aa822bcf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::StateOfHealth::StateOfHealth</definition>
+        <argsstring>(const String &amp;N)</argsstring>
+        <name>StateOfHealth</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>N</declname>
+          <defname>Name</defname>
+        </param>
+        <briefdescription>
+<para>This method will intialize the watchdog information instance. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the task to watch</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>ULONG</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The error code</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" line="32" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StateOfHealth.cpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1aa39e4ffa430086cf65c7590b7f587ee8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::StateOfHealth::~StateOfHealth</definition>
+        <argsstring>(void)</argsstring>
+        <name>~StateOfHealth</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" line="33" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StateOfHealth.cpp" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a7cb904e2fe8ecb7ff16760a0abb9da46_1a7cb904e2fe8ecb7ff16760a0abb9da46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::StateOfHealth::GetStrobed</definition>
+        <argsstring>()</argsstring>
+        <name>GetStrobed</name>
+        <briefdescription>
+<para>This method will get the strobe events signal state </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The signal state</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" line="36" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StateOfHealth.cpp" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a9c16550a6f35cbf8d96bb4e1c88c15cd_1a9c16550a6f35cbf8d96bb4e1c88c15cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::StateOfHealth::PutStrobed</definition>
+        <argsstring>(bool State)</argsstring>
+        <name>PutStrobed</name>
+        <param>
+          <type>bool</type>
+          <declname>State</declname>
+        </param>
+        <briefdescription>
+<para>This method will signal the strobed event </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>State</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The signal state</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" line="37" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StateOfHealth.cpp" bodystart="40" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a3031980a79f1f22480dfc18071dac093_1a3031980a79f1f22480dfc18071dac093" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::StateOfHealth::GetEnabled</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnabled</name>
+        <briefdescription>
+<para>This method will get the enabled state of the watchdog </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Enabled state</para></simplesect>
+summary&gt; This method will set the enabled state of the watchdog /summary&gt; param name=&quot;v&quot;&gt;Enabled state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" line="40" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StateOfHealth.cpp" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1a5b3440569f1ff290ac65b7c6643b92f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::StateOfHealth::PutEnabled</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>PutEnabled</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" line="41" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StateOfHealth.cpp" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_acf1516a0f54b8ac3e5d05230ba9b3925_1acf1516a0f54b8ac3e5d05230ba9b3925" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::StateOfHealth::PolicyExpired</definition>
+        <argsstring>(LONG TimeO)</argsstring>
+        <name>PolicyExpired</name>
+        <param>
+          <type>LONG</type>
+          <declname>TimeO</declname>
+        </param>
+        <briefdescription>
+<para>This method will see if the watchdog policy has expired. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>TimeO</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The timeout for the watchdog (ms)</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Policy expired state</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" line="44" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StateOfHealth.cpp" bodystart="68" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="524">
+        <label>Canberra::Utility::Core::String</label>
+        <link refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string"/>
+      </node>
+      <node id="522">
+        <label>Canberra::Utility::Core::CriticalSection</label>
+        <link refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section"/>
+        <childnode refid="523" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="521">
+        <label>Canberra::Utility::Core::StateOfHealth</label>
+        <link refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health"/>
+        <childnode refid="522" relation="usage">
+          <edgelabel>_Lock</edgelabel>
+        </childnode>
+      </node>
+      <node id="523">
+        <label>Canberra::Utility::Core::SyncObject</label>
+        <link refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object"/>
+        <childnode refid="524" relation="usage">
+          <edgelabel>_Name</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" line="15" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StateOfHealth.h" bodystart="14" bodyend="46"/>
+    <listofallmembers>
+      <member refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1aa53de9f3416e2a98b56413f4e7930eb9" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::StateOfHealth</scope><name>_Enabled</name></member>
+      <member refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1a4fb8a1359b2e5525484c2675e60b2337" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::StateOfHealth</scope><name>_LastStrobed</name></member>
+      <member refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1a2d36c9c45b41c18127f4423af518c58b" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::StateOfHealth</scope><name>_Lock</name></member>
+      <member refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1a1c481c78738569b7a786bff83966ed4a" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::StateOfHealth</scope><name>_Strobe</name></member>
+      <member refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a3031980a79f1f22480dfc18071dac093_1a3031980a79f1f22480dfc18071dac093" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::StateOfHealth</scope><name>GetEnabled</name></member>
+      <member refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a7cb904e2fe8ecb7ff16760a0abb9da46_1a7cb904e2fe8ecb7ff16760a0abb9da46" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::StateOfHealth</scope><name>GetStrobed</name></member>
+      <member refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a5c707d8203b969f0130c64850a31d09d_1a5c707d8203b969f0130c64850a31d09d" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::StateOfHealth</scope><name>Initialize</name></member>
+      <member refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1aaeb569464177afe415f0b838436c8be7" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::StateOfHealth</scope><name>operator=</name></member>
+      <member refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_acf1516a0f54b8ac3e5d05230ba9b3925_1acf1516a0f54b8ac3e5d05230ba9b3925" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::StateOfHealth</scope><name>PolicyExpired</name></member>
+      <member refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1a5b3440569f1ff290ac65b7c6643b92f0" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::StateOfHealth</scope><name>PutEnabled</name></member>
+      <member refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_a9c16550a6f35cbf8d96bb4e1c88c15cd_1a9c16550a6f35cbf8d96bb4e1c88c15cd" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::StateOfHealth</scope><name>PutStrobed</name></member>
+      <member refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1a11e32924efe20e92579e814a3d26183a" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::StateOfHealth</scope><name>StateOfHealth</name></member>
+      <member refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1a9314518256957a39de6ee134bd101fd0" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::StateOfHealth</scope><name>StateOfHealth</name></member>
+      <member refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_adbb3e21233f1821db0bede0aa822bcf8_1adbb3e21233f1821db0bede0aa822bcf8" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::StateOfHealth</scope><name>StateOfHealth</name></member>
+      <member refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health_1aa39e4ffa430086cf65c7590b7f587ee8" prot="public" virt="virtual"><scope>Canberra::Utility::Core::StateOfHealth</scope><name>~StateOfHealth</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

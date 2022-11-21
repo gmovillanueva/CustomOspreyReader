@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d4/d09/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ex" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Protocols::Lynx::DeviceEx</compoundname>
+    <basecompoundref refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device" prot="public" virt="non-virtual">Canberra::Protocols::Lynx::Device</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d09/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ex_1a66d2dbebfecd02cbbe0364e7e0c16190" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Protocols::Lynx::DeviceEx::DeviceEx</definition>
+        <argsstring>()</argsstring>
+        <name>DeviceEx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="173" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1616" bodyend="1616"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d09/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ex_adea95d2151bfdecbd6c58f6157cca15d_1adea95d2151bfdecbd6c58f6157cca15d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Protocols::Lynx::DeviceEx::~DeviceEx</definition>
+        <argsstring>()</argsstring>
+        <name>~DeviceEx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method get SCA definitions from the device /summary&gt; param name=&quot;Input&quot;&gt;(in) The input operated on</para><para>param name=&quot;Vals&quot;&gt;(in, out) The defs</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="174" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1617" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d09/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ex_a77bb8d6a288fe6cf56e43839ef1a6195_1a77bb8d6a288fe6cf56e43839ef1a6195" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::DeviceEx::GetSCAdefinitions</definition>
+        <argsstring>(USHORT Input, Canberra::DataTypes::Spectroscopy::SCAdefinitions &amp;Vals)</argsstring>
+        <name>GetSCAdefinitions</name>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+        </param>
+        <param>
+          <type><ref refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions" kindref="compound">Canberra::DataTypes::Spectroscopy::SCAdefinitions</ref> &amp;</type>
+          <declname>Vals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method set SCA definitions into the device /summary&gt; param name=&quot;Input&quot;&gt;(in) The input operated on</para><para>param name=&quot;Vals&quot;&gt;(in) The defs</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="177" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1625" bodyend="1619"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d09/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ex_afd12d1dce85502d5a2aeb4c80b88946b_1afd12d1dce85502d5a2aeb4c80b88946b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::DeviceEx::PutSCAdefinitions</definition>
+        <argsstring>(USHORT Input, Canberra::DataTypes::Spectroscopy::SCAdefinitions &amp;Vals)</argsstring>
+        <name>PutSCAdefinitions</name>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+        </param>
+        <param>
+          <type><ref refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions" kindref="compound">Canberra::DataTypes::Spectroscopy::SCAdefinitions</ref> &amp;</type>
+          <declname>Vals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method get SCA buffer from the device /summary&gt; param name=&quot;Input&quot;&gt;(in) The input operated on</para><para>param name=&quot;Vals&quot;&gt;(in, out) The buffer</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="180" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1659" bodyend="1653"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d09/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ex_1af934cb00c0b93efecb001514dc02c461" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::DeviceEx::GetSCAbuffer</definition>
+        <argsstring>(USHORT Input, Canberra::DataTypes::Spectroscopy::SCAbuffer &amp;Vals)</argsstring>
+        <name>GetSCAbuffer</name>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/d08/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer" kindref="compound">Canberra::DataTypes::Spectroscopy::SCAbuffer</ref> &amp;</type>
+          <declname>Vals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="183" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1684" bodyend="1711"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="104">
+        <label>Canberra::Protocols::Lynx::Device</label>
+        <link refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device"/>
+      </node>
+      <node id="103">
+        <label>Canberra::Protocols::Lynx::DeviceEx</label>
+        <link refid="d4/d09/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ex"/>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="112">
+        <label>Canberra::DataTypes::Serialization::MessageFactory</label>
+        <link refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory"/>
+        <childnode refid="113" relation="usage">
+          <edgelabel>_Signature</edgelabel>
+        </childnode>
+      </node>
+      <node id="109">
+        <label>Canberra::Utility::Network::Socket</label>
+        <link refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket"/>
+        <childnode refid="110" relation="usage">
+          <edgelabel>_EndPoint</edgelabel>
+        </childnode>
+        <childnode refid="111" relation="usage">
+          <edgelabel>_Name</edgelabel>
+        </childnode>
+      </node>
+      <node id="114">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="115">
+        <label>Canberra::Utility::Core::ByteStream</label>
+        <link refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream"/>
+      </node>
+      <node id="106">
+        <label>Canberra::Protocols::Lynx::Device</label>
+        <link refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device"/>
+        <childnode refid="107" relation="usage">
+          <edgelabel>_ConfigChannel</edgelabel>
+        </childnode>
+        <childnode refid="112" relation="usage">
+          <edgelabel>_MessageFactory</edgelabel>
+        </childnode>
+      </node>
+      <node id="108">
+        <label>Canberra::Utility::Network::TcpSocket</label>
+        <link refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket"/>
+        <childnode refid="109" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="111">
+        <label>Canberra::Utility::Core::String</label>
+        <link refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string"/>
+      </node>
+      <node id="110">
+        <label>Canberra::Utility::Network::EndPoint</label>
+        <link refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point"/>
+      </node>
+      <node id="105">
+        <label>Canberra::Protocols::Lynx::DeviceEx</label>
+        <link refid="d4/d09/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ex"/>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>Canberra::Utility::Network::TcpClient</label>
+        <link refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client"/>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+        <childnode refid="110" relation="usage">
+          <edgelabel>_ServerEP</edgelabel>
+        </childnode>
+      </node>
+      <node id="113">
+        <label>Canberra::DataTypes::Serialization::DigitalSignature</label>
+        <link refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature"/>
+        <childnode refid="114" relation="public-inheritance">
+        </childnode>
+        <childnode refid="115" relation="usage">
+          <edgelabel>_Key</edgelabel>
+          <edgelabel>_Signature</edgelabel>
+          <edgelabel>_RandomData</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="171" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.h" bodystart="170" bodyend="185"/>
+    <listofallmembers>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a4c5133c15a373b01d2b771ce021b0034" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>_ConfigChannel</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a78530de2d18211baa2fc9035391b875e" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>_Data</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a86d122ea175a5a1ac6706640696e8128" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>_MessageFactory</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a481ff0cfb390a41a93dc420945e82880" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>_Port</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a08a8d92f4b2ae149f92c9b4f2fa62dee_1a08a8d92f4b2ae149f92c9b4f2fa62dee" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>AddUser</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a34ad6cf7b51838a546cb0feef503cc7b_1a34ad6cf7b51838a546cb0feef503cc7b" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>CheckForError</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0f7c10735473285afbc57765a673026e_1a0f7c10735473285afbc57765a673026e" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>Close</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ab739d02cc29a9f569a2b127fcbc1f884_1ab739d02cc29a9f569a2b127fcbc1f884" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>Control</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a6232b1dc722fb8f11248e19ddd1f1f47_1a6232b1dc722fb8f11248e19ddd1f1f47" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>Control</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a17049b0e2fd8ab1d6f1181f7656ee6a7_1a17049b0e2fd8ab1d6f1181f7656ee6a7" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>Control</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0dbc14914d271155daf5270dde6a4809_1a0dbc14914d271155daf5270dde6a4809" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>Control</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a16877dd4491fee82dcd4708cee09a43f_1a16877dd4491fee82dcd4708cee09a43f" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>Delete</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a3e7d53d8358f59ac34c6d69fe97a200c_1a3e7d53d8358f59ac34c6d69fe97a200c" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>DeleteUser</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1ab3d7ce3e69cc0a54daed7783837801ee" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>Device</name></member>
+      <member refid="d4/d09/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ex_1a66d2dbebfecd02cbbe0364e7e0c16190" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>DeviceEx</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a62e3acd5c9efc70381c37ea94060d648_1a62e3acd5c9efc70381c37ea94060d648" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>EnumerateUsers</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0d3ade2b5f6cbc402008bad5427d3da6_1a0d3ade2b5f6cbc402008bad5427d3da6" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>ExtMethod</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ac77d98daff94392709601858b2980766_1ac77d98daff94392709601858b2980766" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>GetCounterData</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a398c465b88cfc162888d77d6279a8825" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>GetIsOpen</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1ac917db8daa65be2a85d24c8f30801f4f" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>GetKeepAlive</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a7af58e6c130e27da33a02e46eddd0bab_1a7af58e6c130e27da33a02e46eddd0bab" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>GetListData</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a49215c7186fc99e486ec514488dad437_1a49215c7186fc99e486ec514488dad437" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>GetMSSData</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a93c602c8408cc3355fc91b43f45247e2_1a93c602c8408cc3355fc91b43f45247e2" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>GetParameter</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a33bd6bcde5356867647a30b1bd7ed343_1a33bd6bcde5356867647a30b1bd7ed343" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>GetParameterList</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad3cbed9925aa49688846a18e8eedfbd1_1ad3cbed9925aa49688846a18e8eedfbd1" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>GetParameterMetaData</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1af8ea16cc9570a2d7eab9abb2102cf6c4" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>GetPort</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_aaccfa27ad7d6286377093d4ab5b004b4_1aaccfa27ad7d6286377093d4ab5b004b4" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>GetProperty</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a9e6e79fe9d532a4bf9ff92befa2de863" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>GetReceiveTimeout</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ae0f2af17d866f3fc8dace49b3dc25534_1ae0f2af17d866f3fc8dace49b3dc25534" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>GetRegionsOfInterest</name></member>
+      <member refid="d4/d09/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ex_1af934cb00c0b93efecb001514dc02c461" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>GetSCAbuffer</name></member>
+      <member refid="d4/d09/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ex_a77bb8d6a288fe6cf56e43839ef1a6195_1a77bb8d6a288fe6cf56e43839ef1a6195" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>GetSCAdefinitions</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2db7c8288c3316f23f29bea4948634c4_1a2db7c8288c3316f23f29bea4948634c4" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>GetSendTimeout</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_af6cdb15c1c210b5efef509fa501cf8f8_1af6cdb15c1c210b5efef509fa501cf8f8" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>GetSpectrum</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad6b49e66d88c9624d344532c8c0f16af_1ad6b49e66d88c9624d344532c8c0f16af" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>Lock</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_aece855a20d43a1676ec6ca0ab9917a49_1aece855a20d43a1676ec6ca0ab9917a49" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>Open</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a8ebcebb05d610ae6d907955bc4f78c29_1a8ebcebb05d610ae6d907955bc4f78c29" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>PutKeepAlive</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad7b416ff1e42fa30dfef6e7a44faee92_1ad7b416ff1e42fa30dfef6e7a44faee92" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>PutParameter</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2ba667c88f72053137db2d913f957d47_1a2ba667c88f72053137db2d913f957d47" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>PutParameterList</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a28e7caa3973967170dbc445771644193_1a28e7caa3973967170dbc445771644193" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>PutPort</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_aa3f539662d82072bbd58bb0b01b98b96_1aa3f539662d82072bbd58bb0b01b98b96" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>PutProperty</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a881814ede0fd879e649e027f41b03b94_1a881814ede0fd879e649e027f41b03b94" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>PutReceiveTimeout</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2b7b1dbbf2391cbbb503ea253aed164b_1a2b7b1dbbf2391cbbb503ea253aed164b" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>PutRegionsOfInterest</name></member>
+      <member refid="d4/d09/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ex_afd12d1dce85502d5a2aeb4c80b88946b_1afd12d1dce85502d5a2aeb4c80b88946b" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>PutSCAdefinitions</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a92c3e56b497ed2f58afb198746b6f4c5_1a92c3e56b497ed2f58afb198746b6f4c5" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>PutSendTimeout</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a5aa231963ff4d259fd1b100c6f620490_1a5aa231963ff4d259fd1b100c6f620490" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>PutSpectrum</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a4f514bd2a06da196fbe8f63cde8d4870_1a4f514bd2a06da196fbe8f63cde8d4870" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>Save</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ab5f8a362b339768e8f3cde9633be6b87_1ab5f8a362b339768e8f3cde9633be6b87" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>Unlock</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a47051ab0ec0a01f2b0f56925d12d10df_1a47051ab0ec0a01f2b0f56925d12d10df" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>UpdateUser</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_aa5895622f6c9b7006da39245302d3a4a_1aa5895622f6c9b7006da39245302d3a4a" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>ValidateUser</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a15622214b1e714c404d4772172d4f349_1a15622214b1e714c404d4772172d4f349" prot="public" virt="virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>~Device</name></member>
+      <member refid="d4/d09/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ex_adea95d2151bfdecbd6c58f6157cca15d_1adea95d2151bfdecbd6c58f6157cca15d" prot="public" virt="virtual"><scope>Canberra::Protocols::Lynx::DeviceEx</scope><name>~DeviceEx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

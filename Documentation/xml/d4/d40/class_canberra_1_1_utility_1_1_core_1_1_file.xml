@@ -1,0 +1,497 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Utility::Core::File</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_1a6f67f7df2d5623f56b2f0108b43dde41" prot="protected" static="no" mutable="no">
+        <type><ref refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section" kindref="compound">CriticalSection</ref></type>
+        <definition>CriticalSection Canberra::Utility::Core::File::_Lock</definition>
+        <argsstring></argsstring>
+        <name>_Lock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="31" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_1a0ab04f6e5ac5b96f2886bbd4dde968ed" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::File::_IsUnicode</definition>
+        <argsstring></argsstring>
+        <name>_IsUnicode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="32" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_1abc6a2d385f3c28fe00dde8afbbe45609" prot="protected" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE* Canberra::Utility::Core::File::_File</definition>
+        <argsstring></argsstring>
+        <name>_File</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="33" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_1aaf0a617ed260fb16b99fe31e89505a69" prot="protected" static="no" mutable="no">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>String Canberra::Utility::Core::File::_Name</definition>
+        <argsstring></argsstring>
+        <name>_Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="34" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_1a651cd262f2875b8611bf2940162485a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::File::File</definition>
+        <argsstring>(const File &amp;)</argsstring>
+        <name>File</name>
+        <param>
+          <type>const <ref refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file" kindref="compound">File</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_1a8ab1b3a071325e86daa175f54cdcd736" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file" kindref="compound">File</ref> &amp;</type>
+        <definition>File&amp; Canberra::Utility::Core::File::operator=</definition>
+        <argsstring>(const File &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file" kindref="compound">File</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="28" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_1af6f8632ae216aff08d617f188ede78b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::File::File</definition>
+        <argsstring>(void)</argsstring>
+        <name>File</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>An instance of this class is used to Manage access to a file /summary&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="37" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.cpp" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_ab66aba37064f0601fe750fd4b395085c_1ab66aba37064f0601fe750fd4b395085c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::File::~File</definition>
+        <argsstring>(void)</argsstring>
+        <name>~File</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will close and open file /summary&gt; returns&gt;Win32 code. 0==Sucess</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="38" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.cpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_abf3cd9f9ffc13bafcc3b199c15af4f02_1abf3cd9f9ffc13bafcc3b199c15af4f02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::File::GetIsOpen</definition>
+        <argsstring>()</argsstring>
+        <name>GetIsOpen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will delete the specified file /summary&gt; param name=&quot;Name&quot;&gt;The name of the file</para><para>returns&gt;0==Success else Win32 error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="41" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.cpp" bodystart="307" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a13f16e16abcd43806ffcae5739e57486_1a13f16e16abcd43806ffcae5739e57486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::File::GetName</definition>
+        <argsstring>()</argsstring>
+        <name>GetName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return information indicating whether the file is open /summary&gt; returns&gt;Open state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="44" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.cpp" bodystart="300" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_ae45067e4e57963ebaca8bf462c9fe979_1ae45067e4e57963ebaca8bf462c9fe979" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::File::Open</definition>
+        <argsstring>(const String &amp;Name, LONG Ops=OPEN_CREATE|OPEN_APPEND)</argsstring>
+        <name>Open</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Name</declname>
+        </param>
+        <param>
+          <type>LONG</type>
+          <declname>Ops</declname>
+          <defval>OPEN_CREATE|OPEN_APPEND</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will write the byte stream to the file /summary&gt; param name=&quot;Str&quot;&gt;The stream to write</para><para>param name=&quot;NumWritten&quot;&gt;The number of bytes written</para><para>returns&gt;0==Sucess</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="47" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.cpp" bodystart="51" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_aa421329224af00499fe56cd5cfacd70a_1aa421329224af00499fe56cd5cfacd70a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::File::Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will open the specified file via CreateFile API. The security attributes are NULL /summary&gt; param name=&quot;Name&quot;&gt;The name of the file to open</para><para>param name=&quot;Ops&quot;&gt;The options</para><para>returns&gt;0==Sucess</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="50" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.cpp" bodystart="30" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a50a22791ec993eee5974d942d54b3f5e_1a50a22791ec993eee5974d942d54b3f5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::File::Write</definition>
+        <argsstring>(const ByteStream &amp;Str, ULONG *NumWritten=NULL)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>const <ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>ULONG *</type>
+          <declname>NumWritten</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will write the byte stream to the file /summary&gt; param name=&quot;Data&quot;&gt;The stream to write</para><para>param name=&quot;Size&quot;&gt;The stream size</para><para>param name=&quot;NumWritten&quot;&gt;The number of bytes written</para><para>returns&gt;0==Sucess</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="53" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.cpp" bodystart="102" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a2ff9ae175a2a9d7129ed75828a5ce805_1a2ff9ae175a2a9d7129ed75828a5ce805" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::File::Write</definition>
+        <argsstring>(const void *const Data, ULONG Size, ULONG *NumWritten=NULL)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>const void *const</type>
+          <declname>Data</declname>
+        </param>
+        <param>
+          <type>ULONG</type>
+          <declname>Size</declname>
+        </param>
+        <param>
+          <type>ULONG *</type>
+          <declname>NumWritten</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will write the a string to a file The string will be delimited with <linebreak/>
+ /summary&gt; param name=&quot;Str&quot;&gt;The string to write</para><para>param name=&quot;NumWritten&quot;&gt;The number of bytes written</para><para>returns&gt;0==Sucess</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="56" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.cpp" bodystart="114" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_af4fdd54b2bd049c5a00d0831a66e0c77_1af4fdd54b2bd049c5a00d0831a66e0c77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::File::WriteLine</definition>
+        <argsstring>(const String &amp;Str, ULONG *NumWritten=NULL)</argsstring>
+        <name>WriteLine</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>ULONG *</type>
+          <declname>NumWritten</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will read the byte stream to the file /summary&gt; param name=&quot;Data&quot;&gt;The stream to read into</para><para>param name=&quot;Size&quot;&gt;The stream size</para><para>param name=&quot;NumRead&quot;&gt;The number of bytes read</para><para>returns&gt;0==Sucess</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="59" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.cpp" bodystart="153" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a18578796ff3634bd07d90d22ffb82b7d_1a18578796ff3634bd07d90d22ffb82b7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::File::Read</definition>
+        <argsstring>(void *Data, LONG Size, LONG *NumRead=NULL)</argsstring>
+        <name>Read</name>
+        <param>
+          <type>void *</type>
+          <declname>Data</declname>
+        </param>
+        <param>
+          <type>LONG</type>
+          <declname>Size</declname>
+        </param>
+        <param>
+          <type>LONG *</type>
+          <declname>NumRead</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will read the string from the file till an &apos;<linebreak/>
+&apos; or &apos;&apos; or EOF is found /summary&gt; param name=&quot;Data&quot;&gt;The string to read into</para><para>param name=&quot;MaxReadSize&quot;&gt;The number of chars to read before aborting if &quot;\n\r&quot; not found</para><para>returns&gt;0==Sucess</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="62" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.cpp" bodystart="168" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_1a778f76c113e2fd34994d14ccf6d6b4ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::File::Read</definition>
+        <argsstring>(ByteStream &amp;Str, LONG Size, LONG *NumRead=NULL)</argsstring>
+        <name>Read</name>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>LONG</type>
+          <declname>Size</declname>
+        </param>
+        <param>
+          <type>LONG *</type>
+          <declname>NumRead</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a13bb46328a3166eba497652b6d7d25a9_1a13bb46328a3166eba497652b6d7d25a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::File::ReadLine</definition>
+        <argsstring>(String &amp;Str, ULONG MaxReadSize=MAX_READLINE_SIZE)</argsstring>
+        <name>ReadLine</name>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>ULONG</type>
+          <declname>MaxReadSize</declname>
+          <defval>MAX_READLINE_SIZE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get state indicating that the file is a unicode file /summary&gt; returns&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="68" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.cpp" bodystart="207" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_ae4049e5cb4d9107a5a3df2548511fb10_1ae4049e5cb4d9107a5a3df2548511fb10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::File::Flush</definition>
+        <argsstring>()</argsstring>
+        <name>Flush</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the name of the currently open file /summary&gt; returns&gt;name</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="71" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.cpp" bodystart="280" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a534c906d5b1c4788048ad5b7da3d02a7_1a534c906d5b1c4788048ad5b7da3d02a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::File::Seek</definition>
+        <argsstring>(LONG Offset, LONG Origin)</argsstring>
+        <name>Seek</name>
+        <param>
+          <type>LONG</type>
+          <declname>Offset</declname>
+        </param>
+        <param>
+          <type>LONG</type>
+          <declname>Origin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the current working directory /summary&gt; return&gt;The value&lt;/return&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="74" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.cpp" bodystart="390" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a4042e135db85e44810d0830567b036c4_1a4042e135db85e44810d0830567b036c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::File::GetIsUnicode</definition>
+        <argsstring>()</argsstring>
+        <name>GetIsUnicode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will set state indicating that the file is a unicode file /summary&gt; param name=&quot;v&quot;&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="77" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.cpp" bodystart="267" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a0791b6bdb260071bbd22b7a3439f80cd_1a0791b6bdb260071bbd22b7a3439f80cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::File::PutIsUnicode</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>PutIsUnicode</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will flush the buffers /summary&gt; returns&gt;Win32 code. 0==Sucess</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="78" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.cpp" bodystart="274" bodyend="269"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a255660e688ccaf7b56b9da31a3f09eea_1a255660e688ccaf7b56b9da31a3f09eea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::File::Exists</definition>
+        <argsstring>(const String &amp;V)</argsstring>
+        <name>Exists</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>V</declname>
+          <defname>Name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will set the file pointer /summary&gt; param name=&quot;Offset&quot;&gt;The number of bytes from the origin</para><para>param name=&quot;Origin&quot;&gt;The origin see (SEEK_SET=Beginning of file, SEEK_CUR=End of file, SEEK_END=End of file)</para><para>exception cref=&quot;ULONG&quot;&gt;Error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="81" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.cpp" bodystart="347" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a21294a585475929cf9c68a165816b7a7_1a21294a585475929cf9c68a165816b7a7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::File::Delete</definition>
+        <argsstring>(const String &amp;V)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>V</declname>
+          <defname>Name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return information indicating whether the file exists /summary&gt; returns&gt;Existance state</para><para>exception cref=&quot;ULONG&quot;&gt;Error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="84" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.cpp" bodystart="314" bodyend="309"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="165">
+        <label>Canberra::Utility::Core::File</label>
+        <link refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file"/>
+        <childnode refid="166" relation="usage">
+          <edgelabel>_Lock</edgelabel>
+        </childnode>
+        <childnode refid="168" relation="usage">
+          <edgelabel>_Name</edgelabel>
+        </childnode>
+      </node>
+      <node id="168">
+        <label>Canberra::Utility::Core::String</label>
+        <link refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string"/>
+      </node>
+      <node id="166">
+        <label>Canberra::Utility::Core::CriticalSection</label>
+        <link refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section"/>
+        <childnode refid="167" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="167">
+        <label>Canberra::Utility::Core::SyncObject</label>
+        <link refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object"/>
+        <childnode refid="168" relation="usage">
+          <edgelabel>_Name</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/File.h" line="26" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/File.h" bodystart="25" bodyend="86"/>
+    <listofallmembers>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_1abc6a2d385f3c28fe00dde8afbbe45609" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>_File</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_1a0ab04f6e5ac5b96f2886bbd4dde968ed" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>_IsUnicode</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_1a6f67f7df2d5623f56b2f0108b43dde41" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>_Lock</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_1aaf0a617ed260fb16b99fe31e89505a69" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>_Name</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_aa421329224af00499fe56cd5cfacd70a_1aa421329224af00499fe56cd5cfacd70a" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>Close</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a21294a585475929cf9c68a165816b7a7_1a21294a585475929cf9c68a165816b7a7" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>Delete</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a255660e688ccaf7b56b9da31a3f09eea_1a255660e688ccaf7b56b9da31a3f09eea" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>Exists</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_1a651cd262f2875b8611bf2940162485a9" prot="private" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>File</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_1af6f8632ae216aff08d617f188ede78b0" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>File</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_ae4049e5cb4d9107a5a3df2548511fb10_1ae4049e5cb4d9107a5a3df2548511fb10" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>Flush</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_abf3cd9f9ffc13bafcc3b199c15af4f02_1abf3cd9f9ffc13bafcc3b199c15af4f02" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>GetIsOpen</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a4042e135db85e44810d0830567b036c4_1a4042e135db85e44810d0830567b036c4" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>GetIsUnicode</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a13f16e16abcd43806ffcae5739e57486_1a13f16e16abcd43806ffcae5739e57486" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>GetName</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_ae45067e4e57963ebaca8bf462c9fe979_1ae45067e4e57963ebaca8bf462c9fe979" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>Open</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_1a8ab1b3a071325e86daa175f54cdcd736" prot="private" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>operator=</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a0791b6bdb260071bbd22b7a3439f80cd_1a0791b6bdb260071bbd22b7a3439f80cd" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>PutIsUnicode</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a18578796ff3634bd07d90d22ffb82b7d_1a18578796ff3634bd07d90d22ffb82b7d" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>Read</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_1a778f76c113e2fd34994d14ccf6d6b4ba" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>Read</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a13bb46328a3166eba497652b6d7d25a9_1a13bb46328a3166eba497652b6d7d25a9" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>ReadLine</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a534c906d5b1c4788048ad5b7da3d02a7_1a534c906d5b1c4788048ad5b7da3d02a7" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>Seek</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a50a22791ec993eee5974d942d54b3f5e_1a50a22791ec993eee5974d942d54b3f5e" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>Write</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_a2ff9ae175a2a9d7129ed75828a5ce805_1a2ff9ae175a2a9d7129ed75828a5ce805" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>Write</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_af4fdd54b2bd049c5a00d0831a66e0c77_1af4fdd54b2bd049c5a00d0831a66e0c77" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::File</scope><name>WriteLine</name></member>
+      <member refid="d4/d40/class_canberra_1_1_utility_1_1_core_1_1_file_ab66aba37064f0601fe750fd4b395085c_1ab66aba37064f0601fe750fd4b395085c" prot="public" virt="virtual"><scope>Canberra::Utility::Core::File</scope><name>~File</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

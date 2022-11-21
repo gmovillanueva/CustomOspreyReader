@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d2/d91/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_dlfc_data_s" kind="struct" language="C++" prot="public">
+    <compoundname>Canberra::DataTypes::Spectroscopy::DlfcDataS</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d2/d91/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_dlfc_data_s_1a266032d85714dcf83f42021bf12e2fca" prot="public" static="no" mutable="no">
+        <type>LONGLONG</type>
+        <definition>LONGLONG Canberra::DataTypes::Spectroscopy::DlfcDataS::LiveTime</definition>
+        <argsstring></argsstring>
+        <name>LiveTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DlfcData.h" line="11" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DlfcData.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d91/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_dlfc_data_s_1a6a8b3dd2df658443a2cfb8444fa80234" prot="public" static="no" mutable="no">
+        <type>LONGLONG</type>
+        <definition>LONGLONG Canberra::DataTypes::Spectroscopy::DlfcDataS::RealTime</definition>
+        <argsstring></argsstring>
+        <name>RealTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DlfcData.h" line="12" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DlfcData.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/d91/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_dlfc_data_s_1a2704781291b3f99c9501ad7ad5273af9" prot="public" static="no" mutable="no">
+        <type>LONGLONG</type>
+        <definition>LONGLONG Canberra::DataTypes::Spectroscopy::DlfcDataS::CompValue</definition>
+        <argsstring></argsstring>
+        <name>CompValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/DlfcData.h" line="13" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DlfcData.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/DlfcData.h" line="10" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/DlfcData.h" bodystart="10" bodyend="14"/>
+    <listofallmembers>
+      <member refid="d2/d91/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_dlfc_data_s_1a2704781291b3f99c9501ad7ad5273af9" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::DlfcDataS</scope><name>CompValue</name></member>
+      <member refid="d2/d91/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_dlfc_data_s_1a266032d85714dcf83f42021bf12e2fca" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::DlfcDataS</scope><name>LiveTime</name></member>
+      <member refid="d2/d91/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_dlfc_data_s_1a6a8b3dd2df658443a2cfb8444fa80234" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::DlfcDataS</scope><name>RealTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

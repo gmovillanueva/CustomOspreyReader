@@ -1,0 +1,71 @@
+\hypertarget{class_canberra_1_1_utility_1_1_core_1_1_lock_manager}{}\section{Canberra\+:\+:Utility\+:\+:Core\+:\+:Lock\+Manager Class Reference}
+\label{class_canberra_1_1_utility_1_1_core_1_1_lock_manager}\index{Canberra\+::\+Utility\+::\+Core\+::\+Lock\+Manager@{Canberra\+::\+Utility\+::\+Core\+::\+Lock\+Manager}}
+
+
+Collaboration diagram for Canberra\+:\+:Utility\+:\+:Core\+:\+:Lock\+Manager\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_lock_manager_ab9e3a578521f78e25f576207d28254bb}\label{class_canberra_1_1_utility_1_1_core_1_1_lock_manager_ab9e3a578521f78e25f576207d28254bb}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_lock_manager_ab9e3a578521f78e25f576207d28254bb}{Lock\+Manager} (\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_sync_object}{Sync\+Object} $\ast$L, bool Lock\+It=true)
+\begin{DoxyCompactList}\small\item\em This method will initialize and lock the the sync object /summary$>$ param name=\char`\"{}\+L\char`\"{}$>$The lock to manage
+
+param name=\char`\"{}\+Lock\+It\char`\"{}$>$The state of the lock
+
+exception name=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$The error info\end{DoxyCompactList}\item 
+virtual \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_lock_manager_abd2f0fbc6748df132a6e347207702a8e_abd2f0fbc6748df132a6e347207702a8e}{$\sim$\+Lock\+Manager} (void)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_lock_manager_aa3843447f5eac5a89d2132966db671b5_aa3843447f5eac5a89d2132966db671b5}{Lock} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_lock_manager_acbc3677d361d9c3804a8f2053bb6f7aa}\label{class_canberra_1_1_utility_1_1_core_1_1_lock_manager_acbc3677d361d9c3804a8f2053bb6f7aa}} 
+U\+L\+O\+NG {\bfseries Unlock} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_lock_manager_ae877c649dea45a4dc3d3614ed9cb0bab}\label{class_canberra_1_1_utility_1_1_core_1_1_lock_manager_ae877c649dea45a4dc3d3614ed9cb0bab}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_sync_object}{Sync\+Object} $\ast$ {\bfseries \+\_\+\+Lock}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_lock_manager_ac639b36e2c1974512be13007e055e285}\label{class_canberra_1_1_utility_1_1_core_1_1_lock_manager_ac639b36e2c1974512be13007e055e285}} 
+bool {\bfseries \+\_\+\+Locked}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 14 of file Lock\+Manager.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_lock_manager_abd2f0fbc6748df132a6e347207702a8e_abd2f0fbc6748df132a6e347207702a8e}\label{class_canberra_1_1_utility_1_1_core_1_1_lock_manager_abd2f0fbc6748df132a6e347207702a8e_abd2f0fbc6748df132a6e347207702a8e}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Lock\+Manager@{Canberra\+::\+Utility\+::\+Core\+::\+Lock\+Manager}!````~Lock\+Manager@{$\sim$\+Lock\+Manager}}
+\index{````~Lock\+Manager@{$\sim$\+Lock\+Manager}!Canberra\+::\+Utility\+::\+Core\+::\+Lock\+Manager@{Canberra\+::\+Utility\+::\+Core\+::\+Lock\+Manager}}
+\subsubsection{\texorpdfstring{$\sim$\+Lock\+Manager()}{~LockManager()}}
+{\footnotesize\ttfamily Canberra\+::\+Utility\+::\+Core\+::\+Lock\+Manager\+::$\sim$\+Lock\+Manager (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will lock the sync object If it is already locked nothing occurs /summary$>$ returns$>$0==Success
+
+Definition at line 18 of file Lock\+Manager.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_lock_manager_aa3843447f5eac5a89d2132966db671b5_aa3843447f5eac5a89d2132966db671b5}\label{class_canberra_1_1_utility_1_1_core_1_1_lock_manager_aa3843447f5eac5a89d2132966db671b5_aa3843447f5eac5a89d2132966db671b5}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Lock\+Manager@{Canberra\+::\+Utility\+::\+Core\+::\+Lock\+Manager}!Lock@{Lock}}
+\index{Lock@{Lock}!Canberra\+::\+Utility\+::\+Core\+::\+Lock\+Manager@{Canberra\+::\+Utility\+::\+Core\+::\+Lock\+Manager}}
+\subsubsection{\texorpdfstring{Lock()}{Lock()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Lock\+Manager\+::\+Lock (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+summary$>$ This method will unlock the sync object If it is already unlocked nothing occurs /summary$>$ returns$>$0==Success
+
+Definition at line 25 of file Lock\+Manager.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Lock\+Manager.\+h\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Lock\+Manager.\+cpp\end{DoxyCompactItemize}

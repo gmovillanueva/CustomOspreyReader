@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::DataTypes::Spectroscopy::CounterData</compoundname>
+    <basecompoundref refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object" prot="public" virt="non-virtual">Canberra::Serialization::SerializableObject</basecompoundref>
+    <innerclass refid="d9/d48/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_1_1_sample" prot="public">Canberra::DataTypes::Spectroscopy::CounterData::Sample</innerclass>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_1a5ac5ebe0d8d180b15866c7053df2772c" prot="protected" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* Canberra::DataTypes::Spectroscopy::CounterData::_Samples</definition>
+        <argsstring></argsstring>
+        <name>_Samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="62" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_1a76793d78786ae6baf6d6ffd0f5e1f252" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Spectroscopy::CounterData::Copy</definition>
+        <argsstring>(const CounterData &amp;v)</argsstring>
+        <name>Copy</name>
+        <param>
+          <type>const <ref refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data" kindref="compound">CounterData</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="65" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.cpp" bodystart="349" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_a7cabd7795fc0bb4c0e3a2bb17acfb8c9_1a7cabd7795fc0bb4c0e3a2bb17acfb8c9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::CounterData::SerializeData</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const Canberra::Serialization::MetaData &amp;MD, const LONG Offset=0)</argsstring>
+        <name>SerializeData</name>
+        <reimplements refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1ad53b676c25c6fdf48aa861b36709eba4">SerializeData</reimplements>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data" kindref="compound">Canberra::Serialization::MetaData</ref> &amp;</type>
+          <declname>MD</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will serialize this instance into the byte stream /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the write in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes serialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="68" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.cpp" bodystart="226" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_aaeb262fc04a1ea323bc27990d74723e5_1aaeb262fc04a1ea323bc27990d74723e5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::CounterData::DeserializeData</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const Canberra::Serialization::MetaData &amp;MD, const LONG Offset=0)</argsstring>
+        <name>DeserializeData</name>
+        <reimplements refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1aea035ce63d01acfb02185016fb648ece">DeserializeData</reimplements>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data" kindref="compound">Canberra::Serialization::MetaData</ref> &amp;</type>
+          <declname>MD</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will returns the number of bytes this instance manages for serialization /summary&gt; returns&gt;The number of bytes to serialize</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="71" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.cpp" bodystart="278" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_a7bc6005b442b7d0cbcf4a0b3e5cbc290_1a7bc6005b442b7d0cbcf4a0b3e5cbc290" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::CounterData::GetDataSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetDataSize</name>
+        <reimplements refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1aeea4076233d10b8d485e474e47455e36">GetDataSize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will add a sample to the counter data collection /summary&gt; exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="74" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.cpp" bodystart="310" bodyend="305"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_a2358c3b34f6886efb11cc0f0a9a9ffeb_1a2358c3b34f6886efb11cc0f0a9a9ffeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data" kindref="compound">CounterData</ref> &amp;</type>
+        <definition>Canberra::DataTypes::Spectroscopy::CounterData &amp; Canberra::DataTypes::Spectroscopy::CounterData::operator=</definition>
+        <argsstring>(const CounterData &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data" kindref="compound">CounterData</ref> &amp;</type>
+          <defname>Rhs</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will initialize an instance of this class /summary&gt; param name=&quot;v&quot;&gt;The src</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="77" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.cpp" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_1ad55d36b350c84e42afa508638df3edc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Spectroscopy::CounterData::CounterData</definition>
+        <argsstring>(const CounterData &amp;)</argsstring>
+        <name>CounterData</name>
+        <param>
+          <type>const <ref refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data" kindref="compound">CounterData</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="78" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.cpp" bodystart="373" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_1a7898da3a9325a8b18e8a28f79841d011" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Spectroscopy::CounterData::CounterData</definition>
+        <argsstring>()</argsstring>
+        <name>CounterData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="79" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.cpp" bodystart="189" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_1a6d790be44b113b06bc82b4865b16cc6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Spectroscopy::CounterData::~CounterData</definition>
+        <argsstring>()</argsstring>
+        <name>~CounterData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="80" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.cpp" bodystart="195" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_1ac0156143038e5dca7014506c2a8fa253" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::CounterData::GetNumberOfSamples</definition>
+        <argsstring>()</argsstring>
+        <name>GetNumberOfSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="83" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.cpp" bodystart="204" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_a5842b8b3a9fa5a7717d6a8519aafc475_1a5842b8b3a9fa5a7717d6a8519aafc475" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d9/d48/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_1_1_sample" kindref="compound">Sample</ref></type>
+        <definition>Canberra::DataTypes::Spectroscopy::CounterData::Sample Canberra::DataTypes::Spectroscopy::CounterData::GetSample</definition>
+        <argsstring>(ULONG i)</argsstring>
+        <name>GetSample</name>
+        <param>
+          <type>ULONG</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will serialize this instance into the byte stream /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;MD&quot;&gt;The metadata</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the write in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes serialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="86" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.cpp" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_a2f684fd84f57e87148a1b057e5bace72_1a2f684fd84f57e87148a1b057e5bace72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Spectroscopy::CounterData::Add</definition>
+        <argsstring>(const Sample &amp;)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>const <ref refid="d9/d48/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_1_1_sample" kindref="compound">Sample</ref> &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will clear the counter data collection /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="89" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.cpp" bodystart="322" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_a00971d06ce65981fd8f6a37949843b41_1a00971d06ce65981fd8f6a37949843b41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Spectroscopy::CounterData::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will perform a deep copy /summary&gt; param name=&quot;v&quot;&gt;The src</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="92" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.cpp" bodystart="337" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_a5a60e038c044f258a42903b16f25feba_1a5a60e038c044f258a42903b16f25feba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::CounterData::DeserializeDataEx</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const LONG Offset=0)</argsstring>
+        <name>DeserializeDataEx</name>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will deserialize info from the byte stream into this instance /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;MD&quot;&gt;The metadata</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the read in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes deserialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="94" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.cpp" bodystart="265" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_ab1cdfe42b8d4b1fde7af879bc6b92ac1_1ab1cdfe42b8d4b1fde7af879bc6b92ac1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::CounterData::SerializeDataEx</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const LONG Offset=0)</argsstring>
+        <name>SerializeDataEx</name>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will deserialize info from the byte stream into this instance /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the read in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes deserialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="95" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.cpp" bodystart="253" bodyend="246"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="62">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="60">
+        <label>Canberra::DataTypes::Spectroscopy::CounterData</label>
+        <link refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>Canberra::Serialization::SerializableObject</label>
+        <link refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="65">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="63">
+        <label>Canberra::DataTypes::Spectroscopy::CounterData</label>
+        <link refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data"/>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>Canberra::Serialization::SerializableObject</label>
+        <link refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="22" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.h" bodystart="21" bodyend="96"/>
+    <listofallmembers>
+      <member refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_1a5ac5ebe0d8d180b15866c7053df2772c" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>_Samples</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a62efa0d30e9df187718f2832622ac9fc" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>_Type</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a4821112683d68c98c1522d75f186fb21" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>_UseMetaData</name></member>
+      <member refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_a2f684fd84f57e87148a1b057e5bace72_1a2f684fd84f57e87148a1b057e5bace72" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Add</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a42d74858b0cea8269da2b35ccd5cb1ff" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Array</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a13dfc3b38fa4101b58ed1e111954a696" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Blob</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a3810fac464221c267d15ac677b734ec9" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Bool</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aa3a10ebe6b68339ed5c951d1cd63323b" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Byte</name></member>
+      <member refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_a00971d06ce65981fd8f6a37949843b41_1a00971d06ce65981fd8f6a37949843b41" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Clear</name></member>
+      <member refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_1a76793d78786ae6baf6d6ffd0f5e1f252" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Copy</name></member>
+      <member refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_1ad55d36b350c84e42afa508638df3edc3" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>CounterData</name></member>
+      <member refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_1a7898da3a9325a8b18e8a28f79841d011" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>CounterData</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ab559832d01dfcf5ec9d13560b03c05fe" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>CustomTypeOffset</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aea4d059479031ecb9556cb06274f398e" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>DateTime</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a430c3ea76c8389e480d48a97ff2df2d0" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Deserialize</name></member>
+      <member refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_aaeb262fc04a1ea323bc27990d74723e5_1aaeb262fc04a1ea323bc27990d74723e5" prot="protected" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>DeserializeData</name></member>
+      <member refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_a5a60e038c044f258a42903b16f25feba_1a5a60e038c044f258a42903b16f25feba" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>DeserializeDataEx</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ab41926d1cfcca9c142c69707c2f202c0" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Double</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a92fcae28fd44acf6ee83b77f8813df55" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Float</name></member>
+      <member refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_a7bc6005b442b7d0cbcf4a0b3e5cbc290_1a7bc6005b442b7d0cbcf4a0b3e5cbc290" prot="protected" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>GetDataSize</name></member>
+      <member refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_1ac0156143038e5dca7014506c2a8fa253" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>GetNumberOfSamples</name></member>
+      <member refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_a5842b8b3a9fa5a7717d6a8519aafc475_1a5842b8b3a9fa5a7717d6a8519aafc475" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>GetSample</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_a1af5a56d77422d2d6f56d1fb8bc9f376_1a1af5a56d77422d2d6f56d1fb8bc9f376" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>GetSize</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1ab619feca491ffd7547c45f0ec6dcfe0b" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>GetType</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1aba841e892df8481bd3fdca757e6f10d4" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>GetUseMetaData</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430af31a37f97d6cbec3e2439cf0b9f0efee" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Int64</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aff35725740fbbbbb5495460560c13d54" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Long</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a6c938a0fc1bf14041406d0a6df5da2b3" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Null</name></member>
+      <member refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_a2358c3b34f6886efb11cc0f0a9a9ffeb_1a2358c3b34f6886efb11cc0f0a9a9ffeb" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>operator=</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a3fd4cc1bf197d9367f49b76c71582058" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>PutUseMetaData</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1a38579cdd4f2e813e7b0cca54e1b09529" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Serializable</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a0ef0ea4e4e766e15086f54ebb05744cd" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>SerializableObject</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_a33e593c04b50f36e8dad06b3b7471a9c_1a33e593c04b50f36e8dad06b3b7471a9c" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Serialize</name></member>
+      <member refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_a7cabd7795fc0bb4c0e3a2bb17acfb8c9_1a7cabd7795fc0bb4c0e3a2bb17acfb8c9" prot="protected" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>SerializeData</name></member>
+      <member refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_ab1cdfe42b8d4b1fde7af879bc6b92ac1_1ab1cdfe42b8d4b1fde7af879bc6b92ac1" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>SerializeDataEx</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a583b6f9cb2b9d3e17b4886d87bdedc58" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Short</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a38fdc153d55d83bc2e228ae8a3ed7245" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>String</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a163e11a5f23b834ce8544f494084045e" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>TypeCode</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>TypeCodeTag</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430af81c78c9fb7d47514b6d549e17acbfd1" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Ubyte</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ad366730d966138edb3d1ab0dd5da08e6" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Uint64</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a2755dd9dd281c902476f2295855ee571" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Ulong</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430abfc7ae0d0aa2c1d6386055cdcbdb0d76" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Unknown</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a92cba09c4c79914db36ac8c31aea8d63" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>Ushort</name></member>
+      <member refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data_1a6d790be44b113b06bc82b4865b16cc6c" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>~CounterData</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1ac760495914b0d7047d1dcbd3fed642d4" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>~Serializable</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a72f15771099cf139f28e839e480d0721" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterData</scope><name>~SerializableObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

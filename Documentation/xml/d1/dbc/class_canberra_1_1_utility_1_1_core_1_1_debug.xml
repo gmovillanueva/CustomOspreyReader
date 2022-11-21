@@ -1,0 +1,520 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Utility::Core::Debug</compoundname>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a27b1d7108f2b64eeb048e78570cb10ec" prot="protected" static="yes" mutable="no">
+        <type>LONG</type>
+        <definition>LONG Canberra::Utility::Core::Debug::_MaxLogSize</definition>
+        <argsstring></argsstring>
+        <name>_MaxLogSize</name>
+        <initializer>=90000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="21" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a74d10e5810340113b10b3497159b5a44" prot="protected" static="yes" mutable="no">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::Debug::_LogFile</definition>
+        <argsstring></argsstring>
+        <name>_LogFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="22" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a72afaeedd9f9e8ad7a36c31e89f65311" prot="protected" static="yes" mutable="no">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::Debug::_WarnEv</definition>
+        <argsstring></argsstring>
+        <name>_WarnEv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="23" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a137b4300deab962b386df49da3bd2a54" prot="protected" static="yes" mutable="no">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::Debug::_ErrorEv</definition>
+        <argsstring></argsstring>
+        <name>_ErrorEv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="24" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a2fd427ac14e7954b4c6f1ce01c8c8272" prot="protected" static="yes" mutable="no">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::Debug::_InfoEv</definition>
+        <argsstring></argsstring>
+        <name>_InfoEv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="25" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a034571cc961f744698ad9b5835e96692" prot="protected" static="yes" mutable="no">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::Debug::_Resource</definition>
+        <argsstring></argsstring>
+        <name>_Resource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="26" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a710983d653888b5de39fc14887a80589" prot="protected" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::Debug::_ToConsole</definition>
+        <argsstring></argsstring>
+        <name>_ToConsole</name>
+        <initializer>=false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="27" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a41416abe2e6785d1b51440c2ccb591c2" prot="protected" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::Debug::_ToFile</definition>
+        <argsstring></argsstring>
+        <name>_ToFile</name>
+        <initializer>=true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="28" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a44302cd37457a2cee15083758bad3620" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::Debug::Debug</definition>
+        <argsstring>(void)</argsstring>
+        <name>Debug</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="19" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_aa5c97c5e6a11f591e099fa07725746c4_1aa5c97c5e6a11f591e099fa07725746c4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::Debug::~Debug</definition>
+        <argsstring>(void)</argsstring>
+        <name>~Debug</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method may be used to generate trace output messages that are formated with information such as class name, method name, message, thread context, and date time stamp /summary&gt; param name=&quot;Class&quot;&gt;The class name where this macro is called</para><para>param name=&quot;Method&quot;&gt;The method name where this macro is called</para><para>param name=&quot;Message&quot;&gt;The trace message</para><para>param name=&quot;Type&quot;&gt;The trace message type</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="20" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a883ce3b5b7e0cd276de0ed1bebbd5268" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+        <definition>Canberra::Utility::Core::String &amp; Canberra::Utility::Core::Debug::GetTypeEvent</definition>
+        <argsstring>(Canberra::Utility::Core::Diagnostics::TraceType T)</argsstring>
+        <name>GetTypeEvent</name>
+        <param>
+          <type>Canberra::Utility::Core::Diagnostics::TraceType</type>
+          <declname>T</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="32" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="196" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_a727e78e36d872ec57a1451d3ff80782d_1a727e78e36d872ec57a1451d3ff80782d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::Debug::OutputDebugString</definition>
+        <argsstring>(const String &amp;Class, const String &amp;Method, const String &amp;Msg, Canberra::Utility::Core::Diagnostics::TraceType T)</argsstring>
+        <name>OutputDebugString</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Class</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Method</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Msg</declname>
+          <defname>Message</defname>
+        </param>
+        <param>
+          <type>Canberra::Utility::Core::Diagnostics::TraceType</type>
+          <declname>T</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method may be used to generate trace output messages that are formated with information such as class name, method name, message, thread context, and date time stamp /summary&gt; param name=&quot;Class&quot;&gt;The class name where this macro is called</para><para>param name=&quot;Method&quot;&gt;The method name where this macro is called</para><para>param name=&quot;Message&quot;&gt;The trace message</para><para>param name=&quot;Code&quot;&gt;The error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="35" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="38" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1abb39a4e7566683582004486d8a28c9c6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::Debug::OutputDebugString</definition>
+        <argsstring>(const String &amp;Class, const String &amp;Method, const String &amp;Msg, ULONG Code)</argsstring>
+        <name>OutputDebugString</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Class</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Method</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Msg</declname>
+        </param>
+        <param>
+          <type>ULONG</type>
+          <declname>Code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="36" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="132" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a8b014e7ded6d7c35b206cbfe998470fe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::Debug::GetLogFile</definition>
+        <argsstring>()</argsstring>
+        <name>GetLogFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="39" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="176" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a63cf0edb10b11e323055d0a86157745f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::Debug::PutLogFile</definition>
+        <argsstring>(const String &amp;v)</argsstring>
+        <name>PutLogFile</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="40" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="177" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a8d31a88fb1794538693dc01ab18ba78f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LONG</type>
+        <definition>LONG Canberra::Utility::Core::Debug::GetMaxLogSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetMaxLogSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="43" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="172" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a18529774bf74666cecea7afb2887a438" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::Debug::PutMaxLogSize</definition>
+        <argsstring>(LONG v)</argsstring>
+        <name>PutMaxLogSize</name>
+        <param>
+          <type>LONG</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="44" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="173" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a6263d9c87ae7f716d097ba569a8c79b0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::Debug::GetWarnEvent</definition>
+        <argsstring>()</argsstring>
+        <name>GetWarnEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="47" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="180" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a48033411df7cefbd72f2ecc6e6818505" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::Debug::PutWarnEvent</definition>
+        <argsstring>(const String &amp;v)</argsstring>
+        <name>PutWarnEvent</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="48" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="181" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a2eb493194a40a9f8e4b370a20c7e1d65" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::Debug::GetErrorEvent</definition>
+        <argsstring>()</argsstring>
+        <name>GetErrorEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="51" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="184" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1aa645711df8ac4598d4113163b3298c2c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::Debug::PutErrorEvent</definition>
+        <argsstring>(const String &amp;v)</argsstring>
+        <name>PutErrorEvent</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="52" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="185" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a7a124a6137895a519d6da821b84f2f10" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::Debug::GetInfoEvent</definition>
+        <argsstring>()</argsstring>
+        <name>GetInfoEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="55" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="188" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a5c07cb3d03f05e4ed21233279b55b6d4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::Debug::PutInfoEvent</definition>
+        <argsstring>(const String &amp;v)</argsstring>
+        <name>PutInfoEvent</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="56" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="189" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a2824510c5dc2229f4e231655d876fe72" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::Debug::GetResource</definition>
+        <argsstring>()</argsstring>
+        <name>GetResource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="59" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="192" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1ad25dcee1ceeee335ce46d6c633599884" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::Debug::PutResource</definition>
+        <argsstring>(const String &amp;v)</argsstring>
+        <name>PutResource</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="60" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="193" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a60356f9f494d133db50a3f08127b75b4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::Debug::GetOutputToConsole</definition>
+        <argsstring>()</argsstring>
+        <name>GetOutputToConsole</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="63" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="208" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a39a32eb3b2d9b76b01967aa6ad54a7c3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::Debug::PutOutputToConsole</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>PutOutputToConsole</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="64" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="209" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1ae6a92d6aad6b2a4d174036bac6dfdda7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::Debug::GetOutputToFile</definition>
+        <argsstring>()</argsstring>
+        <name>GetOutputToFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="67" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="212" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a990a384c899ec38a351575d5035eeb86" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::Debug::PutOutputToFile</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>PutOutputToFile</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="68" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Debug.cpp" bodystart="213" bodyend="213"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="88">
+        <label>Canberra::Utility::Core::String</label>
+        <link refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string"/>
+      </node>
+      <node id="87">
+        <label>Canberra::Utility::Core::Debug</label>
+        <link refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug"/>
+        <childnode refid="88" relation="usage">
+          <edgelabel>_WarnEv</edgelabel>
+          <edgelabel>_LogFile</edgelabel>
+          <edgelabel>_InfoEv</edgelabel>
+          <edgelabel>_Resource</edgelabel>
+          <edgelabel>_ErrorEv</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" line="17" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/UtilityDebug.h" bodystart="16" bodyend="69"/>
+    <listofallmembers>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a137b4300deab962b386df49da3bd2a54" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>_ErrorEv</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a2fd427ac14e7954b4c6f1ce01c8c8272" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>_InfoEv</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a74d10e5810340113b10b3497159b5a44" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>_LogFile</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a27b1d7108f2b64eeb048e78570cb10ec" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>_MaxLogSize</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a034571cc961f744698ad9b5835e96692" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>_Resource</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a710983d653888b5de39fc14887a80589" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>_ToConsole</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a41416abe2e6785d1b51440c2ccb591c2" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>_ToFile</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a72afaeedd9f9e8ad7a36c31e89f65311" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>_WarnEv</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a44302cd37457a2cee15083758bad3620" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>Debug</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a2eb493194a40a9f8e4b370a20c7e1d65" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>GetErrorEvent</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a7a124a6137895a519d6da821b84f2f10" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>GetInfoEvent</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a8b014e7ded6d7c35b206cbfe998470fe" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>GetLogFile</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a8d31a88fb1794538693dc01ab18ba78f" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>GetMaxLogSize</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a60356f9f494d133db50a3f08127b75b4" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>GetOutputToConsole</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1ae6a92d6aad6b2a4d174036bac6dfdda7" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>GetOutputToFile</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a2824510c5dc2229f4e231655d876fe72" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>GetResource</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a883ce3b5b7e0cd276de0ed1bebbd5268" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>GetTypeEvent</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a6263d9c87ae7f716d097ba569a8c79b0" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>GetWarnEvent</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_a727e78e36d872ec57a1451d3ff80782d_1a727e78e36d872ec57a1451d3ff80782d" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>OutputDebugString</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1abb39a4e7566683582004486d8a28c9c6" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>OutputDebugString</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1aa645711df8ac4598d4113163b3298c2c" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>PutErrorEvent</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a5c07cb3d03f05e4ed21233279b55b6d4" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>PutInfoEvent</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a63cf0edb10b11e323055d0a86157745f" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>PutLogFile</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a18529774bf74666cecea7afb2887a438" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>PutMaxLogSize</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a39a32eb3b2d9b76b01967aa6ad54a7c3" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>PutOutputToConsole</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a990a384c899ec38a351575d5035eeb86" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>PutOutputToFile</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1ad25dcee1ceeee335ce46d6c633599884" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>PutResource</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_1a48033411df7cefbd72f2ecc6e6818505" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Debug</scope><name>PutWarnEvent</name></member>
+      <member refid="d1/dbc/class_canberra_1_1_utility_1_1_core_1_1_debug_aa5c97c5e6a11f591e099fa07725746c4_1aa5c97c5e6a11f591e099fa07725746c4" prot="protected" virt="virtual"><scope>Canberra::Utility::Core::Debug</scope><name>~Debug</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

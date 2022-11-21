@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Serialization::SerializableType</compoundname>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>Value_t</declname>
+        <defname>Value_t</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1a288ec1f0073953e3e78bdc5875bd9248" prot="protected" static="no" mutable="no">
+        <type>Value_t</type>
+        <definition>Value_t Canberra::Serialization::SerializableType&lt; Value_t &gt;::_Value</definition>
+        <argsstring></argsstring>
+        <name>_Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="32" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1a3e8e5c7ff15b3064380b496bbd833c14" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Serialization::SerializableType&lt; Value_t &gt;::GetValueSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetValueSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="34" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1aa1dfed2c0cbb7f3b4f6290e361d33ec3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Serialization::SerializableType&lt; Value_t &gt;::SerializeValue</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const MetaData &amp;MD, const LONG Offset=0)</argsstring>
+        <name>SerializeValue</name>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+          <declname>MD</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="35" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="35" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1a576e6f6b68fbf1346da0b0db7afefb05" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Serialization::SerializableType&lt; Value_t &gt;::DeserializeValue</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const MetaData &amp;MD, const LONG Offset=0)</argsstring>
+        <name>DeserializeValue</name>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+          <declname>MD</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="47" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="47" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1a77b06bac8adcb7a348b1966a4e43a5eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Serialization::SerializableType&lt; Value_t &gt;::SerializableType</definition>
+        <argsstring>(Value_t v)</argsstring>
+        <name>SerializableType</name>
+        <param>
+          <type>Value_t</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="58" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1a524ccf1bde50de96e1eea69bfd2586ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Serialization::SerializableType&lt; Value_t &gt;::SerializableType</definition>
+        <argsstring>()</argsstring>
+        <name>SerializableType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="59" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1ac5cc7213d2e1f909fc4c915bbce7a159" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual Canberra::Serialization::SerializableType&lt; Value_t &gt;::~SerializableType</definition>
+        <argsstring>()</argsstring>
+        <name>~SerializableType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="60" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1a7829e73ce6f69c88535c6be96645223b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Value_t</type>
+        <definition>Value_t Canberra::Serialization::SerializableType&lt; Value_t &gt;::GetValue</definition>
+        <argsstring>()</argsstring>
+        <name>GetValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="63" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1ad87817fb182724675c1deeaf9fb31743" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Serialization::SerializableType&lt; Value_t &gt;::PutValue</definition>
+        <argsstring>(Value_t v)</argsstring>
+        <name>PutValue</name>
+        <param>
+          <type>Value_t</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="64" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="460">
+        <label>Canberra::Serialization::SerializableType&lt; Value_t &gt;</label>
+        <link refid="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type"/>
+        <childnode refid="461" relation="usage">
+          <edgelabel>_Value</edgelabel>
+        </childnode>
+      </node>
+      <node id="461">
+        <label>Value_t</label>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/SerializableType.h" line="30" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SerializableType.h" bodystart="30" bodyend="66"/>
+    <listofallmembers>
+      <member refid="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1a288ec1f0073953e3e78bdc5875bd9248" prot="protected" virt="non-virtual"><scope>Canberra::Serialization::SerializableType</scope><name>_Value</name></member>
+      <member refid="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1a576e6f6b68fbf1346da0b0db7afefb05" prot="protected" virt="non-virtual"><scope>Canberra::Serialization::SerializableType</scope><name>DeserializeValue</name></member>
+      <member refid="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1a7829e73ce6f69c88535c6be96645223b" prot="public" virt="non-virtual"><scope>Canberra::Serialization::SerializableType</scope><name>GetValue</name></member>
+      <member refid="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1a3e8e5c7ff15b3064380b496bbd833c14" prot="protected" virt="non-virtual"><scope>Canberra::Serialization::SerializableType</scope><name>GetValueSize</name></member>
+      <member refid="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1ad87817fb182724675c1deeaf9fb31743" prot="public" virt="non-virtual"><scope>Canberra::Serialization::SerializableType</scope><name>PutValue</name></member>
+      <member refid="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1a77b06bac8adcb7a348b1966a4e43a5eb" prot="public" virt="non-virtual"><scope>Canberra::Serialization::SerializableType</scope><name>SerializableType</name></member>
+      <member refid="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1a524ccf1bde50de96e1eea69bfd2586ba" prot="public" virt="non-virtual"><scope>Canberra::Serialization::SerializableType</scope><name>SerializableType</name></member>
+      <member refid="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1aa1dfed2c0cbb7f3b4f6290e361d33ec3" prot="protected" virt="non-virtual"><scope>Canberra::Serialization::SerializableType</scope><name>SerializeValue</name></member>
+      <member refid="d6/d05/class_canberra_1_1_serialization_1_1_serializable_type_1ac5cc7213d2e1f909fc4c915bbce7a159" prot="public" virt="virtual"><scope>Canberra::Serialization::SerializableType</scope><name>~SerializableType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

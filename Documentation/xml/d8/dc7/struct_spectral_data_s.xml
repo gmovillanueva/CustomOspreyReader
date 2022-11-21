@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d8/dc7/struct_spectral_data_s" kind="struct" language="C++" prot="public">
+    <compoundname>SpectralDataS</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d8/dc7/struct_spectral_data_s_1ae0b259b3b13d97e38a5844aed6028a0d" prot="public" static="no" mutable="no">
+        <type>LONGLONG</type>
+        <definition>LONGLONG SpectralDataS::StartTime</definition>
+        <argsstring></argsstring>
+        <name>StartTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SpectralData.h" line="11" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SpectralData.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dc7/struct_spectral_data_s_1acd76ae3549c00e79d15b7dd806a9dcdc" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG SpectralDataS::Status</definition>
+        <argsstring></argsstring>
+        <name>Status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SpectralData.h" line="12" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SpectralData.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dc7/struct_spectral_data_s_1a26f617790cc88a0fcb5aa9fe4c8e2c03" prot="public" static="no" mutable="no">
+        <type>USHORT</type>
+        <definition>USHORT SpectralDataS::Input</definition>
+        <argsstring></argsstring>
+        <name>Input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SpectralData.h" line="13" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SpectralData.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dc7/struct_spectral_data_s_1abe3361e075adbe14a8893ca93aa262ee" prot="public" static="no" mutable="no">
+        <type>USHORT</type>
+        <definition>USHORT SpectralDataS::Group</definition>
+        <argsstring></argsstring>
+        <name>Group</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SpectralData.h" line="14" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SpectralData.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/SpectralData.h" line="10" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SpectralData.h" bodystart="10" bodyend="15"/>
+    <listofallmembers>
+      <member refid="d8/dc7/struct_spectral_data_s_1abe3361e075adbe14a8893ca93aa262ee" prot="public" virt="non-virtual"><scope>SpectralDataS</scope><name>Group</name></member>
+      <member refid="d8/dc7/struct_spectral_data_s_1a26f617790cc88a0fcb5aa9fe4c8e2c03" prot="public" virt="non-virtual"><scope>SpectralDataS</scope><name>Input</name></member>
+      <member refid="d8/dc7/struct_spectral_data_s_1ae0b259b3b13d97e38a5844aed6028a0d" prot="public" virt="non-virtual"><scope>SpectralDataS</scope><name>StartTime</name></member>
+      <member refid="d8/dc7/struct_spectral_data_s_1acd76ae3549c00e79d15b7dd806a9dcdc" prot="public" virt="non-virtual"><scope>SpectralDataS</scope><name>Status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

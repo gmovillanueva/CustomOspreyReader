@@ -1,0 +1,85 @@
+\hypertarget{class_canberra_1_1_utility_1_1_network_1_1_tcp_client}{}\section{Canberra\+:\+:Utility\+:\+:Network\+:\+:Tcp\+Client Class Reference}
+\label{class_canberra_1_1_utility_1_1_network_1_1_tcp_client}\index{Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client@{Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client}}
+
+
+Inheritance diagram for Canberra\+:\+:Utility\+:\+:Network\+:\+:Tcp\+Client\+:
+% FIG 0
+
+
+Collaboration diagram for Canberra\+:\+:Utility\+:\+:Network\+:\+:Tcp\+Client\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_network_1_1_tcp_client_af0e4afad0f5cd6840ea940ac664c79d4}\label{class_canberra_1_1_utility_1_1_network_1_1_tcp_client_af0e4afad0f5cd6840ea940ac664c79d4}} 
+\hyperlink{class_canberra_1_1_utility_1_1_network_1_1_tcp_client_af0e4afad0f5cd6840ea940ac664c79d4}{Tcp\+Client} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&Name)
+\begin{DoxyCompactList}\small\item\em An instance of this class is used to represent a T\+CP client. A T\+CP client is a T\+CP socket that requires a server to connect to in order to make the connection complete /summary$>$ param name=\char`\"{}\+Name\char`\"{}$>$The name to associated with this socket\end{DoxyCompactList}\item 
+virtual \hyperlink{class_canberra_1_1_utility_1_1_network_1_1_tcp_client_a2ecff6b14fa721d16b4ef8dcb3a1dd64_a2ecff6b14fa721d16b4ef8dcb3a1dd64}{$\sim$\+Tcp\+Client} (void)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_network_1_1_tcp_client_a4105885041a405512c99fe6864cb054f_a4105885041a405512c99fe6864cb054f}{Connect} (\hyperlink{class_canberra_1_1_utility_1_1_network_1_1_end_point}{End\+Point} Server, bool Async=false)
+\item 
+\hyperlink{class_canberra_1_1_utility_1_1_network_1_1_end_point}{End\+Point} \hyperlink{class_canberra_1_1_utility_1_1_network_1_1_tcp_client_a068376947fe5eaf838713d3f1283223e_a068376947fe5eaf838713d3f1283223e}{Get\+Server\+Address} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_network_1_1_tcp_client_abae2cbd9dfba234fc4baef409f34ef9a}\label{class_canberra_1_1_utility_1_1_network_1_1_tcp_client_abae2cbd9dfba234fc4baef409f34ef9a}} 
+void {\bfseries Put\+Server\+Address} (\hyperlink{class_canberra_1_1_utility_1_1_network_1_1_end_point}{End\+Point} v)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_network_1_1_tcp_client_a7e4d58946889dd9fe3f471c0fff97c97}\label{class_canberra_1_1_utility_1_1_network_1_1_tcp_client_a7e4d58946889dd9fe3f471c0fff97c97}} 
+\hyperlink{class_canberra_1_1_utility_1_1_network_1_1_end_point}{End\+Point} {\bfseries \+\_\+\+Server\+EP}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 12 of file Tcp\+Client.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_network_1_1_tcp_client_a2ecff6b14fa721d16b4ef8dcb3a1dd64_a2ecff6b14fa721d16b4ef8dcb3a1dd64}\label{class_canberra_1_1_utility_1_1_network_1_1_tcp_client_a2ecff6b14fa721d16b4ef8dcb3a1dd64_a2ecff6b14fa721d16b4ef8dcb3a1dd64}} 
+\index{Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client@{Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client}!````~Tcp\+Client@{$\sim$\+Tcp\+Client}}
+\index{````~Tcp\+Client@{$\sim$\+Tcp\+Client}!Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client@{Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client}}
+\subsubsection{\texorpdfstring{$\sim$\+Tcp\+Client()}{~TcpClient()}}
+{\footnotesize\ttfamily Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client\+::$\sim$\+Tcp\+Client (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will connect to the server /summary$>$ param name=\char`\"{}\+Server\+E\+P\char`\"{}$>$The server address
+
+param name=\char`\"{}\+Async\char`\"{}$>$Whether async connect is performed
+
+returns$>$Win32 code. 0==Sucess
+
+Definition at line 19 of file Tcp\+Client.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_network_1_1_tcp_client_a4105885041a405512c99fe6864cb054f_a4105885041a405512c99fe6864cb054f}\label{class_canberra_1_1_utility_1_1_network_1_1_tcp_client_a4105885041a405512c99fe6864cb054f_a4105885041a405512c99fe6864cb054f}} 
+\index{Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client@{Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client}!Connect@{Connect}}
+\index{Connect@{Connect}!Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client@{Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client}}
+\subsubsection{\texorpdfstring{Connect()}{Connect()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client\+::\+Connect (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_utility_1_1_network_1_1_end_point}{End\+Point}}]{Server\+EP,  }\item[{bool}]{Async = {\ttfamily false} }\end{DoxyParamCaption})}
+
+summary$>$ This method returns the address information of the T\+CP server /summary$>$ returns$>$The server info
+
+Definition at line 29 of file Tcp\+Client.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_network_1_1_tcp_client_a068376947fe5eaf838713d3f1283223e_a068376947fe5eaf838713d3f1283223e}\label{class_canberra_1_1_utility_1_1_network_1_1_tcp_client_a068376947fe5eaf838713d3f1283223e_a068376947fe5eaf838713d3f1283223e}} 
+\index{Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client@{Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client}!Get\+Server\+Address@{Get\+Server\+Address}}
+\index{Get\+Server\+Address@{Get\+Server\+Address}!Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client@{Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client}}
+\subsubsection{\texorpdfstring{Get\+Server\+Address()}{GetServerAddress()}}
+{\footnotesize\ttfamily \hyperlink{class_canberra_1_1_utility_1_1_network_1_1_end_point}{Canberra\+::\+Utility\+::\+Network\+::\+End\+Point} Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client\+::\+Get\+Server\+Address (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+summary$>$ This method sets the address information of the T\+CP server /summary$>$ param name=\char`\"{}v\char`\"{}$>$The server info
+
+Definition at line 83 of file Tcp\+Client.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Tcp\+Client.\+h\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Tcp\+Client.\+cpp\end{DoxyCompactItemize}

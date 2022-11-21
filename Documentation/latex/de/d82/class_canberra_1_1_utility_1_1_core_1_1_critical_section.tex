@@ -1,0 +1,143 @@
+\hypertarget{class_canberra_1_1_utility_1_1_core_1_1_critical_section}{}\section{Canberra\+:\+:Utility\+:\+:Core\+:\+:Critical\+Section Class Reference}
+\label{class_canberra_1_1_utility_1_1_core_1_1_critical_section}\index{Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section@{Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section}}
+
+
+Inheritance diagram for Canberra\+:\+:Utility\+:\+:Core\+:\+:Critical\+Section\+:
+% FIG 0
+
+
+Collaboration diagram for Canberra\+:\+:Utility\+:\+:Core\+:\+:Critical\+Section\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_critical_section_abb2f8859d58ea677edec4b7f4f321b2f}\label{class_canberra_1_1_utility_1_1_core_1_1_critical_section_abb2f8859d58ea677edec4b7f4f321b2f}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_critical_section_abb2f8859d58ea677edec4b7f4f321b2f}{Critical\+Section} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{String} \&Name)
+\begin{DoxyCompactList}\small\item\em An instance of this class is used to Manage access to a critical section /summary$>$ \end{DoxyCompactList}\item 
+virtual \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_critical_section_a8b509ef63ce6c5d50539d2c7e1efef46_a8b509ef63ce6c5d50539d2c7e1efef46}{$\sim$\+Critical\+Section} (void)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_critical_section_a0331da73e6a8472e107813080b1ac107_a0331da73e6a8472e107813080b1ac107}{Create} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_critical_section_aa579ed1514a2d489dbb7997c199fb5ef}\label{class_canberra_1_1_utility_1_1_core_1_1_critical_section_aa579ed1514a2d489dbb7997c199fb5ef}} 
+U\+L\+O\+NG {\bfseries Close} ()
+\item 
+bool \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_critical_section_a1f6ce2fecd7176f7580c091437920c96_a1f6ce2fecd7176f7580c091437920c96}{Wait\+One} (L\+O\+NG TimeO=0)
+\begin{DoxyCompactList}\small\item\em This method will invoke Enter\+Critical\+Section \end{DoxyCompactList}\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_critical_section_ad6db25d94bb0c5b7f877c435c9fd9206_ad6db25d94bb0c5b7f877c435c9fd9206}{Lock} ()
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_critical_section_a78d9486915ae3ed0687fd404af8bb078_a78d9486915ae3ed0687fd404af8bb078}{Unlock} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_critical_section_adacf4a030fe35e920e2ddb1515c2221d}\label{class_canberra_1_1_utility_1_1_core_1_1_critical_section_adacf4a030fe35e920e2ddb1515c2221d}} 
+bool {\bfseries Try\+Lock} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_critical_section_a5d8b3da81e150c0012ac041610244ba5}\label{class_canberra_1_1_utility_1_1_core_1_1_critical_section_a5d8b3da81e150c0012ac041610244ba5}} 
+pthread\+\_\+mutex\+\_\+t {\bfseries \+\_\+\+Crit\+Section}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 18 of file Critical\+Section.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_critical_section_a8b509ef63ce6c5d50539d2c7e1efef46_a8b509ef63ce6c5d50539d2c7e1efef46}\label{class_canberra_1_1_utility_1_1_core_1_1_critical_section_a8b509ef63ce6c5d50539d2c7e1efef46_a8b509ef63ce6c5d50539d2c7e1efef46}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section@{Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section}!````~Critical\+Section@{$\sim$\+Critical\+Section}}
+\index{````~Critical\+Section@{$\sim$\+Critical\+Section}!Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section@{Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section}}
+\subsubsection{\texorpdfstring{$\sim$\+Critical\+Section()}{~CriticalSection()}}
+{\footnotesize\ttfamily Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section\+::$\sim$\+Critical\+Section (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will invoke Initialize\+Critical\+Section /summary$>$ returns$>$0==Success
+
+Definition at line 11 of file Critical\+Section.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_critical_section_a0331da73e6a8472e107813080b1ac107_a0331da73e6a8472e107813080b1ac107}\label{class_canberra_1_1_utility_1_1_core_1_1_critical_section_a0331da73e6a8472e107813080b1ac107_a0331da73e6a8472e107813080b1ac107}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section@{Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section}!Create@{Create}}
+\index{Create@{Create}!Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section@{Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section}}
+\subsubsection{\texorpdfstring{Create()}{Create()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section\+::\+Create (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will invoke Delete\+Critical\+Section returns$>$0==Success
+
+/summary$>$ 
+
+Implements \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_sync_object}{Canberra\+::\+Utility\+::\+Core\+::\+Sync\+Object}.
+
+
+
+Definition at line 20 of file Critical\+Section.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_critical_section_ad6db25d94bb0c5b7f877c435c9fd9206_ad6db25d94bb0c5b7f877c435c9fd9206}\label{class_canberra_1_1_utility_1_1_core_1_1_critical_section_ad6db25d94bb0c5b7f877c435c9fd9206_ad6db25d94bb0c5b7f877c435c9fd9206}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section@{Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section}!Lock@{Lock}}
+\index{Lock@{Lock}!Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section@{Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section}}
+\subsubsection{\texorpdfstring{Lock()}{Lock()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section\+::\+Lock (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will invoke Leave\+Critical\+Section returns$>$0 == Locked
+
+/summary$>$ 
+
+Implements \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_sync_object}{Canberra\+::\+Utility\+::\+Core\+::\+Sync\+Object}.
+
+
+
+Definition at line 77 of file Critical\+Section.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_critical_section_a78d9486915ae3ed0687fd404af8bb078_a78d9486915ae3ed0687fd404af8bb078}\label{class_canberra_1_1_utility_1_1_core_1_1_critical_section_a78d9486915ae3ed0687fd404af8bb078_a78d9486915ae3ed0687fd404af8bb078}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section@{Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section}!Unlock@{Unlock}}
+\index{Unlock@{Unlock}!Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section@{Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section}}
+\subsubsection{\texorpdfstring{Unlock()}{Unlock()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section\+::\+Unlock (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will invoke Try\+Enter\+Critical\+Section returns$>$true == Locked
+
+/summary$>$ 
+
+Implements \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_sync_object}{Canberra\+::\+Utility\+::\+Core\+::\+Sync\+Object}.
+
+
+
+Definition at line 95 of file Critical\+Section.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_critical_section_a1f6ce2fecd7176f7580c091437920c96_a1f6ce2fecd7176f7580c091437920c96}\label{class_canberra_1_1_utility_1_1_core_1_1_critical_section_a1f6ce2fecd7176f7580c091437920c96_a1f6ce2fecd7176f7580c091437920c96}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section@{Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section}!Wait\+One@{Wait\+One}}
+\index{Wait\+One@{Wait\+One}!Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section@{Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section}}
+\subsubsection{\texorpdfstring{Wait\+One()}{WaitOne()}}
+{\footnotesize\ttfamily bool Canberra\+::\+Utility\+::\+Core\+::\+Critical\+Section\+::\+Wait\+One (\begin{DoxyParamCaption}\item[{L\+O\+NG}]{TimeO = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+This method will invoke Enter\+Critical\+Section 
+
+
+\begin{DoxyParams}{Parameters}
+{\em TimeO} & The time out (ms)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true == Locked
+\end{DoxyReturn}
+summary$>$ This method will invoke Enter\+Critical\+Section returns$>$0 == Locked
+
+/summary$>$ 
+
+Implements \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_sync_object}{Canberra\+::\+Utility\+::\+Core\+::\+Sync\+Object}.
+
+
+
+Definition at line 59 of file Critical\+Section.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Critical\+Section.\+h\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Critical\+Section.\+cpp\end{DoxyCompactItemize}

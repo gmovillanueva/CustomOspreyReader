@@ -1,0 +1,145 @@
+\hypertarget{class_canberra_1_1_utility_1_1_core_1_1_list_base}{}\section{Canberra\+:\+:Utility\+:\+:Core\+:\+:List\+Base$<$ T, Num\+Type $>$ Class Template Reference}
+\label{class_canberra_1_1_utility_1_1_core_1_1_list_base}\index{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base$<$ T, Num\+Type $>$@{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base$<$ T, Num\+Type $>$}}
+
+
+This template is used to create a simple list. S\+TL is not used here because the intention is to use this class for exporting from D\+LL\textquotesingle{}s. /summary$>$  
+
+
+
+
+{\ttfamily \#include $<$list.\+h$>$}
+
+
+
+Inheritance diagram for Canberra\+:\+:Utility\+:\+:Core\+:\+:List\+Base$<$ T, Num\+Type $>$\+:
+% FIG 0
+
+
+Collaboration diagram for Canberra\+:\+:Utility\+:\+:Core\+:\+:List\+Base$<$ T, Num\+Type $>$\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_list_base_aba1876d4b041d1d3efa90d404bb6ba5f}\label{class_canberra_1_1_utility_1_1_core_1_1_list_base_aba1876d4b041d1d3efa90d404bb6ba5f}} 
+{\bfseries List\+Base} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base}{List\+Base}$<$ T, Num\+Type $>$ \&v)
+\item 
+virtual \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base_a280204e71e12060a321cc5e12753e65d_a280204e71e12060a321cc5e12753e65d}{$\sim$\+List\+Base} ()
+\item 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base}{List\+Base}$<$ T, Num\+Type $>$ \& \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base_a56a9f21b1e389b0b057ed3a200130b91_a56a9f21b1e389b0b057ed3a200130b91}{operator=} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base}{List\+Base}$<$ T, Num\+Type $>$ \&Rhs)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base_aaacf0eb537ee5765a6929dc4dd42c04b_aaacf0eb537ee5765a6929dc4dd42c04b}{Add} (const T \&v)
+\item 
+void \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base_ab8431d144c5e017b9e06502549f26833_ab8431d144c5e017b9e06502549f26833}{Clear} ()
+\item 
+T \& \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base_a2349c775780c9b7441411c96318a6639_a2349c775780c9b7441411c96318a6639}{Get\+Item} (Num\+Type i)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_list_base_a0385763ebdcfda55e401ba477fb78ed0}\label{class_canberra_1_1_utility_1_1_core_1_1_list_base_a0385763ebdcfda55e401ba477fb78ed0}} 
+U\+L\+O\+NG {\bfseries Get\+Number\+Of\+Items} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_list_base_ad8b3c4d1f6cbba04f6495d5d13a6f0b5}\label{class_canberra_1_1_utility_1_1_core_1_1_list_base_ad8b3c4d1f6cbba04f6495d5d13a6f0b5}} 
+void \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base_ad8b3c4d1f6cbba04f6495d5d13a6f0b5}{Copy} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base}{List\+Base}$<$ T, Num\+Type $>$ \&v)
+\begin{DoxyCompactList}\small\item\em This method will perform a deep copy /summary$>$ param name=\char`\"{}v\char`\"{}$>$The list to copy
+
+returns$>$0==Success
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$Error code\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_list_base_a07367730f182c6b9c02aa566b76b152f}\label{class_canberra_1_1_utility_1_1_core_1_1_list_base_a07367730f182c6b9c02aa566b76b152f}} 
+T $\ast$ {\bfseries \+\_\+\+List}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_list_base_a35fd987bd3f0ae3fb917b838c1a2ee85}\label{class_canberra_1_1_utility_1_1_core_1_1_list_base_a35fd987bd3f0ae3fb917b838c1a2ee85}} 
+Num\+Type {\bfseries \+\_\+\+Num}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T, class Num\+Type$>$\newline
+class Canberra\+::\+Utility\+::\+Core\+::\+List\+Base$<$ T, Num\+Type $>$}
+
+This template is used to create a simple list. S\+TL is not used here because the intention is to use this class for exporting from D\+LL\textquotesingle{}s. /summary$>$ 
+
+summary$>$ This provides basic list support /summary$>$ 
+
+Definition at line 14 of file list.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_list_base_a280204e71e12060a321cc5e12753e65d_a280204e71e12060a321cc5e12753e65d}\label{class_canberra_1_1_utility_1_1_core_1_1_list_base_a280204e71e12060a321cc5e12753e65d_a280204e71e12060a321cc5e12753e65d}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base@{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base}!````~List\+Base@{$\sim$\+List\+Base}}
+\index{````~List\+Base@{$\sim$\+List\+Base}!Canberra\+::\+Utility\+::\+Core\+::\+List\+Base@{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base}}
+\subsubsection{\texorpdfstring{$\sim$\+List\+Base()}{~ListBase()}}
+{\footnotesize\ttfamily template$<$class T, class Num\+Type$>$ \\
+virtual \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base}{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base}$<$ T, Num\+Type $>$\+::$\sim$\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base}{List\+Base} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+summary$>$ Allow for deep copy for = operator /summary$>$ 
+
+Definition at line 45 of file list.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_list_base_aaacf0eb537ee5765a6929dc4dd42c04b_aaacf0eb537ee5765a6929dc4dd42c04b}\label{class_canberra_1_1_utility_1_1_core_1_1_list_base_aaacf0eb537ee5765a6929dc4dd42c04b_aaacf0eb537ee5765a6929dc4dd42c04b}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base@{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base}!Add@{Add}}
+\index{Add@{Add}!Canberra\+::\+Utility\+::\+Core\+::\+List\+Base@{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base}}
+\subsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily template$<$class T, class Num\+Type$>$ \\
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base}{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base}$<$ T, Num\+Type $>$\+::Add (\begin{DoxyParamCaption}\item[{const T \&}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+summary$>$ This method will clear the list /summary$>$ param name=\char`\"{}v\char`\"{}$>$The item to add
+
+Definition at line 58 of file list.\+h.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_list_base_ab8431d144c5e017b9e06502549f26833_ab8431d144c5e017b9e06502549f26833}\label{class_canberra_1_1_utility_1_1_core_1_1_list_base_ab8431d144c5e017b9e06502549f26833_ab8431d144c5e017b9e06502549f26833}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base@{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base}!Clear@{Clear}}
+\index{Clear@{Clear}!Canberra\+::\+Utility\+::\+Core\+::\+List\+Base@{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base}}
+\subsubsection{\texorpdfstring{Clear()}{Clear()}}
+{\footnotesize\ttfamily template$<$class T, class Num\+Type$>$ \\
+void \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base}{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base}$<$ T, Num\+Type $>$\+::Clear (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+summary$>$ This method will get a item from the list /summary$>$ param name=\char`\"{}i\char`\"{}$>$The item index
+
+param name=\char`\"{}v\char`\"{}$>$The item value
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$Error code
+
+returns$>$0==Success
+
+Definition at line 83 of file list.\+h.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_list_base_a2349c775780c9b7441411c96318a6639_a2349c775780c9b7441411c96318a6639}\label{class_canberra_1_1_utility_1_1_core_1_1_list_base_a2349c775780c9b7441411c96318a6639_a2349c775780c9b7441411c96318a6639}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base@{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base}!Get\+Item@{Get\+Item}}
+\index{Get\+Item@{Get\+Item}!Canberra\+::\+Utility\+::\+Core\+::\+List\+Base@{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base}}
+\subsubsection{\texorpdfstring{Get\+Item()}{GetItem()}}
+{\footnotesize\ttfamily template$<$class T, class Num\+Type$>$ \\
+T\& \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base}{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base}$<$ T, Num\+Type $>$\+::Get\+Item (\begin{DoxyParamCaption}\item[{Num\+Type}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+summary$>$ This method will return the number of items in the list /summary$>$ returns$>$Number of
+
+Definition at line 92 of file list.\+h.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_list_base_a56a9f21b1e389b0b057ed3a200130b91_a56a9f21b1e389b0b057ed3a200130b91}\label{class_canberra_1_1_utility_1_1_core_1_1_list_base_a56a9f21b1e389b0b057ed3a200130b91_a56a9f21b1e389b0b057ed3a200130b91}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base@{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base}!operator=@{operator=}}
+\index{operator=@{operator=}!Canberra\+::\+Utility\+::\+Core\+::\+List\+Base@{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily template$<$class T, class Num\+Type$>$ \\
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base}{List\+Base}$<$T, Num\+Type$>$\& \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base}{Canberra\+::\+Utility\+::\+Core\+::\+List\+Base}$<$ T, Num\+Type $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_list_base}{List\+Base}$<$ T, Num\+Type $>$ \&}]{Rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+summary$>$ This method will add a new item to the list /summary$>$ param name=\char`\"{}v\char`\"{}$>$The item to add
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$Error code
+
+returns$>$0==Success
+
+Definition at line 50 of file list.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/list.\+h\end{DoxyCompactItemize}

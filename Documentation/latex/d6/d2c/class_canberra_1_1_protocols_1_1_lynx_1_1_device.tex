@@ -1,0 +1,656 @@
+\hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device}{}\section{Canberra\+:\+:Protocols\+:\+:Lynx\+:\+:Device Class Reference}
+\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device}\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+
+
+Inheritance diagram for Canberra\+:\+:Protocols\+:\+:Lynx\+:\+:Device\+:
+% FIG 0
+
+
+Collaboration diagram for Canberra\+:\+:Protocols\+:\+:Lynx\+:\+:Device\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a15622214b1e714c404d4772172d4f349_a15622214b1e714c404d4772172d4f349}{$\sim$\+Device} (void)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_aece855a20d43a1676ec6ca0ab9917a49_aece855a20d43a1676ec6ca0ab9917a49}{Open} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&Client, const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&\hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device}{Device})
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0f7c10735473285afbc57765a673026e_a0f7c10735473285afbc57765a673026e}{Close} ()
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a93c602c8408cc3355fc91b43f45247e2_a93c602c8408cc3355fc91b43f45247e2}{Get\+Parameter} (L\+O\+NG Code, \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Canberra\+::\+Utility\+::\+Core\+::\+Variant} \&Val, U\+S\+H\+O\+RT Input=0)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad7b416ff1e42fa30dfef6e7a44faee92_ad7b416ff1e42fa30dfef6e7a44faee92}{Put\+Parameter} (L\+O\+NG Code, const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Canberra\+::\+Utility\+::\+Core\+::\+Variant} \&Val, U\+S\+H\+O\+RT Input=0)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a33bd6bcde5356867647a30b1bd7ed343_a33bd6bcde5356867647a30b1bd7ed343}{Get\+Parameter\+List} (std\+::vector$<$ L\+O\+NG $>$ \&Codes, std\+::vector$<$ \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Canberra\+::\+Utility\+::\+Core\+::\+Variant} $>$ \&Vals, U\+S\+H\+O\+RT Input=0)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2ba667c88f72053137db2d913f957d47_a2ba667c88f72053137db2d913f957d47}{Put\+Parameter\+List} (std\+::vector$<$ L\+O\+NG $>$ \&Codes, std\+::vector$<$ \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Canberra\+::\+Utility\+::\+Core\+::\+Variant} $>$ \&Vals, U\+S\+H\+O\+RT Input=0)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_af6cdb15c1c210b5efef509fa501cf8f8_af6cdb15c1c210b5efef509fa501cf8f8}{Get\+Spectrum} (\hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectrum}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Spectrum} \&Spec, U\+S\+H\+O\+RT Input=1, U\+S\+H\+O\+RT Group=1)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a5aa231963ff4d259fd1b100c6f620490_a5aa231963ff4d259fd1b100c6f620490}{Put\+Spectrum} (\hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectrum}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Spectrum} \&Spec, U\+S\+H\+O\+RT Input=1, U\+S\+H\+O\+RT Group=1)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a47051ab0ec0a01f2b0f56925d12d10df_a47051ab0ec0a01f2b0f56925d12d10df}{Update\+User} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&User, const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&Pwd, const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&Desc, L\+O\+NG Priv)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a08a8d92f4b2ae149f92c9b4f2fa62dee_a08a8d92f4b2ae149f92c9b4f2fa62dee}{Add\+User} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&User, const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&Pwd, const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&Desc, L\+O\+NG Priv)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_aa5895622f6c9b7006da39245302d3a4a_aa5895622f6c9b7006da39245302d3a4a}{Validate\+User} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&User, const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&Pwd, bool \&Val)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a3e7d53d8358f59ac34c6d69fe97a200c_a3e7d53d8358f59ac34c6d69fe97a200c}{Delete\+User} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&User)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a62e3acd5c9efc70381c37ea94060d648_a62e3acd5c9efc70381c37ea94060d648}{Enumerate\+Users} (std\+::vector$<$ \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Canberra\+::\+Utility\+::\+Core\+::\+Variant} $>$ \&Vals)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ae0f2af17d866f3fc8dace49b3dc25534_ae0f2af17d866f3fc8dace49b3dc25534}{Get\+Regions\+Of\+Interest} (U\+S\+H\+O\+RT Input, std\+::vector$<$ \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Region\+Of\+Interest} $>$ \&Vals)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2b7b1dbbf2391cbbb503ea253aed164b_a2b7b1dbbf2391cbbb503ea253aed164b}{Put\+Regions\+Of\+Interest} (U\+S\+H\+O\+RT Input, std\+::vector$<$ \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Region\+Of\+Interest} $>$ \&Vals)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a17049b0e2fd8ab1d6f1181f7656ee6a7_a17049b0e2fd8ab1d6f1181f7656ee6a7}{Control} (L\+O\+NG Code, U\+S\+H\+O\+RT Input=0)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a4f514bd2a06da196fbe8f63cde8d4870_a4f514bd2a06da196fbe8f63cde8d4870}{Save} (U\+S\+H\+O\+RT Input, U\+S\+H\+O\+RT Group, \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&Name)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ab5f8a362b339768e8f3cde9633be6b87_ab5f8a362b339768e8f3cde9633be6b87}{Unlock} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&User, const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&Pwd, U\+S\+H\+O\+RT Input)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad6b49e66d88c9624d344532c8c0f16af_ad6b49e66d88c9624d344532c8c0f16af}{Lock} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&User, const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&Pwd, U\+S\+H\+O\+RT Input)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ac77d98daff94392709601858b2980766_ac77d98daff94392709601858b2980766}{Get\+Counter\+Data} (\hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Counter\+Data} \&Data, U\+S\+H\+O\+RT Input=1)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a49215c7186fc99e486ec514488dad437_a49215c7186fc99e486ec514488dad437}{Get\+M\+S\+S\+Data} (\hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list}{Spectral\+Data\+List} \&Data, U\+S\+H\+O\+RT Input=1)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a7af58e6c130e27da33a02e46eddd0bab_a7af58e6c130e27da33a02e46eddd0bab}{Get\+List\+Data} (\hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+List\+Data\+Base} $\ast$$\ast$Data, U\+S\+H\+O\+RT Input=1)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a16877dd4491fee82dcd4708cee09a43f_a16877dd4491fee82dcd4708cee09a43f}{Delete} (\hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+List\+Data\+Base} $\ast$$\ast$Data)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0dbc14914d271155daf5270dde6a4809_a0dbc14914d271155daf5270dde6a4809}{Control} (L\+O\+NG Code, U\+S\+H\+O\+RT Input, \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&In, \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&Out)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad3cbed9925aa49688846a18e8eedfbd1_ad3cbed9925aa49688846a18e8eedfbd1}{Get\+Parameter\+Meta\+Data} (L\+O\+NG Code, \hyperlink{class_canberra_1_1_data_types_1_1_application_1_1_parameter_meta_data}{Canberra\+::\+Data\+Types\+::\+Application\+::\+Parameter\+Meta\+Data} \&PD, U\+S\+H\+O\+RT Input=0)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_af8ea16cc9570a2d7eab9abb2102cf6c4}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_af8ea16cc9570a2d7eab9abb2102cf6c4}} 
+U\+S\+H\+O\+RT {\bfseries Get\+Port} ()
+\item 
+void \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a28e7caa3973967170dbc445771644193_a28e7caa3973967170dbc445771644193}{Put\+Port} (U\+S\+H\+O\+RT v)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2db7c8288c3316f23f29bea4948634c4_a2db7c8288c3316f23f29bea4948634c4}{Get\+Send\+Timeout} ()
+\item 
+void \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a92c3e56b497ed2f58afb198746b6f4c5_a92c3e56b497ed2f58afb198746b6f4c5}{Put\+Send\+Timeout} (U\+L\+O\+NG v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a9e6e79fe9d532a4bf9ff92befa2de863}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a9e6e79fe9d532a4bf9ff92befa2de863}} 
+U\+L\+O\+NG {\bfseries Get\+Receive\+Timeout} ()
+\item 
+void \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a881814ede0fd879e649e027f41b03b94_a881814ede0fd879e649e027f41b03b94}{Put\+Receive\+Timeout} (U\+L\+O\+NG v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ac917db8daa65be2a85d24c8f30801f4f}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ac917db8daa65be2a85d24c8f30801f4f}} 
+bool {\bfseries Get\+Keep\+Alive} ()
+\item 
+void \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a8ebcebb05d610ae6d907955bc4f78c29_a8ebcebb05d610ae6d907955bc4f78c29}{Put\+Keep\+Alive} (bool v)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_aa3f539662d82072bbd58bb0b01b98b96_aa3f539662d82072bbd58bb0b01b98b96}{Put\+Property} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&N, const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Canberra\+::\+Utility\+::\+Core\+::\+Variant} \&V)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_aaccfa27ad7d6286377093d4ab5b004b4_aaccfa27ad7d6286377093d4ab5b004b4}{Get\+Property} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&N, \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Canberra\+::\+Utility\+::\+Core\+::\+Variant} \&V)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0d3ade2b5f6cbc402008bad5427d3da6_a0d3ade2b5f6cbc402008bad5427d3da6}{Ext\+Method} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&N, const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant_array}{Canberra\+::\+Utility\+::\+Core\+::\+Variant\+Array} \&Args, \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant_array}{Canberra\+::\+Utility\+::\+Core\+::\+Variant\+Array} \&Ret)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a398c465b88cfc162888d77d6279a8825}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a398c465b88cfc162888d77d6279a8825}} 
+bool {\bfseries Get\+Is\+Open} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ab739d02cc29a9f569a2b127fcbc1f884_ab739d02cc29a9f569a2b127fcbc1f884}{Control} (\hyperlink{class_canberra_1_1_data_types_1_1_application_1_1_command_data}{Canberra\+::\+Data\+Types\+::\+Application\+::\+Command\+Data} \&Cmd)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a6232b1dc722fb8f11248e19ddd1f1f47_a6232b1dc722fb8f11248e19ddd1f1f47}{Control} (\hyperlink{class_canberra_1_1_data_types_1_1_application_1_1_command_data}{Canberra\+::\+Data\+Types\+::\+Application\+::\+Command\+Data} \&Cmd, \hyperlink{class_canberra_1_1_data_types_1_1_application_1_1_command_data}{Canberra\+::\+Data\+Types\+::\+Application\+::\+Command\+Data} $\ast$$\ast$Resp)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a34ad6cf7b51838a546cb0feef503cc7b_a34ad6cf7b51838a546cb0feef503cc7b}{Check\+For\+Error} (\hyperlink{class_canberra_1_1_data_types_1_1_application_1_1_command_data}{Canberra\+::\+Data\+Types\+::\+Application\+::\+Command\+Data} $\ast$Resp)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a4c5133c15a373b01d2b771ce021b0034}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a4c5133c15a373b01d2b771ce021b0034}} 
+\hyperlink{class_canberra_1_1_utility_1_1_network_1_1_tcp_client}{Canberra\+::\+Utility\+::\+Network\+::\+Tcp\+Client} {\bfseries \+\_\+\+Config\+Channel}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a86d122ea175a5a1ac6706640696e8128}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a86d122ea175a5a1ac6706640696e8128}} 
+\hyperlink{class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory}{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Message\+Factory} {\bfseries \+\_\+\+Message\+Factory}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a481ff0cfb390a41a93dc420945e82880}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a481ff0cfb390a41a93dc420945e82880}} 
+U\+S\+H\+O\+RT {\bfseries \+\_\+\+Port}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a78530de2d18211baa2fc9035391b875e}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a78530de2d18211baa2fc9035391b875e}} 
+void $\ast$ {\bfseries \+\_\+\+Data}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 46 of file Device.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a15622214b1e714c404d4772172d4f349_a15622214b1e714c404d4772172d4f349}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a15622214b1e714c404d4772172d4f349_a15622214b1e714c404d4772172d4f349}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!````~Device@{$\sim$\+Device}}
+\index{````~Device@{$\sim$\+Device}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{$\sim$\+Device()}{~Device()}}
+{\footnotesize\ttfamily Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::$\sim$\+Device (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will open a connection with the device This is a blocking call until the connection is made with the device /summary$>$ param name=\char`\"{}\+Client\char`\"{}$>$The client address
+
+param name=\char`\"{}\+Device\char`\"{}$>$The device address
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 154 of file Device.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a08a8d92f4b2ae149f92c9b4f2fa62dee_a08a8d92f4b2ae149f92c9b4f2fa62dee}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a08a8d92f4b2ae149f92c9b4f2fa62dee_a08a8d92f4b2ae149f92c9b4f2fa62dee}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Add\+User@{Add\+User}}
+\index{Add\+User@{Add\+User}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Add\+User()}{AddUser()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Add\+User (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{User,  }\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{Pwd,  }\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{Desc,  }\item[{L\+O\+NG}]{Priv }\end{DoxyParamCaption})}
+
+summary$>$ This method updates a user account on the device /summary$>$ param name=\char`\"{}\+Name\char`\"{}$>$The user name 
+
+param name=\char`\"{}\+Pwd\char`\"{}$>$The password 
+
+param name=\char`\"{}\+Desc\char`\"{}$>$The description 
+
+param name=\char`\"{}\+Priv\char`\"{}$>$The privs 
+
+returns$>$Execution status
+
+Definition at line 994 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a34ad6cf7b51838a546cb0feef503cc7b_a34ad6cf7b51838a546cb0feef503cc7b}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a34ad6cf7b51838a546cb0feef503cc7b_a34ad6cf7b51838a546cb0feef503cc7b}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Check\+For\+Error@{Check\+For\+Error}}
+\index{Check\+For\+Error@{Check\+For\+Error}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Check\+For\+Error()}{CheckForError()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Check\+For\+Error (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_data_types_1_1_application_1_1_command_data}{Canberra\+::\+Data\+Types\+::\+Application\+::\+Command\+Data} $\ast$}]{Resp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+summary$>$ This method will get a spectrum from the device /summary$>$ param name=\char`\"{}\+Spec\char`\"{}$>$The spectrum
+
+param name=\char`\"{}\+Input\char`\"{}$>$The input to get it from
+
+param name=\char`\"{}\+Group\char`\"{}$>$The memory group to get it from
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 707 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0f7c10735473285afbc57765a673026e_a0f7c10735473285afbc57765a673026e}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0f7c10735473285afbc57765a673026e_a0f7c10735473285afbc57765a673026e}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Close@{Close}}
+\index{Close@{Close}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Close()}{Close()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+summary$>$ This method will get the parameter meta data /summary$>$ param name=\char`\"{}\+Code\char`\"{}$>$The parameter code
+
+param name=\char`\"{}\+Val\char`\"{}$>$The meta data
+
+param name=\char`\"{}\+Input\char`\"{}$>$The input to get it from
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 226 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ab739d02cc29a9f569a2b127fcbc1f884_ab739d02cc29a9f569a2b127fcbc1f884}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ab739d02cc29a9f569a2b127fcbc1f884_ab739d02cc29a9f569a2b127fcbc1f884}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Control@{Control}}
+\index{Control@{Control}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Control()}{Control()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Control (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_data_types_1_1_application_1_1_command_data}{Canberra\+::\+Data\+Types\+::\+Application\+::\+Command\+Data} \&}]{Cmd }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+summary$>$ This method will locks an input. /summary$>$ param name=\char`\"{}\+User\char`\"{}$>$The user name
+
+param name=\char`\"{}\+Pwd\char`\"{}$>$The password
+
+param name=\char`\"{}\+Input\char`\"{}$>$The input
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 506 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a6232b1dc722fb8f11248e19ddd1f1f47_a6232b1dc722fb8f11248e19ddd1f1f47}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a6232b1dc722fb8f11248e19ddd1f1f47_a6232b1dc722fb8f11248e19ddd1f1f47}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Control@{Control}}
+\index{Control@{Control}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Control()}{Control()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Control (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_data_types_1_1_application_1_1_command_data}{Canberra\+::\+Data\+Types\+::\+Application\+::\+Command\+Data} \&}]{Cmd,  }\item[{\hyperlink{class_canberra_1_1_data_types_1_1_application_1_1_command_data}{Canberra\+::\+Data\+Types\+::\+Application\+::\+Command\+Data} $\ast$$\ast$}]{Resp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+summary$>$ This method will check the command data to see if it contains a Ulong data type in the first data element. The assumption is that the Ulong is an error code /summary$>$ param name=\char`\"{}\+Cmd\char`\"{}$>$The command
+
+param name=\char`\"{}\+Resp\char`\"{}$>$The command response
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 617 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a17049b0e2fd8ab1d6f1181f7656ee6a7_a17049b0e2fd8ab1d6f1181f7656ee6a7}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a17049b0e2fd8ab1d6f1181f7656ee6a7_a17049b0e2fd8ab1d6f1181f7656ee6a7}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Control@{Control}}
+\index{Control@{Control}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Control()}{Control()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Control (\begin{DoxyParamCaption}\item[{L\+O\+NG}]{Code,  }\item[{U\+S\+H\+O\+RT}]{Input = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+summary$>$ This method will execute a control command on a specified input /summary$>$ param name=\char`\"{}\+Code\char`\"{}$>$The parameter code
+
+param name=\char`\"{}\+Input\char`\"{}$>$The input to get it from
+
+param name=\char`\"{}\+In\char`\"{}$>$The command arguments
+
+param name=\char`\"{}\+Out\char`\"{}$>$The command results
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 446 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0dbc14914d271155daf5270dde6a4809_a0dbc14914d271155daf5270dde6a4809}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0dbc14914d271155daf5270dde6a4809_a0dbc14914d271155daf5270dde6a4809}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Control@{Control}}
+\index{Control@{Control}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Control()}{Control()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Control (\begin{DoxyParamCaption}\item[{L\+O\+NG}]{Code,  }\item[{U\+S\+H\+O\+RT}]{Input,  }\item[{\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&}]{In,  }\item[{\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&}]{Out }\end{DoxyParamCaption})}
+
+summary$>$ This method will execute a control command using the command data The assumption is that the device response contains no return data /summary$>$ param name=\char`\"{}\+Cmd\char`\"{}$>$The command
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 461 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a16877dd4491fee82dcd4708cee09a43f_a16877dd4491fee82dcd4708cee09a43f}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a16877dd4491fee82dcd4708cee09a43f_a16877dd4491fee82dcd4708cee09a43f}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Delete@{Delete}}
+\index{Delete@{Delete}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Delete()}{Delete()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Delete (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+List\+Data\+Base} $\ast$$\ast$}]{Data }\end{DoxyParamCaption})}
+
+summary$>$ This method set the value for a named property This method exists for extending the features of this class without breaking the contract /summary$>$ param name=\char`\"{}\+N\char`\"{}$>$(in) The name
+
+param name=\char`\"{}\+V\char`\"{}$>$(in) The value
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 1419 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a3e7d53d8358f59ac34c6d69fe97a200c_a3e7d53d8358f59ac34c6d69fe97a200c}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a3e7d53d8358f59ac34c6d69fe97a200c_a3e7d53d8358f59ac34c6d69fe97a200c}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Delete\+User@{Delete\+User}}
+\index{Delete\+User@{Delete\+User}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Delete\+User()}{DeleteUser()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Delete\+User (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{User }\end{DoxyParamCaption})}
+
+summary$>$ This method enumerates all user accounts /summary$>$ param name=\char`\"{}\+Val\char`\"{}$>$The user names
+
+returns$>$Execution status
+
+Definition at line 1075 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a62e3acd5c9efc70381c37ea94060d648_a62e3acd5c9efc70381c37ea94060d648}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a62e3acd5c9efc70381c37ea94060d648_a62e3acd5c9efc70381c37ea94060d648}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Enumerate\+Users@{Enumerate\+Users}}
+\index{Enumerate\+Users@{Enumerate\+Users}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Enumerate\+Users()}{EnumerateUsers()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Enumerate\+Users (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Canberra\+::\+Utility\+::\+Core\+::\+Variant} $>$ \&}]{Vals }\end{DoxyParamCaption})}
+
+summary$>$ This method gets the regions of interest /summary$>$ param name=\char`\"{}\+Input\char`\"{}$>$The input to operate on
+
+param name=\char`\"{}\+Val\char`\"{}$>$The regions of interest
+
+returns$>$Execution status
+
+Definition at line 1090 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0d3ade2b5f6cbc402008bad5427d3da6_a0d3ade2b5f6cbc402008bad5427d3da6}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0d3ade2b5f6cbc402008bad5427d3da6_a0d3ade2b5f6cbc402008bad5427d3da6}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Ext\+Method@{Ext\+Method}}
+\index{Ext\+Method@{Ext\+Method}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Ext\+Method()}{ExtMethod()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Ext\+Method (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{N,  }\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant_array}{Canberra\+::\+Utility\+::\+Core\+::\+Variant\+Array} \&}]{Args,  }\item[{\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant_array}{Canberra\+::\+Utility\+::\+Core\+::\+Variant\+Array} \&}]{Ret }\end{DoxyParamCaption})}
+
+summary$>$ This method will create and instance of this class. An instance of this class may be used to send and receive information to and from a D\+SA 3K device. It extends the base class to expose S\+CA functionality /summary$>$ 
+
+Definition at line 1604 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ac77d98daff94392709601858b2980766_ac77d98daff94392709601858b2980766}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ac77d98daff94392709601858b2980766_ac77d98daff94392709601858b2980766}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Get\+Counter\+Data@{Get\+Counter\+Data}}
+\index{Get\+Counter\+Data@{Get\+Counter\+Data}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Get\+Counter\+Data()}{GetCounterData()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Get\+Counter\+Data (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Counter\+Data} \&}]{Data,  }\item[{U\+S\+H\+O\+RT}]{Input = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+summary$>$ This method will get M\+SS data from the device /summary$>$ param name=\char`\"{}\+Val\char`\"{}$>$The data
+
+param name=\char`\"{}\+Input\char`\"{}$>$The input to get it from
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 1188 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a7af58e6c130e27da33a02e46eddd0bab_a7af58e6c130e27da33a02e46eddd0bab}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a7af58e6c130e27da33a02e46eddd0bab_a7af58e6c130e27da33a02e46eddd0bab}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Get\+List\+Data@{Get\+List\+Data}}
+\index{Get\+List\+Data@{Get\+List\+Data}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Get\+List\+Data()}{GetListData()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Get\+List\+Data (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+List\+Data\+Base} $\ast$$\ast$}]{Data,  }\item[{U\+S\+H\+O\+RT}]{Input = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+summary$>$ This method will release the list data memory allocated by this instance /summary$>$ param name=\char`\"{}\+Data\char`\"{}$>$The data to release
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 1343 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a49215c7186fc99e486ec514488dad437_a49215c7186fc99e486ec514488dad437}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a49215c7186fc99e486ec514488dad437_a49215c7186fc99e486ec514488dad437}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Get\+M\+S\+S\+Data@{Get\+M\+S\+S\+Data}}
+\index{Get\+M\+S\+S\+Data@{Get\+M\+S\+S\+Data}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Get\+M\+S\+S\+Data()}{GetMSSData()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Get\+M\+S\+S\+Data (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list}{Spectral\+Data\+List} \&}]{Val,  }\item[{U\+S\+H\+O\+RT}]{Input = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+summary$>$ This method will get list data from the device /summary$>$ param name=\char`\"{}\+Val\char`\"{}$>$The data
+
+param name=\char`\"{}\+Input\char`\"{}$>$The input to get it from
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 1270 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a93c602c8408cc3355fc91b43f45247e2_a93c602c8408cc3355fc91b43f45247e2}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a93c602c8408cc3355fc91b43f45247e2_a93c602c8408cc3355fc91b43f45247e2}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Get\+Parameter@{Get\+Parameter}}
+\index{Get\+Parameter@{Get\+Parameter}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Get\+Parameter()}{GetParameter()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Get\+Parameter (\begin{DoxyParamCaption}\item[{L\+O\+NG}]{Code,  }\item[{\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Canberra\+::\+Utility\+::\+Core\+::\+Variant} \&}]{Val,  }\item[{U\+S\+H\+O\+RT}]{Input = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+summary$>$ This method will get a list of parameters from the device /summary$>$ param name=\char`\"{}\+Code\char`\"{}$>$The parameter codes
+
+param name=\char`\"{}\+Val\char`\"{}$>$The values
+
+param name=\char`\"{}\+Input\char`\"{}$>$The input to get it from
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 291 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a33bd6bcde5356867647a30b1bd7ed343_a33bd6bcde5356867647a30b1bd7ed343}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a33bd6bcde5356867647a30b1bd7ed343_a33bd6bcde5356867647a30b1bd7ed343}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Get\+Parameter\+List@{Get\+Parameter\+List}}
+\index{Get\+Parameter\+List@{Get\+Parameter\+List}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Get\+Parameter\+List()}{GetParameterList()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Get\+Parameter\+List (\begin{DoxyParamCaption}\item[{std\+::vector$<$ L\+O\+NG $>$ \&}]{Codes,  }\item[{std\+::vector$<$ \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Canberra\+::\+Utility\+::\+Core\+::\+Variant} $>$ \&}]{Vals,  }\item[{U\+S\+H\+O\+RT}]{Input = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+summary$>$ This method will set a parameter into the device /summary$>$ param name=\char`\"{}\+Code\char`\"{}$>$The parameter code
+
+param name=\char`\"{}\+Val\char`\"{}$>$The value
+
+param name=\char`\"{}\+Input\char`\"{}$>$The input to set it into
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 337 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad3cbed9925aa49688846a18e8eedfbd1_ad3cbed9925aa49688846a18e8eedfbd1}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad3cbed9925aa49688846a18e8eedfbd1_ad3cbed9925aa49688846a18e8eedfbd1}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Get\+Parameter\+Meta\+Data@{Get\+Parameter\+Meta\+Data}}
+\index{Get\+Parameter\+Meta\+Data@{Get\+Parameter\+Meta\+Data}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Get\+Parameter\+Meta\+Data()}{GetParameterMetaData()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Get\+Parameter\+Meta\+Data (\begin{DoxyParamCaption}\item[{L\+O\+NG}]{Code,  }\item[{\hyperlink{class_canberra_1_1_data_types_1_1_application_1_1_parameter_meta_data}{Canberra\+::\+Data\+Types\+::\+Application\+::\+Parameter\+Meta\+Data} \&}]{PD,  }\item[{U\+S\+H\+O\+RT}]{Input = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+summary$>$ This method will get a parameter from the device /summary$>$ param name=\char`\"{}\+Code\char`\"{}$>$The parameter code
+
+param name=\char`\"{}\+Val\char`\"{}$>$The value
+
+param name=\char`\"{}\+Input\char`\"{}$>$The input to get it from
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 246 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_aaccfa27ad7d6286377093d4ab5b004b4_aaccfa27ad7d6286377093d4ab5b004b4}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_aaccfa27ad7d6286377093d4ab5b004b4_aaccfa27ad7d6286377093d4ab5b004b4}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Get\+Property@{Get\+Property}}
+\index{Get\+Property@{Get\+Property}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Get\+Property()}{GetProperty()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Get\+Property (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{N,  }\item[{\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Canberra\+::\+Utility\+::\+Core\+::\+Variant} \&}]{V }\end{DoxyParamCaption})}
+
+summary$>$ This method get the value of a named method This method exists for extending the features of this class without breaking the contract /summary$>$ param name=\char`\"{}\+N\char`\"{}$>$(in) The method name
+
+param name=\char`\"{}\+Args\char`\"{}$>$(in) The args
+
+param name=\char`\"{}\+Ret\char`\"{}$>$(in) The return value
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 1545 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ae0f2af17d866f3fc8dace49b3dc25534_ae0f2af17d866f3fc8dace49b3dc25534}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ae0f2af17d866f3fc8dace49b3dc25534_ae0f2af17d866f3fc8dace49b3dc25534}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Get\+Regions\+Of\+Interest@{Get\+Regions\+Of\+Interest}}
+\index{Get\+Regions\+Of\+Interest@{Get\+Regions\+Of\+Interest}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Get\+Regions\+Of\+Interest()}{GetRegionsOfInterest()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Get\+Regions\+Of\+Interest (\begin{DoxyParamCaption}\item[{U\+S\+H\+O\+RT}]{Input,  }\item[{std\+::vector$<$ \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Region\+Of\+Interest} $>$ \&}]{Vals }\end{DoxyParamCaption})}
+
+summary$>$ This method sets the regions of interest /summary$>$ param name=\char`\"{}\+Input\char`\"{}$>$The input to operate on
+
+param name=\char`\"{}\+Vals\char`\"{}$>$The regions of interest
+
+returns$>$Execution status
+
+Definition at line 1126 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2db7c8288c3316f23f29bea4948634c4_a2db7c8288c3316f23f29bea4948634c4}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2db7c8288c3316f23f29bea4948634c4_a2db7c8288c3316f23f29bea4948634c4}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Get\+Send\+Timeout@{Get\+Send\+Timeout}}
+\index{Get\+Send\+Timeout@{Get\+Send\+Timeout}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Get\+Send\+Timeout()}{GetSendTimeout()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Get\+Send\+Timeout (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+summary$>$ This method sets the receive timeout /summary$>$ param name=\char`\"{}\+T\+O\char`\"{}$>$The time out (ms) 
+
+Definition at line 942 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_af6cdb15c1c210b5efef509fa501cf8f8_af6cdb15c1c210b5efef509fa501cf8f8}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_af6cdb15c1c210b5efef509fa501cf8f8_af6cdb15c1c210b5efef509fa501cf8f8}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Get\+Spectrum@{Get\+Spectrum}}
+\index{Get\+Spectrum@{Get\+Spectrum}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Get\+Spectrum()}{GetSpectrum()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Get\+Spectrum (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectrum}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Spectrum} \&}]{Spec,  }\item[{U\+S\+H\+O\+RT}]{Input = {\ttfamily 1},  }\item[{U\+S\+H\+O\+RT}]{Group = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+summary$>$ This method will set a spectrum into the device /summary$>$ param name=\char`\"{}\+Spec\char`\"{}$>$The spectrum
+
+param name=\char`\"{}\+Input\char`\"{}$>$The input to get it from
+
+param name=\char`\"{}\+Group\char`\"{}$>$The memory group to get it from
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 724 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad6b49e66d88c9624d344532c8c0f16af_ad6b49e66d88c9624d344532c8c0f16af}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad6b49e66d88c9624d344532c8c0f16af_ad6b49e66d88c9624d344532c8c0f16af}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Lock@{Lock}}
+\index{Lock@{Lock}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Lock()}{Lock()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Lock (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{User,  }\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{Pwd,  }\item[{U\+S\+H\+O\+RT}]{Input }\end{DoxyParamCaption})}
+
+summary$>$ This method will unlocks an input /summary$>$ param name=\char`\"{}\+User\char`\"{}$>$The user name
+
+param name=\char`\"{}\+Pwd\char`\"{}$>$The password
+
+param name=\char`\"{}\+Input\char`\"{}$>$The input
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 527 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_aece855a20d43a1676ec6ca0ab9917a49_aece855a20d43a1676ec6ca0ab9917a49}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_aece855a20d43a1676ec6ca0ab9917a49_aece855a20d43a1676ec6ca0ab9917a49}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Open@{Open}}
+\index{Open@{Open}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Open()}{Open()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Open (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{Client,  }\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{Device }\end{DoxyParamCaption})}
+
+summary$>$ This method will close the connection with the device returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 168 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a8ebcebb05d610ae6d907955bc4f78c29_a8ebcebb05d610ae6d907955bc4f78c29}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a8ebcebb05d610ae6d907955bc4f78c29_a8ebcebb05d610ae6d907955bc4f78c29}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Put\+Keep\+Alive@{Put\+Keep\+Alive}}
+\index{Put\+Keep\+Alive@{Put\+Keep\+Alive}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Put\+Keep\+Alive()}{PutKeepAlive()}}
+{\footnotesize\ttfamily void Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Put\+Keep\+Alive (\begin{DoxyParamCaption}\item[{bool}]{v }\end{DoxyParamCaption})}
+
+summary$>$ This method adds a user account to the device /summary$>$ param name=\char`\"{}\+Name\char`\"{}$>$The user name 
+
+param name=\char`\"{}\+Pwd\char`\"{}$>$The password 
+
+param name=\char`\"{}\+Desc\char`\"{}$>$The description 
+
+param name=\char`\"{}\+Priv\char`\"{}$>$The privs 
+
+returns$>$Execution status
+
+Definition at line 979 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad7b416ff1e42fa30dfef6e7a44faee92_ad7b416ff1e42fa30dfef6e7a44faee92}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad7b416ff1e42fa30dfef6e7a44faee92_ad7b416ff1e42fa30dfef6e7a44faee92}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Put\+Parameter@{Put\+Parameter}}
+\index{Put\+Parameter@{Put\+Parameter}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Put\+Parameter()}{PutParameter()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Put\+Parameter (\begin{DoxyParamCaption}\item[{L\+O\+NG}]{Code,  }\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Canberra\+::\+Utility\+::\+Core\+::\+Variant} \&}]{Val,  }\item[{U\+S\+H\+O\+RT}]{Input = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+summary$>$ This method will set a list of parameters into the device /summary$>$ param name=\char`\"{}\+Code\char`\"{}$>$The parameter codes
+
+param name=\char`\"{}\+Val\char`\"{}$>$The values
+
+param name=\char`\"{}\+Input\char`\"{}$>$The input to set it into
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 384 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2ba667c88f72053137db2d913f957d47_a2ba667c88f72053137db2d913f957d47}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2ba667c88f72053137db2d913f957d47_a2ba667c88f72053137db2d913f957d47}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Put\+Parameter\+List@{Put\+Parameter\+List}}
+\index{Put\+Parameter\+List@{Put\+Parameter\+List}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Put\+Parameter\+List()}{PutParameterList()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Put\+Parameter\+List (\begin{DoxyParamCaption}\item[{std\+::vector$<$ L\+O\+NG $>$ \&}]{Codes,  }\item[{std\+::vector$<$ \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Canberra\+::\+Utility\+::\+Core\+::\+Variant} $>$ \&}]{Vals,  }\item[{U\+S\+H\+O\+RT}]{Input = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+summary$>$ This method will execute a control command on a specified input The assumption is that the device response contains no return data /summary$>$ param name=\char`\"{}\+Code\char`\"{}$>$The parameter code
+
+param name=\char`\"{}\+Input\char`\"{}$>$The input to get it from
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 411 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a28e7caa3973967170dbc445771644193_a28e7caa3973967170dbc445771644193}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a28e7caa3973967170dbc445771644193_a28e7caa3973967170dbc445771644193}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Put\+Port@{Put\+Port}}
+\index{Put\+Port@{Put\+Port}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Put\+Port()}{PutPort()}}
+{\footnotesize\ttfamily void Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Put\+Port (\begin{DoxyParamCaption}\item[{U\+S\+H\+O\+RT}]{v }\end{DoxyParamCaption})}
+
+summary$>$ This method sets the send timeout /summary$>$ param name=\char`\"{}\+T\+O\char`\"{}$>$The time out (ms) 
+
+Definition at line 919 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_aa3f539662d82072bbd58bb0b01b98b96_aa3f539662d82072bbd58bb0b01b98b96}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_aa3f539662d82072bbd58bb0b01b98b96_aa3f539662d82072bbd58bb0b01b98b96}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Put\+Property@{Put\+Property}}
+\index{Put\+Property@{Put\+Property}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Put\+Property()}{PutProperty()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Put\+Property (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{N,  }\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Canberra\+::\+Utility\+::\+Core\+::\+Variant} \&}]{Val }\end{DoxyParamCaption})}
+
+summary$>$ This method get the value of a named property This method exists for extending the features of this class without breaking the contract /summary$>$ param name=\char`\"{}\+N\char`\"{}$>$(in) The name
+
+param name=\char`\"{}\+V\char`\"{}$>$(in, out) The value
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 1442 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a881814ede0fd879e649e027f41b03b94_a881814ede0fd879e649e027f41b03b94}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a881814ede0fd879e649e027f41b03b94_a881814ede0fd879e649e027f41b03b94}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Put\+Receive\+Timeout@{Put\+Receive\+Timeout}}
+\index{Put\+Receive\+Timeout@{Put\+Receive\+Timeout}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Put\+Receive\+Timeout()}{PutReceiveTimeout()}}
+{\footnotesize\ttfamily void Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Put\+Receive\+Timeout (\begin{DoxyParamCaption}\item[{U\+L\+O\+NG}]{TO }\end{DoxyParamCaption})}
+
+summary$>$ This method gets the receive timeout. /summary$>$ returns$>$The time out (ms)
+
+Definition at line 955 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2b7b1dbbf2391cbbb503ea253aed164b_a2b7b1dbbf2391cbbb503ea253aed164b}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2b7b1dbbf2391cbbb503ea253aed164b_a2b7b1dbbf2391cbbb503ea253aed164b}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Put\+Regions\+Of\+Interest@{Put\+Regions\+Of\+Interest}}
+\index{Put\+Regions\+Of\+Interest@{Put\+Regions\+Of\+Interest}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Put\+Regions\+Of\+Interest()}{PutRegionsOfInterest()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Put\+Regions\+Of\+Interest (\begin{DoxyParamCaption}\item[{U\+S\+H\+O\+RT}]{Input,  }\item[{std\+::vector$<$ \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Region\+Of\+Interest} $>$ \&}]{Vals }\end{DoxyParamCaption})}
+
+summary$>$ This method will get counter data from the device /summary$>$ param name=\char`\"{}\+Val\char`\"{}$>$The counter data
+
+param name=\char`\"{}\+Input\char`\"{}$>$The input to get it from
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 1162 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a92c3e56b497ed2f58afb198746b6f4c5_a92c3e56b497ed2f58afb198746b6f4c5}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a92c3e56b497ed2f58afb198746b6f4c5_a92c3e56b497ed2f58afb198746b6f4c5}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Put\+Send\+Timeout@{Put\+Send\+Timeout}}
+\index{Put\+Send\+Timeout@{Put\+Send\+Timeout}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Put\+Send\+Timeout()}{PutSendTimeout()}}
+{\footnotesize\ttfamily void Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Put\+Send\+Timeout (\begin{DoxyParamCaption}\item[{U\+L\+O\+NG}]{TO }\end{DoxyParamCaption})}
+
+summary$>$ This method gets the send timeout /summary$>$ returns$>$The time out (ms) 
+
+Definition at line 930 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a5aa231963ff4d259fd1b100c6f620490_a5aa231963ff4d259fd1b100c6f620490}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a5aa231963ff4d259fd1b100c6f620490_a5aa231963ff4d259fd1b100c6f620490}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Put\+Spectrum@{Put\+Spectrum}}
+\index{Put\+Spectrum@{Put\+Spectrum}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Put\+Spectrum()}{PutSpectrum()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Put\+Spectrum (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectrum}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Spectrum} \&}]{Spec,  }\item[{U\+S\+H\+O\+RT}]{Input = {\ttfamily 1},  }\item[{U\+S\+H\+O\+RT}]{Group = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+summary$>$ This method will get the extended internet error information /summary$>$ returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 773 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a4f514bd2a06da196fbe8f63cde8d4870_a4f514bd2a06da196fbe8f63cde8d4870}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a4f514bd2a06da196fbe8f63cde8d4870_a4f514bd2a06da196fbe8f63cde8d4870}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Save@{Save}}
+\index{Save@{Save}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Save()}{Save()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Save (\begin{DoxyParamCaption}\item[{U\+S\+H\+O\+RT}]{Input,  }\item[{U\+S\+H\+O\+RT}]{Group,  }\item[{\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{Name }\end{DoxyParamCaption})}
+
+summary$>$ This method will execute a control command using the command data and returns the command response data /summary$>$ param name=\char`\"{}\+Cmd\char`\"{}$>$The command
+
+param name=\char`\"{}\+Resp\char`\"{}$>$The command response
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 574 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ab5f8a362b339768e8f3cde9633be6b87_ab5f8a362b339768e8f3cde9633be6b87}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_ab5f8a362b339768e8f3cde9633be6b87_ab5f8a362b339768e8f3cde9633be6b87}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Unlock@{Unlock}}
+\index{Unlock@{Unlock}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Unlock()}{Unlock()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Unlock (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{User,  }\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{Pwd,  }\item[{U\+S\+H\+O\+RT}]{Input }\end{DoxyParamCaption})}
+
+summary$>$ This method will save the spectrum and return the specified filename /summary$>$ param name=\char`\"{}\+Input\char`\"{}$>$The input to get it from
+
+param name=\char`\"{}\+Name\char`\"{}$>$The name of the file on the device
+
+param name=\char`\"{}\+Group\char`\"{}$>$The memory group to save 0==Use current memory group
+
+returns$>$The Win32 error code. 0 ==Success
+
+Definition at line 550 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a47051ab0ec0a01f2b0f56925d12d10df_a47051ab0ec0a01f2b0f56925d12d10df}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_a47051ab0ec0a01f2b0f56925d12d10df_a47051ab0ec0a01f2b0f56925d12d10df}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Update\+User@{Update\+User}}
+\index{Update\+User@{Update\+User}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Update\+User()}{UpdateUser()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Update\+User (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{User,  }\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{Pwd,  }\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{Desc,  }\item[{L\+O\+NG}]{Priv }\end{DoxyParamCaption})}
+
+summary$>$ This method validates a user account on the device /summary$>$ param name=\char`\"{}\+Name\char`\"{}$>$The user name 
+
+param name=\char`\"{}\+Pwd\char`\"{}$>$The password 
+
+param name=\char`\"{}\+Val\char`\"{}$>$The validation state 
+
+returns$>$Execution status
+
+Definition at line 1021 of file Device.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_protocols_1_1_lynx_1_1_device_aa5895622f6c9b7006da39245302d3a4a_aa5895622f6c9b7006da39245302d3a4a}\label{class_canberra_1_1_protocols_1_1_lynx_1_1_device_aa5895622f6c9b7006da39245302d3a4a_aa5895622f6c9b7006da39245302d3a4a}} 
+\index{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}!Validate\+User@{Validate\+User}}
+\index{Validate\+User@{Validate\+User}!Canberra\+::\+Protocols\+::\+Lynx\+::\+Device@{Canberra\+::\+Protocols\+::\+Lynx\+::\+Device}}
+\subsubsection{\texorpdfstring{Validate\+User()}{ValidateUser()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Protocols\+::\+Lynx\+::\+Device\+::\+Validate\+User (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{User,  }\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{Canberra\+::\+Utility\+::\+Core\+::\+String} \&}]{Pwd,  }\item[{bool \&}]{Val }\end{DoxyParamCaption})}
+
+summary$>$ This method deletes a user account on the device /summary$>$ param name=\char`\"{}\+Name\char`\"{}$>$The user name 
+
+param name=\char`\"{}\+Pwd\char`\"{}$>$The password 
+
+returns$>$Execution status
+
+Definition at line 1047 of file Device.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Device.\+h\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Device.\+cpp\end{DoxyCompactItemize}

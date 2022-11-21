@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Utility::Core::CriticalSection</compoundname>
+    <basecompoundref refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object" prot="public" virt="non-virtual">Canberra::Utility::Core::SyncObject</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_1a5d8b3da81e150c0012ac041610244ba5" prot="protected" static="no" mutable="no">
+        <type>pthread_mutex_t</type>
+        <definition>pthread_mutex_t Canberra::Utility::Core::CriticalSection::_CritSection</definition>
+        <argsstring></argsstring>
+        <name>_CritSection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CriticalSection.h" line="27" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CriticalSection.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_1a9f0625a4e5a6067c7b1af5f822cfc73f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::CriticalSection::CriticalSection</definition>
+        <argsstring>(const CriticalSection &amp;)</argsstring>
+        <name>CriticalSection</name>
+        <param>
+          <type>const <ref refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section" kindref="compound">CriticalSection</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CriticalSection.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_1a24d1e55424618232785efd676c336662" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section" kindref="compound">CriticalSection</ref> &amp;</type>
+        <definition>CriticalSection&amp; Canberra::Utility::Core::CriticalSection::operator=</definition>
+        <argsstring>(const CriticalSection &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section" kindref="compound">CriticalSection</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CriticalSection.h" line="21" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_1abb2f8859d58ea677edec4b7f4f321b2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::CriticalSection::CriticalSection</definition>
+        <argsstring>(const String &amp;Name)</argsstring>
+        <name>CriticalSection</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Name</declname>
+        </param>
+        <briefdescription>
+<para>An instance of this class is used to Manage access to a critical section /summary&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CriticalSection.h" line="30" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CriticalSection.cpp" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_a8b509ef63ce6c5d50539d2c7e1efef46_1a8b509ef63ce6c5d50539d2c7e1efef46" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::CriticalSection::~CriticalSection</definition>
+        <argsstring>(void)</argsstring>
+        <name>~CriticalSection</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will invoke InitializeCriticalSection /summary&gt; returns&gt;0==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CriticalSection.h" line="31" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CriticalSection.cpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_a0331da73e6a8472e107813080b1ac107_1a0331da73e6a8472e107813080b1ac107" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::CriticalSection::Create</definition>
+        <argsstring>()</argsstring>
+        <name>Create</name>
+        <reimplements refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1aa9f9f2c078ea20863ef942bb598970aa">Create</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will invoke DeleteCriticalSection returns&gt;0==Success</para><para>/summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CriticalSection.h" line="34" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CriticalSection.cpp" bodystart="20" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_1aa579ed1514a2d489dbb7997c199fb5ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::CriticalSection::Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <reimplements refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1ab5070ffad5432ae80f16767c2b9b525a">Close</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CriticalSection.h" line="37" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CriticalSection.cpp" bodystart="39" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_a1f6ce2fecd7176f7580c091437920c96_1a1f6ce2fecd7176f7580c091437920c96" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::CriticalSection::WaitOne</definition>
+        <argsstring>(LONG TimeO=0)</argsstring>
+        <name>WaitOne</name>
+        <reimplements refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1ab74ec3962f4c8e6a446f59cdfb8d4f70">WaitOne</reimplements>
+        <param>
+          <type>LONG</type>
+          <declname>TimeO</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This method will invoke EnterCriticalSection </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>TimeO</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The time out (ms)</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true == Locked</para></simplesect>
+summary&gt; This method will invoke EnterCriticalSection returns&gt;0 == Locked</para><para>/summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CriticalSection.h" line="40" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CriticalSection.cpp" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_ad6db25d94bb0c5b7f877c435c9fd9206_1ad6db25d94bb0c5b7f877c435c9fd9206" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::CriticalSection::Lock</definition>
+        <argsstring>()</argsstring>
+        <name>Lock</name>
+        <reimplements refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a5c5fd1066372d180e16e475a5cf8fbc3">Lock</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will invoke LeaveCriticalSection returns&gt;0 == Locked</para><para>/summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CriticalSection.h" line="43" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CriticalSection.cpp" bodystart="77" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_a78d9486915ae3ed0687fd404af8bb078_1a78d9486915ae3ed0687fd404af8bb078" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::CriticalSection::Unlock</definition>
+        <argsstring>()</argsstring>
+        <name>Unlock</name>
+        <reimplements refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a86a4157f361c42d5823ea733c9061d74">Unlock</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will invoke TryEnterCriticalSection returns&gt;true == Locked</para><para>/summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CriticalSection.h" line="46" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CriticalSection.cpp" bodystart="95" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_1adacf4a030fe35e920e2ddb1515c2221d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::CriticalSection::TryLock</definition>
+        <argsstring>()</argsstring>
+        <name>TryLock</name>
+        <reimplements refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a2b8e2f0d70c75f60aff1bde4536b3217">TryLock</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CriticalSection.h" line="49" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CriticalSection.cpp" bodystart="114" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="68">
+        <label>Canberra::Utility::Core::CriticalSection</label>
+        <link refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>Canberra::Utility::Core::SyncObject</label>
+        <link refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="72">
+        <label>Canberra::Utility::Core::String</label>
+        <link refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string"/>
+      </node>
+      <node id="70">
+        <label>Canberra::Utility::Core::CriticalSection</label>
+        <link refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>Canberra::Utility::Core::SyncObject</label>
+        <link refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object"/>
+        <childnode refid="72" relation="usage">
+          <edgelabel>_Name</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/CriticalSection.h" line="19" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CriticalSection.h" bodystart="18" bodyend="50"/>
+    <listofallmembers>
+      <member refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_1a5d8b3da81e150c0012ac041610244ba5" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>_CritSection</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1ae73fa76babd0fa3918c3724b044a2a48" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>_Initialized</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1aeca23ab46d8c77eb0a279386bd395fbc" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>_IsGlobal</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a9a44373c6ab8ce73cbe373e64ec03c77" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>_IsNamed</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a52c2b77c2ceb04ea1fb0461d59e67633" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>_Name</name></member>
+      <member refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_1aa579ed1514a2d489dbb7997c199fb5ef" prot="public" virt="virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>Close</name></member>
+      <member refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_a0331da73e6a8472e107813080b1ac107_1a0331da73e6a8472e107813080b1ac107" prot="public" virt="virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>Create</name></member>
+      <member refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_1a9f0625a4e5a6067c7b1af5f822cfc73f" prot="private" virt="non-virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>CriticalSection</name></member>
+      <member refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_1abb2f8859d58ea677edec4b7f4f321b2f" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>CriticalSection</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1afa1bef8c30c3e1f85eda57c7bab72b06" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>GetIsGlobal</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a6ad6f6802cf9fa85552164ef0185a815" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>GetIsNamed</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1aa8c53151b7c5d01e08e498c5fe77ab99" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>GetIsOpen</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1afd382a9a6edcf4d45b83e9b7e7e78b72" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>GetName</name></member>
+      <member refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_ad6db25d94bb0c5b7f877c435c9fd9206_1ad6db25d94bb0c5b7f877c435c9fd9206" prot="public" virt="virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>Lock</name></member>
+      <member refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_1a24d1e55424618232785efd676c336662" prot="private" virt="non-virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>operator=</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1ae1f30f6fce9190ec3d32762eaa282900" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>SyncObject</name></member>
+      <member refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_1adacf4a030fe35e920e2ddb1515c2221d" prot="public" virt="virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>TryLock</name></member>
+      <member refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_a78d9486915ae3ed0687fd404af8bb078_1a78d9486915ae3ed0687fd404af8bb078" prot="public" virt="virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>Unlock</name></member>
+      <member refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_a1f6ce2fecd7176f7580c091437920c96_1a1f6ce2fecd7176f7580c091437920c96" prot="public" virt="virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>WaitOne</name></member>
+      <member refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_a8b509ef63ce6c5d50539d2c7e1efef46_1a8b509ef63ce6c5d50539d2c7e1efef46" prot="public" virt="virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>~CriticalSection</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a5e08bb62ffd90819f59fb6f2b7e86f31" prot="public" virt="virtual"><scope>Canberra::Utility::Core::CriticalSection</scope><name>~SyncObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Utility::Network::EndPoint</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_1ac8de94eb6a3202681f21994906186d2d" prot="protected" static="no" mutable="no">
+        <type>SHORT</type>
+        <definition>SHORT Canberra::Utility::Network::EndPoint::_Family</definition>
+        <argsstring></argsstring>
+        <name>_Family</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="32" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_1a274c38b9250201aa5680e6335f9208de" prot="protected" static="no" mutable="no">
+        <type>USHORT</type>
+        <definition>USHORT Canberra::Utility::Network::EndPoint::_Port</definition>
+        <argsstring></argsstring>
+        <name>_Port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="33" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_1a6d3f3b0618e6f2b829d4626b28a37f4f" prot="protected" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Network::EndPoint::_Address</definition>
+        <argsstring></argsstring>
+        <name>_Address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="34" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a7703ea225c0604da4a5b20d89b95094f_1a7703ea225c0604da4a5b20d89b95094f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Network::EndPoint::EndPoint</definition>
+        <argsstring>()</argsstring>
+        <name>EndPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class represents the endpoint information for a socket. /summary&gt; param name=&quot;Address&quot;&gt;The network address</para><para>param name=&quot;Port&quot;&gt;The network port non-network format</para><para>param name=&quot;Family&quot;&gt;The network family</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="37" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="27" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a56123403e1f6f6dc03244a5605f34163_1a56123403e1f6f6dc03244a5605f34163" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Network::EndPoint::EndPoint</definition>
+        <argsstring>(LONG Address, USHORT Port, SHORT Family=AF_INET)</argsstring>
+        <name>EndPoint</name>
+        <param>
+          <type>LONG</type>
+          <declname>Address</declname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Port</declname>
+        </param>
+        <param>
+          <type>SHORT</type>
+          <declname>Family</declname>
+          <defval>AF_INET</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class represents the endpoint information for a socket. /summary&gt; param name=&quot;Address&quot;&gt;The network address</para><para>param name=&quot;Port&quot;&gt;The network port non-network format</para><para>param name=&quot;Family&quot;&gt;The network family</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="38" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="37" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_1ac8d12c7d9e82ee0bff87ef24ab7f778a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Network::EndPoint::EndPoint</definition>
+        <argsstring>(const Canberra::Utility::Core::String &amp;Address, USHORT Port, SHORT Family=AF_INET)</argsstring>
+        <name>EndPoint</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>Address</declname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Port</declname>
+        </param>
+        <param>
+          <type>SHORT</type>
+          <declname>Family</declname>
+          <defval>AF_INET</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="39" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="47" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a894bac13908b20ed101915ef380ec93a_1a894bac13908b20ed101915ef380ec93a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Utility::Network::EndPoint::~EndPoint</definition>
+        <argsstring>()</argsstring>
+        <name>~EndPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method compares /summary&gt; param name=&quot;Rhs&quot;&gt;The right hand side</para><para>returns&gt;Equals state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="40" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a45b17740a2dcf339c2695f5aeca748be_1a45b17740a2dcf339c2695f5aeca748be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Network::EndPoint::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+<para>This method will initialize the endpoint information to the loopback address, port zero (autoselect), AF_INET family /summary&gt; </para>        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class represents the endpoint information for a socket. This method will initialize the endpoint information to the loopback address, port zero (autoselect), AF_INET family. /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="43" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a22818c23bbae490c36e0d388dde3dc2d_1a22818c23bbae490c36e0d388dde3dc2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SOCKADDR_IN</type>
+        <definition>SOCKADDR_IN Canberra::Utility::Network::EndPoint::GetAddressInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetAddressInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will set the endpoint address information /summary&gt; param name=&quot;Info&quot;&gt;The socket info</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="46" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="75" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a0b103d2d34c15d29efe0e862a2d40742_1a0b103d2d34c15d29efe0e862a2d40742" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Network::EndPoint::PutAddressInfo</definition>
+        <argsstring>(SOCKADDR_IN &amp;v)</argsstring>
+        <name>PutAddressInfo</name>
+        <param>
+          <type>SOCKADDR_IN &amp;</type>
+          <declname>v</declname>
+          <defname>Info</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get the network family /summary&gt; returns&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="47" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="93" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_aa6e88abb482bf1fe1bbf5e0283a6acf8_1aa6e88abb482bf1fe1bbf5e0283a6acf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Network::EndPoint::PutFamily</definition>
+        <argsstring>(SHORT v)</argsstring>
+        <name>PutFamily</name>
+        <param>
+          <type>SHORT</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get the port /summary&gt; returns&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="50" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="115" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_aa39fe8e11e2dc2bff4aaa8f76a0d8d93_1aa39fe8e11e2dc2bff4aaa8f76a0d8d93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SHORT</type>
+        <definition>SHORT Canberra::Utility::Network::EndPoint::GetFamily</definition>
+        <argsstring>()</argsstring>
+        <name>GetFamily</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will set the network family /summary&gt; param name=&quot;v&quot;&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="51" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="109" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a7870ced30d9d124ae3fa40e5964f1c29_1a7870ced30d9d124ae3fa40e5964f1c29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Network::EndPoint::PutPort</definition>
+        <argsstring>(USHORT v)</argsstring>
+        <name>PutPort</name>
+        <param>
+          <type>USHORT</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get the address /summary&gt; returns&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="54" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="127" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a5494dfb63773cb639455534cdbdabd54_1a5494dfb63773cb639455534cdbdabd54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>USHORT</type>
+        <definition>USHORT Canberra::Utility::Network::EndPoint::GetPort</definition>
+        <argsstring>()</argsstring>
+        <name>GetPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will set the port /summary&gt; param name=&quot;v&quot;&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="55" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="121" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a7f32b1d857849acabb17f77d7cb37cb2_1a7f32b1d857849acabb17f77d7cb37cb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Network::EndPoint::PutAddress</definition>
+        <argsstring>(ULONG v)</argsstring>
+        <name>PutAddress</name>
+        <param>
+          <type>ULONG</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get the address /summary&gt; returns&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="58" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="139" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a149e4a7a23b4285d2f4752776679fc08_1a149e4a7a23b4285d2f4752776679fc08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Network::EndPoint::GetAddress</definition>
+        <argsstring>()</argsstring>
+        <name>GetAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will set the address /summary&gt; param name=&quot;v&quot;&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="59" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="133" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a78be3280aea4be4926ff32a76e0758b8_1a78be3280aea4be4926ff32a76e0758b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Network::EndPoint::PutAddressString</definition>
+        <argsstring>(Canberra::Utility::Core::String v)</argsstring>
+        <name>PutAddressString</name>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This is the base class for all sockets. It cannot be instantiated; it must be derived. It will initialize the socket library during construction via WSAStartup call /summary&gt; param name=&quot;Name&quot;&gt;The name to associated with this instance</para><para>exception cref&quot;ULONG&quot;&gt;Error info</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="62" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="160" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_ae2c218f6bc7af23d526d9f7fd581a847_1ae2c218f6bc7af23d526d9f7fd581a847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Network::EndPoint::GetAddressString</definition>
+        <argsstring>()</argsstring>
+        <name>GetAddressString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get the address /summary&gt; param name=&quot;v&quot;&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="63" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="145" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a3ab49b2b46bd18c7633fcd94e8246c67_1a3ab49b2b46bd18c7633fcd94e8246c67" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Network::EndPoint::operator==</definition>
+        <argsstring>(const EndPoint &amp;Rhs) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point" kindref="compound">EndPoint</ref> &amp;</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method compares /summary&gt; param name=&quot;Rhs&quot;&gt;The right hand side</para><para>returns&gt;Not-Equals state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="66" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="57" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_ab93ff46c491c6b065c2610f6a2443886_1ab93ff46c491c6b065c2610f6a2443886" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Network::EndPoint::operator!=</definition>
+        <argsstring>(const EndPoint &amp;Rhs) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point" kindref="compound">EndPoint</ref> &amp;</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the endpoint address information /summary&gt; returns&gt;The socket address info</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="69" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="67" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="30" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.h" bodystart="30" bodyend="70"/>
+    <listofallmembers>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_1a6d3f3b0618e6f2b829d4626b28a37f4f" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>_Address</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_1ac8de94eb6a3202681f21994906186d2d" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>_Family</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_1a274c38b9250201aa5680e6335f9208de" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>_Port</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a7703ea225c0604da4a5b20d89b95094f_1a7703ea225c0604da4a5b20d89b95094f" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>EndPoint</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a56123403e1f6f6dc03244a5605f34163_1a56123403e1f6f6dc03244a5605f34163" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>EndPoint</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_1ac8d12c7d9e82ee0bff87ef24ab7f778a" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>EndPoint</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a149e4a7a23b4285d2f4752776679fc08_1a149e4a7a23b4285d2f4752776679fc08" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>GetAddress</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a22818c23bbae490c36e0d388dde3dc2d_1a22818c23bbae490c36e0d388dde3dc2d" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>GetAddressInfo</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_ae2c218f6bc7af23d526d9f7fd581a847_1ae2c218f6bc7af23d526d9f7fd581a847" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>GetAddressString</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_aa39fe8e11e2dc2bff4aaa8f76a0d8d93_1aa39fe8e11e2dc2bff4aaa8f76a0d8d93" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>GetFamily</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a5494dfb63773cb639455534cdbdabd54_1a5494dfb63773cb639455534cdbdabd54" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>GetPort</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a45b17740a2dcf339c2695f5aeca748be_1a45b17740a2dcf339c2695f5aeca748be" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>Initialize</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_ab93ff46c491c6b065c2610f6a2443886_1ab93ff46c491c6b065c2610f6a2443886" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>operator!=</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a3ab49b2b46bd18c7633fcd94e8246c67_1a3ab49b2b46bd18c7633fcd94e8246c67" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>operator==</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a7f32b1d857849acabb17f77d7cb37cb2_1a7f32b1d857849acabb17f77d7cb37cb2" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>PutAddress</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a0b103d2d34c15d29efe0e862a2d40742_1a0b103d2d34c15d29efe0e862a2d40742" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>PutAddressInfo</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a78be3280aea4be4926ff32a76e0758b8_1a78be3280aea4be4926ff32a76e0758b8" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>PutAddressString</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_aa6e88abb482bf1fe1bbf5e0283a6acf8_1aa6e88abb482bf1fe1bbf5e0283a6acf8" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>PutFamily</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a7870ced30d9d124ae3fa40e5964f1c29_1a7870ced30d9d124ae3fa40e5964f1c29" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>PutPort</name></member>
+      <member refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point_a894bac13908b20ed101915ef380ec93a_1a894bac13908b20ed101915ef380ec93a" prot="public" virt="virtual"><scope>Canberra::Utility::Network::EndPoint</scope><name>~EndPoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

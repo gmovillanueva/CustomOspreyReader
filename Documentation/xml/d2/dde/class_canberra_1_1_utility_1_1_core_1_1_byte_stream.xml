@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Utility::Core::ByteStream</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_1a42aaf47200f496cc5db245a78acc2e9e" prot="protected" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* Canberra::Utility::Core::ByteStream::_Stream</definition>
+        <argsstring></argsstring>
+        <name>_Stream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="16" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_1a5995f40754285a93c13ddc4f11897615" prot="protected" static="no" mutable="no">
+        <type>DWORD</type>
+        <definition>DWORD Canberra::Utility::Core::ByteStream::_Size</definition>
+        <argsstring></argsstring>
+        <name>_Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="17" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_1a09a007a10d559ab743a8840dd1d3efb7" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::ByteStream::ByteStream</definition>
+        <argsstring>(void)</argsstring>
+        <name>ByteStream</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="20" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.cpp" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_1a8cbb287a0cbe76b7b5a16d0fafe1cff2" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::ByteStream::ByteStream</definition>
+        <argsstring>(DWORD)</argsstring>
+        <name>ByteStream</name>
+        <param>
+          <type>DWORD</type>
+          <defname>Size</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="21" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.cpp" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_1a7374dbd8c0b1544a3d59fd7c0b9476d8" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::ByteStream::ByteStream</definition>
+        <argsstring>(const char *const V, DWORD Size)</argsstring>
+        <name>ByteStream</name>
+        <param>
+          <type>const char *const</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type>DWORD</type>
+          <declname>Size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="22" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.cpp" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_1ab5d1a44b718e367ffe5d16cbfa56aa30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::ByteStream::ByteStream</definition>
+        <argsstring>(const ByteStream &amp;V)</argsstring>
+        <name>ByteStream</name>
+        <param>
+          <type>const <ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">ByteStream</ref> &amp;</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="23" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.cpp" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_ad560e08e58556b57190965b1c1a629d0_1ad560e08e58556b57190965b1c1a629d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::ByteStream::~ByteStream</definition>
+        <argsstring>(void)</argsstring>
+        <name>~ByteStream</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will clear the byte stream /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="24" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.cpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_a16ea976d5b995340125760f8571cc788_1a16ea976d5b995340125760f8571cc788" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DWORD</type>
+        <definition>DWORD Canberra::Utility::Core::ByteStream::Allocate</definition>
+        <argsstring>(DWORD)</argsstring>
+        <name>Allocate</name>
+        <param>
+          <type>DWORD</type>
+          <defname>Size</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will reallocate memory to meet the new specified size while preserving contents /summary&gt; param name=&quot;Size&quot;&gt;The number of bytes</para><para>returns&gt;The number allocated</para><para>exception cref=&quot;ULONG&quot;&gt;Error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="27" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.cpp" bodystart="29" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_afbcb6de31f0f9b09ee532550c2be8bb7_1afbcb6de31f0f9b09ee532550c2be8bb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DWORD</type>
+        <definition>DWORD Canberra::Utility::Core::ByteStream::Resize</definition>
+        <argsstring>(DWORD)</argsstring>
+        <name>Resize</name>
+        <param>
+          <type>DWORD</type>
+          <defname>Rsize</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will copy a byte stream /summary&gt; param name=&quot;Src&quot;&gt;The source stream</para><para>returns&gt;The number allocated</para><para>exception cref=&quot;ULONG&quot;&gt;Error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="30" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.cpp" bodystart="55" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_ac997ccc2337609abf0765ce17d474d22_1ac997ccc2337609abf0765ce17d474d22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DWORD</type>
+        <definition>DWORD Canberra::Utility::Core::ByteStream::Copy</definition>
+        <argsstring>(const char *const V, DWORD S)</argsstring>
+        <name>Copy</name>
+        <param>
+          <type>const char *const</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type>DWORD</type>
+          <declname>S</declname>
+          <defname>Sz</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will copy a source byte stream into this instance while preserving this ones contents. A value of 0 for Num implies copy all bytes /summary&gt; param name=&quot;Src&quot;&gt;The source stream</para><para>param name=&quot;SrcStart&quot;&gt;Byte position to start the copy in the source stream</para><para>param name=&quot;DestStart&quot;&gt;Byte position to start the copy in the dest stream</para><para>returns&gt;The number copied</para><para>exception cref=&quot;ULONG&quot;&gt;Error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="33" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.cpp" bodystart="87" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_ac9a7219af83b6276b547a45ae0d15aeb_1ac9a7219af83b6276b547a45ae0d15aeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DWORD</type>
+        <definition>DWORD Canberra::Utility::Core::ByteStream::Copy</definition>
+        <argsstring>(ByteStream &amp;Src, DWORD SrcStart, DWORD DestStart, DWORD Num=0)</argsstring>
+        <name>Copy</name>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">ByteStream</ref> &amp;</type>
+          <declname>Src</declname>
+        </param>
+        <param>
+          <type>DWORD</type>
+          <declname>SrcStart</declname>
+        </param>
+        <param>
+          <type>DWORD</type>
+          <declname>DestStart</declname>
+        </param>
+        <param>
+          <type>DWORD</type>
+          <declname>Num</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the pointer to the byte stream /summary&gt; returns&gt;The pointer to the byte stream</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="34" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.cpp" bodystart="120" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_a77b71d73dd8ca721e458728a8b684446_1a77b71d73dd8ca721e458728a8b684446" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DWORD</type>
+        <definition>DWORD Canberra::Utility::Core::ByteStream::Copy</definition>
+        <argsstring>(ByteStream &amp;Src)</argsstring>
+        <name>Copy</name>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">ByteStream</ref> &amp;</type>
+          <declname>Src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will copy a byte stream /summary&gt; param name=&quot;Size&quot;&gt;The number of bytes</para><para>returns&gt;The number allocated</para><para>exception cref=&quot;ULONG&quot;&gt;Error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="35" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.cpp" bodystart="76" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_af771098ca049f3e53ddc7b2afaebc2dc_1af771098ca049f3e53ddc7b2afaebc2dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::ByteStream::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will allocate and initialize the byte stream /summary&gt; param name=&quot;Size&quot;&gt;The number of bytes</para><para>returns&gt;The number allocated</para><para>exception cref=&quot;ULONG&quot;&gt;Error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="38" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.cpp" bodystart="16" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_a8e29355fc0049cc2a715c0dd4da71903_1a8e29355fc0049cc2a715c0dd4da71903" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *const</type>
+        <definition>const char *const Canberra::Utility::Core::ByteStream::GetBuffer</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the number of bytes allocated for the stream /summary&gt; returns&gt;The number of bytes</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="41" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.cpp" bodystart="142" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_a268d73a8a3a65864800e08c7a081a58d_1a268d73a8a3a65864800e08c7a081a58d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>DWORD</type>
+        <definition>DWORD Canberra::Utility::Core::ByteStream::GetSize</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the pointer to the byte stream /summary&gt; returns&gt;The pointer to the byte stream</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="44" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.cpp" bodystart="150" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_a5008a7438dc03640ce29323460d7d3b0_1a5008a7438dc03640ce29323460d7d3b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::ByteStream::operator const char *const</definition>
+        <argsstring>()</argsstring>
+        <name>operator const char *const</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will perform a deep copy /summary&gt; param name=&quot;Rhs&quot;&gt;Byte stream to copy</para><para>returns&gt;This instance</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="47" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.cpp" bodystart="156" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_1aed61da0d13e832e66888233bb38d01c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">ByteStream</ref> &amp;</type>
+        <definition>Canberra::Utility::Core::ByteStream &amp; Canberra::Utility::Core::ByteStream::operator=</definition>
+        <argsstring>(const ByteStream &amp;Rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">ByteStream</ref> &amp;</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="50" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.cpp" bodystart="163" bodyend="167"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/ByteStream.h" line="13" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ByteStream.h" bodystart="12" bodyend="51"/>
+    <listofallmembers>
+      <member refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_1a5995f40754285a93c13ddc4f11897615" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::ByteStream</scope><name>_Size</name></member>
+      <member refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_1a42aaf47200f496cc5db245a78acc2e9e" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::ByteStream</scope><name>_Stream</name></member>
+      <member refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_a16ea976d5b995340125760f8571cc788_1a16ea976d5b995340125760f8571cc788" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::ByteStream</scope><name>Allocate</name></member>
+      <member refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_1a09a007a10d559ab743a8840dd1d3efb7" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::ByteStream</scope><name>ByteStream</name></member>
+      <member refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_1a8cbb287a0cbe76b7b5a16d0fafe1cff2" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::ByteStream</scope><name>ByteStream</name></member>
+      <member refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_1a7374dbd8c0b1544a3d59fd7c0b9476d8" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::ByteStream</scope><name>ByteStream</name></member>
+      <member refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_1ab5d1a44b718e367ffe5d16cbfa56aa30" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::ByteStream</scope><name>ByteStream</name></member>
+      <member refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_af771098ca049f3e53ddc7b2afaebc2dc_1af771098ca049f3e53ddc7b2afaebc2dc" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::ByteStream</scope><name>Clear</name></member>
+      <member refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_ac997ccc2337609abf0765ce17d474d22_1ac997ccc2337609abf0765ce17d474d22" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::ByteStream</scope><name>Copy</name></member>
+      <member refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_ac9a7219af83b6276b547a45ae0d15aeb_1ac9a7219af83b6276b547a45ae0d15aeb" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::ByteStream</scope><name>Copy</name></member>
+      <member refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_a77b71d73dd8ca721e458728a8b684446_1a77b71d73dd8ca721e458728a8b684446" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::ByteStream</scope><name>Copy</name></member>
+      <member refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_a8e29355fc0049cc2a715c0dd4da71903_1a8e29355fc0049cc2a715c0dd4da71903" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::ByteStream</scope><name>GetBuffer</name></member>
+      <member refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_a268d73a8a3a65864800e08c7a081a58d_1a268d73a8a3a65864800e08c7a081a58d" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::ByteStream</scope><name>GetSize</name></member>
+      <member refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_a5008a7438dc03640ce29323460d7d3b0_1a5008a7438dc03640ce29323460d7d3b0" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::ByteStream</scope><name>operator const char *const</name></member>
+      <member refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_1aed61da0d13e832e66888233bb38d01c6" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::ByteStream</scope><name>operator=</name></member>
+      <member refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_afbcb6de31f0f9b09ee532550c2be8bb7_1afbcb6de31f0f9b09ee532550c2be8bb7" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::ByteStream</scope><name>Resize</name></member>
+      <member refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream_ad560e08e58556b57190965b1c1a629d0_1ad560e08e58556b57190965b1c1a629d0" prot="public" virt="virtual"><scope>Canberra::Utility::Core::ByteStream</scope><name>~ByteStream</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

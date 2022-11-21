@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d9/d8e/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_8____unnamed____" kind="union" language="C++" prot="public">
+    <compoundname>Canberra::Utility::Core::Variant::NativeValues.__unnamed__</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d9/d8e/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_8____unnamed_____1a5e4636122333c4d2098198138b1344a3" prot="public" static="no" mutable="no">
+        <type>ULONGULONG</type>
+        <definition></definition>
+        <argsstring></argsstring>
+        <name>int64DateVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Variant.h" line="106" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d8e/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_8____unnamed_____1a98d353447be3255ee722c11dcfe24ce5" prot="public" static="no" mutable="no">
+        <type><ref refid="d8/d28/struct___f_i_l_e_t_i_m_e" kindref="compound">FILETIME</ref></type>
+        <definition></definition>
+        <argsstring></argsstring>
+        <name>dateVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Variant.h" line="107" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/Variant.h" line="101" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Variant.h" bodystart="100" bodyend="108"/>
+    <listofallmembers>
+      <member refid="d9/d8e/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_8____unnamed_____1a98d353447be3255ee722c11dcfe24ce5" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Variant::NativeValues.__unnamed__</scope><name>dateVal</name></member>
+      <member refid="d9/d8e/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_8____unnamed_____1a5e4636122333c4d2098198138b1344a3" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Variant::NativeValues.__unnamed__</scope><name>int64DateVal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

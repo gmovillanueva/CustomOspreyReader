@@ -1,0 +1,12 @@
+digraph "Canberra::DataTypes::Serialization::MessageFactory"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Canberra::DataTypes\l::Serialization::MessageFactory",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _Signature" ];
+  Node2 [label="Canberra::DataTypes\l::Serialization::DigitalSignature",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="Canberra::Serialization\l::Serializable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d9f/class_canberra_1_1_serialization_1_1_serializable.html"];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _Key\n_Signature\n_RandomData" ];
+  Node4 [label="Canberra::Utility::\lCore::ByteStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream.html"];
+}

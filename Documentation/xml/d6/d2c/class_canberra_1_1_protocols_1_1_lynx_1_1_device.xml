@@ -1,0 +1,1114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Protocols::Lynx::Device</compoundname>
+    <derivedcompoundref refid="d4/d09/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ex" prot="public" virt="non-virtual">Canberra::Protocols::Lynx::DeviceEx</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a4c5133c15a373b01d2b771ce021b0034" prot="protected" static="no" mutable="no">
+        <type><ref refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client" kindref="compound">Canberra::Utility::Network::TcpClient</ref></type>
+        <definition>Canberra::Utility::Network::TcpClient Canberra::Protocols::Lynx::Device::_ConfigChannel</definition>
+        <argsstring></argsstring>
+        <name>_ConfigChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="52" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a86d122ea175a5a1ac6706640696e8128" prot="protected" static="no" mutable="no">
+        <type><ref refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory" kindref="compound">Canberra::DataTypes::Serialization::MessageFactory</ref></type>
+        <definition>Canberra::DataTypes::Serialization::MessageFactory Canberra::Protocols::Lynx::Device::_MessageFactory</definition>
+        <argsstring></argsstring>
+        <name>_MessageFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="53" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a481ff0cfb390a41a93dc420945e82880" prot="protected" static="no" mutable="no">
+        <type>USHORT</type>
+        <definition>USHORT Canberra::Protocols::Lynx::Device::_Port</definition>
+        <argsstring></argsstring>
+        <name>_Port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="54" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a78530de2d18211baa2fc9035391b875e" prot="protected" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* Canberra::Protocols::Lynx::Device::_Data</definition>
+        <argsstring></argsstring>
+        <name>_Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="55" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a04977bc7a7438cf3569d15006a4ab36b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Protocols::Lynx::Device::Device</definition>
+        <argsstring>(const Device &amp;)</argsstring>
+        <name>Device</name>
+        <param>
+          <type>const <ref refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device" kindref="compound">Device</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1acb98773735d5a2ffba8f0cf524ff67b9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device" kindref="compound">Device</ref> &amp;</type>
+        <definition>Device&amp; Canberra::Protocols::Lynx::Device::operator=</definition>
+        <argsstring>(const Device &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device" kindref="compound">Device</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ab739d02cc29a9f569a2b127fcbc1f884_1ab739d02cc29a9f569a2b127fcbc1f884" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::Control</definition>
+        <argsstring>(Canberra::DataTypes::Application::CommandData &amp;Cmd)</argsstring>
+        <name>Control</name>
+        <param>
+          <type><ref refid="d2/d2c/class_canberra_1_1_data_types_1_1_application_1_1_command_data" kindref="compound">Canberra::DataTypes::Application::CommandData</ref> &amp;</type>
+          <declname>Cmd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will locks an input. /summary&gt; param name=&quot;User&quot;&gt;The user name</para><para>param name=&quot;Pwd&quot;&gt;The password</para><para>param name=&quot;Input&quot;&gt;The input</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="56" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="506" bodyend="500"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a6232b1dc722fb8f11248e19ddd1f1f47_1a6232b1dc722fb8f11248e19ddd1f1f47" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::Control</definition>
+        <argsstring>(Canberra::DataTypes::Application::CommandData &amp;Cmd, Canberra::DataTypes::Application::CommandData **Resp)</argsstring>
+        <name>Control</name>
+        <param>
+          <type><ref refid="d2/d2c/class_canberra_1_1_data_types_1_1_application_1_1_command_data" kindref="compound">Canberra::DataTypes::Application::CommandData</ref> &amp;</type>
+          <declname>Cmd</declname>
+        </param>
+        <param>
+          <type><ref refid="d2/d2c/class_canberra_1_1_data_types_1_1_application_1_1_command_data" kindref="compound">Canberra::DataTypes::Application::CommandData</ref> **</type>
+          <declname>Resp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will check the command data to see if it contains a Ulong data type in the first data element. The assumption is that the Ulong is an error code /summary&gt; param name=&quot;Cmd&quot;&gt;The command</para><para>param name=&quot;Resp&quot;&gt;The command response</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="57" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="617" bodyend="610"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a34ad6cf7b51838a546cb0feef503cc7b_1a34ad6cf7b51838a546cb0feef503cc7b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::CheckForError</definition>
+        <argsstring>(Canberra::DataTypes::Application::CommandData *Resp)</argsstring>
+        <name>CheckForError</name>
+        <param>
+          <type><ref refid="d2/d2c/class_canberra_1_1_data_types_1_1_application_1_1_command_data" kindref="compound">Canberra::DataTypes::Application::CommandData</ref> *</type>
+          <declname>Resp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get a spectrum from the device /summary&gt; param name=&quot;Spec&quot;&gt;The spectrum</para><para>param name=&quot;Input&quot;&gt;The input to get it from</para><para>param name=&quot;Group&quot;&gt;The memory group to get it from</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="58" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="707" bodyend="699"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1ab3d7ce3e69cc0a54daed7783837801ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Protocols::Lynx::Device::Device</definition>
+        <argsstring>(void)</argsstring>
+        <name>Device</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="61" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="145" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a15622214b1e714c404d4772172d4f349_1a15622214b1e714c404d4772172d4f349" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Protocols::Lynx::Device::~Device</definition>
+        <argsstring>(void)</argsstring>
+        <name>~Device</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will open a connection with the device This is a blocking call until the connection is made with the device /summary&gt; param name=&quot;Client&quot;&gt;The client address</para><para>param name=&quot;Device&quot;&gt;The device address</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="62" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_aece855a20d43a1676ec6ca0ab9917a49_1aece855a20d43a1676ec6ca0ab9917a49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::Open</definition>
+        <argsstring>(const Canberra::Utility::Core::String &amp;Client, const Canberra::Utility::Core::String &amp;Device)</argsstring>
+        <name>Open</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>Client</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>Device</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will close the connection with the device returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="65" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="168" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0f7c10735473285afbc57765a673026e_1a0f7c10735473285afbc57765a673026e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get the parameter meta data /summary&gt; param name=&quot;Code&quot;&gt;The parameter code</para><para>param name=&quot;Val&quot;&gt;The meta data</para><para>param name=&quot;Input&quot;&gt;The input to get it from</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="68" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="226" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a93c602c8408cc3355fc91b43f45247e2_1a93c602c8408cc3355fc91b43f45247e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::GetParameter</definition>
+        <argsstring>(LONG Code, Canberra::Utility::Core::Variant &amp;Val, USHORT Input=0)</argsstring>
+        <name>GetParameter</name>
+        <param>
+          <type>LONG</type>
+          <declname>Code</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d79/class_canberra_1_1_utility_1_1_core_1_1_variant" kindref="compound">Canberra::Utility::Core::Variant</ref> &amp;</type>
+          <declname>Val</declname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get a list of parameters from the device /summary&gt; param name=&quot;Code&quot;&gt;The parameter codes</para><para>param name=&quot;Val&quot;&gt;The values</para><para>param name=&quot;Input&quot;&gt;The input to get it from</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="71" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="291" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad7b416ff1e42fa30dfef6e7a44faee92_1ad7b416ff1e42fa30dfef6e7a44faee92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::PutParameter</definition>
+        <argsstring>(LONG Code, const Canberra::Utility::Core::Variant &amp;Val, USHORT Input=0)</argsstring>
+        <name>PutParameter</name>
+        <param>
+          <type>LONG</type>
+          <declname>Code</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d3/d79/class_canberra_1_1_utility_1_1_core_1_1_variant" kindref="compound">Canberra::Utility::Core::Variant</ref> &amp;</type>
+          <declname>Val</declname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will set a list of parameters into the device /summary&gt; param name=&quot;Code&quot;&gt;The parameter codes</para><para>param name=&quot;Val&quot;&gt;The values</para><para>param name=&quot;Input&quot;&gt;The input to set it into</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="74" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="384" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a33bd6bcde5356867647a30b1bd7ed343_1a33bd6bcde5356867647a30b1bd7ed343" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::GetParameterList</definition>
+        <argsstring>(std::vector&lt; LONG &gt; &amp;Codes, std::vector&lt; Canberra::Utility::Core::Variant &gt; &amp;Vals, USHORT Input=0)</argsstring>
+        <name>GetParameterList</name>
+        <param>
+          <type>std::vector&lt; LONG &gt; &amp;</type>
+          <declname>Codes</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="d3/d79/class_canberra_1_1_utility_1_1_core_1_1_variant" kindref="compound">Canberra::Utility::Core::Variant</ref> &gt; &amp;</type>
+          <declname>Vals</declname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will set a parameter into the device /summary&gt; param name=&quot;Code&quot;&gt;The parameter code</para><para>param name=&quot;Val&quot;&gt;The value</para><para>param name=&quot;Input&quot;&gt;The input to set it into</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="77" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="337" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2ba667c88f72053137db2d913f957d47_1a2ba667c88f72053137db2d913f957d47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::PutParameterList</definition>
+        <argsstring>(std::vector&lt; LONG &gt; &amp;Codes, std::vector&lt; Canberra::Utility::Core::Variant &gt; &amp;Vals, USHORT Input=0)</argsstring>
+        <name>PutParameterList</name>
+        <param>
+          <type>std::vector&lt; LONG &gt; &amp;</type>
+          <declname>Codes</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="d3/d79/class_canberra_1_1_utility_1_1_core_1_1_variant" kindref="compound">Canberra::Utility::Core::Variant</ref> &gt; &amp;</type>
+          <declname>Vals</declname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will execute a control command on a specified input The assumption is that the device response contains no return data /summary&gt; param name=&quot;Code&quot;&gt;The parameter code</para><para>param name=&quot;Input&quot;&gt;The input to get it from</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="80" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="411" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_af6cdb15c1c210b5efef509fa501cf8f8_1af6cdb15c1c210b5efef509fa501cf8f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::GetSpectrum</definition>
+        <argsstring>(Canberra::DataTypes::Spectroscopy::Spectrum &amp;Spec, USHORT Input=1, USHORT Group=1)</argsstring>
+        <name>GetSpectrum</name>
+        <param>
+          <type><ref refid="dd/ddf/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectrum" kindref="compound">Canberra::DataTypes::Spectroscopy::Spectrum</ref> &amp;</type>
+          <declname>Spec</declname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Group</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will set a spectrum into the device /summary&gt; param name=&quot;Spec&quot;&gt;The spectrum</para><para>param name=&quot;Input&quot;&gt;The input to get it from</para><para>param name=&quot;Group&quot;&gt;The memory group to get it from</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="83" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="724" bodyend="717"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a5aa231963ff4d259fd1b100c6f620490_1a5aa231963ff4d259fd1b100c6f620490" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::PutSpectrum</definition>
+        <argsstring>(Canberra::DataTypes::Spectroscopy::Spectrum &amp;Spec, USHORT Input=1, USHORT Group=1)</argsstring>
+        <name>PutSpectrum</name>
+        <param>
+          <type><ref refid="dd/ddf/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectrum" kindref="compound">Canberra::DataTypes::Spectroscopy::Spectrum</ref> &amp;</type>
+          <declname>Spec</declname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Group</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get the extended internet error information /summary&gt; returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="86" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="773" bodyend="766"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a47051ab0ec0a01f2b0f56925d12d10df_1a47051ab0ec0a01f2b0f56925d12d10df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::UpdateUser</definition>
+        <argsstring>(const Canberra::Utility::Core::String &amp;User, const Canberra::Utility::Core::String &amp;Pwd, const Canberra::Utility::Core::String &amp;Desc, LONG Priv)</argsstring>
+        <name>UpdateUser</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>User</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>Pwd</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>Desc</declname>
+        </param>
+        <param>
+          <type>LONG</type>
+          <declname>Priv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method validates a user account on the device /summary&gt; param name=&quot;Name&quot;&gt;The user name </para><para>param name=&quot;Pwd&quot;&gt;The password </para><para>param name=&quot;Val&quot;&gt;The validation state </para><para>returns&gt;Execution status</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="89" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1021" bodyend="1013"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a08a8d92f4b2ae149f92c9b4f2fa62dee_1a08a8d92f4b2ae149f92c9b4f2fa62dee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::AddUser</definition>
+        <argsstring>(const Canberra::Utility::Core::String &amp;User, const Canberra::Utility::Core::String &amp;Pwd, const Canberra::Utility::Core::String &amp;Desc, LONG Priv)</argsstring>
+        <name>AddUser</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>User</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>Pwd</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>Desc</declname>
+        </param>
+        <param>
+          <type>LONG</type>
+          <declname>Priv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method updates a user account on the device /summary&gt; param name=&quot;Name&quot;&gt;The user name </para><para>param name=&quot;Pwd&quot;&gt;The password </para><para>param name=&quot;Desc&quot;&gt;The description </para><para>param name=&quot;Priv&quot;&gt;The privs </para><para>returns&gt;Execution status</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="92" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="994" bodyend="986"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_aa5895622f6c9b7006da39245302d3a4a_1aa5895622f6c9b7006da39245302d3a4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::ValidateUser</definition>
+        <argsstring>(const Canberra::Utility::Core::String &amp;User, const Canberra::Utility::Core::String &amp;Pwd, bool &amp;Val)</argsstring>
+        <name>ValidateUser</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>User</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>Pwd</declname>
+        </param>
+        <param>
+          <type>bool &amp;</type>
+          <declname>Val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method deletes a user account on the device /summary&gt; param name=&quot;Name&quot;&gt;The user name </para><para>param name=&quot;Pwd&quot;&gt;The password </para><para>returns&gt;Execution status</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="95" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1047" bodyend="1040"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a3e7d53d8358f59ac34c6d69fe97a200c_1a3e7d53d8358f59ac34c6d69fe97a200c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::DeleteUser</definition>
+        <argsstring>(const Canberra::Utility::Core::String &amp;User)</argsstring>
+        <name>DeleteUser</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>User</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method enumerates all user accounts /summary&gt; param name=&quot;Val&quot;&gt;The user names</para><para>returns&gt;Execution status</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="98" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1075" bodyend="1069"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a62e3acd5c9efc70381c37ea94060d648_1a62e3acd5c9efc70381c37ea94060d648" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::EnumerateUsers</definition>
+        <argsstring>(std::vector&lt; Canberra::Utility::Core::Variant &gt; &amp;Vals)</argsstring>
+        <name>EnumerateUsers</name>
+        <param>
+          <type>std::vector&lt; <ref refid="d3/d79/class_canberra_1_1_utility_1_1_core_1_1_variant" kindref="compound">Canberra::Utility::Core::Variant</ref> &gt; &amp;</type>
+          <declname>Vals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method gets the regions of interest /summary&gt; param name=&quot;Input&quot;&gt;The input to operate on</para><para>param name=&quot;Val&quot;&gt;The regions of interest</para><para>returns&gt;Execution status</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="101" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1090" bodyend="1085"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ae0f2af17d866f3fc8dace49b3dc25534_1ae0f2af17d866f3fc8dace49b3dc25534" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::GetRegionsOfInterest</definition>
+        <argsstring>(USHORT Input, std::vector&lt; Canberra::DataTypes::Spectroscopy::RegionOfInterest &gt; &amp;Vals)</argsstring>
+        <name>GetRegionsOfInterest</name>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest" kindref="compound">Canberra::DataTypes::Spectroscopy::RegionOfInterest</ref> &gt; &amp;</type>
+          <declname>Vals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method sets the regions of interest /summary&gt; param name=&quot;Input&quot;&gt;The input to operate on</para><para>param name=&quot;Vals&quot;&gt;The regions of interest</para><para>returns&gt;Execution status</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="104" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1126" bodyend="1120"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2b7b1dbbf2391cbbb503ea253aed164b_1a2b7b1dbbf2391cbbb503ea253aed164b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::PutRegionsOfInterest</definition>
+        <argsstring>(USHORT Input, std::vector&lt; Canberra::DataTypes::Spectroscopy::RegionOfInterest &gt; &amp;Vals)</argsstring>
+        <name>PutRegionsOfInterest</name>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest" kindref="compound">Canberra::DataTypes::Spectroscopy::RegionOfInterest</ref> &gt; &amp;</type>
+          <declname>Vals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get counter data from the device /summary&gt; param name=&quot;Val&quot;&gt;The counter data</para><para>param name=&quot;Input&quot;&gt;The input to get it from</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="107" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1162" bodyend="1156"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a17049b0e2fd8ab1d6f1181f7656ee6a7_1a17049b0e2fd8ab1d6f1181f7656ee6a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::Control</definition>
+        <argsstring>(LONG Code, USHORT Input=0)</argsstring>
+        <name>Control</name>
+        <param>
+          <type>LONG</type>
+          <declname>Code</declname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will execute a control command on a specified input /summary&gt; param name=&quot;Code&quot;&gt;The parameter code</para><para>param name=&quot;Input&quot;&gt;The input to get it from</para><para>param name=&quot;In&quot;&gt;The command arguments</para><para>param name=&quot;Out&quot;&gt;The command results</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="110" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="446" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a4f514bd2a06da196fbe8f63cde8d4870_1a4f514bd2a06da196fbe8f63cde8d4870" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::Save</definition>
+        <argsstring>(USHORT Input, USHORT Group, Canberra::Utility::Core::String &amp;Name)</argsstring>
+        <name>Save</name>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Group</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>Name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will execute a control command using the command data and returns the command response data /summary&gt; param name=&quot;Cmd&quot;&gt;The command</para><para>param name=&quot;Resp&quot;&gt;The command response</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="113" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="574" bodyend="566"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ab5f8a362b339768e8f3cde9633be6b87_1ab5f8a362b339768e8f3cde9633be6b87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::Unlock</definition>
+        <argsstring>(const Canberra::Utility::Core::String &amp;User, const Canberra::Utility::Core::String &amp;Pwd, USHORT Input)</argsstring>
+        <name>Unlock</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>User</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>Pwd</declname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will save the spectrum and return the specified filename /summary&gt; param name=&quot;Input&quot;&gt;The input to get it from</para><para>param name=&quot;Name&quot;&gt;The name of the file on the device</para><para>param name=&quot;Group&quot;&gt;The memory group to save 0==Use current memory group</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="116" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="550" bodyend="543"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad6b49e66d88c9624d344532c8c0f16af_1ad6b49e66d88c9624d344532c8c0f16af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::Lock</definition>
+        <argsstring>(const Canberra::Utility::Core::String &amp;User, const Canberra::Utility::Core::String &amp;Pwd, USHORT Input)</argsstring>
+        <name>Lock</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>User</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>Pwd</declname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will unlocks an input /summary&gt; param name=&quot;User&quot;&gt;The user name</para><para>param name=&quot;Pwd&quot;&gt;The password</para><para>param name=&quot;Input&quot;&gt;The input</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="119" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="527" bodyend="520"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ac77d98daff94392709601858b2980766_1ac77d98daff94392709601858b2980766" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::GetCounterData</definition>
+        <argsstring>(Canberra::DataTypes::Spectroscopy::CounterData &amp;Data, USHORT Input=1)</argsstring>
+        <name>GetCounterData</name>
+        <param>
+          <type><ref refid="da/d3f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_data" kindref="compound">Canberra::DataTypes::Spectroscopy::CounterData</ref> &amp;</type>
+          <declname>Data</declname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get MSS data from the device /summary&gt; param name=&quot;Val&quot;&gt;The data</para><para>param name=&quot;Input&quot;&gt;The input to get it from</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="122" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1188" bodyend="1182"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a49215c7186fc99e486ec514488dad437_1a49215c7186fc99e486ec514488dad437" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::GetMSSData</definition>
+        <argsstring>(SpectralDataList &amp;Data, USHORT Input=1)</argsstring>
+        <name>GetMSSData</name>
+        <param>
+          <type><ref refid="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list" kindref="compound">SpectralDataList</ref> &amp;</type>
+          <declname>Data</declname>
+          <defname>Val</defname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get list data from the device /summary&gt; param name=&quot;Val&quot;&gt;The data</para><para>param name=&quot;Input&quot;&gt;The input to get it from</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="125" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1270" bodyend="1264"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a7af58e6c130e27da33a02e46eddd0bab_1a7af58e6c130e27da33a02e46eddd0bab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::GetListData</definition>
+        <argsstring>(Canberra::DataTypes::Spectroscopy::ListDataBase **Data, USHORT Input=1)</argsstring>
+        <name>GetListData</name>
+        <param>
+          <type><ref refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base" kindref="compound">Canberra::DataTypes::Spectroscopy::ListDataBase</ref> **</type>
+          <declname>Data</declname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will release the list data memory allocated by this instance /summary&gt; param name=&quot;Data&quot;&gt;The data to release</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="128" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1343" bodyend="1337"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a16877dd4491fee82dcd4708cee09a43f_1a16877dd4491fee82dcd4708cee09a43f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::Delete</definition>
+        <argsstring>(Canberra::DataTypes::Spectroscopy::ListDataBase **Data)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type><ref refid="d9/d2a/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_list_data_base" kindref="compound">Canberra::DataTypes::Spectroscopy::ListDataBase</ref> **</type>
+          <declname>Data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method set the value for a named property This method exists for extending the features of this class without breaking the contract /summary&gt; param name=&quot;N&quot;&gt;(in) The name</para><para>param name=&quot;V&quot;&gt;(in) The value</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="131" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1419" bodyend="1414"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0dbc14914d271155daf5270dde6a4809_1a0dbc14914d271155daf5270dde6a4809" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::Control</definition>
+        <argsstring>(LONG Code, USHORT Input, Canberra::Utility::Core::ByteStream &amp;In, Canberra::Utility::Core::ByteStream &amp;Out)</argsstring>
+        <name>Control</name>
+        <param>
+          <type>LONG</type>
+          <declname>Code</declname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+        </param>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>In</declname>
+        </param>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will execute a control command using the command data The assumption is that the device response contains no return data /summary&gt; param name=&quot;Cmd&quot;&gt;The command</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="134" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="461" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad3cbed9925aa49688846a18e8eedfbd1_1ad3cbed9925aa49688846a18e8eedfbd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::GetParameterMetaData</definition>
+        <argsstring>(LONG Code, Canberra::DataTypes::Application::ParameterMetaData &amp;PD, USHORT Input=0)</argsstring>
+        <name>GetParameterMetaData</name>
+        <param>
+          <type>LONG</type>
+          <declname>Code</declname>
+        </param>
+        <param>
+          <type><ref refid="dd/d65/class_canberra_1_1_data_types_1_1_application_1_1_parameter_meta_data" kindref="compound">Canberra::DataTypes::Application::ParameterMetaData</ref> &amp;</type>
+          <declname>PD</declname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Input</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get a parameter from the device /summary&gt; param name=&quot;Code&quot;&gt;The parameter code</para><para>param name=&quot;Val&quot;&gt;The value</para><para>param name=&quot;Input&quot;&gt;The input to get it from</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="137" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="246" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1af8ea16cc9570a2d7eab9abb2102cf6c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>USHORT</type>
+        <definition>USHORT Canberra::Protocols::Lynx::Device::GetPort</definition>
+        <argsstring>()</argsstring>
+        <name>GetPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="140" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="914" bodyend="918"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a28e7caa3973967170dbc445771644193_1a28e7caa3973967170dbc445771644193" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Protocols::Lynx::Device::PutPort</definition>
+        <argsstring>(USHORT v)</argsstring>
+        <name>PutPort</name>
+        <param>
+          <type>USHORT</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method sets the send timeout /summary&gt; param name=&quot;TO&quot;&gt;The time out (ms) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="141" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="919" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2db7c8288c3316f23f29bea4948634c4_1a2db7c8288c3316f23f29bea4948634c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::GetSendTimeout</definition>
+        <argsstring>()</argsstring>
+        <name>GetSendTimeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method sets the receive timeout /summary&gt; param name=&quot;TO&quot;&gt;The time out (ms) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="144" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="942" bodyend="938"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a92c3e56b497ed2f58afb198746b6f4c5_1a92c3e56b497ed2f58afb198746b6f4c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Protocols::Lynx::Device::PutSendTimeout</definition>
+        <argsstring>(ULONG v)</argsstring>
+        <name>PutSendTimeout</name>
+        <param>
+          <type>ULONG</type>
+          <declname>v</declname>
+          <defname>TO</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method gets the send timeout /summary&gt; returns&gt;The time out (ms) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="145" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="930" bodyend="926"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a9e6e79fe9d532a4bf9ff92befa2de863" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::GetReceiveTimeout</definition>
+        <argsstring>()</argsstring>
+        <name>GetReceiveTimeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="148" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="968" bodyend="975"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a881814ede0fd879e649e027f41b03b94_1a881814ede0fd879e649e027f41b03b94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Protocols::Lynx::Device::PutReceiveTimeout</definition>
+        <argsstring>(ULONG v)</argsstring>
+        <name>PutReceiveTimeout</name>
+        <param>
+          <type>ULONG</type>
+          <declname>v</declname>
+          <defname>TO</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method gets the receive timeout. /summary&gt; returns&gt;The time out (ms)</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="149" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="955" bodyend="951"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1ac917db8daa65be2a85d24c8f30801f4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Protocols::Lynx::Device::GetKeepAlive</definition>
+        <argsstring>()</argsstring>
+        <name>GetKeepAlive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="152" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="978" bodyend="978"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a8ebcebb05d610ae6d907955bc4f78c29_1a8ebcebb05d610ae6d907955bc4f78c29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Protocols::Lynx::Device::PutKeepAlive</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>PutKeepAlive</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method adds a user account to the device /summary&gt; param name=&quot;Name&quot;&gt;The user name </para><para>param name=&quot;Pwd&quot;&gt;The password </para><para>param name=&quot;Desc&quot;&gt;The description </para><para>param name=&quot;Priv&quot;&gt;The privs </para><para>returns&gt;Execution status</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="153" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="979" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_aa3f539662d82072bbd58bb0b01b98b96_1aa3f539662d82072bbd58bb0b01b98b96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::PutProperty</definition>
+        <argsstring>(const Canberra::Utility::Core::String &amp;N, const Canberra::Utility::Core::Variant &amp;V)</argsstring>
+        <name>PutProperty</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>N</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d3/d79/class_canberra_1_1_utility_1_1_core_1_1_variant" kindref="compound">Canberra::Utility::Core::Variant</ref> &amp;</type>
+          <declname>V</declname>
+          <defname>Val</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method get the value of a named property This method exists for extending the features of this class without breaking the contract /summary&gt; param name=&quot;N&quot;&gt;(in) The name</para><para>param name=&quot;V&quot;&gt;(in, out) The value</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="156" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1442" bodyend="1434"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_aaccfa27ad7d6286377093d4ab5b004b4_1aaccfa27ad7d6286377093d4ab5b004b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::GetProperty</definition>
+        <argsstring>(const Canberra::Utility::Core::String &amp;N, Canberra::Utility::Core::Variant &amp;V)</argsstring>
+        <name>GetProperty</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>N</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d79/class_canberra_1_1_utility_1_1_core_1_1_variant" kindref="compound">Canberra::Utility::Core::Variant</ref> &amp;</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method get the value of a named method This method exists for extending the features of this class without breaking the contract /summary&gt; param name=&quot;N&quot;&gt;(in) The method name</para><para>param name=&quot;Args&quot;&gt;(in) The args</para><para>param name=&quot;Ret&quot;&gt;(in) The return value</para><para>returns&gt;The Win32 error code. 0 ==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="159" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1545" bodyend="1537"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0d3ade2b5f6cbc402008bad5427d3da6_1a0d3ade2b5f6cbc402008bad5427d3da6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::Device::ExtMethod</definition>
+        <argsstring>(const Canberra::Utility::Core::String &amp;N, const Canberra::Utility::Core::VariantArray &amp;Args, Canberra::Utility::Core::VariantArray &amp;Ret)</argsstring>
+        <name>ExtMethod</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>N</declname>
+        </param>
+        <param>
+          <type>const <ref refid="dd/dee/class_canberra_1_1_utility_1_1_core_1_1_variant_array" kindref="compound">Canberra::Utility::Core::VariantArray</ref> &amp;</type>
+          <declname>Args</declname>
+        </param>
+        <param>
+          <type><ref refid="dd/dee/class_canberra_1_1_utility_1_1_core_1_1_variant_array" kindref="compound">Canberra::Utility::Core::VariantArray</ref> &amp;</type>
+          <declname>Ret</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will create and instance of this class. An instance of this class may be used to send and receive information to and from a DSA 3K device. It extends the base class to expose SCA functionality /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="162" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="1604" bodyend="1595"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a398c465b88cfc162888d77d6279a8825" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Protocols::Lynx::Device::GetIsOpen</definition>
+        <argsstring>()</argsstring>
+        <name>GetIsOpen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="165" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="906" bodyend="911"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="91">
+        <label>Canberra::Protocols::Lynx::Device</label>
+        <link refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device"/>
+      </node>
+      <node id="92">
+        <label>Canberra::Protocols::Lynx::DeviceEx</label>
+        <link refid="d4/d09/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ex"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="99">
+        <label>Canberra::DataTypes::Serialization::MessageFactory</label>
+        <link refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory"/>
+        <childnode refid="100" relation="usage">
+          <edgelabel>_Signature</edgelabel>
+        </childnode>
+      </node>
+      <node id="96">
+        <label>Canberra::Utility::Network::Socket</label>
+        <link refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket"/>
+        <childnode refid="97" relation="usage">
+          <edgelabel>_EndPoint</edgelabel>
+        </childnode>
+        <childnode refid="98" relation="usage">
+          <edgelabel>_Name</edgelabel>
+        </childnode>
+      </node>
+      <node id="101">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="102">
+        <label>Canberra::Utility::Core::ByteStream</label>
+        <link refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream"/>
+      </node>
+      <node id="93">
+        <label>Canberra::Protocols::Lynx::Device</label>
+        <link refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device"/>
+        <childnode refid="94" relation="usage">
+          <edgelabel>_ConfigChannel</edgelabel>
+        </childnode>
+        <childnode refid="99" relation="usage">
+          <edgelabel>_MessageFactory</edgelabel>
+        </childnode>
+      </node>
+      <node id="95">
+        <label>Canberra::Utility::Network::TcpSocket</label>
+        <link refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket"/>
+        <childnode refid="96" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>Canberra::Utility::Core::String</label>
+        <link refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string"/>
+      </node>
+      <node id="97">
+        <label>Canberra::Utility::Network::EndPoint</label>
+        <link refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point"/>
+      </node>
+      <node id="94">
+        <label>Canberra::Utility::Network::TcpClient</label>
+        <link refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+        <childnode refid="97" relation="usage">
+          <edgelabel>_ServerEP</edgelabel>
+        </childnode>
+      </node>
+      <node id="100">
+        <label>Canberra::DataTypes::Serialization::DigitalSignature</label>
+        <link refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature"/>
+        <childnode refid="101" relation="public-inheritance">
+        </childnode>
+        <childnode refid="102" relation="usage">
+          <edgelabel>_Key</edgelabel>
+          <edgelabel>_Signature</edgelabel>
+          <edgelabel>_RandomData</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="47" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.h" bodystart="46" bodyend="167"/>
+    <listofallmembers>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a4c5133c15a373b01d2b771ce021b0034" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>_ConfigChannel</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a78530de2d18211baa2fc9035391b875e" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>_Data</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a86d122ea175a5a1ac6706640696e8128" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>_MessageFactory</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a481ff0cfb390a41a93dc420945e82880" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>_Port</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a08a8d92f4b2ae149f92c9b4f2fa62dee_1a08a8d92f4b2ae149f92c9b4f2fa62dee" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>AddUser</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a34ad6cf7b51838a546cb0feef503cc7b_1a34ad6cf7b51838a546cb0feef503cc7b" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>CheckForError</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0f7c10735473285afbc57765a673026e_1a0f7c10735473285afbc57765a673026e" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>Close</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ab739d02cc29a9f569a2b127fcbc1f884_1ab739d02cc29a9f569a2b127fcbc1f884" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>Control</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a6232b1dc722fb8f11248e19ddd1f1f47_1a6232b1dc722fb8f11248e19ddd1f1f47" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>Control</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a17049b0e2fd8ab1d6f1181f7656ee6a7_1a17049b0e2fd8ab1d6f1181f7656ee6a7" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>Control</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0dbc14914d271155daf5270dde6a4809_1a0dbc14914d271155daf5270dde6a4809" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>Control</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a16877dd4491fee82dcd4708cee09a43f_1a16877dd4491fee82dcd4708cee09a43f" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>Delete</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a3e7d53d8358f59ac34c6d69fe97a200c_1a3e7d53d8358f59ac34c6d69fe97a200c" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>DeleteUser</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a04977bc7a7438cf3569d15006a4ab36b" prot="private" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>Device</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1ab3d7ce3e69cc0a54daed7783837801ee" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>Device</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a62e3acd5c9efc70381c37ea94060d648_1a62e3acd5c9efc70381c37ea94060d648" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>EnumerateUsers</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a0d3ade2b5f6cbc402008bad5427d3da6_1a0d3ade2b5f6cbc402008bad5427d3da6" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>ExtMethod</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ac77d98daff94392709601858b2980766_1ac77d98daff94392709601858b2980766" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>GetCounterData</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a398c465b88cfc162888d77d6279a8825" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>GetIsOpen</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1ac917db8daa65be2a85d24c8f30801f4f" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>GetKeepAlive</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a7af58e6c130e27da33a02e46eddd0bab_1a7af58e6c130e27da33a02e46eddd0bab" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>GetListData</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a49215c7186fc99e486ec514488dad437_1a49215c7186fc99e486ec514488dad437" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>GetMSSData</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a93c602c8408cc3355fc91b43f45247e2_1a93c602c8408cc3355fc91b43f45247e2" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>GetParameter</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a33bd6bcde5356867647a30b1bd7ed343_1a33bd6bcde5356867647a30b1bd7ed343" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>GetParameterList</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad3cbed9925aa49688846a18e8eedfbd1_1ad3cbed9925aa49688846a18e8eedfbd1" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>GetParameterMetaData</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1af8ea16cc9570a2d7eab9abb2102cf6c4" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>GetPort</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_aaccfa27ad7d6286377093d4ab5b004b4_1aaccfa27ad7d6286377093d4ab5b004b4" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>GetProperty</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1a9e6e79fe9d532a4bf9ff92befa2de863" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>GetReceiveTimeout</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ae0f2af17d866f3fc8dace49b3dc25534_1ae0f2af17d866f3fc8dace49b3dc25534" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>GetRegionsOfInterest</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2db7c8288c3316f23f29bea4948634c4_1a2db7c8288c3316f23f29bea4948634c4" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>GetSendTimeout</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_af6cdb15c1c210b5efef509fa501cf8f8_1af6cdb15c1c210b5efef509fa501cf8f8" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>GetSpectrum</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad6b49e66d88c9624d344532c8c0f16af_1ad6b49e66d88c9624d344532c8c0f16af" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>Lock</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_aece855a20d43a1676ec6ca0ab9917a49_1aece855a20d43a1676ec6ca0ab9917a49" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>Open</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_1acb98773735d5a2ffba8f0cf524ff67b9" prot="private" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>operator=</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a8ebcebb05d610ae6d907955bc4f78c29_1a8ebcebb05d610ae6d907955bc4f78c29" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>PutKeepAlive</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ad7b416ff1e42fa30dfef6e7a44faee92_1ad7b416ff1e42fa30dfef6e7a44faee92" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>PutParameter</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2ba667c88f72053137db2d913f957d47_1a2ba667c88f72053137db2d913f957d47" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>PutParameterList</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a28e7caa3973967170dbc445771644193_1a28e7caa3973967170dbc445771644193" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>PutPort</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_aa3f539662d82072bbd58bb0b01b98b96_1aa3f539662d82072bbd58bb0b01b98b96" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>PutProperty</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a881814ede0fd879e649e027f41b03b94_1a881814ede0fd879e649e027f41b03b94" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>PutReceiveTimeout</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a2b7b1dbbf2391cbbb503ea253aed164b_1a2b7b1dbbf2391cbbb503ea253aed164b" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>PutRegionsOfInterest</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a92c3e56b497ed2f58afb198746b6f4c5_1a92c3e56b497ed2f58afb198746b6f4c5" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>PutSendTimeout</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a5aa231963ff4d259fd1b100c6f620490_1a5aa231963ff4d259fd1b100c6f620490" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>PutSpectrum</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a4f514bd2a06da196fbe8f63cde8d4870_1a4f514bd2a06da196fbe8f63cde8d4870" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>Save</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_ab5f8a362b339768e8f3cde9633be6b87_1ab5f8a362b339768e8f3cde9633be6b87" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>Unlock</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a47051ab0ec0a01f2b0f56925d12d10df_1a47051ab0ec0a01f2b0f56925d12d10df" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>UpdateUser</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_aa5895622f6c9b7006da39245302d3a4a_1aa5895622f6c9b7006da39245302d3a4a" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>ValidateUser</name></member>
+      <member refid="d6/d2c/class_canberra_1_1_protocols_1_1_lynx_1_1_device_a15622214b1e714c404d4772172d4f349_1a15622214b1e714c404d4772172d4f349" prot="public" virt="virtual"><scope>Canberra::Protocols::Lynx::Device</scope><name>~Device</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

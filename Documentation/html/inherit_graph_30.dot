@@ -1,0 +1,11 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="Canberra::Utility::\lCore::ListBase\< Canberra\l::DataTypes::Spectroscopy\l::SCAbuffer::BufferEntry\l::SCAdataTag, LONG \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base.html"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="Canberra::Utility::\lCore::SerializableListBase\l\< Canberra::DataTypes::Spectroscopy\l::SCAbuffer::BufferEntry::SCAdataTag, LONG \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Canberra::Utility::\lCore::SerializableList\l\< Canberra::DataTypes\l::Spectroscopy::SCAbuffer\l::BufferEntry::SCAdataTag \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d22/class_canberra_1_1_utility_1_1_core_1_1_serializable_list.html"];
+}

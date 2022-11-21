@@ -1,0 +1,70 @@
+\hypertarget{class_canberra_1_1_serialization_1_1_serializer}{}\section{Canberra\+:\+:Serialization\+:\+:Serializer Class Reference}
+\label{class_canberra_1_1_serialization_1_1_serializer}\index{Canberra\+::\+Serialization\+::\+Serializer@{Canberra\+::\+Serialization\+::\+Serializer}}
+
+
+Inheritance diagram for Canberra\+:\+:Serialization\+:\+:Serializer\+:
+% FIG 0
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializer_ac775b24bf79f1cad2ebba961d4da3931}\label{class_canberra_1_1_serialization_1_1_serializer_ac775b24bf79f1cad2ebba961d4da3931}} 
+\hyperlink{class_canberra_1_1_serialization_1_1_serializer_ac775b24bf79f1cad2ebba961d4da3931}{Serializer} ()
+\begin{DoxyCompactList}\small\item\em This method will initialize this instance. This class is a utility class used to serialize native data types /summary$>$ \end{DoxyCompactList}\item 
+virtual \hyperlink{class_canberra_1_1_serialization_1_1_serializer_a13373231647e48d72dc5403a096882e1_a13373231647e48d72dc5403a096882e1}{$\sim$\+Serializer} ()
+\item 
+virtual void \hyperlink{class_canberra_1_1_serialization_1_1_serializer_af6bce5a6f7a663d86cb305ef34a5c631_af6bce5a6f7a663d86cb305ef34a5c631}{Serialize} (\hyperlink{class_canberra_1_1_serialization_1_1_serializable_object}{Serializable\+Object} $\ast$Data, \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&Str, const L\+O\+NG Offset=0)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializer_a38baa292cbe6b8d2e043b5d84e9f9b8f}\label{class_canberra_1_1_serialization_1_1_serializer_a38baa292cbe6b8d2e043b5d84e9f9b8f}} 
+virtual \hyperlink{class_canberra_1_1_serialization_1_1_serializable_object}{Serializable\+Object} $\ast$ {\bfseries Deserialize} (\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&Str, const L\+O\+NG Offset=0)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 12 of file Serializer.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializer_a13373231647e48d72dc5403a096882e1_a13373231647e48d72dc5403a096882e1}\label{class_canberra_1_1_serialization_1_1_serializer_a13373231647e48d72dc5403a096882e1_a13373231647e48d72dc5403a096882e1}} 
+\index{Canberra\+::\+Serialization\+::\+Serializer@{Canberra\+::\+Serialization\+::\+Serializer}!````~Serializer@{$\sim$\+Serializer}}
+\index{````~Serializer@{$\sim$\+Serializer}!Canberra\+::\+Serialization\+::\+Serializer@{Canberra\+::\+Serialization\+::\+Serializer}}
+\subsubsection{\texorpdfstring{$\sim$\+Serializer()}{~Serializer()}}
+{\footnotesize\ttfamily Canberra\+::\+Serialization\+::\+Serializer\+::$\sim$\+Serializer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will serialize the application data type into the stream. /summary$>$ param name=\char`\"{}\+Str\char`\"{}$>$The stream
+
+param name=\char`\"{}\+Offset\char`\"{}$>$The offset to start reading the stream
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$The Win32 error code
+
+Definition at line 11 of file Serializer.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializer_af6bce5a6f7a663d86cb305ef34a5c631_af6bce5a6f7a663d86cb305ef34a5c631}\label{class_canberra_1_1_serialization_1_1_serializer_af6bce5a6f7a663d86cb305ef34a5c631_af6bce5a6f7a663d86cb305ef34a5c631}} 
+\index{Canberra\+::\+Serialization\+::\+Serializer@{Canberra\+::\+Serialization\+::\+Serializer}!Serialize@{Serialize}}
+\index{Serialize@{Serialize}!Canberra\+::\+Serialization\+::\+Serializer@{Canberra\+::\+Serialization\+::\+Serializer}}
+\subsubsection{\texorpdfstring{Serialize()}{Serialize()}}
+{\footnotesize\ttfamily void Canberra\+::\+Serialization\+::\+Serializer\+::\+Serialize (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_serialization_1_1_serializable_object}{Serializable\+Object} $\ast$}]{Data,  }\item[{\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&}]{Str,  }\item[{const L\+O\+NG}]{Offset = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will deserialize the message and extract the data from it. The data type contained in the message is created and returned to the caller. The caller is responsible for releasing this memory /summary$>$ param name=\char`\"{}\+Str\char`\"{}$>$The stream
+
+returns$>$The deserialized data
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$The Win32 error code
+
+Reimplemented in \hyperlink{class_canberra_1_1_data_types_1_1_serialization_1_1_application_serializer_aa0e18d74f0a1fad87295808182febf52_aa0e18d74f0a1fad87295808182febf52}{Canberra\+::\+Data\+Types\+::\+Serialization\+::\+Application\+Serializer}.
+
+
+
+Definition at line 21 of file Serializer.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Serializer.\+h\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Serializer.\+cpp\end{DoxyCompactItemize}

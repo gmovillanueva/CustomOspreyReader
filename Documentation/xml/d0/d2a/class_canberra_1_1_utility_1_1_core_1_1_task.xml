@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Canberra::Utility::Core::Task</compoundname>
+    <derivedcompoundref refid="d8/d91/class_canberra_1_1_utility_1_1_core_1_1_thread" prot="public" virt="non-virtual">Canberra::Utility::Core::Thread</derivedcompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1af3df2c64e08ed6ba4f7d60ff26a5908a" prot="public" static="no">
+        <name>TaskStateTag</name>
+        <enumvalue id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1af3df2c64e08ed6ba4f7d60ff26a5908aa0b99aa5eee559bbf51383c584e85714e" prot="public">
+          <name>Stopped</name>
+          <initializer>=0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1af3df2c64e08ed6ba4f7d60ff26a5908aa78b13e248bbc59d38a4fa27cef4904fe" prot="public">
+          <name>Stopping</name>
+          <initializer>=1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1af3df2c64e08ed6ba4f7d60ff26a5908aa5956a8871d72133d6936eb286a37ef14" prot="public">
+          <name>Starting</name>
+          <initializer>=2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1af3df2c64e08ed6ba4f7d60ff26a5908aa0c3b19956455145815281b456dd6be86" prot="public">
+          <name>Started</name>
+          <initializer>=3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="27" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Task.h" bodystart="27" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a9072440f50482734bafa54c9d24550ee" prot="public" static="no">
+        <type>enum Canberra::Utility::Core::Task::TaskStateTag</type>
+        <definition>typedef enum Canberra::Utility::Core::Task::TaskStateTag  Canberra::Utility::Core::Task::TaskState</definition>
+        <argsstring></argsstring>
+        <name>TaskState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="32" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a5ac2bc9406ef2e83a93249a930a6f636" prot="protected" static="no" mutable="no">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>String Canberra::Utility::Core::Task::_Name</definition>
+        <argsstring></argsstring>
+        <name>_Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="35" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Task.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a5323a67348a28c7bf193082f77446efa" prot="protected" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::Task::_TimeOut</definition>
+        <argsstring></argsstring>
+        <name>_TimeOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="36" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Task.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1ae9e32f10943945f3749302c489747857" prot="protected" static="no" mutable="no">
+        <type>TaskState</type>
+        <definition>TaskState Canberra::Utility::Core::Task::_State</definition>
+        <argsstring></argsstring>
+        <name>_State</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="37" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Task.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1aae5ae3af1ab26e8aa840874e60dea54f" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::Task::_WaitForTaskExit</definition>
+        <argsstring></argsstring>
+        <name>_WaitForTaskExit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="38" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Task.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a139475f6f0548e343dc98fc2a19bbe9f" prot="protected" static="no" mutable="no">
+        <type><ref refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section" kindref="compound">CriticalSection</ref></type>
+        <definition>CriticalSection Canberra::Utility::Core::Task::_Lock</definition>
+        <argsstring></argsstring>
+        <name>_Lock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="39" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Task.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a045e64444b00a9f905f460e221e6846f" prot="protected" static="no" mutable="no">
+        <type><ref refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health" kindref="compound">StateOfHealth</ref></type>
+        <definition>StateOfHealth Canberra::Utility::Core::Task::_StateOfHealth</definition>
+        <argsstring></argsstring>
+        <name>_StateOfHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="40" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Task.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a3df380ee480526aae62ae977494ab37d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::Task::Task</definition>
+        <argsstring>(const String &amp;Name)</argsstring>
+        <name>Task</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Name</declname>
+        </param>
+        <briefdescription>
+<para>This is a utility class used below for parsing strings /summary&gt; param name=&quot;Name&quot;&gt;The name of the task</para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="43" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Task.cpp" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a04d3b868602e1c0ee9a0c39d8f02ed29" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::Task::~Task</definition>
+        <argsstring>(void)</argsstring>
+        <name>~Task</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="44" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Task.cpp" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a324ff17d5ddcd96853fa63afd339b1e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::Task::GetName</definition>
+        <argsstring>()</argsstring>
+        <name>GetName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="47" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Task.cpp" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a311409b6377d6668ea0b1715a8757910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::Task::GetTimeOut</definition>
+        <argsstring>()</argsstring>
+        <name>GetTimeOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="50" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Task.cpp" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a7492c07cbdc9b45dd5a258c30b8cedf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::Task::PutTimeOut</definition>
+        <argsstring>(ULONG v)</argsstring>
+        <name>PutTimeOut</name>
+        <param>
+          <type>ULONG</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="51" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Task.cpp" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a35e9f4a1b71f40bb15e6d6c2b38e61cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health" kindref="compound">StateOfHealth</ref> &amp;</type>
+        <definition>Canberra::Utility::Core::StateOfHealth &amp; Canberra::Utility::Core::Task::GetStateOfHealth</definition>
+        <argsstring>()</argsstring>
+        <name>GetStateOfHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="54" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Task.cpp" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1aaef15ad69f7b747b0fa3deac18149a3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ULONG</type>
+        <definition>virtual ULONG Canberra::Utility::Core::Task::Start</definition>
+        <argsstring>()=0</argsstring>
+        <name>Start</name>
+        <reimplementedby refid="d8/d91/class_canberra_1_1_utility_1_1_core_1_1_thread_a9a564084d8ca5b014ba5101dbf142d67_1a9a564084d8ca5b014ba5101dbf142d67">Start</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a02667d7d27a78e8c420ee878745bf694" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ULONG</type>
+        <definition>virtual ULONG Canberra::Utility::Core::Task::Stop</definition>
+        <argsstring>()=0</argsstring>
+        <name>Stop</name>
+        <reimplementedby refid="d8/d91/class_canberra_1_1_utility_1_1_core_1_1_thread_aef351ecbb4a2fc31d8983bbbcb8ce83e_1aef351ecbb4a2fc31d8983bbbcb8ce83e">Stop</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a4dd3813fb31b17409e50a5bc6c603dc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ULONG</type>
+        <definition>virtual ULONG Canberra::Utility::Core::Task::PostMessage</definition>
+        <argsstring>(UINT, WPARAM=0, LPARAM=0)=0</argsstring>
+        <name>PostMessage</name>
+        <reimplementedby refid="d8/d91/class_canberra_1_1_utility_1_1_core_1_1_thread_a6f8e64dbea0a4ac8159a5dc33b9b106b_1a6f8e64dbea0a4ac8159a5dc33b9b106b">PostMessage</reimplementedby>
+        <param>
+          <type>UINT</type>
+        </param>
+        <param>
+          <type>WPARAM</type>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>LPARAM</type>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a66cb7532efb005c7b779f4eb98188f26" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ULONG</type>
+        <definition>virtual ULONG Canberra::Utility::Core::Task::Join</definition>
+        <argsstring>(LONG TimeOut=0)=0</argsstring>
+        <name>Join</name>
+        <reimplementedby refid="d8/d91/class_canberra_1_1_utility_1_1_core_1_1_thread_a6ecc7af6e51f7fa5d45db0f05dd76435_1a6ecc7af6e51f7fa5d45db0f05dd76435">Join</reimplementedby>
+        <param>
+          <type>LONG</type>
+          <declname>TimeOut</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a0c6eb0d8f9e14a5f8409216c561c028c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>TaskState</type>
+        <definition>Canberra::Utility::Core::Task::TaskState Canberra::Utility::Core::Task::GetState</definition>
+        <argsstring>()</argsstring>
+        <name>GetState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="69" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Task.cpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a46f5b46e52bb7339f9407f2b2df58d56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::Task::GetWaitForTaskExit</definition>
+        <argsstring>()</argsstring>
+        <name>GetWaitForTaskExit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="72" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Task.cpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a4ab5337159e3292f1986f5cb41a41b3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::Task::PutWaitForTaskExit</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>PutWaitForTaskExit</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="73" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Task.cpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="546">
+        <label>Canberra::Utility::Core::Thread</label>
+        <link refid="d8/d91/class_canberra_1_1_utility_1_1_core_1_1_thread"/>
+        <childnode refid="545" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="545">
+        <label>Canberra::Utility::Core::Task</label>
+        <link refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="550">
+        <label>Canberra::Utility::Core::String</label>
+        <link refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string"/>
+      </node>
+      <node id="548">
+        <label>Canberra::Utility::Core::CriticalSection</label>
+        <link refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section"/>
+        <childnode refid="549" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="551">
+        <label>Canberra::Utility::Core::StateOfHealth</label>
+        <link refid="df/dbe/class_canberra_1_1_utility_1_1_core_1_1_state_of_health"/>
+        <childnode refid="548" relation="usage">
+          <edgelabel>_Lock</edgelabel>
+        </childnode>
+      </node>
+      <node id="549">
+        <label>Canberra::Utility::Core::SyncObject</label>
+        <link refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object"/>
+        <childnode refid="550" relation="usage">
+          <edgelabel>_Name</edgelabel>
+        </childnode>
+      </node>
+      <node id="547">
+        <label>Canberra::Utility::Core::Task</label>
+        <link refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task"/>
+        <childnode refid="548" relation="usage">
+          <edgelabel>_Lock</edgelabel>
+        </childnode>
+        <childnode refid="550" relation="usage">
+          <edgelabel>_Name</edgelabel>
+        </childnode>
+        <childnode refid="551" relation="usage">
+          <edgelabel>_StateOfHealth</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/Task.h" line="24" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Task.h" bodystart="23" bodyend="74"/>
+    <listofallmembers>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a139475f6f0548e343dc98fc2a19bbe9f" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>_Lock</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a5ac2bc9406ef2e83a93249a930a6f636" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>_Name</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1ae9e32f10943945f3749302c489747857" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>_State</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a045e64444b00a9f905f460e221e6846f" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>_StateOfHealth</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a5323a67348a28c7bf193082f77446efa" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>_TimeOut</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1aae5ae3af1ab26e8aa840874e60dea54f" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>_WaitForTaskExit</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a324ff17d5ddcd96853fa63afd339b1e9" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>GetName</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a0c6eb0d8f9e14a5f8409216c561c028c" prot="public" virt="virtual"><scope>Canberra::Utility::Core::Task</scope><name>GetState</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a35e9f4a1b71f40bb15e6d6c2b38e61cf" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>GetStateOfHealth</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a311409b6377d6668ea0b1715a8757910" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>GetTimeOut</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a46f5b46e52bb7339f9407f2b2df58d56" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>GetWaitForTaskExit</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a66cb7532efb005c7b779f4eb98188f26" prot="public" virt="pure-virtual"><scope>Canberra::Utility::Core::Task</scope><name>Join</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a4dd3813fb31b17409e50a5bc6c603dc3" prot="public" virt="pure-virtual"><scope>Canberra::Utility::Core::Task</scope><name>PostMessage</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a7492c07cbdc9b45dd5a258c30b8cedf6" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>PutTimeOut</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a4ab5337159e3292f1986f5cb41a41b3a" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>PutWaitForTaskExit</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1aaef15ad69f7b747b0fa3deac18149a3f" prot="public" virt="pure-virtual"><scope>Canberra::Utility::Core::Task</scope><name>Start</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1af3df2c64e08ed6ba4f7d60ff26a5908aa0c3b19956455145815281b456dd6be86" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>Started</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1af3df2c64e08ed6ba4f7d60ff26a5908aa5956a8871d72133d6936eb286a37ef14" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>Starting</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a02667d7d27a78e8c420ee878745bf694" prot="public" virt="pure-virtual"><scope>Canberra::Utility::Core::Task</scope><name>Stop</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1af3df2c64e08ed6ba4f7d60ff26a5908aa0b99aa5eee559bbf51383c584e85714e" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>Stopped</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1af3df2c64e08ed6ba4f7d60ff26a5908aa78b13e248bbc59d38a4fa27cef4904fe" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>Stopping</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a3df380ee480526aae62ae977494ab37d" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>Task</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a9072440f50482734bafa54c9d24550ee" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>TaskState</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1af3df2c64e08ed6ba4f7d60ff26a5908a" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Task</scope><name>TaskStateTag</name></member>
+      <member refid="d0/d2a/class_canberra_1_1_utility_1_1_core_1_1_task_1a04d3b868602e1c0ee9a0c39d8f02ed29" prot="public" virt="virtual"><scope>Canberra::Utility::Core::Task</scope><name>~Task</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1304 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Utility::Core::String</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a576eacade510079f6f684b0dd8a9b5c8" prot="protected" static="no" mutable="no">
+        <type>wchar_t *</type>
+        <definition>wchar_t* Canberra::Utility::Core::String::_Value</definition>
+        <argsstring></argsstring>
+        <name>_Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="24" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/UtilityString.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a86f09207d6d677aec726af924e0cd9a4" prot="protected" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* Canberra::Utility::Core::String::_ValueSZ</definition>
+        <argsstring></argsstring>
+        <name>_ValueSZ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="25" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/UtilityString.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a1a01a4decb814a51f7d4d13dbb95fb49_1a1a01a4decb814a51f7d4d13dbb95fb49" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::String::Initialize</definition>
+        <argsstring>(long V, String)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type>long</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+          <defname>Fmt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class is used contain a string /summary&gt; param name=&quot;V&quot;&gt;The value to format into the string</para><para>param name=&quot;Fmt&quot;&gt;The format specifier</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="26" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="75" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_aeceb9ed891eaff482a79c17b27af6078_1aeceb9ed891eaff482a79c17b27af6078" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::String::Initialize</definition>
+        <argsstring>(unsigned long V, String)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+          <defname>Fmt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class is used contain a string /summary&gt; param name=&quot;V&quot;&gt;The value to format into the string</para><para>param name=&quot;Fmt&quot;&gt;The format specifier</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="27" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="87" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a207f877beda1ccde8f84a78273e086e0_1a207f877beda1ccde8f84a78273e086e0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::String::Initialize</definition>
+        <argsstring>(int V, String)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type>int</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+          <defname>Fmt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class is used contain a string /summary&gt; param name=&quot;V&quot;&gt;The value to format into the string</para><para>param name=&quot;Fmt&quot;&gt;The format specifier</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="28" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="100" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_ae24ba15e3ce5ca204bad161905a96fff_1ae24ba15e3ce5ca204bad161905a96fff" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::String::Initialize</definition>
+        <argsstring>(unsigned int V, String)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+          <defname>Fmt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class is used contain a string /summary&gt; param name=&quot;V&quot;&gt;The value to format into the string</para><para>param name=&quot;Fmt&quot;&gt;The format specifier</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="29" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="113" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a9e86f71cbebfe3572fbd977d90132288_1a9e86f71cbebfe3572fbd977d90132288" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::String::Initialize</definition>
+        <argsstring>(short V, String)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type>short</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+          <defname>Fmt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class is used contain a string /summary&gt; param name=&quot;V&quot;&gt;The value to format into the string</para><para>param name=&quot;Fmt&quot;&gt;The format specifier</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="30" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="126" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a7333bb895a954eeb37b5db26d1e3ab38_1a7333bb895a954eeb37b5db26d1e3ab38" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::String::Initialize</definition>
+        <argsstring>(unsigned short V, String)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+          <defname>Fmt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class is used contain a string /summary&gt; param name=&quot;V&quot;&gt;The value to format into the string</para><para>param name=&quot;Fmt&quot;&gt;The format specifier</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="31" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="139" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a0f57eb8d226bedb2922f2dad0cb0a607_1a0f57eb8d226bedb2922f2dad0cb0a607" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::String::Initialize</definition>
+        <argsstring>(double V, String)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type>double</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+          <defname>Fmt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class is used contain a string /summary&gt; param name=&quot;V&quot;&gt;The value to format into the string</para><para>param name=&quot;Fmt&quot;&gt;The format specifier</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="32" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="152" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_ae974f29a017d0b7e7e337d48208efb02_1ae974f29a017d0b7e7e337d48208efb02" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::String::Initialize</definition>
+        <argsstring>(float V, String)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type>float</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+          <defname>Fmt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class is used contain a string /summary&gt; param name=&quot;V&quot;&gt;The value to format into the string</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="33" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="165" bodyend="160"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a00d9926206b104343a1a234b66dd0f9b_1a00d9926206b104343a1a234b66dd0f9b" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(const wchar_t *const S1, const wchar_t *const S2=NULL)</argsstring>
+        <name>String</name>
+        <param>
+          <type>const wchar_t *const</type>
+          <declname>S1</declname>
+        </param>
+        <param>
+          <type>const wchar_t *const</type>
+          <declname>S2</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class is used contain a string /summary&gt; param name=&quot;S&quot;&gt;The string to assign</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="36" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="56" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_aea095c5ed108309da77168c8d933c72e_1aea095c5ed108309da77168c8d933c72e" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(const char *const S)</argsstring>
+        <name>String</name>
+        <param>
+          <type>const char *const</type>
+          <declname>S</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class is used contain a string /summary&gt; param name=&quot;V&quot;&gt;The value to format into the string</para><para>param name=&quot;Fmt&quot;&gt;The format specifier</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="37" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="67" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_ab8ed4a495eaea8f65d7151289bd11cc0_1ab8ed4a495eaea8f65d7151289bd11cc0" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>()</argsstring>
+        <name>String</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class is used contain a string /summary&gt; param name=&quot;S&quot;&gt;The string to assign</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="38" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a7e4ccae1f9c490907f55a590c2ffd777" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(long V, String S)</argsstring>
+        <name>String</name>
+        <param>
+          <type>long</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+          <declname>S</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="39" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="668" bodyend="668"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a408b8f38e4ab31d29e1bc1dc4bab4e71" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(unsigned long V, String S)</argsstring>
+        <name>String</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+          <declname>S</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="40" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="669" bodyend="669"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a9e5cf4bf405b9e8197fc01db4645ad67" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(int V, String S)</argsstring>
+        <name>String</name>
+        <param>
+          <type>int</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+          <declname>S</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="41" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="670" bodyend="670"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a5f645ceed1fac8012c586e0775d655d7" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(unsigned int V, String S)</argsstring>
+        <name>String</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+          <declname>S</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="42" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="671" bodyend="671"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1af1b4f282e8cdc02057c5d5cfd4c54a73" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(short V, String S)</argsstring>
+        <name>String</name>
+        <param>
+          <type>short</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+          <declname>S</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="43" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="672" bodyend="672"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a95e5c857e0ff0e8fed45790114bab926" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(unsigned short V, String S)</argsstring>
+        <name>String</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+          <declname>S</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="44" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="673" bodyend="673"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1aaab8369445728a530ef8683703fb2a09" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(double V, String S)</argsstring>
+        <name>String</name>
+        <param>
+          <type>double</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+          <declname>S</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="45" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="674" bodyend="674"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a1454c4397ee1e0f2a0b086dd5dfe1d6f" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(float V, String S)</argsstring>
+        <name>String</name>
+        <param>
+          <type>float</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+          <declname>S</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="46" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="675" bodyend="675"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1ac5626254929c422d322dde7cac5f4ad2" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(long V)</argsstring>
+        <name>String</name>
+        <param>
+          <type>long</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="47" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="676" bodyend="676"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a5f019b4373a20d146b1c0effbfe7792a" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(unsigned long V)</argsstring>
+        <name>String</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="48" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="677" bodyend="677"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1aa9fa88595c266c055f65cb0f90d61ea1" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(int V)</argsstring>
+        <name>String</name>
+        <param>
+          <type>int</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="49" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="678" bodyend="678"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a90c4a32c22a0e5a28c5f7100841302ab" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(unsigned int V)</argsstring>
+        <name>String</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="50" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="679" bodyend="679"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a7f847500fa440af2a8eeefab4345f845" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(short V)</argsstring>
+        <name>String</name>
+        <param>
+          <type>short</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="51" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="680" bodyend="680"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a9eb1cf2560f9e1bd99c31ed7ae1dbfc2" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(unsigned short V)</argsstring>
+        <name>String</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="52" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="681" bodyend="681"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1afbf4ae515f9fa612cfec2236f5f2aca2" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(double V)</argsstring>
+        <name>String</name>
+        <param>
+          <type>double</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="53" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="682" bodyend="682"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a1c7c1083e089d0cc0b9de9aa467dc9fd" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(float V)</argsstring>
+        <name>String</name>
+        <param>
+          <type>float</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="54" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="683" bodyend="683"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_ad37ef02aba2ab8bbd095edc31e86ca2a_1ad37ef02aba2ab8bbd095edc31e86ca2a" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(bool V)</argsstring>
+        <name>String</name>
+        <param>
+          <type>bool</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class is used contain a string /summary&gt; param name=&quot;V&quot;&gt;The value to format into the string</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="55" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="177" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a19326cdd26cb37a4bc757a0887900796_1a19326cdd26cb37a4bc757a0887900796" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(const FILETIME &amp;V)</argsstring>
+        <name>String</name>
+        <param>
+          <type>const <ref refid="d8/d28/struct___f_i_l_e_t_i_m_e" kindref="compound">FILETIME</ref> &amp;</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class is used contain a string /summary&gt; param name=&quot;V&quot;&gt;The value to format into the string</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="56" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="187" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a97efa34d4537218e59fdb3d0010d12ef_1a97efa34d4537218e59fdb3d0010d12ef" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(const struct tm &amp;V)</argsstring>
+        <name>String</name>
+        <param>
+          <type>const struct tm &amp;</type>
+          <declname>V</declname>
+          <defname>Time</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; An instance of this class is used contain a string /summary&gt; param name=&quot;V&quot;&gt;The string to copy</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="60" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="219" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a9128a206092625d48eb4db22ce817c79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::String</definition>
+        <argsstring>(const String &amp;V)</argsstring>
+        <name>String</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="62" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="230" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a98e04233ef897666c11a08a6466879e4_1a98e04233ef897666c11a08a6466879e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::~String</definition>
+        <argsstring>(void)</argsstring>
+        <name>~String</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; <verbatim>CopyFrom clears any previous contents of this String and
+sets the new String value to the concatenation of the
+two wchar_t* arguments.  Note that one or both
+of the arguments can be NULL, and that the second
+argument is optional and defaults to NULL.
+
+/summary&gt;
+param name=&quot;S1&quot;&gt;The first string to copy&lt;/param&gt;
+param name=&quot;S2&quot;&gt;The optional second string to append to the first&lt;/param&gt;
+returns&gt;0==Number of chars copied&lt;/returns&gt;
+exception cref=&quot;ULONG&quot;&gt;Win32 error code&lt;/exception&gt;  </verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="63" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a1280c29e9ec36dd69411644e1c4fe340_1a1280c29e9ec36dd69411644e1c4fe340" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::String::CopyFrom</definition>
+        <argsstring>(const wchar_t *const S1, const wchar_t *const S2=NULL)</argsstring>
+        <name>CopyFrom</name>
+        <param>
+          <type>const wchar_t *const</type>
+          <declname>S1</declname>
+        </param>
+        <param>
+          <type>const wchar_t *const</type>
+          <declname>S2</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will copy from the input char stream into this instance /summary&gt; param name=&quot;V&quot;&gt;The string to copy</para><para>returns&gt;0==Number of chars copied</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="65" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="246" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_aec45868a188d5dd9f93faf3a246613bc_1aec45868a188d5dd9f93faf3a246613bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::String::CopyFrom</definition>
+        <argsstring>(const char *const V)</argsstring>
+        <name>CopyFrom</name>
+        <param>
+          <type>const char *const</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will release the memory /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="66" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="273" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_ab79c11c8c6e085fbdf15ce5531b724fe_1ab79c11c8c6e085fbdf15ce5531b724fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Core::String::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the length of the string /summary&gt; returns&gt;Length</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="67" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="287" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_af139376ec3c87735c440d7b3ba45bc13_1af139376ec3c87735c440d7b3ba45bc13" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::String::GetLength</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the unmanaged string /summary&gt; returns&gt;The string</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="68" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="296" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a3781ab7af77afe59cee77ab1dfd22339_1a3781ab7af77afe59cee77ab1dfd22339" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const wchar_t *const</type>
+        <definition>const wchar_t *const Canberra::Utility::Core::String::GetValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method perform a deep copy via the = operator /summary&gt; param name=&quot;Rhs&quot;&gt;The string to be copied</para><para>returns&gt;The copied string</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="69" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="305" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a8d4067a281ef9546867b6aa9437ee5ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+        <definition>Canberra::Utility::Core::String &amp; Canberra::Utility::Core::String::operator=</definition>
+        <argsstring>(const wchar_t *Rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="72" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="665" bodyend="665"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1ac63af002ea6840733529c9c852eec0ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+        <definition>Canberra::Utility::Core::String &amp; Canberra::Utility::Core::String::operator=</definition>
+        <argsstring>(const char *Rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const char *</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="73" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="666" bodyend="666"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a4ac5dc85ea2f2f52c5729806c8d5480b_1a4ac5dc85ea2f2f52c5729806c8d5480b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+        <definition>Canberra::Utility::Core::String &amp; Canberra::Utility::Core::String::operator=</definition>
+        <argsstring>(const String &amp;Rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method append a string via the + operator /summary&gt; param name=&quot;Rhs&quot;&gt;The source string</para><para>returns&gt;The appended string</para><para>exception cref=&quot;ULONG&quot;&gt;Win32 error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="74" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="312" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_ae036c54a6eac8bd2e7793743fa192117_1ae036c54a6eac8bd2e7793743fa192117" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::String::operator+</definition>
+        <argsstring>(const String &amp;a) const</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method append a string via the += operator /summary&gt; param name=&quot;Rhs&quot;&gt;The source string</para><para>returns&gt;The appended string</para><para>exception cref=&quot;ULONG&quot;&gt;Win32 error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="75" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="334" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a91a6f32fe364ff81ca670532c330d8d4_1a91a6f32fe364ff81ca670532c330d8d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+        <definition>Canberra::Utility::Core::String &amp; Canberra::Utility::Core::String::operator+=</definition>
+        <argsstring>(const String &amp;a)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method return the unmanaged string via the cast operator /summary&gt; returns&gt;The string</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="76" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="346" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a88957547388ac424a0be4ec16c53cd01_1a88957547388ac424a0be4ec16c53cd01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::operator char *</definition>
+        <argsstring>()</argsstring>
+        <name>operator char *</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method compare to strings using case sensitive comparison /summary&gt; param name=&quot;Rhs&quot;&gt;The source string</para><para>returns&gt;Compare state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="78" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="396" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a42e22a448574aabe6824798e5f028748_1a42e22a448574aabe6824798e5f028748" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::operator wchar_t *</definition>
+        <argsstring>()</argsstring>
+        <name>operator wchar_t *</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method return the unmanaged string via the cast operator /summary&gt; returns&gt;The string</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="79" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="365" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a68af818b7d48a9fd6dec0af2a9629f35" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::operator char const *const</definition>
+        <argsstring>() const</argsstring>
+        <name>operator char const *const</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="85" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/UtilityString.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1aa5484ed1af47eac86fb8b74e23848509" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::String::operator wchar_t const *const</definition>
+        <argsstring>() const</argsstring>
+        <name>operator wchar_t const *const</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="86" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/UtilityString.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a457223b9476260d7b372bb16546d1433_1a457223b9476260d7b372bb16546d1433" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>LONG</type>
+        <definition>LONG Canberra::Utility::Core::String::IndexOf</definition>
+        <argsstring>(const String &amp;, long Start=0) const</argsstring>
+        <name>IndexOf</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <defname>Comp</defname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>Start</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method find the starting location of the character in this string. -1==Character is not found /summary&gt; param name=&quot;Comp&quot;&gt;The char </para><para>param name=&quot;Start&quot;&gt;The starting index of the search</para><para>returns&gt;Index of the first occurance of the char</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="88" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="561" bodyend="553"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_acc06ef1245c083575c0a96144efda0d1_1acc06ef1245c083575c0a96144efda0d1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>LONG</type>
+        <definition>LONG Canberra::Utility::Core::String::IndexOf</definition>
+        <argsstring>(wchar_t, long Start=0) const</argsstring>
+        <name>IndexOf</name>
+        <param>
+          <type>wchar_t</type>
+          <defname>Comp</defname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>Start</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; Treats this string as a format pattern, and returns a new string which is the result of calling FormatMessage with this string and the supplied argument. /summary&gt; param name=&quot;args&quot;&gt;An array of wchar_t* strings that will be substituted into the pattern</para><para>returns&gt;The final formatted result</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="89" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="579" bodyend="571"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a857ddfe9f2276b3a4ee060b281dc8c52_1a857ddfe9f2276b3a4ee060b281dc8c52" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::String::Replace</definition>
+        <argsstring>(const String &amp;Old, const String &amp;New) const</argsstring>
+        <name>Replace</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Old</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>New</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method extract a substring from the string /summary&gt; param name=&quot;Start&quot;&gt;The starting position</para><para>param name=&quot;Length&quot;&gt;The number of chars to copy</para><para>returns&gt;The substring string</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="90" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="520" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a1029f435d10f502fd4d7bf00b4c7a34d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>String Canberra::Utility::Core::String::Replace</definition>
+        <argsstring>(wchar_t Old, wchar_t New) const</argsstring>
+        <name>Replace</name>
+        <param>
+          <type>wchar_t</type>
+          <declname>Old</declname>
+        </param>
+        <param>
+          <type>wchar_t</type>
+          <declname>New</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="91" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a5e9c70c1fbed98b6b04917bde6e71759_1a5e9c70c1fbed98b6b04917bde6e71759" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::String::Substring</definition>
+        <argsstring>(unsigned long Start, unsigned long Count=0) const</argsstring>
+        <name>Substring</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>Start</declname>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>Count</declname>
+          <defname>Length</defname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method find the starting location of the substring in this string. -1==Substring is not found /summary&gt; param name=&quot;Comp&quot;&gt;The substring</para><para>param name=&quot;Start&quot;&gt;The starting index of the search</para><para>returns&gt;Index of the first substring</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="92" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="540" bodyend="534"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_aaec177c997a9bffbe90e4c5150802d9c_1aaec177c997a9bffbe90e4c5150802d9c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::String::ToUpper</definition>
+        <argsstring>() const</argsstring>
+        <name>ToUpper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method return an lowercase copy of this string /summary&gt; returns&gt;The lowercase string</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="93" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="484" bodyend="479"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a21375ea3dfb78cc46e30ce95ae6a17bf_1a21375ea3dfb78cc46e30ce95ae6a17bf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::String::ToLower</definition>
+        <argsstring>() const</argsstring>
+        <name>ToLower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method replace all occurances of the substring with the new substring /summary&gt; param name=&quot;Old&quot;&gt;The old substring</para><para>param name=&quot;New&quot;&gt;The new substring</para><para>returns&gt;The replaced string</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="94" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="501" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a8b267a12b15e211ad18df3c13bcdd7c9_1a8b267a12b15e211ad18df3c13bcdd7c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Core::String::FormatString</definition>
+        <argsstring>(const wchar_t *const args[]) const</argsstring>
+        <name>FormatString</name>
+        <param>
+          <type>const wchar_t *const</type>
+          <declname>args</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method compare to strings using case sensitive comparison /summary&gt; param name=&quot;Rhs&quot;&gt;The source string</para><para>returns&gt;Equals state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="96" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="598" bodyend="591"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1ac579b62728fa65010a68808fd0553676" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>LONG</type>
+        <definition>LONG Canberra::Utility::Core::String::Compare</definition>
+        <argsstring>(const String &amp;Rhs) const</argsstring>
+        <name>Compare</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="98" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="427" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a971705e833ea6f89d3d98bae9eb5b543" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>LONG</type>
+        <definition>LONG Canberra::Utility::Core::String::Compare</definition>
+        <argsstring>(const wchar_t *pRhs) const</argsstring>
+        <name>Compare</name>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>pRhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="99" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="435" bodyend="440"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a43cbcb03f51e0b64892b54e367c5b4e9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>LONG</type>
+        <definition>LONG Canberra::Utility::Core::String::CompareI</definition>
+        <argsstring>(const String &amp;Rhs) const</argsstring>
+        <name>CompareI</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="100" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="459" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_ad036b29f6a6fe07763618830be440394_1ad036b29f6a6fe07763618830be440394" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>LONG</type>
+        <definition>LONG Canberra::Utility::Core::String::CompareI</definition>
+        <argsstring>(const wchar_t *pRhs) const</argsstring>
+        <name>CompareI</name>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>pRhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method return an uppercase copy of this string /summary&gt; returns&gt;The uppercase string</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="101" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="469" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a7dfc427bf626ef471f616f948492393a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::String::operator==</definition>
+        <argsstring>(const String &amp;Rhs) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="102" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="630" bodyend="630"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_aafb2fb4d79d728c1ec6cd9e3f0906de2_1aafb2fb4d79d728c1ec6cd9e3f0906de2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::String::operator==</definition>
+        <argsstring>(const wchar_t *pRhs) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>pRhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method determine the none equalvalence of two strings via case sensitive comparison /summary&gt; param name=&quot;Rhs&quot;&gt;The source string</para><para>returns&gt;Inequality state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="103" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="631" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a23eb74c9c4665c27915d60ea10cd42f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::String::operator!=</definition>
+        <argsstring>(const String &amp;Rhs) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="104" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="641" bodyend="643"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a354534387721de57998acb829211a7fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::String::operator!=</definition>
+        <argsstring>(const wchar_t *pRhs) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>pRhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="105" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="645" bodyend="648"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1ac356e5df3b60a1f66e582c547af5ee5d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::String::operator&lt;</definition>
+        <argsstring>(const String &amp;Rhs) const</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="106" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="650" bodyend="652"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a2105f0fb548cce6c23d97fb6c23968b5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::String::operator&gt;</definition>
+        <argsstring>(const String &amp;Rhs) const</argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="107" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="654" bodyend="656"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a3acc03d9397a691457d4ae051b8506ba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::String::operator&lt;=</definition>
+        <argsstring>(const String &amp;Rhs) const</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="108" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="657" bodyend="659"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1aa14be1bdaa1d38d2d13c525396f26ae4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::String::operator&gt;=</definition>
+        <argsstring>(const String &amp;Rhs) const</argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="109" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/String.cpp" bodystart="661" bodyend="663"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/UtilityString.h" line="22" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/UtilityString.h" bodystart="21" bodyend="111"/>
+    <listofallmembers>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a576eacade510079f6f684b0dd8a9b5c8" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>_Value</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a86f09207d6d677aec726af924e0cd9a4" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>_ValueSZ</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_ab79c11c8c6e085fbdf15ce5531b724fe_1ab79c11c8c6e085fbdf15ce5531b724fe" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>Clear</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1ac579b62728fa65010a68808fd0553676" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>Compare</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a971705e833ea6f89d3d98bae9eb5b543" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>Compare</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a43cbcb03f51e0b64892b54e367c5b4e9" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>CompareI</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_ad036b29f6a6fe07763618830be440394_1ad036b29f6a6fe07763618830be440394" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>CompareI</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a1280c29e9ec36dd69411644e1c4fe340_1a1280c29e9ec36dd69411644e1c4fe340" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>CopyFrom</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_aec45868a188d5dd9f93faf3a246613bc_1aec45868a188d5dd9f93faf3a246613bc" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>CopyFrom</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a8b267a12b15e211ad18df3c13bcdd7c9_1a8b267a12b15e211ad18df3c13bcdd7c9" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>FormatString</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_af139376ec3c87735c440d7b3ba45bc13_1af139376ec3c87735c440d7b3ba45bc13" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>GetLength</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a3781ab7af77afe59cee77ab1dfd22339_1a3781ab7af77afe59cee77ab1dfd22339" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>GetValue</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a457223b9476260d7b372bb16546d1433_1a457223b9476260d7b372bb16546d1433" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>IndexOf</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_acc06ef1245c083575c0a96144efda0d1_1acc06ef1245c083575c0a96144efda0d1" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>IndexOf</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a1a01a4decb814a51f7d4d13dbb95fb49_1a1a01a4decb814a51f7d4d13dbb95fb49" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>Initialize</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_aeceb9ed891eaff482a79c17b27af6078_1aeceb9ed891eaff482a79c17b27af6078" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>Initialize</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a207f877beda1ccde8f84a78273e086e0_1a207f877beda1ccde8f84a78273e086e0" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>Initialize</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_ae24ba15e3ce5ca204bad161905a96fff_1ae24ba15e3ce5ca204bad161905a96fff" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>Initialize</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a9e86f71cbebfe3572fbd977d90132288_1a9e86f71cbebfe3572fbd977d90132288" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>Initialize</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a7333bb895a954eeb37b5db26d1e3ab38_1a7333bb895a954eeb37b5db26d1e3ab38" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>Initialize</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a0f57eb8d226bedb2922f2dad0cb0a607_1a0f57eb8d226bedb2922f2dad0cb0a607" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>Initialize</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_ae974f29a017d0b7e7e337d48208efb02_1ae974f29a017d0b7e7e337d48208efb02" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>Initialize</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a88957547388ac424a0be4ec16c53cd01_1a88957547388ac424a0be4ec16c53cd01" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>operator char *</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a68af818b7d48a9fd6dec0af2a9629f35" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>operator char const *const</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a42e22a448574aabe6824798e5f028748_1a42e22a448574aabe6824798e5f028748" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>operator wchar_t *</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1aa5484ed1af47eac86fb8b74e23848509" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>operator wchar_t const *const</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a23eb74c9c4665c27915d60ea10cd42f4" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>operator!=</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a354534387721de57998acb829211a7fc" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>operator!=</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_ae036c54a6eac8bd2e7793743fa192117_1ae036c54a6eac8bd2e7793743fa192117" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>operator+</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a91a6f32fe364ff81ca670532c330d8d4_1a91a6f32fe364ff81ca670532c330d8d4" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>operator+=</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1ac356e5df3b60a1f66e582c547af5ee5d" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>operator&lt;</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a3acc03d9397a691457d4ae051b8506ba" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>operator&lt;=</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a8d4067a281ef9546867b6aa9437ee5ab" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>operator=</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1ac63af002ea6840733529c9c852eec0ee" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>operator=</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a4ac5dc85ea2f2f52c5729806c8d5480b_1a4ac5dc85ea2f2f52c5729806c8d5480b" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>operator=</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a7dfc427bf626ef471f616f948492393a" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>operator==</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_aafb2fb4d79d728c1ec6cd9e3f0906de2_1aafb2fb4d79d728c1ec6cd9e3f0906de2" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>operator==</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a2105f0fb548cce6c23d97fb6c23968b5" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>operator&gt;</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1aa14be1bdaa1d38d2d13c525396f26ae4" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>operator&gt;=</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a857ddfe9f2276b3a4ee060b281dc8c52_1a857ddfe9f2276b3a4ee060b281dc8c52" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>Replace</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a1029f435d10f502fd4d7bf00b4c7a34d" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>Replace</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a00d9926206b104343a1a234b66dd0f9b_1a00d9926206b104343a1a234b66dd0f9b" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_aea095c5ed108309da77168c8d933c72e_1aea095c5ed108309da77168c8d933c72e" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_ab8ed4a495eaea8f65d7151289bd11cc0_1ab8ed4a495eaea8f65d7151289bd11cc0" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a7e4ccae1f9c490907f55a590c2ffd777" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a408b8f38e4ab31d29e1bc1dc4bab4e71" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a9e5cf4bf405b9e8197fc01db4645ad67" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a5f645ceed1fac8012c586e0775d655d7" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1af1b4f282e8cdc02057c5d5cfd4c54a73" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a95e5c857e0ff0e8fed45790114bab926" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1aaab8369445728a530ef8683703fb2a09" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a1454c4397ee1e0f2a0b086dd5dfe1d6f" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1ac5626254929c422d322dde7cac5f4ad2" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a5f019b4373a20d146b1c0effbfe7792a" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1aa9fa88595c266c055f65cb0f90d61ea1" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a90c4a32c22a0e5a28c5f7100841302ab" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a7f847500fa440af2a8eeefab4345f845" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a9eb1cf2560f9e1bd99c31ed7ae1dbfc2" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1afbf4ae515f9fa612cfec2236f5f2aca2" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a1c7c1083e089d0cc0b9de9aa467dc9fd" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_ad37ef02aba2ab8bbd095edc31e86ca2a_1ad37ef02aba2ab8bbd095edc31e86ca2a" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a19326cdd26cb37a4bc757a0887900796_1a19326cdd26cb37a4bc757a0887900796" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a97efa34d4537218e59fdb3d0010d12ef_1a97efa34d4537218e59fdb3d0010d12ef" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_1a9128a206092625d48eb4db22ce817c79" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>String</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a5e9c70c1fbed98b6b04917bde6e71759_1a5e9c70c1fbed98b6b04917bde6e71759" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>Substring</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a21375ea3dfb78cc46e30ce95ae6a17bf_1a21375ea3dfb78cc46e30ce95ae6a17bf" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>ToLower</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_aaec177c997a9bffbe90e4c5150802d9c_1aaec177c997a9bffbe90e4c5150802d9c" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::String</scope><name>ToUpper</name></member>
+      <member refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string_a98e04233ef897666c11a08a6466879e4_1a98e04233ef897666c11a08a6466879e4" prot="public" virt="virtual"><scope>Canberra::Utility::Core::String</scope><name>~String</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

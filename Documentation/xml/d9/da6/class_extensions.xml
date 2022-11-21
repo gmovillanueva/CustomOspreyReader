@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d9/da6/class_extensions" kind="class" language="C++" prot="public">
+    <compoundname>Extensions</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d9/da6/class_extensions_1ace1689b4e81e4323fbb98b8b473ecdcb" prot="protected" static="no" mutable="no">
+        <type><ref refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel" kindref="compound">Canberra::Protocols::Lynx::StreamChannel</ref> *</type>
+        <definition>Canberra::Protocols::Lynx::StreamChannel* Extensions::_StreamChannel</definition>
+        <argsstring></argsstring>
+        <name>_StreamChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.cpp" line="38" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/da6/class_extensions_1ab850f92f4443aafad2fea5f9ea997a65" prot="protected" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* Extensions::_Data</definition>
+        <argsstring></argsstring>
+        <name>_Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.cpp" line="39" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/da6/class_extensions_1a9ffb8e2f63950cf6fae8e655eb19ab71" prot="protected" static="no" mutable="no">
+        <type><ref refid="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings" kindref="compound">Canberra::Protocols::Lynx::ChannelSettings</ref></type>
+        <definition>Canberra::Protocols::Lynx::ChannelSettings Extensions::_ConfigChanSettings</definition>
+        <argsstring></argsstring>
+        <name>_ConfigChanSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.cpp" line="40" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/da6/class_extensions_1a71f6ddc145a71351b48f918db00bf740" prot="protected" static="no" mutable="no">
+        <type><ref refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section" kindref="compound">Canberra::Utility::Core::CriticalSection</ref></type>
+        <definition>Canberra::Utility::Core::CriticalSection Extensions::_ConfigChanLock</definition>
+        <argsstring></argsstring>
+        <name>_ConfigChanLock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.cpp" line="41" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/da6/class_extensions_1ae49e8ee9a65b5c26b6f9665a48ff0273" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Extensions::Extensions</definition>
+        <argsstring>(MessageFactory &amp;MF, USHORT Port)</argsstring>
+        <name>Extensions</name>
+        <param>
+          <type><ref refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory" kindref="compound">MessageFactory</ref> &amp;</type>
+          <declname>MF</declname>
+        </param>
+        <param>
+          <type>USHORT</type>
+          <declname>Port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.cpp" line="44" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/da6/class_extensions_1aeaa4a6180ab2a5c694831b2d51a32521" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual Extensions::~Extensions</definition>
+        <argsstring>()</argsstring>
+        <name>~Extensions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.cpp" line="47" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/da6/class_extensions_1a81e94f3ea829a0e7091c56d262a95f2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel" kindref="compound">Canberra::Protocols::Lynx::StreamChannel</ref> &amp;</type>
+        <definition>Canberra::Protocols::Lynx::StreamChannel&amp; Extensions::GetStreamingInterface</definition>
+        <argsstring>()</argsstring>
+        <name>GetStreamingInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.cpp" line="50" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/da6/class_extensions_1acc3183084e437cd9f1548b8bba18ad7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings" kindref="compound">Canberra::Protocols::Lynx::ChannelSettings</ref> &amp;</type>
+        <definition>Canberra::Protocols::Lynx::ChannelSettings&amp; Extensions::GetConfigurationChannelSettings</definition>
+        <argsstring>()</argsstring>
+        <name>GetConfigurationChannelSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.cpp" line="53" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/da6/class_extensions_1aba8243e605a2db414dc234d060182118" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section" kindref="compound">Canberra::Utility::Core::CriticalSection</ref> &amp;</type>
+        <definition>Canberra::Utility::Core::CriticalSection&amp; Extensions::GetConfigurationChannelLock</definition>
+        <argsstring>()</argsstring>
+        <name>GetConfigurationChannelLock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.cpp" line="56" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/da6/class_extensions_1a5a862285a707977c9e67a15c1b31692c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* Extensions::GetVersionDataPtr</definition>
+        <argsstring>()</argsstring>
+        <name>GetVersionDataPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.cpp" line="59" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="59" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>An instance of this class contains Lynx version 1.1 modifications and provides an interface,_Data, for the next version as well. /summary&gt; </para>    </briefdescription>
+    <detaileddescription>
+<para>summary&gt; This is the constructor for a list type that contains instances of spectral data. It is specifically used for MSS /summary&gt; </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="160">
+        <label>Canberra::DataTypes::Serialization::MessageFactory</label>
+        <link refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory"/>
+        <childnode refid="161" relation="usage">
+          <edgelabel>_Signature</edgelabel>
+        </childnode>
+      </node>
+      <node id="159">
+        <label>Canberra::Utility::Network::Socket</label>
+        <link refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket"/>
+        <childnode refid="156" relation="usage">
+          <edgelabel>_EndPoint</edgelabel>
+        </childnode>
+        <childnode refid="153" relation="usage">
+          <edgelabel>_Name</edgelabel>
+        </childnode>
+      </node>
+      <node id="162">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="163">
+        <label>Canberra::Utility::Core::ByteStream</label>
+        <link refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream"/>
+      </node>
+      <node id="158">
+        <label>Canberra::Utility::Network::TcpSocket</label>
+        <link refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket"/>
+        <childnode refid="159" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="155">
+        <label>Canberra::Protocols::Lynx::StreamChannel</label>
+        <link refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel"/>
+        <childnode refid="151" relation="usage">
+          <edgelabel>_Lock</edgelabel>
+        </childnode>
+        <childnode refid="156" relation="usage">
+          <edgelabel>_DevEP</edgelabel>
+          <edgelabel>_ClientEP</edgelabel>
+        </childnode>
+        <childnode refid="157" relation="usage">
+          <edgelabel>_Channel</edgelabel>
+        </childnode>
+        <childnode refid="160" relation="usage">
+          <edgelabel>_MessageFactory</edgelabel>
+        </childnode>
+        <childnode refid="154" relation="usage">
+          <edgelabel>_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="154">
+        <label>Canberra::Protocols::Lynx::ChannelSettings</label>
+        <link refid="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings"/>
+      </node>
+      <node id="153">
+        <label>Canberra::Utility::Core::String</label>
+        <link refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string"/>
+      </node>
+      <node id="150">
+        <label>Extensions</label>
+        <link refid="d9/da6/class_extensions"/>
+        <childnode refid="151" relation="usage">
+          <edgelabel>_ConfigChanLock</edgelabel>
+        </childnode>
+        <childnode refid="154" relation="usage">
+          <edgelabel>_ConfigChanSettings</edgelabel>
+        </childnode>
+        <childnode refid="155" relation="usage">
+          <edgelabel>_StreamChannel</edgelabel>
+        </childnode>
+      </node>
+      <node id="151">
+        <label>Canberra::Utility::Core::CriticalSection</label>
+        <link refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section"/>
+        <childnode refid="152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="156">
+        <label>Canberra::Utility::Network::EndPoint</label>
+        <link refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point"/>
+      </node>
+      <node id="157">
+        <label>Canberra::Utility::Network::TcpClient</label>
+        <link refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client"/>
+        <childnode refid="158" relation="public-inheritance">
+        </childnode>
+        <childnode refid="156" relation="usage">
+          <edgelabel>_ServerEP</edgelabel>
+        </childnode>
+      </node>
+      <node id="152">
+        <label>Canberra::Utility::Core::SyncObject</label>
+        <link refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object"/>
+        <childnode refid="153" relation="usage">
+          <edgelabel>_Name</edgelabel>
+        </childnode>
+      </node>
+      <node id="161">
+        <label>Canberra::DataTypes::Serialization::DigitalSignature</label>
+        <link refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature"/>
+        <childnode refid="162" relation="public-inheritance">
+        </childnode>
+        <childnode refid="163" relation="usage">
+          <edgelabel>_Key</edgelabel>
+          <edgelabel>_Signature</edgelabel>
+          <edgelabel>_RandomData</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/Device.cpp" line="36" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="36" bodyend="61"/>
+    <listofallmembers>
+      <member refid="d9/da6/class_extensions_1a71f6ddc145a71351b48f918db00bf740" prot="protected" virt="non-virtual"><scope>Extensions</scope><name>_ConfigChanLock</name></member>
+      <member refid="d9/da6/class_extensions_1a9ffb8e2f63950cf6fae8e655eb19ab71" prot="protected" virt="non-virtual"><scope>Extensions</scope><name>_ConfigChanSettings</name></member>
+      <member refid="d9/da6/class_extensions_1ab850f92f4443aafad2fea5f9ea997a65" prot="protected" virt="non-virtual"><scope>Extensions</scope><name>_Data</name></member>
+      <member refid="d9/da6/class_extensions_1ace1689b4e81e4323fbb98b8b473ecdcb" prot="protected" virt="non-virtual"><scope>Extensions</scope><name>_StreamChannel</name></member>
+      <member refid="d9/da6/class_extensions_1ae49e8ee9a65b5c26b6f9665a48ff0273" prot="public" virt="non-virtual"><scope>Extensions</scope><name>Extensions</name></member>
+      <member refid="d9/da6/class_extensions_1aba8243e605a2db414dc234d060182118" prot="public" virt="non-virtual"><scope>Extensions</scope><name>GetConfigurationChannelLock</name></member>
+      <member refid="d9/da6/class_extensions_1acc3183084e437cd9f1548b8bba18ad7d" prot="public" virt="non-virtual"><scope>Extensions</scope><name>GetConfigurationChannelSettings</name></member>
+      <member refid="d9/da6/class_extensions_1a81e94f3ea829a0e7091c56d262a95f2c" prot="public" virt="non-virtual"><scope>Extensions</scope><name>GetStreamingInterface</name></member>
+      <member refid="d9/da6/class_extensions_1a5a862285a707977c9e67a15c1b31692c" prot="public" virt="non-virtual"><scope>Extensions</scope><name>GetVersionDataPtr</name></member>
+      <member refid="d9/da6/class_extensions_1aeaa4a6180ab2a5c694831b2d51a32521" prot="public" virt="virtual"><scope>Extensions</scope><name>~Extensions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

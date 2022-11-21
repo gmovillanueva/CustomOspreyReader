@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d4/d5b/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_attributes_tag" kind="struct" language="C++" prot="public">
+    <compoundname>Canberra::DataTypes::Spectroscopy::CounterAttributesTag</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/d5b/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_attributes_tag_1adc5fd2d8608e29db86795d3786c5d34e" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::CounterAttributesTag::UncorrValue</definition>
+        <argsstring></argsstring>
+        <name>UncorrValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="12" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d5b/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_attributes_tag_1a4d25b5c29732234c964e8063f1ecb090" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::CounterAttributesTag::Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="13" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d5b/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_attributes_tag_1a349e26d917b378cf52e2e5a999088cb4" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::CounterAttributesTag::Flags</definition>
+        <argsstring></argsstring>
+        <name>Flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="14" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/CounterData.h" line="11" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/CounterData.h" bodystart="11" bodyend="15"/>
+    <listofallmembers>
+      <member refid="d4/d5b/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_attributes_tag_1a349e26d917b378cf52e2e5a999088cb4" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterAttributesTag</scope><name>Flags</name></member>
+      <member refid="d4/d5b/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_attributes_tag_1adc5fd2d8608e29db86795d3786c5d34e" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterAttributesTag</scope><name>UncorrValue</name></member>
+      <member refid="d4/d5b/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_counter_attributes_tag_1a4d25b5c29732234c964e8063f1ecb090" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::CounterAttributesTag</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

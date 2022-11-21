@@ -1,0 +1,13 @@
+digraph "Canberra::Serialization::Bool"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="Canberra::Serialization\l::Bool",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="Canberra::Serialization\l::SerializableType\< bool \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d05/class_canberra_1_1_serialization_1_1_serializable_type.html"];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="Canberra::Serialization\l::SerializableObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d98/class_canberra_1_1_serialization_1_1_serializable_object.html"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="Canberra::Serialization\l::Serializable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d9f/class_canberra_1_1_serialization_1_1_serializable.html"];
+}

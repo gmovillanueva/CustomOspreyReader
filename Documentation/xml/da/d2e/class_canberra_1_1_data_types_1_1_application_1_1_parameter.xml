@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::DataTypes::Application::Parameter</compoundname>
+    <basecompoundref refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object" prot="public" virt="non-virtual">Canberra::Serialization::SerializableObject</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1a36e4af63085101d30a389b402f29fcd2" prot="protected" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Application::Parameter::_ParameterCode</definition>
+        <argsstring></argsstring>
+        <name>_ParameterCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Parameter.h" line="20" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Parameter.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1a966ee03ee7cf211acb7a29eff895ea96" prot="protected" static="no" mutable="no">
+        <type><ref refid="d3/d79/class_canberra_1_1_utility_1_1_core_1_1_variant" kindref="compound">Canberra::Utility::Core::Variant</ref></type>
+        <definition>Canberra::Utility::Core::Variant Canberra::DataTypes::Application::Parameter::_Value</definition>
+        <argsstring></argsstring>
+        <name>_Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Parameter.h" line="21" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Parameter.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_ada8595efa9f0042d73fc1a684bad0d81_1ada8595efa9f0042d73fc1a684bad0d81" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Application::Parameter::Copy</definition>
+        <argsstring>(const Parameter &amp;v)</argsstring>
+        <name>Copy</name>
+        <param>
+          <type>const <ref refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>This method will perform a deep copy /summary&gt; param name=&quot;v&quot;&gt;The source</para>        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will overide the equals operator to perform a deep copy /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Parameter.h" line="22" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Parameter.cpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_a633d52a56d6b21cd653380900ee85f82_1a633d52a56d6b21cd653380900ee85f82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Application::Parameter::Parameter</definition>
+        <argsstring>(const Parameter &amp;v)</argsstring>
+        <name>Parameter</name>
+        <param>
+          <type>const <ref refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will initialize an instance of this class. An instance of this class is used to define a parameter (code, value) pair /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Parameter.h" line="25" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Parameter.cpp" bodystart="30" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_a9957ddd72a7094629242cd334978c375_1a9957ddd72a7094629242cd334978c375" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+        <definition>Canberra::DataTypes::Application::Parameter &amp; Canberra::DataTypes::Application::Parameter::operator=</definition>
+        <argsstring>(const Parameter &amp;Rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter" kindref="compound">Parameter</ref> &amp;</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will initialize an instance of this class. An instance of this class is used to define a parameter (code, value) pair /summary&gt; param name=&quot;v&quot;&gt;The source</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Parameter.h" line="26" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Parameter.cpp" bodystart="22" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_ab3693e0f7ac1d72f92b644632a4900a8_1ab3693e0f7ac1d72f92b644632a4900a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Application::Parameter::Parameter</definition>
+        <argsstring>()</argsstring>
+        <name>Parameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will initialize an instance of this class. An instance of this class is used to define a parameter (code, value) pair /summary&gt; param name=&quot;C&quot;&gt;The parameter code</para><para>param name=&quot;Val&quot;&gt;The parameter value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Parameter.h" line="27" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Parameter.cpp" bodystart="36" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1a71a5964ba268a4946ba215208ac65c0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Application::Parameter::Parameter</definition>
+        <argsstring>(LONG C, const Canberra::Utility::Core::Variant &amp;Val)</argsstring>
+        <name>Parameter</name>
+        <param>
+          <type>LONG</type>
+          <declname>C</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d3/d79/class_canberra_1_1_utility_1_1_core_1_1_variant" kindref="compound">Canberra::Utility::Core::Variant</ref> &amp;</type>
+          <declname>Val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Parameter.h" line="28" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Parameter.cpp" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1ae6641c1001f8801165e39357bcc51c08" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Application::Parameter::~Parameter</definition>
+        <argsstring>()</argsstring>
+        <name>~Parameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Parameter.h" line="29" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Parameter.cpp" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1a51d743897f0420d65ee5ae6a994deff8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Application::Parameter::GetDataSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetDataSize</name>
+        <reimplements refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1aeea4076233d10b8d485e474e47455e36">GetDataSize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Parameter.h" line="32" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Parameter.cpp" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_a2c39a0404f163579143f14ece019ff6c_1a2c39a0404f163579143f14ece019ff6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Application::Parameter::SerializeData</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const Canberra::Serialization::MetaData &amp;MD, const LONG Offset=0)</argsstring>
+        <name>SerializeData</name>
+        <reimplements refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1ad53b676c25c6fdf48aa861b36709eba4">SerializeData</reimplements>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data" kindref="compound">Canberra::Serialization::MetaData</ref> &amp;</type>
+          <declname>MD</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will deserialize info from the byte stream into this instance /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;MD&quot;&gt;The metadata</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the read in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes deserialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Parameter.h" line="33" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Parameter.cpp" bodystart="64" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1a5c63e137e8853b94b2bd80a549913643" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Application::Parameter::DeserializeData</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const Canberra::Serialization::MetaData &amp;MD, const LONG Offset=0)</argsstring>
+        <name>DeserializeData</name>
+        <reimplements refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1aea035ce63d01acfb02185016fb648ece">DeserializeData</reimplements>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data" kindref="compound">Canberra::Serialization::MetaData</ref> &amp;</type>
+          <declname>MD</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Parameter.h" line="34" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Parameter.cpp" bodystart="82" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1aa009220bbe3def88ba5f3b82d766fb4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LONG</type>
+        <definition>LONG Canberra::DataTypes::Application::Parameter::GetParameterCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetParameterCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Parameter.h" line="37" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Parameter.cpp" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1aefde68ded6f215013829d7eb12df979a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Application::Parameter::PutParameterCode</definition>
+        <argsstring>(LONG v)</argsstring>
+        <name>PutParameterCode</name>
+        <param>
+          <type>LONG</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Parameter.h" line="38" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Parameter.cpp" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1ab8d5daf9e81b1796129277d4dc40336c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="d3/d79/class_canberra_1_1_utility_1_1_core_1_1_variant" kindref="compound">Canberra::Utility::Core::Variant</ref> &amp;</type>
+        <definition>const Canberra::Utility::Core::Variant &amp; Canberra::DataTypes::Application::Parameter::GetValue</definition>
+        <argsstring>()</argsstring>
+        <name>GetValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Parameter.h" line="41" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Parameter.cpp" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_ad9c7e6dc5d9229c776441b8c04be489c_1ad9c7e6dc5d9229c776441b8c04be489c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Application::Parameter::PutValue</definition>
+        <argsstring>(const Canberra::Utility::Core::Variant &amp;v)</argsstring>
+        <name>PutValue</name>
+        <param>
+          <type>const <ref refid="d3/d79/class_canberra_1_1_utility_1_1_core_1_1_variant" kindref="compound">Canberra::Utility::Core::Variant</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will serialize this instance into the byte stream /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;MD&quot;&gt;The metadata</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the write in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes serialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Parameter.h" line="42" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Parameter.cpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="290">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="289">
+        <label>Canberra::Serialization::SerializableObject</label>
+        <link refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object"/>
+        <childnode refid="290" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="288">
+        <label>Canberra::DataTypes::Application::Parameter</label>
+        <link refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter"/>
+        <childnode refid="289" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="295">
+        <label>Canberra::Utility::Core::Variant::NativeValues</label>
+        <link refid="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values"/>
+        <childnode refid="296" relation="usage">
+          <edgelabel>pArrayVal</edgelabel>
+        </childnode>
+      </node>
+      <node id="293">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="294">
+        <label>Canberra::Utility::Core::Variant</label>
+        <link refid="d3/d79/class_canberra_1_1_utility_1_1_core_1_1_variant"/>
+        <childnode refid="295" relation="usage">
+          <edgelabel>_uVal</edgelabel>
+        </childnode>
+        <childnode refid="296" relation="usage">
+          <edgelabel>_varArray</edgelabel>
+        </childnode>
+        <childnode refid="297" relation="usage">
+          <edgelabel>_strVal</edgelabel>
+          <edgelabel>_fmtVal</edgelabel>
+        </childnode>
+      </node>
+      <node id="296">
+        <label>Canberra::Utility::Core::VariantArray</label>
+        <link refid="dd/dee/class_canberra_1_1_utility_1_1_core_1_1_variant_array"/>
+      </node>
+      <node id="297">
+        <label>Canberra::Utility::Core::String</label>
+        <link refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string"/>
+      </node>
+      <node id="292">
+        <label>Canberra::Serialization::SerializableObject</label>
+        <link refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object"/>
+        <childnode refid="293" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="291">
+        <label>Canberra::DataTypes::Application::Parameter</label>
+        <link refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter"/>
+        <childnode refid="292" relation="public-inheritance">
+        </childnode>
+        <childnode refid="294" relation="usage">
+          <edgelabel>_Value</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/Parameter.h" line="18" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Parameter.h" bodystart="18" bodyend="44"/>
+    <listofallmembers>
+      <member refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1a36e4af63085101d30a389b402f29fcd2" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>_ParameterCode</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a62efa0d30e9df187718f2832622ac9fc" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>_Type</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a4821112683d68c98c1522d75f186fb21" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>_UseMetaData</name></member>
+      <member refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1a966ee03ee7cf211acb7a29eff895ea96" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>_Value</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a42d74858b0cea8269da2b35ccd5cb1ff" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Array</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a13dfc3b38fa4101b58ed1e111954a696" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Blob</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a3810fac464221c267d15ac677b734ec9" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Bool</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aa3a10ebe6b68339ed5c951d1cd63323b" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Byte</name></member>
+      <member refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_ada8595efa9f0042d73fc1a684bad0d81_1ada8595efa9f0042d73fc1a684bad0d81" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Copy</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ab559832d01dfcf5ec9d13560b03c05fe" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>CustomTypeOffset</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aea4d059479031ecb9556cb06274f398e" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>DateTime</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a430c3ea76c8389e480d48a97ff2df2d0" prot="public" virt="virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Deserialize</name></member>
+      <member refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1a5c63e137e8853b94b2bd80a549913643" prot="public" virt="virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>DeserializeData</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ab41926d1cfcca9c142c69707c2f202c0" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Double</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a92fcae28fd44acf6ee83b77f8813df55" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Float</name></member>
+      <member refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1a51d743897f0420d65ee5ae6a994deff8" prot="public" virt="virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>GetDataSize</name></member>
+      <member refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1aa009220bbe3def88ba5f3b82d766fb4b" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>GetParameterCode</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_a1af5a56d77422d2d6f56d1fb8bc9f376_1a1af5a56d77422d2d6f56d1fb8bc9f376" prot="public" virt="virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>GetSize</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1ab619feca491ffd7547c45f0ec6dcfe0b" prot="public" virt="virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>GetType</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1aba841e892df8481bd3fdca757e6f10d4" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>GetUseMetaData</name></member>
+      <member refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1ab8d5daf9e81b1796129277d4dc40336c" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>GetValue</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430af31a37f97d6cbec3e2439cf0b9f0efee" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Int64</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aff35725740fbbbbb5495460560c13d54" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Long</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a6c938a0fc1bf14041406d0a6df5da2b3" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Null</name></member>
+      <member refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_a9957ddd72a7094629242cd334978c375_1a9957ddd72a7094629242cd334978c375" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>operator=</name></member>
+      <member refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_a633d52a56d6b21cd653380900ee85f82_1a633d52a56d6b21cd653380900ee85f82" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Parameter</name></member>
+      <member refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_ab3693e0f7ac1d72f92b644632a4900a8_1ab3693e0f7ac1d72f92b644632a4900a8" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Parameter</name></member>
+      <member refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1a71a5964ba268a4946ba215208ac65c0a" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Parameter</name></member>
+      <member refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1aefde68ded6f215013829d7eb12df979a" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>PutParameterCode</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a3fd4cc1bf197d9367f49b76c71582058" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>PutUseMetaData</name></member>
+      <member refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_ad9c7e6dc5d9229c776441b8c04be489c_1ad9c7e6dc5d9229c776441b8c04be489c" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>PutValue</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1a38579cdd4f2e813e7b0cca54e1b09529" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Serializable</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a0ef0ea4e4e766e15086f54ebb05744cd" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>SerializableObject</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_a33e593c04b50f36e8dad06b3b7471a9c_1a33e593c04b50f36e8dad06b3b7471a9c" prot="public" virt="virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Serialize</name></member>
+      <member refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_a2c39a0404f163579143f14ece019ff6c_1a2c39a0404f163579143f14ece019ff6c" prot="public" virt="virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>SerializeData</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a583b6f9cb2b9d3e17b4886d87bdedc58" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Short</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a38fdc153d55d83bc2e228ae8a3ed7245" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>String</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a163e11a5f23b834ce8544f494084045e" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>TypeCode</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>TypeCodeTag</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430af81c78c9fb7d47514b6d549e17acbfd1" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Ubyte</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ad366730d966138edb3d1ab0dd5da08e6" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Uint64</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a2755dd9dd281c902476f2295855ee571" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Ulong</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430abfc7ae0d0aa2c1d6386055cdcbdb0d76" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Unknown</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a92cba09c4c79914db36ac8c31aea8d63" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>Ushort</name></member>
+      <member refid="da/d2e/class_canberra_1_1_data_types_1_1_application_1_1_parameter_1ae6641c1001f8801165e39357bcc51c08" prot="public" virt="virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>~Parameter</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1ac760495914b0d7047d1dcbd3fed642d4" prot="public" virt="virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>~Serializable</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a72f15771099cf139f28e839e480d0721" prot="public" virt="virtual"><scope>Canberra::DataTypes::Application::Parameter</scope><name>~SerializableObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

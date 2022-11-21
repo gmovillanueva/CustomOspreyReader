@@ -1,0 +1,525 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d7/de4/class_c_h_i___v_e_c_t_o_r" kind="class" language="C++" prot="public">
+    <compoundname>CHI_VECTOR</compoundname>
+    <includes refid="d2/dcc/chi__vector_8h" local="no">chi_vector.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>VectorType</declname>
+        <defname>VectorType</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="d7/de4/class_c_h_i___v_e_c_t_o_r_1a94251ea3ea221a20990749b7b662bd96" prot="private" static="no">
+        <type>VectorType *</type>
+        <definition>typedef VectorType* CHI_VECTOR&lt; VectorType &gt;::VectorTypePtr</definition>
+        <argsstring></argsstring>
+        <name>VectorTypePtr</name>
+        <briefdescription>
+<para>Polong inter typedefinition for template class parameter. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="23" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d7/de4/class_c_h_i___v_e_c_t_o_r_1ae73d9f91b472ae07bc32236605934ddb" prot="public" static="no" mutable="no">
+        <type>long int</type>
+        <definition>long int CHI_VECTOR&lt; VectorType &gt;::capacity</definition>
+        <argsstring></argsstring>
+        <name>capacity</name>
+        <briefdescription>
+<para>Current vector capacity. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="26" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/de4/class_c_h_i___v_e_c_t_o_r_1a587c8d362d5149da97ec6519430c4747" prot="public" static="no" mutable="no">
+        <type>long int</type>
+        <definition>long int CHI_VECTOR&lt; VectorType &gt;::expansionFactor</definition>
+        <argsstring></argsstring>
+        <name>expansionFactor</name>
+        <briefdescription>
+<para>Factor by which capacity is increased when reached. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="27" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/de4/class_c_h_i___v_e_c_t_o_r_1a0d37a8a4650059da0888be2d9c38487a" prot="public" static="no" mutable="no">
+        <type>long int</type>
+        <definition>long int CHI_VECTOR&lt; VectorType &gt;::itemCount</definition>
+        <argsstring></argsstring>
+        <name>itemCount</name>
+        <briefdescription>
+<para>Amount of items in the vector. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="28" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/de4/class_c_h_i___v_e_c_t_o_r_1a91ef30712b0ead293dfe1adc29fee555" prot="public" static="no" mutable="no">
+        <type>long int</type>
+        <definition>long int CHI_VECTOR&lt; VectorType &gt;::stackCount</definition>
+        <argsstring></argsstring>
+        <name>stackCount</name>
+        <briefdescription>
+<para>Amount of array positions from top to bottom, filled or not. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="29" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/de4/class_c_h_i___v_e_c_t_o_r_1a4c99e660a5201e6f11986b68ab78d468" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CHI_VECTOR&lt; VectorType &gt;::threadProtectionEnabled</definition>
+        <argsstring></argsstring>
+        <name>threadProtectionEnabled</name>
+        <briefdescription>
+<para>Setting to allow thread protection (Default: True) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="30" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/de4/class_c_h_i___v_e_c_t_o_r_1af00333accd1dbaf692e50bff3b703422" prot="private" static="no" mutable="no">
+        <type>VectorTypePtr *</type>
+        <definition>VectorTypePtr* CHI_VECTOR&lt; VectorType &gt;::Item</definition>
+        <argsstring></argsstring>
+        <name>Item</name>
+        <briefdescription>
+<para>Dynamically allocated array of items. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="32" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/de4/class_c_h_i___v_e_c_t_o_r_a2789baba8522fffd305476bab1b5e359_1a2789baba8522fffd305476bab1b5e359" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CHI_VECTOR&lt; VectorType &gt;::CHI_VECTOR</definition>
+        <argsstring>()</argsstring>
+        <name>CHI_VECTOR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor for the <ref refid="d7/de4/class_c_h_i___v_e_c_t_o_r" kindref="compound">CHI_VECTOR</ref> class.</para><para><simplesect kind="version"><para>NVC </para></simplesect>
+<simplesect kind="author"><para>Nakter </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="37" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="64" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de4/class_c_h_i___v_e_c_t_o_r_a600ac6f3c5a721bd0d337f023624964c_1a600ac6f3c5a721bd0d337f023624964c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long int</type>
+        <definition>long int CHI_VECTOR&lt; VectorType &gt;::AddItem</definition>
+        <argsstring>(VectorTypePtr inputItem)</argsstring>
+        <name>AddItem</name>
+        <param>
+          <type>VectorTypePtr</type>
+          <declname>inputItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method for adding an item to the vector. This method adds an item of VectorType to the back of the vector. The argument given is a polong inter to an ALREADY created object.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>inputItem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A polong inter to the item to be added to the vector.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>1.0 2011-07-07 </para></simplesect>
+<simplesect kind="author"><para>Nakter </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="39" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="91" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de4/class_c_h_i___v_e_c_t_o_r_a9a3e5ce973c6bf31abdb55b6dc4cda0e_1a9a3e5ce973c6bf31abdb55b6dc4cda0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long int</type>
+        <definition>long int CHI_VECTOR&lt; VectorType &gt;::PushItem</definition>
+        <argsstring>(VectorTypePtr inputItem)</argsstring>
+        <name>PushItem</name>
+        <param>
+          <type>VectorTypePtr</type>
+          <declname>inputItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method for adding an item to the top of the vector. This method adds an item of VectorType to the top of the vector. The argument given is a polong inter to an ALREADY created object.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>inputItem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A polong inter to the item to be added to the vector.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>1.0 2011-07-07 </para></simplesect>
+<simplesect kind="author"><para>Nakter </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="40" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="151" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de4/class_c_h_i___v_e_c_t_o_r_1a838142e95db7a19aca572ba5fafa7d65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CHI_VECTOR&lt; VectorType &gt;::SetItem</definition>
+        <argsstring>(long int index, VectorTypePtr inputItem)</argsstring>
+        <name>SetItem</name>
+        <param>
+          <type>long int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>VectorTypePtr</type>
+          <declname>inputItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="41" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="184" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de4/class_c_h_i___v_e_c_t_o_r_a638665dbc1ed89dae665c77c9fe6af18_1a638665dbc1ed89dae665c77c9fe6af18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long int</type>
+        <definition>long int CHI_VECTOR&lt; VectorType &gt;::CreateAddItem</definition>
+        <argsstring>()</argsstring>
+        <name>CreateAddItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method for adding an item to the vector by creating it first. This method adds an item of VectorType to the back of the vector.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>inputItem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A polong inter to the item to be added to the vector.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>1.0 2011-07-07 </para></simplesect>
+<simplesect kind="author"><para>Nakter </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="42" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="204" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de4/class_c_h_i___v_e_c_t_o_r_ada33203459caf93e3015d0c22c92a232_1ada33203459caf93e3015d0c22c92a232" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long int</type>
+        <definition>long int CHI_VECTOR&lt; VectorType &gt;::CreatePushItem</definition>
+        <argsstring>()</argsstring>
+        <name>CreatePushItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method for adding an item to the top of the vector by creating it first. This method adds an item of VectorType to the top of the vector. The argument given is a polong inter to an ALREADY created object.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>inputItem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A polong inter to the item to be added to the vector.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>1.0 2011-07-07 </para></simplesect>
+<simplesect kind="author"><para>Nakter </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="43" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="259" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de4/class_c_h_i___v_e_c_t_o_r_ae6e5604e0fece87ee38645eba659bd46_1ae6e5604e0fece87ee38645eba659bd46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VectorTypePtr</type>
+        <definition>VectorType * CHI_VECTOR&lt; VectorType &gt;::GetItem</definition>
+        <argsstring>(long int index)</argsstring>
+        <name>GetItem</name>
+        <param>
+          <type>long int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method for getting the specified item. This routine returns the required polong inter but only does so if the index is valid and the item exists. The design choice was to return NULL if an index is required beyond the stackCount value. This can be re-evaluated if better feedback is required.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Location in the stack of the vector where the polong inter is.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="author"><para>Nakter </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="44" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="300" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de4/class_c_h_i___v_e_c_t_o_r_a01ae3966671bdacf558ef5ddd5ea8b6e_1a01ae3966671bdacf558ef5ddd5ea8b6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VectorTypePtr</type>
+        <definition>VectorType * CHI_VECTOR&lt; VectorType &gt;::GetPopItem</definition>
+        <argsstring>()</argsstring>
+        <name>GetPopItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method for getting the top item without removing it. This routine returns the top polong inter but only does so if the item exists.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Location in the stack of the vector where the polong inter is.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="author"><para>Nakter </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="45" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="327" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de4/class_c_h_i___v_e_c_t_o_r_ace37af4211b79d28e7921b3aecfcf5b1_1ace37af4211b79d28e7921b3aecfcf5b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VectorTypePtr</type>
+        <definition>VectorType * CHI_VECTOR&lt; VectorType &gt;::PopItem</definition>
+        <argsstring>()</argsstring>
+        <name>PopItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method for getting the top item by removing it. This routine returns the top polong inter but only does so if the item exists.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Location in the stack of the vector where the polong inter is.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="author"><para>Nakter </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="46" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="355" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de4/class_c_h_i___v_e_c_t_o_r_ae646184dd90d776f313e502780adf636_1ae646184dd90d776f313e502780adf636" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VectorTypePtr</type>
+        <definition>VectorType * CHI_VECTOR&lt; VectorType &gt;::PullItem</definition>
+        <argsstring>(long int index)</argsstring>
+        <name>PullItem</name>
+        <param>
+          <type>long int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes a given polong inter, without deleting its value and drops the vector to assimilate the gap.</para><para><simplesect kind="author"><para>JIC Vermaak </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="47" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="389" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de4/class_c_h_i___v_e_c_t_o_r_ac2de16159d3b3bcc5bc9944121fccf51_1ac2de16159d3b3bcc5bc9944121fccf51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VectorTypePtr</type>
+        <definition>VectorType * CHI_VECTOR&lt; VectorType &gt;::SwapItem</definition>
+        <argsstring>(long int index, VectorTypePtr inputItem)</argsstring>
+        <name>SwapItem</name>
+        <param>
+          <type>long int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>VectorTypePtr</type>
+          <declname>inputItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method for swapping a given index from the source vector to the target vector. This method will only swap the index if the two vectors indexes match.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index to be swapped from source to target </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>inputItem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Target Vector</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>1.0 2017/09/06 </para></simplesect>
+<simplesect kind="author"><para>Gmo </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="48" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="427" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de4/class_c_h_i___v_e_c_t_o_r_ae0c82697e82c997505baf414d13f31f2_1ae0c82697e82c997505baf414d13f31f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CHI_VECTOR&lt; VectorType &gt;::InsertItem</definition>
+        <argsstring>(long int index, VectorTypePtr inputItem)</argsstring>
+        <name>InsertItem</name>
+        <param>
+          <type>long int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>VectorTypePtr</type>
+          <declname>inputItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method for retrieving a given index from the target vector that matches the source vector. This method will only retrieve the index if the two vectors indexes match.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Index to be searched for in the target </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>inputItem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Target Vector</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="version"><para>1.0 2017/10/09 </para></simplesect>
+<simplesect kind="author"><para>Gmo Inserts the item at the given index and shifts the items up.</para></simplesect>
+<simplesect kind="author"><para>JIC Vermaak </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="50" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="479" bodyend="497"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de4/class_c_h_i___v_e_c_t_o_r_a1b9cf7d3ed0c01de4f1aceb306cb0e65_1a1b9cf7d3ed0c01de4f1aceb306cb0e65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CHI_VECTOR&lt; VectorType &gt;::KickItem</definition>
+        <argsstring>(long int index)</argsstring>
+        <name>KickItem</name>
+        <param>
+          <type>long int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes a given polong inter, deletes its value and drops the vector to assimilate the gap.</para><para><simplesect kind="author"><para>JIC Vermaak </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="51" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="506" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de4/class_c_h_i___v_e_c_t_o_r_a218fc2c4e4307955a008aba0a25989db_1a218fc2c4e4307955a008aba0a25989db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CHI_VECTOR&lt; VectorType &gt;::ClearItem</definition>
+        <argsstring>(long int index)</argsstring>
+        <name>ClearItem</name>
+        <param>
+          <type>long int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method for clearing a polong inter from the vector. This routine removes a polong inter from the vector stack at the indicated index by setting it to NULL. It does not assimilate the empty spot.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Location in the stack of the vector where the polong inter is.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="author"><para>Nakter </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="52" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="541" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de4/class_c_h_i___v_e_c_t_o_r_abc2f116e9f1b9f4bfb192c484d6dd71d_1abc2f116e9f1b9f4bfb192c484d6dd71d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CHI_VECTOR&lt; VectorType &gt;::ClearVector</definition>
+        <argsstring>()</argsstring>
+        <name>ClearVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method for emptying the entire vector stack.</para><para><simplesect kind="author"><para>Nakter </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="53" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="557" bodyend="570"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/de4/class_c_h_i___v_e_c_t_o_r_a8a52d15a1ddb517edfb685765b96a057_1a8a52d15a1ddb517edfb685765b96a057" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CHI_VECTOR&lt; VectorType &gt;::EmptyVector</definition>
+        <argsstring>()</argsstring>
+        <name>EmptyVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Method for emptying the entire vector stack but not deleting anything.</para><para><simplesect kind="author"><para>Nakter </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/CHI_VECTOR/chi_vector.h" line="54" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="578" bodyend="591"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A class for the custom implementation of a vector data structure. This template class can contain multiple polong inters to any structure, class or variable, of any type. Items are added and removed in a strictly Object- Orientated manner to avoid buffer overruns. The vector can also exhibit a stack type behaviour with the pushing and popping of items.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>VectorType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type specification for the item to be stored.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="author"><para>Nakter </para></simplesect>
+</para>    </detaileddescription>
+    <location file="Project1/CHI_VECTOR/chi_vector.h" line="22" column="1" bodyfile="Project1/CHI_VECTOR/chi_vector.h" bodystart="21" bodyend="55"/>
+    <listofallmembers>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_a600ac6f3c5a721bd0d337f023624964c_1a600ac6f3c5a721bd0d337f023624964c" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>AddItem</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_1ae73d9f91b472ae07bc32236605934ddb" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>capacity</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_a2789baba8522fffd305476bab1b5e359_1a2789baba8522fffd305476bab1b5e359" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>CHI_VECTOR</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_a218fc2c4e4307955a008aba0a25989db_1a218fc2c4e4307955a008aba0a25989db" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>ClearItem</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_abc2f116e9f1b9f4bfb192c484d6dd71d_1abc2f116e9f1b9f4bfb192c484d6dd71d" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>ClearVector</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_a638665dbc1ed89dae665c77c9fe6af18_1a638665dbc1ed89dae665c77c9fe6af18" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>CreateAddItem</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_ada33203459caf93e3015d0c22c92a232_1ada33203459caf93e3015d0c22c92a232" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>CreatePushItem</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_a8a52d15a1ddb517edfb685765b96a057_1a8a52d15a1ddb517edfb685765b96a057" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>EmptyVector</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_1a587c8d362d5149da97ec6519430c4747" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>expansionFactor</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_ae6e5604e0fece87ee38645eba659bd46_1ae6e5604e0fece87ee38645eba659bd46" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>GetItem</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_a01ae3966671bdacf558ef5ddd5ea8b6e_1a01ae3966671bdacf558ef5ddd5ea8b6e" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>GetPopItem</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_ae0c82697e82c997505baf414d13f31f2_1ae0c82697e82c997505baf414d13f31f2" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>InsertItem</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_1af00333accd1dbaf692e50bff3b703422" prot="private" virt="non-virtual"><scope>CHI_VECTOR</scope><name>Item</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_1a0d37a8a4650059da0888be2d9c38487a" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>itemCount</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_a1b9cf7d3ed0c01de4f1aceb306cb0e65_1a1b9cf7d3ed0c01de4f1aceb306cb0e65" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>KickItem</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_ace37af4211b79d28e7921b3aecfcf5b1_1ace37af4211b79d28e7921b3aecfcf5b1" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>PopItem</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_ae646184dd90d776f313e502780adf636_1ae646184dd90d776f313e502780adf636" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>PullItem</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_a9a3e5ce973c6bf31abdb55b6dc4cda0e_1a9a3e5ce973c6bf31abdb55b6dc4cda0e" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>PushItem</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_1a838142e95db7a19aca572ba5fafa7d65" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>SetItem</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_1a91ef30712b0ead293dfe1adc29fee555" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>stackCount</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_ac2de16159d3b3bcc5bc9944121fccf51_1ac2de16159d3b3bcc5bc9944121fccf51" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>SwapItem</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_1a4c99e660a5201e6f11986b68ab78d468" prot="public" virt="non-virtual"><scope>CHI_VECTOR</scope><name>threadProtectionEnabled</name></member>
+      <member refid="d7/de4/class_c_h_i___v_e_c_t_o_r_1a94251ea3ea221a20990749b7b662bd96" prot="private" virt="non-virtual"><scope>CHI_VECTOR</scope><name>VectorTypePtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

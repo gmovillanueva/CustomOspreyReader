@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="db/d76/struct_message_header_s" kind="struct" language="C++" prot="public">
+    <compoundname>MessageHeaderS</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="db/d76/struct_message_header_s_1aadf726500ef4da91aade01e7ce77f1b6" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG MessageHeaderS::Size</definition>
+        <argsstring></argsstring>
+        <name>Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" line="8" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d76/struct_message_header_s_1ad84ac3fe8c24c33ed7bedf9f0799d171" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG MessageHeaderS::Version</definition>
+        <argsstring></argsstring>
+        <name>Version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" line="9" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d76/struct_message_header_s_1abea32cb680a03f167f06cd234602923d" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG MessageHeaderS::SequenceNumber</definition>
+        <argsstring></argsstring>
+        <name>SequenceNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" line="10" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d76/struct_message_header_s_1a6c63bfaa9ea89f9869157beb59f0c160" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG MessageHeaderS::CheckSum</definition>
+        <argsstring></argsstring>
+        <name>CheckSum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" line="11" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" line="7" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/MessageHeader.h" bodystart="7" bodyend="12"/>
+    <listofallmembers>
+      <member refid="db/d76/struct_message_header_s_1a6c63bfaa9ea89f9869157beb59f0c160" prot="public" virt="non-virtual"><scope>MessageHeaderS</scope><name>CheckSum</name></member>
+      <member refid="db/d76/struct_message_header_s_1abea32cb680a03f167f06cd234602923d" prot="public" virt="non-virtual"><scope>MessageHeaderS</scope><name>SequenceNumber</name></member>
+      <member refid="db/d76/struct_message_header_s_1aadf726500ef4da91aade01e7ce77f1b6" prot="public" virt="non-virtual"><scope>MessageHeaderS</scope><name>Size</name></member>
+      <member refid="db/d76/struct_message_header_s_1ad84ac3fe8c24c33ed7bedf9f0799d171" prot="public" virt="non-virtual"><scope>MessageHeaderS</scope><name>Version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

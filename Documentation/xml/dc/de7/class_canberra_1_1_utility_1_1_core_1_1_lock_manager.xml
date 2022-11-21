@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dc/de7/class_canberra_1_1_utility_1_1_core_1_1_lock_manager" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Utility::Core::LockManager</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="dc/de7/class_canberra_1_1_utility_1_1_core_1_1_lock_manager_1ae877c649dea45a4dc3d3614ed9cb0bab" prot="protected" static="no" mutable="no">
+        <type><ref refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object" kindref="compound">SyncObject</ref> *</type>
+        <definition>SyncObject* Canberra::Utility::Core::LockManager::_Lock</definition>
+        <argsstring></argsstring>
+        <name>_Lock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/LockManager.h" line="17" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/LockManager.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/de7/class_canberra_1_1_utility_1_1_core_1_1_lock_manager_1ac639b36e2c1974512be13007e055e285" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::LockManager::_Locked</definition>
+        <argsstring></argsstring>
+        <name>_Locked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/LockManager.h" line="18" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/LockManager.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/de7/class_canberra_1_1_utility_1_1_core_1_1_lock_manager_1ab9e3a578521f78e25f576207d28254bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::LockManager::LockManager</definition>
+        <argsstring>(SyncObject *L, bool LockIt=true)</argsstring>
+        <name>LockManager</name>
+        <param>
+          <type><ref refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object" kindref="compound">SyncObject</ref> *</type>
+          <declname>L</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>LockIt</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>This method will initialize and lock the the sync object /summary&gt; param name=&quot;L&quot;&gt;The lock to manage</para><para>param name=&quot;LockIt&quot;&gt;The state of the lock</para><para>exception name=&quot;ULONG&quot;&gt;The error info</para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/LockManager.h" line="29" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/LockManager.cpp" bodystart="11" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/de7/class_canberra_1_1_utility_1_1_core_1_1_lock_manager_abd2f0fbc6748df132a6e347207702a8e_1abd2f0fbc6748df132a6e347207702a8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::LockManager::~LockManager</definition>
+        <argsstring>(void)</argsstring>
+        <name>~LockManager</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will lock the sync object If it is already locked nothing occurs /summary&gt; returns&gt;0==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/LockManager.h" line="30" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/LockManager.cpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/de7/class_canberra_1_1_utility_1_1_core_1_1_lock_manager_aa3843447f5eac5a89d2132966db671b5_1aa3843447f5eac5a89d2132966db671b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::LockManager::Lock</definition>
+        <argsstring>()</argsstring>
+        <name>Lock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will unlock the sync object If it is already unlocked nothing occurs /summary&gt; returns&gt;0==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/LockManager.h" line="37" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/LockManager.cpp" bodystart="25" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/de7/class_canberra_1_1_utility_1_1_core_1_1_lock_manager_1acbc3677d361d9c3804a8f2053bb6f7aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Core::LockManager::Unlock</definition>
+        <argsstring>()</argsstring>
+        <name>Unlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/LockManager.h" line="44" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/LockManager.cpp" bodystart="37" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="231">
+        <label>Canberra::Utility::Core::String</label>
+        <link refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string"/>
+      </node>
+      <node id="229">
+        <label>Canberra::Utility::Core::LockManager</label>
+        <link refid="dc/de7/class_canberra_1_1_utility_1_1_core_1_1_lock_manager"/>
+        <childnode refid="230" relation="usage">
+          <edgelabel>_Lock</edgelabel>
+        </childnode>
+      </node>
+      <node id="230">
+        <label>Canberra::Utility::Core::SyncObject</label>
+        <link refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object"/>
+        <childnode refid="231" relation="usage">
+          <edgelabel>_Name</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/LockManager.h" line="15" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/LockManager.h" bodystart="14" bodyend="45"/>
+    <listofallmembers>
+      <member refid="dc/de7/class_canberra_1_1_utility_1_1_core_1_1_lock_manager_1ae877c649dea45a4dc3d3614ed9cb0bab" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::LockManager</scope><name>_Lock</name></member>
+      <member refid="dc/de7/class_canberra_1_1_utility_1_1_core_1_1_lock_manager_1ac639b36e2c1974512be13007e055e285" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::LockManager</scope><name>_Locked</name></member>
+      <member refid="dc/de7/class_canberra_1_1_utility_1_1_core_1_1_lock_manager_aa3843447f5eac5a89d2132966db671b5_1aa3843447f5eac5a89d2132966db671b5" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::LockManager</scope><name>Lock</name></member>
+      <member refid="dc/de7/class_canberra_1_1_utility_1_1_core_1_1_lock_manager_1ab9e3a578521f78e25f576207d28254bb" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::LockManager</scope><name>LockManager</name></member>
+      <member refid="dc/de7/class_canberra_1_1_utility_1_1_core_1_1_lock_manager_1acbc3677d361d9c3804a8f2053bb6f7aa" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::LockManager</scope><name>Unlock</name></member>
+      <member refid="dc/de7/class_canberra_1_1_utility_1_1_core_1_1_lock_manager_abd2f0fbc6748df132a6e347207702a8e_1abd2f0fbc6748df132a6e347207702a8e" prot="public" virt="virtual"><scope>Canberra::Utility::Core::LockManager</scope><name>~LockManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

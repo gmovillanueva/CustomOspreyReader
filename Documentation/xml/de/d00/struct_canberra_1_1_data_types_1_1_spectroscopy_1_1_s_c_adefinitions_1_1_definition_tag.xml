@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="de/d00/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_1_1_definition_tag" kind="struct" language="C++" prot="public">
+    <compoundname>Canberra::DataTypes::Spectroscopy::SCAdefinitions::DefinitionTag</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="de/d00/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_1_1_definition_tag_1a23a0ff1daf8c22916734de12aad3bf97" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Canberra::DataTypes::Spectroscopy::SCAdefinitions::DefinitionTag::LLD</definition>
+        <argsstring></argsstring>
+        <name>LLD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="20" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d00/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_1_1_definition_tag_1ab8ee26e6d6dc0ab19efacc85f3a0a65f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Canberra::DataTypes::Spectroscopy::SCAdefinitions::DefinitionTag::ULD</definition>
+        <argsstring></argsstring>
+        <name>ULD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="21" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="19" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.h" bodystart="19" bodyend="22"/>
+    <listofallmembers>
+      <member refid="de/d00/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_1_1_definition_tag_1a23a0ff1daf8c22916734de12aad3bf97" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions::DefinitionTag</scope><name>LLD</name></member>
+      <member refid="de/d00/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_1_1_definition_tag_1ab8ee26e6d6dc0ab19efacc85f3a0a65f" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions::DefinitionTag</scope><name>ULD</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

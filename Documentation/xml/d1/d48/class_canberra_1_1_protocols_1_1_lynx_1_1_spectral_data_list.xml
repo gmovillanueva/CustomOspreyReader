@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Protocols::Lynx::SpectralDataList</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_1acfd92390e1047d56f07eed75d41364af" prot="protected" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* Canberra::Protocols::Lynx::SpectralDataList::_ListData</definition>
+        <argsstring></argsstring>
+        <name>_ListData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="29" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_1a24a5a47fb53a3969fc611e667a050d99" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Protocols::Lynx::SpectralDataList::SpectralDataList</definition>
+        <argsstring>(const SpectralDataList &amp;)</argsstring>
+        <name>SpectralDataList</name>
+        <param>
+          <type>const <ref refid="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list" kindref="compound">SpectralDataList</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_1acf82fa7dbf86906b400fbb189be0a19a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list" kindref="compound">SpectralDataList</ref> &amp;</type>
+        <definition>SpectralDataList&amp; Canberra::Protocols::Lynx::SpectralDataList::operator=</definition>
+        <argsstring>(const SpectralDataList &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list" kindref="compound">SpectralDataList</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="26" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_1a0db2ec92aad109a26d182631d7a4b327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Protocols::Lynx::SpectralDataList::SpectralDataList</definition>
+        <argsstring>()</argsstring>
+        <name>SpectralDataList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="31" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="69" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_a3e1c79e87f5262a94dde963cd0292509_1a3e1c79e87f5262a94dde963cd0292509" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Protocols::Lynx::SpectralDataList::~SpectralDataList</definition>
+        <argsstring>()</argsstring>
+        <name>~SpectralDataList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method clears the spectral data from the list /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="32" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_aab442905d6001018402dc21bfa33e0be_1aab442905d6001018402dc21bfa33e0be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d2/dbc/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectral_data" kindref="compound">Canberra::DataTypes::Spectroscopy::SpectralData</ref> *</type>
+        <definition>SpectralData * Canberra::Protocols::Lynx::SpectralDataList::GetData</definition>
+        <argsstring>(LONG i)</argsstring>
+        <name>GetData</name>
+        <param>
+          <type>LONG</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method gets number of items in the list /summary&gt; returns&gt;The size of the list</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="34" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="110" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_a2411e09b14b63fb95d898c82e96552e9_1a2411e09b14b63fb95d898c82e96552e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::SpectralDataList::GetSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will encrypt the supplied string /summary&gt; param name=&quot;v&quot;&gt;The string to encrypt</para><para>returns&gt;The encrypted string</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="35" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="123" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_aa4a5a2fe5aff247a3922ebe1ee3767c4_1aa4a5a2fe5aff247a3922ebe1ee3767c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Protocols::Lynx::SpectralDataList::Add</definition>
+        <argsstring>(Canberra::DataTypes::Spectroscopy::SpectralData *)</argsstring>
+        <name>Add</name>
+        <param>
+          <type><ref refid="d2/dbc/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectral_data" kindref="compound">Canberra::DataTypes::Spectroscopy::SpectralData</ref> *</type>
+          <defname>Data</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method gets spectral data from the list at the specified index. If the index is out of bounds NULL will be returned. /summary&gt; param name=&quot;i&quot;&gt;The index</para><para>returns&gt;The data</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="37" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="97" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_a2241de079482e6de9f1364579b1450e6_1a2241de079482e6de9f1364579b1450e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Protocols::Lynx::SpectralDataList::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method adds spectral data to the list /summary&gt; param name=&quot;Data&quot;&gt;The data to add</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="38" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.cpp" bodystart="83" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/Device.h" line="24" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Device.h" bodystart="24" bodyend="40"/>
+    <listofallmembers>
+      <member refid="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_1acfd92390e1047d56f07eed75d41364af" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::SpectralDataList</scope><name>_ListData</name></member>
+      <member refid="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_aa4a5a2fe5aff247a3922ebe1ee3767c4_1aa4a5a2fe5aff247a3922ebe1ee3767c4" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::SpectralDataList</scope><name>Add</name></member>
+      <member refid="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_a2241de079482e6de9f1364579b1450e6_1a2241de079482e6de9f1364579b1450e6" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::SpectralDataList</scope><name>Clear</name></member>
+      <member refid="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_aab442905d6001018402dc21bfa33e0be_1aab442905d6001018402dc21bfa33e0be" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::SpectralDataList</scope><name>GetData</name></member>
+      <member refid="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_a2411e09b14b63fb95d898c82e96552e9_1a2411e09b14b63fb95d898c82e96552e9" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::SpectralDataList</scope><name>GetSize</name></member>
+      <member refid="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_1acf82fa7dbf86906b400fbb189be0a19a" prot="private" virt="non-virtual"><scope>Canberra::Protocols::Lynx::SpectralDataList</scope><name>operator=</name></member>
+      <member refid="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_1a24a5a47fb53a3969fc611e667a050d99" prot="private" virt="non-virtual"><scope>Canberra::Protocols::Lynx::SpectralDataList</scope><name>SpectralDataList</name></member>
+      <member refid="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_1a0db2ec92aad109a26d182631d7a4b327" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::SpectralDataList</scope><name>SpectralDataList</name></member>
+      <member refid="d1/d48/class_canberra_1_1_protocols_1_1_lynx_1_1_spectral_data_list_a3e1c79e87f5262a94dde963cd0292509_1a3e1c79e87f5262a94dde963cd0292509" prot="public" virt="virtual"><scope>Canberra::Protocols::Lynx::SpectralDataList</scope><name>~SpectralDataList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

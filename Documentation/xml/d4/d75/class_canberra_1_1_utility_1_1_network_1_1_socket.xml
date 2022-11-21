@@ -1,0 +1,666 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Utility::Network::Socket</compoundname>
+    <derivedcompoundref refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket" prot="public" virt="non-virtual">Canberra::Utility::Network::TcpSocket</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a48200ceab8e7fcd652e0d730be417296" prot="protected" static="no" mutable="no">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Network::Socket::_Name</definition>
+        <argsstring></argsstring>
+        <name>_Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="81" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1ab2320fb84b2f96bac24afd8535c571fa" prot="protected" static="no" mutable="no">
+        <type>SOCKET</type>
+        <definition>SOCKET Canberra::Utility::Network::Socket::_Socket</definition>
+        <argsstring></argsstring>
+        <name>_Socket</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="82" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a178552d63dbbdccd9f67d04c82bc3b97" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Network::Socket::_Init</definition>
+        <argsstring></argsstring>
+        <name>_Init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="83" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a99ec7ac6e5174af0186e70b876fd07a8" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Network::Socket::_IsBlocking</definition>
+        <argsstring></argsstring>
+        <name>_IsBlocking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="84" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1aeb6cc1ee9330314f08263b4362bd5e2f" prot="protected" static="no" mutable="no">
+        <type>LONG</type>
+        <definition>LONG Canberra::Utility::Network::Socket::_Type</definition>
+        <argsstring></argsstring>
+        <name>_Type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="85" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a1663e6e2c53ae8256b36ef4bd1b0b7e0" prot="protected" static="no" mutable="no">
+        <type>LONG</type>
+        <definition>LONG Canberra::Utility::Network::Socket::_Protocol</definition>
+        <argsstring></argsstring>
+        <name>_Protocol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="86" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a29ce7fd0849fc2df8ef926f78559adbe" prot="protected" static="no" mutable="no">
+        <type><ref refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point" kindref="compound">EndPoint</ref></type>
+        <definition>EndPoint Canberra::Utility::Network::Socket::_EndPoint</definition>
+        <argsstring></argsstring>
+        <name>_EndPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="87" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a9a2bb293853c1bc61c0c674bbaaf40da" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Network::Socket::_IsBound</definition>
+        <argsstring></argsstring>
+        <name>_IsBound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="88" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a9695f61150f2b5548396368df042bec7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Network::Socket::Socket</definition>
+        <argsstring>(const Socket &amp;)</argsstring>
+        <name>Socket</name>
+        <param>
+          <type>const <ref refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket" kindref="compound">Socket</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a4a1f6e5bca76ea2cbd328852175831a1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket" kindref="compound">Socket</ref> &amp;</type>
+        <definition>Socket&amp; Canberra::Utility::Network::Socket::operator=</definition>
+        <argsstring>(const Socket &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket" kindref="compound">Socket</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="78" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a389aebe967a9895427c19e1e49a39951_1a389aebe967a9895427c19e1e49a39951" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Network::Socket::Socket</definition>
+        <argsstring>(const Canberra::Utility::Core::String &amp;Name)</argsstring>
+        <name>Socket</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>Name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This will shutdown, close, and cleanup the socket. it calls WSACleanup /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="90" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="172" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a2dfd33d9c2d7c22d9d753c961b9b4cec_1a2dfd33d9c2d7c22d9d753c961b9b4cec" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Utility::Network::Socket::~Socket</definition>
+        <argsstring>(void)</argsstring>
+        <name>~Socket</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get open state of the socket handle /summary&gt; returns&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="91" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="192" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a0a1f3b3a4f569a49eacaf41b9f6c4e02_1a0a1f3b3a4f569a49eacaf41b9f6c4e02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Network::Socket::Open</definition>
+        <argsstring>(EndPoint)</argsstring>
+        <name>Open</name>
+        <param>
+          <type><ref refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point" kindref="compound">EndPoint</ref></type>
+          <defname>EP</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will close the socket /summary&gt; returns&gt;Win32 code. 0==Sucess</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="95" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="236" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_aeeb878451ad2858353a03d7314a9e21a_1aeeb878451ad2858353a03d7314a9e21a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Network::Socket::Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will shutdown the socket /summary&gt; param name=&quot;Level&quot;&gt;The level of shutdown</para><para>returns&gt;Win32 code. 0==Sucess</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="98" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="270" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_ac0108800fa686483d5920a8b6ec7be61_1ac0108800fa686483d5920a8b6ec7be61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Network::Socket::IOControl</definition>
+        <argsstring>(LONG Cmd, ULONG *Args=NULL)</argsstring>
+        <name>IOControl</name>
+        <param>
+          <type>LONG</type>
+          <declname>Cmd</declname>
+        </param>
+        <param>
+          <type>ULONG *</type>
+          <declname>Args</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the socket handle /summary&gt; returns&gt;The socket handle</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="101" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="371" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a5909a3e5b2a91234dd38eed12733b906_1a5909a3e5b2a91234dd38eed12733b906" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Network::Socket::SetOption</definition>
+        <argsstring>(LONG Level, LONG Name, const char *Value, LONG ValLength)</argsstring>
+        <name>SetOption</name>
+        <param>
+          <type>LONG</type>
+          <declname>Level</declname>
+        </param>
+        <param>
+          <type>LONG</type>
+          <declname>Name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>Value</declname>
+        </param>
+        <param>
+          <type>LONG</type>
+          <declname>ValLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get the socket option /summary&gt; param name=&quot;Level&quot;&gt;The level</para><para>param name=&quot;Name&quot;&gt;The option name</para><para>param name=&quot;Value&quot;&gt;The option value</para><para>param name=&quot;ValLength&quot;&gt;The option value length (bytes)</para><para>returns&gt;Win32 code. 0==Sucess</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="104" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="321" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a461a6bdb1f66e4e1630d2d7b8243dc48_1a461a6bdb1f66e4e1630d2d7b8243dc48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Network::Socket::GetOption</definition>
+        <argsstring>(LONG Level, LONG Name, char *Value, LONG *ValLength)</argsstring>
+        <name>GetOption</name>
+        <param>
+          <type>LONG</type>
+          <declname>Level</declname>
+        </param>
+        <param>
+          <type>LONG</type>
+          <declname>Name</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>Value</declname>
+        </param>
+        <param>
+          <type>LONG *</type>
+          <declname>ValLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will set the IO control command for the socket /summary&gt; param name=&quot;Cmd&quot;&gt;The command</para><para>param name=&quot;Args&quot;&gt;The command args</para><para>returns&gt;Win32 code. 0==Sucess</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="107" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="345" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a95bcbcc02a2a066c7060d32aa0db24ff_1a95bcbcc02a2a066c7060d32aa0db24ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Utility::Network::Socket::Shutdown</definition>
+        <argsstring>(LONG Options=SD_BOTH)</argsstring>
+        <name>Shutdown</name>
+        <param>
+          <type>LONG</type>
+          <declname>Options</declname>
+          <defname>Level</defname>
+          <defval>SD_BOTH</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will set the socket option /summary&gt; param name=&quot;Level&quot;&gt;The level</para><para>param name=&quot;Name&quot;&gt;The option name</para><para>param name=&quot;Value&quot;&gt;The option value</para><para>param name=&quot;ValLength&quot;&gt;The option value length (bytes)</para><para>returns&gt;Win32 code. 0==Sucess</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="110" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="296" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_ace32db4f002b8c15c5b02ef539393909_1ace32db4f002b8c15c5b02ef539393909" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point" kindref="compound">EndPoint</ref> &amp;</type>
+        <definition>Canberra::Utility::Network::EndPoint &amp; Canberra::Utility::Network::Socket::GetAddress</definition>
+        <argsstring>()</argsstring>
+        <name>GetAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will set the protocol /summary&gt; param name=&quot;v&quot;&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="113" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="221" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_aeb44e9e2651d1285ee544746e46c16b1_1aeb44e9e2651d1285ee544746e46c16b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Network::Socket::PutAddress</definition>
+        <argsstring>(EndPoint &amp;EP)</argsstring>
+        <name>PutAddress</name>
+        <param>
+          <type><ref refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point" kindref="compound">EndPoint</ref> &amp;</type>
+          <declname>EP</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will open the socket /summary&gt; param name=&quot;EP&quot;&gt;The endpoint info</para><para>returns&gt;Win32 code. 0==Sucess</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="114" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="229" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a2e9ac3c2718818efc8a555104af88447_1a2e9ac3c2718818efc8a555104af88447" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Network::Socket::GetIsOpen</definition>
+        <argsstring>()</argsstring>
+        <name>GetIsOpen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get the name associated with this instance /summary&gt; returns&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="117" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="209" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_aaa2d5b626ffd5bea01b1b2adb53eb446_1aaa2d5b626ffd5bea01b1b2adb53eb446" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref></type>
+        <definition>Canberra::Utility::Core::String Canberra::Utility::Network::Socket::GetName</definition>
+        <argsstring>()</argsstring>
+        <name>GetName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get the socket address info /summary&gt; returns&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="120" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="215" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_adbd5500b2d1193695b5f537f913601e4_1adbd5500b2d1193695b5f537f913601e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SOCKET</type>
+        <definition>SOCKET Canberra::Utility::Network::Socket::GetHandle</definition>
+        <argsstring>()</argsstring>
+        <name>GetHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the socket handle /summary&gt; returns&gt;The socket handle</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="123" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="398" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_ae5de6f6855ad7428783fb30c2d1578ad_1ae5de6f6855ad7428783fb30c2d1578ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Network::Socket::operator SOCKET</definition>
+        <argsstring>()</argsstring>
+        <name>operator SOCKET</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return information indicating whether the socket is currently sending data /summary&gt; returns&gt;Send state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="126" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="404" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a4dc838625ea0d6292d664477cf6116e7_1a4dc838625ea0d6292d664477cf6116e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Network::Socket::GetIsSending</definition>
+        <argsstring>()</argsstring>
+        <name>GetIsSending</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return information indicating whether the socket is currently recv&apos;ing data /summary&gt; returns&gt;Recv state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="129" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="411" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a70799039186510f37c795c475c75cf48_1a70799039186510f37c795c475c75cf48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Network::Socket::GetIsReceiving</definition>
+        <argsstring>()</argsstring>
+        <name>GetIsReceiving</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the blocking state of the socket /summary&gt; returns&gt;Send state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="132" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="455" bodyend="450"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a2a09b5340ebe47c2f94331d181697be2_1a2a09b5340ebe47c2f94331d181697be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Network::Socket::GetIsBlocking</definition>
+        <argsstring>()</argsstring>
+        <name>GetIsBlocking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will set the blocking state of the socket /summary&gt; returns&gt;Send state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="135" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="497" bodyend="493"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_aa56e083937cdcc636c1e2c7ef41f3ec7_1aa56e083937cdcc636c1e2c7ef41f3ec7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Network::Socket::PutIsBlocking</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>PutIsBlocking</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the no delay state. Nagle algorithm enabled state /summary&gt; returns&gt;Send state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="136" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="503" bodyend="499"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_acea1b08155d9d26e7fa9d58607114c8f_1acea1b08155d9d26e7fa9d58607114c8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Network::Socket::GetNodelay</definition>
+        <argsstring>()</argsstring>
+        <name>GetNodelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will set the no delay state. Nagle algorithm enabled state /summary&gt; returns&gt;Send state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="139" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="523" bodyend="518"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_ab6bafdac29d876f6f903fd626d97ab41_1ab6bafdac29d876f6f903fd626d97ab41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Network::Socket::PutNodelay</definition>
+        <argsstring>(bool)</argsstring>
+        <name>PutNodelay</name>
+        <param>
+          <type>bool</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the keep alive state. /summary&gt; returns&gt;Send state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="140" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="535" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_abc8e2c926b5e61a08a8076fed2033058_1abc8e2c926b5e61a08a8076fed2033058" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Network::Socket::GetKeepAlive</definition>
+        <argsstring>()</argsstring>
+        <name>GetKeepAlive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will set the keep alive state. /summary&gt; returns&gt;Send state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="143" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="546" bodyend="542"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_ae977dbecee4bf6e6b9b098d1573a8240_1ae977dbecee4bf6e6b9b098d1573a8240" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Network::Socket::PutKeepAlive</definition>
+        <argsstring>(bool)</argsstring>
+        <name>PutKeepAlive</name>
+        <param>
+          <type>bool</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the receive buffer size /summary&gt; returns&gt;Send state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="144" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="557" bodyend="553"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a99152360e98453ea36c869992a7a7741_1a99152360e98453ea36c869992a7a7741" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LONG</type>
+        <definition>LONG Canberra::Utility::Network::Socket::GetReceiveBufferSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetReceiveBufferSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will set the receive buffer size /summary&gt; returns&gt;Send state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="147" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="568" bodyend="564"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a9016d41e4f15e378a09c87bffef29318_1a9016d41e4f15e378a09c87bffef29318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Network::Socket::PutReceiveBufferSize</definition>
+        <argsstring>(LONG)</argsstring>
+        <name>PutReceiveBufferSize</name>
+        <param>
+          <type>LONG</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the Send buffer size /summary&gt; returns&gt;Send state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="148" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="579" bodyend="575"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a1f7685d86280a534449da44a3250ff36_1a1f7685d86280a534449da44a3250ff36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LONG</type>
+        <definition>LONG Canberra::Utility::Network::Socket::GetSendBufferSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetSendBufferSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will set the Send buffer size /summary&gt; returns&gt;Send state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="151" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="590" bodyend="586"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_adc3914a12a78a90fcee455fc3c20c308_1adc3914a12a78a90fcee455fc3c20c308" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Utility::Network::Socket::PutSendBufferSize</definition>
+        <argsstring>(LONG)</argsstring>
+        <name>PutSendBufferSize</name>
+        <param>
+          <type>LONG</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the bind state /summary&gt; returns&gt;the state</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="152" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="601" bodyend="597"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1ad448f0f8ff8abaa82795cf663cf8db9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Network::Socket::GetIsBound</definition>
+        <argsstring>()</argsstring>
+        <name>GetIsBound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="155" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.cpp" bodystart="611" bodyend="611"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="473">
+        <label>Canberra::Utility::Network::Socket</label>
+        <link refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket"/>
+      </node>
+      <node id="474">
+        <label>Canberra::Utility::Network::TcpSocket</label>
+        <link refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket"/>
+        <childnode refid="473" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="475">
+        <label>Canberra::Utility::Network::TcpClient</label>
+        <link refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="476">
+        <label>Canberra::Utility::Network::Socket</label>
+        <link refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket"/>
+        <childnode refid="477" relation="usage">
+          <edgelabel>_EndPoint</edgelabel>
+        </childnode>
+        <childnode refid="478" relation="usage">
+          <edgelabel>_Name</edgelabel>
+        </childnode>
+      </node>
+      <node id="478">
+        <label>Canberra::Utility::Core::String</label>
+        <link refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string"/>
+      </node>
+      <node id="477">
+        <label>Canberra::Utility::Network::EndPoint</label>
+        <link refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point"/>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/Socket.h" line="76" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Socket.h" bodystart="75" bodyend="157"/>
+    <listofallmembers>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a29ce7fd0849fc2df8ef926f78559adbe" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>_EndPoint</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a178552d63dbbdccd9f67d04c82bc3b97" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>_Init</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a99ec7ac6e5174af0186e70b876fd07a8" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>_IsBlocking</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a9a2bb293853c1bc61c0c674bbaaf40da" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>_IsBound</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a48200ceab8e7fcd652e0d730be417296" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>_Name</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a1663e6e2c53ae8256b36ef4bd1b0b7e0" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>_Protocol</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1ab2320fb84b2f96bac24afd8535c571fa" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>_Socket</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1aeb6cc1ee9330314f08263b4362bd5e2f" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>_Type</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_aeeb878451ad2858353a03d7314a9e21a_1aeeb878451ad2858353a03d7314a9e21a" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>Close</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_ace32db4f002b8c15c5b02ef539393909_1ace32db4f002b8c15c5b02ef539393909" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>GetAddress</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_adbd5500b2d1193695b5f537f913601e4_1adbd5500b2d1193695b5f537f913601e4" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>GetHandle</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a2a09b5340ebe47c2f94331d181697be2_1a2a09b5340ebe47c2f94331d181697be2" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>GetIsBlocking</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1ad448f0f8ff8abaa82795cf663cf8db9b" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>GetIsBound</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a2e9ac3c2718818efc8a555104af88447_1a2e9ac3c2718818efc8a555104af88447" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>GetIsOpen</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a70799039186510f37c795c475c75cf48_1a70799039186510f37c795c475c75cf48" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>GetIsReceiving</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a4dc838625ea0d6292d664477cf6116e7_1a4dc838625ea0d6292d664477cf6116e7" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>GetIsSending</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_abc8e2c926b5e61a08a8076fed2033058_1abc8e2c926b5e61a08a8076fed2033058" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>GetKeepAlive</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_aaa2d5b626ffd5bea01b1b2adb53eb446_1aaa2d5b626ffd5bea01b1b2adb53eb446" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>GetName</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_acea1b08155d9d26e7fa9d58607114c8f_1acea1b08155d9d26e7fa9d58607114c8f" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>GetNodelay</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a461a6bdb1f66e4e1630d2d7b8243dc48_1a461a6bdb1f66e4e1630d2d7b8243dc48" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>GetOption</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a99152360e98453ea36c869992a7a7741_1a99152360e98453ea36c869992a7a7741" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>GetReceiveBufferSize</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a1f7685d86280a534449da44a3250ff36_1a1f7685d86280a534449da44a3250ff36" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>GetSendBufferSize</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_ac0108800fa686483d5920a8b6ec7be61_1ac0108800fa686483d5920a8b6ec7be61" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>IOControl</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a0a1f3b3a4f569a49eacaf41b9f6c4e02_1a0a1f3b3a4f569a49eacaf41b9f6c4e02" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>Open</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_ae5de6f6855ad7428783fb30c2d1578ad_1ae5de6f6855ad7428783fb30c2d1578ad" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>operator SOCKET</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a4a1f6e5bca76ea2cbd328852175831a1" prot="private" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>operator=</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_aeb44e9e2651d1285ee544746e46c16b1_1aeb44e9e2651d1285ee544746e46c16b1" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>PutAddress</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_aa56e083937cdcc636c1e2c7ef41f3ec7_1aa56e083937cdcc636c1e2c7ef41f3ec7" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>PutIsBlocking</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_ae977dbecee4bf6e6b9b098d1573a8240_1ae977dbecee4bf6e6b9b098d1573a8240" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>PutKeepAlive</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_ab6bafdac29d876f6f903fd626d97ab41_1ab6bafdac29d876f6f903fd626d97ab41" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>PutNodelay</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a9016d41e4f15e378a09c87bffef29318_1a9016d41e4f15e378a09c87bffef29318" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>PutReceiveBufferSize</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_adc3914a12a78a90fcee455fc3c20c308_1adc3914a12a78a90fcee455fc3c20c308" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>PutSendBufferSize</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a5909a3e5b2a91234dd38eed12733b906_1a5909a3e5b2a91234dd38eed12733b906" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>SetOption</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a95bcbcc02a2a066c7060d32aa0db24ff_1a95bcbcc02a2a066c7060d32aa0db24ff" prot="public" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>Shutdown</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_1a9695f61150f2b5548396368df042bec7" prot="private" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>Socket</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a389aebe967a9895427c19e1e49a39951_1a389aebe967a9895427c19e1e49a39951" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Network::Socket</scope><name>Socket</name></member>
+      <member refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket_a2dfd33d9c2d7c22d9d753c961b9b4cec_1a2dfd33d9c2d7c22d9d753c961b9b4cec" prot="protected" virt="virtual"><scope>Canberra::Utility::Network::Socket</scope><name>~Socket</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

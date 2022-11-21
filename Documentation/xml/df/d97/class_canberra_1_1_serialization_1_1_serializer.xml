@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="df/d97/class_canberra_1_1_serialization_1_1_serializer" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Serialization::Serializer</compoundname>
+    <derivedcompoundref refid="da/dbc/class_canberra_1_1_data_types_1_1_serialization_1_1_application_serializer" prot="public" virt="non-virtual">Canberra::DataTypes::Serialization::ApplicationSerializer</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d97/class_canberra_1_1_serialization_1_1_serializer_1ac775b24bf79f1cad2ebba961d4da3931" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Serialization::Serializer::Serializer</definition>
+        <argsstring>()</argsstring>
+        <name>Serializer</name>
+        <briefdescription>
+<para>This method will initialize this instance. This class is a utility class used to serialize native data types /summary&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Serializer.h" line="14" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Serializer.cpp" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d97/class_canberra_1_1_serialization_1_1_serializer_a13373231647e48d72dc5403a096882e1_1a13373231647e48d72dc5403a096882e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Serialization::Serializer::~Serializer</definition>
+        <argsstring>()</argsstring>
+        <name>~Serializer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will serialize the application data type into the stream. /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;Offset&quot;&gt;The offset to start reading the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Serializer.h" line="15" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Serializer.cpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d97/class_canberra_1_1_serialization_1_1_serializer_af6bce5a6f7a663d86cb305ef34a5c631_1af6bce5a6f7a663d86cb305ef34a5c631" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Canberra::Serialization::Serializer::Serialize</definition>
+        <argsstring>(SerializableObject *Data, Canberra::Utility::Core::ByteStream &amp;Str, const LONG Offset=0)</argsstring>
+        <name>Serialize</name>
+        <reimplementedby refid="da/dbc/class_canberra_1_1_data_types_1_1_serialization_1_1_application_serializer_aa0e18d74f0a1fad87295808182febf52_1aa0e18d74f0a1fad87295808182febf52">Serialize</reimplementedby>
+        <param>
+          <type><ref refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object" kindref="compound">SerializableObject</ref> *</type>
+          <declname>Data</declname>
+        </param>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will deserialize the message and extract the data from it. The data type contained in the message is created and returned to the caller. The caller is responsible for releasing this memory /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>returns&gt;The deserialized data</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Serializer.h" line="16" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Serializer.cpp" bodystart="21" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d97/class_canberra_1_1_serialization_1_1_serializer_1a38baa292cbe6b8d2e043b5d84e9f9b8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object" kindref="compound">SerializableObject</ref> *</type>
+        <definition>Canberra::Serialization::SerializableObject * Canberra::Serialization::Serializer::Deserialize</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const LONG Offset=0)</argsstring>
+        <name>Deserialize</name>
+        <reimplementedby refid="da/dbc/class_canberra_1_1_data_types_1_1_serialization_1_1_application_serializer_1a622b24eba826b2ef7190f235c6eec303">Deserialize</reimplementedby>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Serializer.h" line="17" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Serializer.cpp" bodystart="35" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="463">
+        <label>Canberra::DataTypes::Serialization::ApplicationSerializer</label>
+        <link refid="da/dbc/class_canberra_1_1_data_types_1_1_serialization_1_1_application_serializer"/>
+        <childnode refid="462" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="462">
+        <label>Canberra::Serialization::Serializer</label>
+        <link refid="df/d97/class_canberra_1_1_serialization_1_1_serializer"/>
+      </node>
+    </inheritancegraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/Serializer.h" line="12" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Serializer.h" bodystart="12" bodyend="18"/>
+    <listofallmembers>
+      <member refid="df/d97/class_canberra_1_1_serialization_1_1_serializer_1a38baa292cbe6b8d2e043b5d84e9f9b8f" prot="public" virt="virtual"><scope>Canberra::Serialization::Serializer</scope><name>Deserialize</name></member>
+      <member refid="df/d97/class_canberra_1_1_serialization_1_1_serializer_af6bce5a6f7a663d86cb305ef34a5c631_1af6bce5a6f7a663d86cb305ef34a5c631" prot="public" virt="virtual"><scope>Canberra::Serialization::Serializer</scope><name>Serialize</name></member>
+      <member refid="df/d97/class_canberra_1_1_serialization_1_1_serializer_1ac775b24bf79f1cad2ebba961d4da3931" prot="public" virt="non-virtual"><scope>Canberra::Serialization::Serializer</scope><name>Serializer</name></member>
+      <member refid="df/d97/class_canberra_1_1_serialization_1_1_serializer_a13373231647e48d72dc5403a096882e1_1a13373231647e48d72dc5403a096882e1" prot="public" virt="virtual"><scope>Canberra::Serialization::Serializer</scope><name>~Serializer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

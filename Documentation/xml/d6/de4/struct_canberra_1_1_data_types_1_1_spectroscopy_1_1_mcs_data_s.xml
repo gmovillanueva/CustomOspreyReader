@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d6/de4/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_s" kind="struct" language="C++" prot="public">
+    <compoundname>Canberra::DataTypes::Spectroscopy::McsDataS</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d6/de4/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_s_1a028cba779f5a5a694c86bc1588fd82e2" prot="public" static="no" mutable="no">
+        <type>LONGLONG</type>
+        <definition>LONGLONG Canberra::DataTypes::Spectroscopy::McsDataS::Dwell</definition>
+        <argsstring></argsstring>
+        <name>Dwell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/McsData.h" line="13" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/McsData.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/de4/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_s_1a7e4a45274d6a6bb3ecce1e4be6f8e483" prot="public" static="no" mutable="no">
+        <type>LONGLONG</type>
+        <definition>LONGLONG Canberra::DataTypes::Spectroscopy::McsDataS::Sweeps</definition>
+        <argsstring></argsstring>
+        <name>Sweeps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/McsData.h" line="14" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/McsData.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/McsData.h" line="12" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/McsData.h" bodystart="12" bodyend="15"/>
+    <listofallmembers>
+      <member refid="d6/de4/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_s_1a028cba779f5a5a694c86bc1588fd82e2" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::McsDataS</scope><name>Dwell</name></member>
+      <member refid="d6/de4/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_mcs_data_s_1a7e4a45274d6a6bb3ecce1e4be6f8e483" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::McsDataS</scope><name>Sweeps</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::DataTypes::Spectroscopy::SCAdefinitions</compoundname>
+    <basecompoundref refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object" prot="public" virt="non-virtual">Canberra::Serialization::SerializableObject</basecompoundref>
+    <includes refid="df/d3b/_sca_data_8h" local="no">ScaData.h</includes>
+    <innerclass refid="de/d00/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_1_1_definition_tag" prot="public">Canberra::DataTypes::Spectroscopy::SCAdefinitions::DefinitionTag</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_1a2b94cbdc6597ecfed4bb4c3ee8ba13eb" prot="public" static="no">
+        <type>struct <ref refid="de/d00/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_1_1_definition_tag" kindref="compound">Canberra::DataTypes::Spectroscopy::SCAdefinitions::DefinitionTag</ref></type>
+        <definition>typedef struct Canberra::DataTypes::Spectroscopy::SCAdefinitions::DefinitionTag  Canberra::DataTypes::Spectroscopy::SCAdefinitions::Definition</definition>
+        <argsstring></argsstring>
+        <name>Definition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="22" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_1a6db09d05ddd00325d10e4c4a43e3a51d" prot="protected" static="no" mutable="no">
+        <type><ref refid="d1/d22/class_canberra_1_1_utility_1_1_core_1_1_serializable_list" kindref="compound">Canberra::Utility::Core::SerializableList</ref>&lt; <ref refid="de/d00/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_1_1_definition_tag" kindref="compound">Definition</ref> &gt;</type>
+        <definition>Canberra::Utility::Core::SerializableList&lt;Definition&gt; Canberra::DataTypes::Spectroscopy::SCAdefinitions::_Data</definition>
+        <argsstring></argsstring>
+        <name>_Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="28" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_ac1923823c47c1cfd5056df726a1aa472_1ac1923823c47c1cfd5056df726a1aa472" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Spectroscopy::SCAdefinitions::Copy</definition>
+        <argsstring>(const SCAdefinitions &amp;v)</argsstring>
+        <name>Copy</name>
+        <param>
+          <type>const <ref refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions" kindref="compound">SCAdefinitions</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>This method will perform a deep copy /summary&gt; param name=&quot;v&quot;&gt;The src</para>        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will create an instance of this class based on the supplied instance. A deep copy of the argument is performed /summary&gt; param name=&quot;v&quot;&gt;The src</para><para>exception cref=&quot;ULONG&quot;&gt;Error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="29" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a693837c5c11189a04ac4ddd7800f54e6_1a693837c5c11189a04ac4ddd7800f54e6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Spectroscopy::SCAdefinitions::HandleEndianness</definition>
+        <argsstring>()</argsstring>
+        <name>HandleEndianness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will serialize this instance into the byte stream /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the write in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes serialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="30" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a3aa68a5091ef949b85009471fd746d12_1a3aa68a5091ef949b85009471fd746d12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Spectroscopy::SCAdefinitions::SCAdefinitions</definition>
+        <argsstring>(const SCAdefinitions &amp;v)</argsstring>
+        <name>SCAdefinitions</name>
+        <param>
+          <type>const <ref refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions" kindref="compound">SCAdefinitions</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will create an instance of this class with no SCA definitions /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="33" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="18" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a5e9b60adc6a7e555f06105c72a800c84_1a5e9b60adc6a7e555f06105c72a800c84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Spectroscopy::SCAdefinitions::SCAdefinitions</definition>
+        <argsstring>()</argsstring>
+        <name>SCAdefinitions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will create an instance of this class with no SCA definitions /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="34" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="24" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a04ba6cd57bb7abe6af4fc2d8d615768d_1a04ba6cd57bb7abe6af4fc2d8d615768d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Spectroscopy::SCAdefinitions::~SCAdefinitions</definition>
+        <argsstring>()</argsstring>
+        <name>~SCAdefinitions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will perform a deep copy /summary&gt; param name=&quot;v&quot;&gt;The src</para><para>exception cref=&quot;ULONG&quot;&gt;Error code</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="35" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="30" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a5b8c683b55723490051f7d1543d0626e_1a5b8c683b55723490051f7d1543d0626e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions" kindref="compound">SCAdefinitions</ref> &amp;</type>
+        <definition>Canberra::DataTypes::Spectroscopy::SCAdefinitions &amp; Canberra::DataTypes::Spectroscopy::SCAdefinitions::operator=</definition>
+        <argsstring>(const SCAdefinitions &amp;Rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions" kindref="compound">SCAdefinitions</ref> &amp;</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the number of bytes the data contained within uses /summary&gt; returns&gt;The number of bytes serialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="38" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="37" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_1a368e72df8b3ad470c71d502547c4f0c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::SCAdefinitions::GetDataSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetDataSize</name>
+        <reimplements refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1aeea4076233d10b8d485e474e47455e36">GetDataSize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="41" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a6313646516bbf922f990c2d90b4166a3_1a6313646516bbf922f990c2d90b4166a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::SCAdefinitions::SerializeData</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const Canberra::Serialization::MetaData &amp;MD, const LONG Offset=0)</argsstring>
+        <name>SerializeData</name>
+        <reimplements refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1ad53b676c25c6fdf48aa861b36709eba4">SerializeData</reimplements>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data" kindref="compound">Canberra::Serialization::MetaData</ref> &amp;</type>
+          <declname>MD</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will deserialize this instance from the byte stream /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the write in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes deserialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="42" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="61" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_af88eb264ae9d582a9e9fc77d91938308_1af88eb264ae9d582a9e9fc77d91938308" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::SCAdefinitions::DeserializeData</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const Canberra::Serialization::MetaData &amp;MD, const LONG Offset=0)</argsstring>
+        <name>DeserializeData</name>
+        <reimplements refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1aea035ce63d01acfb02185016fb648ece">DeserializeData</reimplements>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data" kindref="compound">Canberra::Serialization::MetaData</ref> &amp;</type>
+          <declname>MD</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will add a definition to the list /summary&gt; param name=&quot;v&quot;&gt;The definition</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes deserialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="43" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="75" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_ac63b7209e56a1d255af8f6fe2a8f41de_1ac63b7209e56a1d255af8f6fe2a8f41de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::SCAdefinitions::Add</definition>
+        <argsstring>(const Definition &amp;v)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>const <ref refid="de/d00/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_1_1_definition_tag" kindref="compound">Definition</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will clear all defs /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="46" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="87" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a4367fc0b1f01840fec0551aac2dfd339_1a4367fc0b1f01840fec0551aac2dfd339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Spectroscopy::SCAdefinitions::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the # defs /summary&gt; returns&gt;The number of definitions</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="49" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="92" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a2accbcce38d522bd52d87067cfaa184d_1a2accbcce38d522bd52d87067cfaa184d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="de/d00/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_1_1_definition_tag" kindref="compound">Definition</ref> &amp;</type>
+        <definition>Canberra::DataTypes::Spectroscopy::SCAdefinitions::Definition &amp; Canberra::DataTypes::Spectroscopy::SCAdefinitions::GetDefinition</definition>
+        <argsstring>(ULONG i)</argsstring>
+        <name>GetDefinition</name>
+        <param>
+          <type>ULONG</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will perform a deep copy /summary&gt; param name=&quot;v&quot;&gt;The src</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="52" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="106" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a4c59b1485f3d8c1884a8e3dacd6d37b0_1a4c59b1485f3d8c1884a8e3dacd6d37b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::SCAdefinitions::GetNumberOfDefinitions</definition>
+        <argsstring>()</argsstring>
+        <name>GetNumberOfDefinitions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will get a reference to the definition /summary&gt; param name=&quot;v&quot;&gt;The index</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes deserialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="55" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.cpp" bodystart="98" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class encapsulates all SCA definitions. An SCA definition contains the values for the LLD and ULD of the SCA. /summary&gt; </para>    </briefdescription>
+    <detaileddescription>
+<para>summary&gt; This class encapsulates all SCA data associated within a time period of a SCA acquisition. /summary&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="354">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="353">
+        <label>Canberra::Serialization::SerializableObject</label>
+        <link refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object"/>
+        <childnode refid="354" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="352">
+        <label>Canberra::DataTypes::Spectroscopy::SCAdefinitions</label>
+        <link refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions"/>
+        <childnode refid="353" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="359">
+        <label>Canberra::Utility::Core::SerializableListBase&lt; Canberra::DataTypes::Spectroscopy::SCAdefinitions::DefinitionTag, LONG &gt;</label>
+        <link refid="de/d13/class_canberra_1_1_utility_1_1_core_1_1_serializable_list_base"/>
+        <childnode refid="360" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="357">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="358">
+        <label>Canberra::Utility::Core::SerializableList&lt; Canberra::DataTypes::Spectroscopy::SCAdefinitions::DefinitionTag &gt;</label>
+        <link refid="d1/d22/class_canberra_1_1_utility_1_1_core_1_1_serializable_list"/>
+        <childnode refid="359" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="360">
+        <label>Canberra::Utility::Core::ListBase&lt; Canberra::DataTypes::Spectroscopy::SCAdefinitions::DefinitionTag, LONG &gt;</label>
+        <link refid="d9/d6e/class_canberra_1_1_utility_1_1_core_1_1_list_base"/>
+        <childnode refid="361" relation="usage">
+          <edgelabel>_List</edgelabel>
+        </childnode>
+      </node>
+      <node id="361">
+        <label>Canberra::DataTypes::Spectroscopy::SCAdefinitions::DefinitionTag</label>
+        <link refid="de/d00/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_1_1_definition_tag"/>
+      </node>
+      <node id="356">
+        <label>Canberra::Serialization::SerializableObject</label>
+        <link refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object"/>
+        <childnode refid="357" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="355">
+        <label>Canberra::DataTypes::Spectroscopy::SCAdefinitions</label>
+        <link refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions"/>
+        <childnode refid="356" relation="public-inheritance">
+        </childnode>
+        <childnode refid="358" relation="usage">
+          <edgelabel>_Data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="14" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.h" bodystart="14" bodyend="56"/>
+    <listofallmembers>
+      <member refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_1a6db09d05ddd00325d10e4c4a43e3a51d" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>_Data</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a62efa0d30e9df187718f2832622ac9fc" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>_Type</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a4821112683d68c98c1522d75f186fb21" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>_UseMetaData</name></member>
+      <member refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_ac63b7209e56a1d255af8f6fe2a8f41de_1ac63b7209e56a1d255af8f6fe2a8f41de" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Add</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a42d74858b0cea8269da2b35ccd5cb1ff" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Array</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a13dfc3b38fa4101b58ed1e111954a696" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Blob</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a3810fac464221c267d15ac677b734ec9" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Bool</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aa3a10ebe6b68339ed5c951d1cd63323b" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Byte</name></member>
+      <member refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a4367fc0b1f01840fec0551aac2dfd339_1a4367fc0b1f01840fec0551aac2dfd339" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Clear</name></member>
+      <member refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_ac1923823c47c1cfd5056df726a1aa472_1ac1923823c47c1cfd5056df726a1aa472" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Copy</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ab559832d01dfcf5ec9d13560b03c05fe" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>CustomTypeOffset</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aea4d059479031ecb9556cb06274f398e" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>DateTime</name></member>
+      <member refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_1a2b94cbdc6597ecfed4bb4c3ee8ba13eb" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Definition</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a430c3ea76c8389e480d48a97ff2df2d0" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Deserialize</name></member>
+      <member refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_af88eb264ae9d582a9e9fc77d91938308_1af88eb264ae9d582a9e9fc77d91938308" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>DeserializeData</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ab41926d1cfcca9c142c69707c2f202c0" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Double</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a92fcae28fd44acf6ee83b77f8813df55" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Float</name></member>
+      <member refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_1a368e72df8b3ad470c71d502547c4f0c5" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>GetDataSize</name></member>
+      <member refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a2accbcce38d522bd52d87067cfaa184d_1a2accbcce38d522bd52d87067cfaa184d" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>GetDefinition</name></member>
+      <member refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a4c59b1485f3d8c1884a8e3dacd6d37b0_1a4c59b1485f3d8c1884a8e3dacd6d37b0" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>GetNumberOfDefinitions</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_a1af5a56d77422d2d6f56d1fb8bc9f376_1a1af5a56d77422d2d6f56d1fb8bc9f376" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>GetSize</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1ab619feca491ffd7547c45f0ec6dcfe0b" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>GetType</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1aba841e892df8481bd3fdca757e6f10d4" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>GetUseMetaData</name></member>
+      <member refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a693837c5c11189a04ac4ddd7800f54e6_1a693837c5c11189a04ac4ddd7800f54e6" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>HandleEndianness</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430af31a37f97d6cbec3e2439cf0b9f0efee" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Int64</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aff35725740fbbbbb5495460560c13d54" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Long</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a6c938a0fc1bf14041406d0a6df5da2b3" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Null</name></member>
+      <member refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a5b8c683b55723490051f7d1543d0626e_1a5b8c683b55723490051f7d1543d0626e" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>operator=</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a3fd4cc1bf197d9367f49b76c71582058" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>PutUseMetaData</name></member>
+      <member refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a3aa68a5091ef949b85009471fd746d12_1a3aa68a5091ef949b85009471fd746d12" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>SCAdefinitions</name></member>
+      <member refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a5e9b60adc6a7e555f06105c72a800c84_1a5e9b60adc6a7e555f06105c72a800c84" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>SCAdefinitions</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1a38579cdd4f2e813e7b0cca54e1b09529" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Serializable</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a0ef0ea4e4e766e15086f54ebb05744cd" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>SerializableObject</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_a33e593c04b50f36e8dad06b3b7471a9c_1a33e593c04b50f36e8dad06b3b7471a9c" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Serialize</name></member>
+      <member refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a6313646516bbf922f990c2d90b4166a3_1a6313646516bbf922f990c2d90b4166a3" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>SerializeData</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a583b6f9cb2b9d3e17b4886d87bdedc58" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Short</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a38fdc153d55d83bc2e228ae8a3ed7245" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>String</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a163e11a5f23b834ce8544f494084045e" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>TypeCode</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>TypeCodeTag</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430af81c78c9fb7d47514b6d549e17acbfd1" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Ubyte</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ad366730d966138edb3d1ab0dd5da08e6" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Uint64</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a2755dd9dd281c902476f2295855ee571" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Ulong</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430abfc7ae0d0aa2c1d6386055cdcbdb0d76" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Unknown</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a92cba09c4c79914db36ac8c31aea8d63" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>Ushort</name></member>
+      <member refid="da/dba/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_adefinitions_a04ba6cd57bb7abe6af4fc2d8d615768d_1a04ba6cd57bb7abe6af4fc2d8d615768d" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>~SCAdefinitions</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1ac760495914b0d7047d1dcbd3fed642d4" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>~Serializable</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a72f15771099cf139f28e839e480d0721" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAdefinitions</scope><name>~SerializableObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

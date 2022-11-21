@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BA0B6A65-8638-48E8-91AE-6F7D664F5AA0}</ProjectGuid>
+    <RootNamespace>Lynx_Lib</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.26919.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" ..\BuildOutput\Libs\Debug
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" ..\BuildOutput\Libs
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ApplicationSerializer.cpp" />
+    <ClCompile Include="ByteStream.cpp" />
+    <ClCompile Include="CommandData.cpp" />
+    <ClCompile Include="CounterData.cpp" />
+    <ClCompile Include="Crc32.cpp" />
+    <ClCompile Include="CriticalSection.cpp" />
+    <ClCompile Include="Debug.cpp" />
+    <ClCompile Include="Device.cpp" />
+    <ClCompile Include="DigitalSignature.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="LockManager.cpp" />
+    <ClCompile Include="MessageFactory.cpp" />
+    <ClCompile Include="MessageHeader.cpp" />
+    <ClCompile Include="MetaData.cpp" />
+    <ClCompile Include="ndldiffc.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Parameter.cpp" />
+    <ClCompile Include="ParameterMetaData.cpp" />
+    <ClCompile Include="RegionOfInterest.cpp" />
+    <ClCompile Include="ScaData.cpp" />
+    <ClCompile Include="SerializableObject.cpp" />
+    <ClCompile Include="Serializer.cpp" />
+    <ClCompile Include="Socket.cpp" />
+    <ClCompile Include="SpectralData.cpp" />
+    <ClCompile Include="Spectrum.cpp" />
+    <ClCompile Include="StateOfHealth.cpp" />
+    <ClCompile Include="StreamChannel.cpp" />
+    <ClCompile Include="String.cpp" />
+    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="TcpClient.cpp" />
+    <ClCompile Include="TcpSocket.cpp" />
+    <ClCompile Include="Thread.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="Variant.cpp" />
+    <ClCompile Include="VariantArray.cpp" />
+    <ClCompile Include="VariantSerializer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ApplicationSerializer.h" />
+    <ClInclude Include="ByteStream.h" />
+    <ClInclude Include="ChannelSettings.h" />
+    <ClInclude Include="CommandCodes.h" />
+    <ClInclude Include="CommandData.h" />
+    <ClInclude Include="CommunicationsImpExp.h" />
+    <ClInclude Include="CounterData.h" />
+    <ClInclude Include="Crc32.h" />
+    <ClInclude Include="CriticalSection.h" />
+    <ClInclude Include="DataTypesImpExp.h" />
+    <ClInclude Include="DebugMacros.h" />
+    <ClInclude Include="Device.h" />
+    <ClInclude Include="Diagnostics.h" />
+    <ClInclude Include="DigitalSignature.h" />
+    <ClInclude Include="DlfcData.h" />
+    <ClInclude Include="endianUtils.h" />
+    <ClInclude Include="errorCodes.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="list.h" />
+    <ClInclude Include="ListData.h" />
+    <ClInclude Include="LockManager.h" />
+    <ClInclude Include="McsData.h" />
+    <ClInclude Include="MessageFactory.h" />
+    <ClInclude Include="MessageHeader.h" />
+    <ClInclude Include="MetaData.h" />
+    <ClInclude Include="NetworkImpExp.h" />
+    <ClInclude Include="Parameter.h" />
+    <ClInclude Include="ParameterAttributes.h" />
+    <ClInclude Include="ParameterCodes.h" />
+    <ClInclude Include="ParameterMetaData.h" />
+    <ClInclude Include="ParameterValueTypes.h" />
+    <ClInclude Include="pbsmsgs_h.h" />
+    <ClInclude Include="PhaData.h" />
+    <ClInclude Include="platformTypes.h" />
+    <ClInclude Include="PresetModes.h" />
+    <ClInclude Include="RegionOfInterest.h" />
+    <ClInclude Include="ScaData.h" />
+    <ClInclude Include="Serializable.h" />
+    <ClInclude Include="SerializableObject.h" />
+    <ClInclude Include="SerializableObjectCodes.h" />
+    <ClInclude Include="SerializableType.h" />
+    <ClInclude Include="SerializationImpExp.h" />
+    <ClInclude Include="Serializer.h" />
+    <ClInclude Include="Socket.h" />
+    <ClInclude Include="SpectralData.h" />
+    <ClInclude Include="Spectrum.h" />
+    <ClInclude Include="StateOfHealth.h" />
+    <ClInclude Include="StatusBits.h" />
+    <ClInclude Include="StreamChannel.h" />
+    <ClInclude Include="SyncObject.h" />
+    <ClInclude Include="Task.h" />
+    <ClInclude Include="TcpClient.h" />
+    <ClInclude Include="TcpSocket.h" />
+    <ClInclude Include="UtilityDebug.h" />
+    <ClInclude Include="UtilityImpExp.h" />
+    <ClInclude Include="UtilityString.h" />
+    <ClInclude Include="UtilityThread.h" />
+    <ClInclude Include="UtilityTime.h" />
+    <ClInclude Include="Variant.h" />
+    <ClInclude Include="VariantArray.h" />
+    <ClInclude Include="VariantSerializer.h" />
+    <ClInclude Include="winerror.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

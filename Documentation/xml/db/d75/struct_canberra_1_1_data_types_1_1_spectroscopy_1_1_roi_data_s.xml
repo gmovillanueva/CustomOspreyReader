@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="db/d75/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_roi_data_s" kind="struct" language="C++" prot="public">
+    <compoundname>Canberra::DataTypes::Spectroscopy::RoiDataS</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="db/d75/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_roi_data_s_1a2d54d64ae10d634f6b76768c9d9ad3c9" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::RoiDataS::Start</definition>
+        <argsstring></argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="16" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d75/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_roi_data_s_1a6814b69aa695705bd040fd061062d47f" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::RoiDataS::End</definition>
+        <argsstring></argsstring>
+        <name>End</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="17" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d75/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_roi_data_s_1a4e5d3f5194205d37aebd490240ae1a1d" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::RoiDataS::Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="18" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="15" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" bodystart="15" bodyend="19"/>
+    <listofallmembers>
+      <member refid="db/d75/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_roi_data_s_1a6814b69aa695705bd040fd061062d47f" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RoiDataS</scope><name>End</name></member>
+      <member refid="db/d75/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_roi_data_s_1a2d54d64ae10d634f6b76768c9d9ad3c9" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RoiDataS</scope><name>Start</name></member>
+      <member refid="db/d75/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_roi_data_s_1a4e5d3f5194205d37aebd490240ae1a1d" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RoiDataS</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

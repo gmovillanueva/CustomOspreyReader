@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d3/dfd/struct_m_a_p_p_i_n_g" kind="struct" language="C++" prot="public">
+    <compoundname>MAPPING</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/dfd/struct_m_a_p_p_i_n_g_1a605d0869c15d3ea6ef8db4675183e0e7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MAPPING::fTime</definition>
+        <argsstring></argsstring>
+        <name>fTime</name>
+        <briefdescription>
+<para>Time in seconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/main.cpp" line="30" column="1" bodyfile="Project1/main.cpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/dfd/struct_m_a_p_p_i_n_g_1a61e51da6902d216a44246400c331c988" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MAPPING::ospreyChannels[25]</definition>
+        <argsstring>[25]</argsstring>
+        <name>ospreyChannels</name>
+        <briefdescription>
+<para>Total channels for 5 ospreys. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/main.cpp" line="32" column="1" bodyfile="Project1/main.cpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Structure initializing information for memory mapping. </para>    </detaileddescription>
+    <location file="Project1/main.cpp" line="28" column="1" bodyfile="Project1/main.cpp" bodystart="27" bodyend="33"/>
+    <listofallmembers>
+      <member refid="d3/dfd/struct_m_a_p_p_i_n_g_1a605d0869c15d3ea6ef8db4675183e0e7" prot="public" virt="non-virtual"><scope>MAPPING</scope><name>fTime</name></member>
+      <member refid="d3/dfd/struct_m_a_p_p_i_n_g_1a61e51da6902d216a44246400c331c988" prot="public" virt="non-virtual"><scope>MAPPING</scope><name>ospreyChannels</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

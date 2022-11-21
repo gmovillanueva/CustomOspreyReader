@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="de/dd8/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1_1_s_c_adata_tag" kind="struct" language="C++" prot="public">
+    <compoundname>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::SCAdataTag</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="de/dd8/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1_1_s_c_adata_tag_1a59445cecc168c462e3106a90f70da5df" prot="public" static="no" mutable="no">
+        <type>DWORD</type>
+        <definition>DWORD Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::SCAdataTag::Counter</definition>
+        <argsstring></argsstring>
+        <name>Counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="84" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/dd8/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1_1_s_c_adata_tag_1ae0ab63937642746afcfc98a916a5f58f" prot="public" static="no" mutable="no">
+        <type>DWORD</type>
+        <definition>DWORD Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::SCAdataTag::Flags</definition>
+        <argsstring></argsstring>
+        <name>Flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="85" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/ScaData.h" line="83" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ScaData.h" bodystart="83" bodyend="86"/>
+    <listofallmembers>
+      <member refid="de/dd8/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1_1_s_c_adata_tag_1a59445cecc168c462e3106a90f70da5df" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::SCAdataTag</scope><name>Counter</name></member>
+      <member refid="de/dd8/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1_1_s_c_adata_tag_1ae0ab63937642746afcfc98a916a5f58f" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::SCAbuffer::BufferEntry::SCAdataTag</scope><name>Flags</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

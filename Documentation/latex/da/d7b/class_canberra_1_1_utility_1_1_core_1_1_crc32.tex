@@ -1,0 +1,130 @@
+\hypertarget{class_canberra_1_1_utility_1_1_core_1_1_crc32}{}\section{Canberra\+:\+:Utility\+:\+:Core\+:\+:Crc32 Class Reference}
+\label{class_canberra_1_1_utility_1_1_core_1_1_crc32}\index{Canberra\+::\+Utility\+::\+Core\+::\+Crc32@{Canberra\+::\+Utility\+::\+Core\+::\+Crc32}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_crc32_af4ac452fe8aa650741a10262535197e3}\label{class_canberra_1_1_utility_1_1_core_1_1_crc32_af4ac452fe8aa650741a10262535197e3}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_crc32_af4ac452fe8aa650741a10262535197e3}{Crc32} (void)
+\begin{DoxyCompactList}\small\item\em This is the constructor for this instance. It will compute the table on the very first object instantiation /summary$>$ \end{DoxyCompactList}\item 
+virtual \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_crc32_ab7c891d5761030db006e9d888a256fbd_ab7c891d5761030db006e9d888a256fbd}{$\sim$\+Crc32} (void)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_crc32_a7d109ce8e1198e26cd353da8e9a9dd62}\label{class_canberra_1_1_utility_1_1_core_1_1_crc32_a7d109ce8e1198e26cd353da8e9a9dd62}} 
+void {\bfseries Reset} ()
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_crc32_a35635a2cd95023d7b01ccb9133361c23_a35635a2cd95023d7b01ccb9133361c23}{Update} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Byte\+Stream} \&BS, L\+O\+NG Offset=0)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_crc32_a06b897033aec857f2f821ba48668b8e1_a06b897033aec857f2f821ba48668b8e1}{Update} (const char $\ast$const Buf, L\+O\+NG Size)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_crc32_a292c0cafe7d61d1c51696517ba08ac39}\label{class_canberra_1_1_utility_1_1_core_1_1_crc32_a292c0cafe7d61d1c51696517ba08ac39}} 
+U\+L\+O\+NG {\bfseries Get\+Value} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_crc32_ad523792effe2750bc5aa6c8df262f4c7_ad523792effe2750bc5aa6c8df262f4c7}{Compute} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Byte\+Stream} \&BS, L\+O\+NG Offset)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_crc32_afab8e77da81f093171fecbeb0a7db492_afab8e77da81f093171fecbeb0a7db492}{Make\+Table} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_crc32_aa104f9d4d79c5ed678c5f43cef9a75e3}\label{class_canberra_1_1_utility_1_1_core_1_1_crc32_aa104f9d4d79c5ed678c5f43cef9a75e3}} 
+U\+L\+O\+NG {\bfseries \+\_\+\+Crc}
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_crc32_a99dffa38097770d9c166e8b48cd40248}\label{class_canberra_1_1_utility_1_1_core_1_1_crc32_a99dffa38097770d9c166e8b48cd40248}} 
+static bool {\bfseries \+\_\+\+Table\+Computed} = false
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_crc32_a4f158b43316868b652d8e1d535853012}\label{class_canberra_1_1_utility_1_1_core_1_1_crc32_a4f158b43316868b652d8e1d535853012}} 
+static U\+L\+O\+NG {\bfseries \+\_\+\+Table} \mbox{[}256\mbox{]} = \{0\}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 13 of file Crc32.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_crc32_ab7c891d5761030db006e9d888a256fbd_ab7c891d5761030db006e9d888a256fbd}\label{class_canberra_1_1_utility_1_1_core_1_1_crc32_ab7c891d5761030db006e9d888a256fbd_ab7c891d5761030db006e9d888a256fbd}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Crc32@{Canberra\+::\+Utility\+::\+Core\+::\+Crc32}!````~Crc32@{$\sim$\+Crc32}}
+\index{````~Crc32@{$\sim$\+Crc32}!Canberra\+::\+Utility\+::\+Core\+::\+Crc32@{Canberra\+::\+Utility\+::\+Core\+::\+Crc32}}
+\subsubsection{\texorpdfstring{$\sim$\+Crc32()}{~Crc32()}}
+{\footnotesize\ttfamily Canberra\+::\+Utility\+::\+Core\+::\+Crc32\+::$\sim$\+Crc32 (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will compute the table of C\+RC values /summary$>$ 
+
+Definition at line 13 of file Crc32.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_crc32_ad523792effe2750bc5aa6c8df262f4c7_ad523792effe2750bc5aa6c8df262f4c7}\label{class_canberra_1_1_utility_1_1_core_1_1_crc32_ad523792effe2750bc5aa6c8df262f4c7_ad523792effe2750bc5aa6c8df262f4c7}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Crc32@{Canberra\+::\+Utility\+::\+Core\+::\+Crc32}!Compute@{Compute}}
+\index{Compute@{Compute}!Canberra\+::\+Utility\+::\+Core\+::\+Crc32@{Canberra\+::\+Utility\+::\+Core\+::\+Crc32}}
+\subsubsection{\texorpdfstring{Compute()}{Compute()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Crc32\+::\+Compute (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Byte\+Stream} \&}]{BS,  }\item[{L\+O\+NG}]{Offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+summary$>$ This method will return the computed C\+RC value that is based on the input stream. Note\+: The previous C\+RC value included into the computed value /summary$>$ param name=\char`\"{}\+Buf\char`\"{}$>$The byte stream to compute the C\+RC of 
+
+param name=\char`\"{}len\char`\"{}$>$The number of bytes in the stream 
+
+returns$>$The computed C\+RC value
+
+Definition at line 68 of file Crc32.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_crc32_afab8e77da81f093171fecbeb0a7db492_afab8e77da81f093171fecbeb0a7db492}\label{class_canberra_1_1_utility_1_1_core_1_1_crc32_afab8e77da81f093171fecbeb0a7db492_afab8e77da81f093171fecbeb0a7db492}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Crc32@{Canberra\+::\+Utility\+::\+Core\+::\+Crc32}!Make\+Table@{Make\+Table}}
+\index{Make\+Table@{Make\+Table}!Canberra\+::\+Utility\+::\+Core\+::\+Crc32@{Canberra\+::\+Utility\+::\+Core\+::\+Crc32}}
+\subsubsection{\texorpdfstring{Make\+Table()}{MakeTable()}}
+{\footnotesize\ttfamily void Canberra\+::\+Utility\+::\+Core\+::\+Crc32\+::\+Make\+Table (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+summary$>$ This method will return the computed C\+RC value that is based on the input stream. Note\+: The previous C\+RC value included into the computed value /summary$>$ param name=\char`\"{}\+B\+S\char`\"{}$>$The byte stream to compute the C\+RC of 
+
+param name=\char`\"{}\+Offset\char`\"{}$>$The offset in the stream to start the C\+RC calc 
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$Error code
+
+returns$>$The computed C\+RC value
+
+Definition at line 19 of file Crc32.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_crc32_a35635a2cd95023d7b01ccb9133361c23_a35635a2cd95023d7b01ccb9133361c23}\label{class_canberra_1_1_utility_1_1_core_1_1_crc32_a35635a2cd95023d7b01ccb9133361c23_a35635a2cd95023d7b01ccb9133361c23}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Crc32@{Canberra\+::\+Utility\+::\+Core\+::\+Crc32}!Update@{Update}}
+\index{Update@{Update}!Canberra\+::\+Utility\+::\+Core\+::\+Crc32@{Canberra\+::\+Utility\+::\+Core\+::\+Crc32}}
+\subsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Crc32\+::\+Update (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Byte\+Stream} \&}]{BS,  }\item[{L\+O\+NG}]{Offset = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+summary$>$ This method will return the computed C\+RC value that is based on the input stream. Note\+: The previous C\+RC value included into the computed value /summary$>$ param name=\char`\"{}\+B\+S\char`\"{}$>$The byte stream to compute the C\+RC of 
+
+param name=\char`\"{}\+Offset\char`\"{}$>$The offset in the stream to start the C\+RC calc 
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$Error code
+
+returns$>$The computed C\+RC value
+
+Definition at line 47 of file Crc32.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_crc32_a06b897033aec857f2f821ba48668b8e1_a06b897033aec857f2f821ba48668b8e1}\label{class_canberra_1_1_utility_1_1_core_1_1_crc32_a06b897033aec857f2f821ba48668b8e1_a06b897033aec857f2f821ba48668b8e1}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Crc32@{Canberra\+::\+Utility\+::\+Core\+::\+Crc32}!Update@{Update}}
+\index{Update@{Update}!Canberra\+::\+Utility\+::\+Core\+::\+Crc32@{Canberra\+::\+Utility\+::\+Core\+::\+Crc32}}
+\subsubsection{\texorpdfstring{Update()}{Update()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Crc32\+::\+Update (\begin{DoxyParamCaption}\item[{const char $\ast$const}]{Buf,  }\item[{L\+O\+NG}]{len }\end{DoxyParamCaption})}
+
+summary$>$ This method will clear the C\+RC value /summary$>$ 
+
+Definition at line 84 of file Crc32.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Crc32.\+h\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Crc32.\+cpp\end{DoxyCompactItemize}

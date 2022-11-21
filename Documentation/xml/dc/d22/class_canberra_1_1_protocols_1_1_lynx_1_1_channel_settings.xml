@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Protocols::Lynx::ChannelSettings</compoundname>
+    <includes refid="dc/d4e/_channel_settings_8h" local="no">ChannelSettings.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings_1ab32822a76478a6d741f71222c30b30c6" prot="public" static="no" mutable="no">
+        <type>LONG</type>
+        <definition>LONG Canberra::Protocols::Lynx::ChannelSettings::SendTimeOut</definition>
+        <argsstring></argsstring>
+        <name>SendTimeOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" line="21" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings_1ad42c2f50bc5ef530aa0ab827217a9ae3" prot="public" static="no" mutable="no">
+        <type>LONG</type>
+        <definition>LONG Canberra::Protocols::Lynx::ChannelSettings::RecvTimeOut</definition>
+        <argsstring></argsstring>
+        <name>RecvTimeOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" line="22" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings_1a610abd3240b1505fe8f230fa100ab2b2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Canberra::Protocols::Lynx::ChannelSettings::SendBufferSize</definition>
+        <argsstring></argsstring>
+        <name>SendBufferSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" line="23" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings_1a8851db22e225b3c6a5fa6868331bcfe4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Canberra::Protocols::Lynx::ChannelSettings::RecvBufferSize</definition>
+        <argsstring></argsstring>
+        <name>RecvBufferSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" line="24" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings_1a25940ad2e705a38284928f5be6013d3f" prot="public" static="no" mutable="no">
+        <type>BOOL</type>
+        <definition>BOOL Canberra::Protocols::Lynx::ChannelSettings::KeepAlive</definition>
+        <argsstring></argsstring>
+        <name>KeepAlive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" line="25" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings_1a3ca60f1003d0529081ea79aab86fdf13" prot="public" static="no" mutable="no">
+        <type>BOOL</type>
+        <definition>BOOL Canberra::Protocols::Lynx::ChannelSettings::NoDelay</definition>
+        <argsstring></argsstring>
+        <name>NoDelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" line="26" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings_1a623dc557331c8f472a52e438dd63c290" prot="public" static="no" mutable="no">
+        <type>USHORT</type>
+        <definition>USHORT Canberra::Protocols::Lynx::ChannelSettings::Port</definition>
+        <argsstring></argsstring>
+        <name>Port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" line="27" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings_1a1970e9febb6bc2648c05a21895b8e7ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Protocols::Lynx::ChannelSettings::ChannelSettings</definition>
+        <argsstring>(USHORT P)</argsstring>
+        <name>ChannelSettings</name>
+        <param>
+          <type>USHORT</type>
+          <declname>P</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" line="13" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" bodystart="13" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is a container for all of the socket settings used by the stream or configuration channels. /summary&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" line="11" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/ChannelSettings.h" bodystart="11" bodyend="28"/>
+    <listofallmembers>
+      <member refid="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings_1a1970e9febb6bc2648c05a21895b8e7ae" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::ChannelSettings</scope><name>ChannelSettings</name></member>
+      <member refid="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings_1a25940ad2e705a38284928f5be6013d3f" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::ChannelSettings</scope><name>KeepAlive</name></member>
+      <member refid="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings_1a3ca60f1003d0529081ea79aab86fdf13" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::ChannelSettings</scope><name>NoDelay</name></member>
+      <member refid="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings_1a623dc557331c8f472a52e438dd63c290" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::ChannelSettings</scope><name>Port</name></member>
+      <member refid="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings_1a8851db22e225b3c6a5fa6868331bcfe4" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::ChannelSettings</scope><name>RecvBufferSize</name></member>
+      <member refid="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings_1ad42c2f50bc5ef530aa0ab827217a9ae3" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::ChannelSettings</scope><name>RecvTimeOut</name></member>
+      <member refid="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings_1a610abd3240b1505fe8f230fa100ab2b2" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::ChannelSettings</scope><name>SendBufferSize</name></member>
+      <member refid="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings_1ab32822a76478a6d741f71222c30b30c6" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::ChannelSettings</scope><name>SendTimeOut</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,306 @@
+\hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread}{}\section{Canberra\+:\+:Utility\+:\+:Core\+:\+:Thread Class Reference}
+\label{class_canberra_1_1_utility_1_1_core_1_1_thread}\index{Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}}
+
+
+Inheritance diagram for Canberra\+:\+:Utility\+:\+:Core\+:\+:Thread\+:
+% FIG 0
+
+
+Collaboration diagram for Canberra\+:\+:Utility\+:\+:Core\+:\+:Thread\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_thread_accf3a0d8c1bbcc5d2fb21bfacd0e0c5b_accf3a0d8c1bbcc5d2fb21bfacd0e0c5b}{Thread} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{String} \&Name)
+\item 
+virtual \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_thread_a0091317792eeb41b17f935d9c53ca92d_a0091317792eeb41b17f935d9c53ca92d}{$\sim$\+Thread} (void)
+\item 
+virtual U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_thread_a6f8e64dbea0a4ac8159a5dc33b9b106b_a6f8e64dbea0a4ac8159a5dc33b9b106b}{Post\+Message} (U\+I\+NT Message, W\+P\+A\+R\+AM w\+Param=0, L\+P\+A\+R\+AM l\+Param=0)
+\item 
+virtual U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_thread_a9a564084d8ca5b014ba5101dbf142d67_a9a564084d8ca5b014ba5101dbf142d67}{Start} ()
+\item 
+virtual U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_thread_aef351ecbb4a2fc31d8983bbbcb8ce83e_aef351ecbb4a2fc31d8983bbbcb8ce83e}{Stop} ()
+\item 
+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_thread_a2f42267504a9473a6800d4d36998194e_a2f42267504a9473a6800d4d36998194e}{Get\+Exit\+Code} ()
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_thread_a5673b33f5b74126886399feafd0c1c1b_a5673b33f5b74126886399feafd0c1c1b}{Get\+Priority} (L\+O\+NG \&)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_thread_a6a7e0f40053cc71f5f99fe789b7ed089_a6a7e0f40053cc71f5f99fe789b7ed089}{Put\+Priority} (L\+O\+NG)
+\item 
+virtual U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_thread_a6ecc7af6e51f7fa5d45db0f05dd76435_a6ecc7af6e51f7fa5d45db0f05dd76435}{Join} (L\+O\+NG Time\+Out=0)
+\item 
+virtual U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_thread_a1fd94cc284af89a82282d506e5529d22_a1fd94cc284af89a82282d506e5529d22}{Interrupt} ()
+\item 
+virtual U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_thread_acb4ba595a15cc01aa86b846e1a4afd15_acb4ba595a15cc01aa86b846e1a4afd15}{Reset\+Interrupt} ()
+\item 
+bool \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_thread_a3bdd38498aea2f23c5f04d1e13bc5672_a3bdd38498aea2f23c5f04d1e13bc5672}{Get\+Is\+Interrupted} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a47113546f12ab4a5c64cea97314a9d4f}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a47113546f12ab4a5c64cea97314a9d4f}} 
+virtual L\+O\+NG {\bfseries Thread\+Func} ()=0
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a5376d59ab58c4fc44331a0d676d515a8}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a5376d59ab58c4fc44331a0d676d515a8}} 
+L\+O\+NG {\bfseries Peek\+Message} (\hyperlink{struct___m_s_g}{M\+SG} $\ast$Msg)
+\item 
+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_thread_aa68aa652462d9dd2d48a7c953611bb53_aa68aa652462d9dd2d48a7c953611bb53}{Get\+Message} (\hyperlink{struct___m_s_g}{M\+SG} $\ast$Msg)
+\item 
+U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_thread_aa058eced991ed08cc84117d178d0df78_aa058eced991ed08cc84117d178d0df78}{Thread\+Start} ()
+\item 
+virtual U\+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_thread_a51843bf1ca6bff2e02d21042da2c9e76_a51843bf1ca6bff2e02d21042da2c9e76}{Sleep} (L\+O\+NG Ms)
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static T\+H\+R\+E\+A\+D\+F\+N\+C\+\_\+\+A\+PI \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_thread_a04a1341b87d0e93138ca33b8f8b4447a_a04a1341b87d0e93138ca33b8f8b4447a}{\+\_\+\+Thread\+Fnc} (void $\ast$)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_aecf8c6d58b0d2fdf8dbf6b5cc00544ef}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_aecf8c6d58b0d2fdf8dbf6b5cc00544ef}} 
+bool {\bfseries \+\_\+\+Interrupt\+Ev}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_aaf372f08a8caa50fa737bf33c5576e71}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_aaf372f08a8caa50fa737bf33c5576e71}} 
+bool {\bfseries \+\_\+\+Startup\+Ev}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a180b5490025c84ee928d27438b2679ac}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a180b5490025c84ee928d27438b2679ac}} 
+bool {\bfseries \+\_\+\+Abort\+Ev}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a09d6b9dcfff99982905f582c1f34415d}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a09d6b9dcfff99982905f582c1f34415d}} 
+T\+H\+R\+E\+A\+D\+H\+A\+N\+D\+LE {\bfseries \+\_\+\+Thread\+Handle}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a845428e268a96dc738013c56bf5d3fd8}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a845428e268a96dc738013c56bf5d3fd8}} 
+D\+W\+O\+RD {\bfseries \+\_\+\+Thread\+Id}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_abb0790ab8c9f634031611dfad2d3bfc0}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_abb0790ab8c9f634031611dfad2d3bfc0}} 
+L\+O\+NG {\bfseries \+\_\+\+Exit\+Code}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_acc7d7288c1bc16d5c017ba9a33eaa019}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_acc7d7288c1bc16d5c017ba9a33eaa019}} 
+void $\ast$ {\bfseries \+\_\+\+Data}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a6707096a3343dba5010ba1bcff7af080}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a6707096a3343dba5010ba1bcff7af080}} 
+L\+O\+NG {\bfseries \+\_\+\+Priority}
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a2000673d63812eba6993040ae399327f}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a2000673d63812eba6993040ae399327f}} 
+T\+H\+R\+E\+A\+D\+F\+N\+C\+\_\+\+A\+PI {\bfseries \+\_\+\+Thread\+Fnc} (void $\ast$)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 35 of file Utility\+Thread.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_accf3a0d8c1bbcc5d2fb21bfacd0e0c5b_accf3a0d8c1bbcc5d2fb21bfacd0e0c5b}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_accf3a0d8c1bbcc5d2fb21bfacd0e0c5b_accf3a0d8c1bbcc5d2fb21bfacd0e0c5b}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}!Thread@{Thread}}
+\index{Thread@{Thread}!Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}}
+\subsubsection{\texorpdfstring{Thread()}{Thread()}}
+{\footnotesize\ttfamily Canberra\+::\+Utility\+::\+Core\+::\+Thread\+::\+Thread (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{String} \&}]{Name }\end{DoxyParamCaption})}
+
+summary$>$ This method releases all resources allocated to this instance /summary$>$ 
+
+Definition at line 53 of file Thread.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a0091317792eeb41b17f935d9c53ca92d_a0091317792eeb41b17f935d9c53ca92d}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a0091317792eeb41b17f935d9c53ca92d_a0091317792eeb41b17f935d9c53ca92d}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}!````~Thread@{$\sim$\+Thread}}
+\index{````~Thread@{$\sim$\+Thread}!Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}}
+\subsubsection{\texorpdfstring{$\sim$\+Thread()}{~Thread()}}
+{\footnotesize\ttfamily Canberra\+::\+Utility\+::\+Core\+::\+Thread\+::$\sim$\+Thread (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method is used to start the thread. It will not return until the thread has been initialized and invoked. See Create\+Thread /summary$>$ returns$>$0==Success
+
+Definition at line 71 of file Thread.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a04a1341b87d0e93138ca33b8f8b4447a_a04a1341b87d0e93138ca33b8f8b4447a}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a04a1341b87d0e93138ca33b8f8b4447a_a04a1341b87d0e93138ca33b8f8b4447a}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}!\+\_\+\+Thread\+Fnc@{\+\_\+\+Thread\+Fnc}}
+\index{\+\_\+\+Thread\+Fnc@{\+\_\+\+Thread\+Fnc}!Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}}
+\subsubsection{\texorpdfstring{\+\_\+\+Thread\+Fnc()}{\_ThreadFnc()}}
+{\footnotesize\ttfamily T\+H\+R\+E\+A\+D\+F\+N\+C\+\_\+\+A\+PI Canberra\+::\+Utility\+::\+Core\+::\+Thread\+::\+\_\+\+Thread\+Fnc (\begin{DoxyParamCaption}\item[{void $\ast$}]{p\+Args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+summary$>$ This method will return the exit code of the thread. If it is still running it returns S\+T\+I\+L\+L\+\_\+\+R\+U\+N\+N\+I\+NG. See Get\+Exit\+Code\+Thread /summary$>$ returns$>$Exit code
+
+Definition at line 400 of file Thread.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a2f42267504a9473a6800d4d36998194e_a2f42267504a9473a6800d4d36998194e}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a2f42267504a9473a6800d4d36998194e_a2f42267504a9473a6800d4d36998194e}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}!Get\+Exit\+Code@{Get\+Exit\+Code}}
+\index{Get\+Exit\+Code@{Get\+Exit\+Code}!Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}}
+\subsubsection{\texorpdfstring{Get\+Exit\+Code()}{GetExitCode()}}
+{\footnotesize\ttfamily L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Thread\+::\+Get\+Exit\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+summary$>$ This method will sleep for a time interval (ms) The thread managed by this instance should invoke this method such that it can respond to the interrupt event /summary$>$ param name=\char`\"{}\+Ms\char`\"{}$>$The sleep time (ms)
+
+returns$>$0==Success
+
+Definition at line 414 of file Thread.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a3bdd38498aea2f23c5f04d1e13bc5672_a3bdd38498aea2f23c5f04d1e13bc5672}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a3bdd38498aea2f23c5f04d1e13bc5672_a3bdd38498aea2f23c5f04d1e13bc5672}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}!Get\+Is\+Interrupted@{Get\+Is\+Interrupted}}
+\index{Get\+Is\+Interrupted@{Get\+Is\+Interrupted}!Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}}
+\subsubsection{\texorpdfstring{Get\+Is\+Interrupted()}{GetIsInterrupted()}}
+{\footnotesize\ttfamily bool Canberra\+::\+Utility\+::\+Core\+::\+Thread\+::\+Get\+Is\+Interrupted (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+summary$>$ This method will set the state of the interrupt event to signaled /summary$>$ returns$>$0==Success
+
+Definition at line 461 of file Thread.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_aa68aa652462d9dd2d48a7c953611bb53_aa68aa652462d9dd2d48a7c953611bb53}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_aa68aa652462d9dd2d48a7c953611bb53_aa68aa652462d9dd2d48a7c953611bb53}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}!Get\+Message@{Get\+Message}}
+\index{Get\+Message@{Get\+Message}!Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}}
+\subsubsection{\texorpdfstring{Get\+Message()}{GetMessage()}}
+{\footnotesize\ttfamily L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Thread\+::\+Get\+Message (\begin{DoxyParamCaption}\item[{\hyperlink{struct___m_s_g}{M\+SG} $\ast$}]{Msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+summary$>$ This method will peek at the message queue without removing any messages /summary$>$ param name=\char`\"{}\+Msg\char`\"{}$>$The first message in the queue if available
+
+returns$>$0 Indicates no messages available. Non-\/zero indicates message available
+
+Definition at line 529 of file Thread.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a5673b33f5b74126886399feafd0c1c1b_a5673b33f5b74126886399feafd0c1c1b}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a5673b33f5b74126886399feafd0c1c1b_a5673b33f5b74126886399feafd0c1c1b}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}!Get\+Priority@{Get\+Priority}}
+\index{Get\+Priority@{Get\+Priority}!Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}}
+\subsubsection{\texorpdfstring{Get\+Priority()}{GetPriority()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Thread\+::\+Get\+Priority (\begin{DoxyParamCaption}\item[{L\+O\+NG \&}]{Priority }\end{DoxyParamCaption})}
+
+summary$>$ This method will set the thread priority /summary$>$ param name=\char`\"{}\+Priority\char`\"{}$>$The priority
+
+returns$>$0==Success
+
+Definition at line 195 of file Thread.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a1fd94cc284af89a82282d506e5529d22_a1fd94cc284af89a82282d506e5529d22}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a1fd94cc284af89a82282d506e5529d22_a1fd94cc284af89a82282d506e5529d22}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}!Interrupt@{Interrupt}}
+\index{Interrupt@{Interrupt}!Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}}
+\subsubsection{\texorpdfstring{Interrupt()}{Interrupt()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Thread\+::\+Interrupt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will reset the state of the interrupt event to signaled /summary$>$ returns$>$0==Success
+
+Definition at line 471 of file Thread.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a6ecc7af6e51f7fa5d45db0f05dd76435_a6ecc7af6e51f7fa5d45db0f05dd76435}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a6ecc7af6e51f7fa5d45db0f05dd76435_a6ecc7af6e51f7fa5d45db0f05dd76435}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}!Join@{Join}}
+\index{Join@{Join}!Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}}
+\subsubsection{\texorpdfstring{Join()}{Join()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Thread\+::\+Join (\begin{DoxyParamCaption}\item[{L\+O\+NG}]{TimeO = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method is used to stop the thread. It will not return until the thread has been stopped. The stop process is performed by posting the W\+M\+\_\+\+Q\+U\+IT message and signaling the interrupt event. It then waits for the specified time out or thread to exit. If it does not exit it will terminate the thread. All resources are released /summary$>$ returns$>$0==Success
+
+Implements \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_task}{Canberra\+::\+Utility\+::\+Core\+::\+Task}.
+
+
+
+Definition at line 276 of file Thread.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a6f8e64dbea0a4ac8159a5dc33b9b106b_a6f8e64dbea0a4ac8159a5dc33b9b106b}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a6f8e64dbea0a4ac8159a5dc33b9b106b_a6f8e64dbea0a4ac8159a5dc33b9b106b}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}!Post\+Message@{Post\+Message}}
+\index{Post\+Message@{Post\+Message}!Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}}
+\subsubsection{\texorpdfstring{Post\+Message()}{PostMessage()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Thread\+::\+Post\+Message (\begin{DoxyParamCaption}\item[{U\+I\+NT}]{Message,  }\item[{W\+P\+A\+R\+AM}]{w\+Param = {\ttfamily 0},  }\item[{L\+P\+A\+R\+AM}]{l\+Param = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will extract a message from the message queue /summary$>$ param name=\char`\"{}\+Msg\char`\"{}$>$The message
+
+returns$>$0 Indicates W\+M\+\_\+\+Q\+U\+IT was received. Non zero indicates success
+
+Implements \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_task}{Canberra\+::\+Utility\+::\+Core\+::\+Task}.
+
+
+
+Definition at line 494 of file Thread.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a6a7e0f40053cc71f5f99fe789b7ed089_a6a7e0f40053cc71f5f99fe789b7ed089}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a6a7e0f40053cc71f5f99fe789b7ed089_a6a7e0f40053cc71f5f99fe789b7ed089}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}!Put\+Priority@{Put\+Priority}}
+\index{Put\+Priority@{Put\+Priority}!Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}}
+\subsubsection{\texorpdfstring{Put\+Priority()}{PutPriority()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Thread\+::\+Put\+Priority (\begin{DoxyParamCaption}\item[{L\+O\+NG}]{Priority }\end{DoxyParamCaption})}
+
+summary$>$ This method will wait for the thread to complete for a specified number of milliseconds /summary$>$ param name=\char`\"{}\+Time\+O\char`\"{}$>$The timeout in ms
+
+returns$>$0==Success
+
+Definition at line 235 of file Thread.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_acb4ba595a15cc01aa86b846e1a4afd15_acb4ba595a15cc01aa86b846e1a4afd15}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_acb4ba595a15cc01aa86b846e1a4afd15_acb4ba595a15cc01aa86b846e1a4afd15}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}!Reset\+Interrupt@{Reset\+Interrupt}}
+\index{Reset\+Interrupt@{Reset\+Interrupt}!Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}}
+\subsubsection{\texorpdfstring{Reset\+Interrupt()}{ResetInterrupt()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Thread\+::\+Reset\+Interrupt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will post a message to the thread /summary$>$ param name=\char`\"{}\+Message\char`\"{}$>$The message code
+
+param name=\char`\"{}w\+Param\char`\"{}$>$The w\+Param
+
+param name=\char`\"{}l\+Param\char`\"{}$>$The l\+Param
+
+returns$>$0==Success
+
+Definition at line 481 of file Thread.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a51843bf1ca6bff2e02d21042da2c9e76_a51843bf1ca6bff2e02d21042da2c9e76}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a51843bf1ca6bff2e02d21042da2c9e76_a51843bf1ca6bff2e02d21042da2c9e76}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}!Sleep@{Sleep}}
+\index{Sleep@{Sleep}!Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}}
+\subsubsection{\texorpdfstring{Sleep()}{Sleep()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Thread\+::\+Sleep (\begin{DoxyParamCaption}\item[{L\+O\+NG}]{Ms }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+summary$>$ This method will get the state of the interrupt event /summary$>$ returns$>$State of the event
+
+Definition at line 442 of file Thread.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_a9a564084d8ca5b014ba5101dbf142d67_a9a564084d8ca5b014ba5101dbf142d67}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_a9a564084d8ca5b014ba5101dbf142d67_a9a564084d8ca5b014ba5101dbf142d67}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}!Start@{Start}}
+\index{Start@{Start}!Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}}
+\subsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Thread\+::\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will get the thread priority /summary$>$ param name=\char`\"{}\+Priority\char`\"{}$>$The priority
+
+returns$>$0==Success
+
+Implements \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_task}{Canberra\+::\+Utility\+::\+Core\+::\+Task}.
+
+
+
+Definition at line 90 of file Thread.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_aef351ecbb4a2fc31d8983bbbcb8ce83e_aef351ecbb4a2fc31d8983bbbcb8ce83e}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_aef351ecbb4a2fc31d8983bbbcb8ce83e_aef351ecbb4a2fc31d8983bbbcb8ce83e}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}!Stop@{Stop}}
+\index{Stop@{Stop}!Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}}
+\subsubsection{\texorpdfstring{Stop()}{Stop()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Thread\+::\+Stop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method is used to setup the thread context and invoke the derived implementation within that thread context /summary$>$ returns$>$0==Exit code
+
+Implements \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_task}{Canberra\+::\+Utility\+::\+Core\+::\+Task}.
+
+
+
+Definition at line 309 of file Thread.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_thread_aa058eced991ed08cc84117d178d0df78_aa058eced991ed08cc84117d178d0df78}\label{class_canberra_1_1_utility_1_1_core_1_1_thread_aa058eced991ed08cc84117d178d0df78_aa058eced991ed08cc84117d178d0df78}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}!Thread\+Start@{Thread\+Start}}
+\index{Thread\+Start@{Thread\+Start}!Canberra\+::\+Utility\+::\+Core\+::\+Thread@{Canberra\+::\+Utility\+::\+Core\+::\+Thread}}
+\subsubsection{\texorpdfstring{Thread\+Start()}{ThreadStart()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Thread\+::\+Thread\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+summary$>$ This method is invoked on a separate thread context. It will invoke Thread\+Start to setup this instance and call the derived implementation /summary$>$ param name=\char`\"{}p\+Args\char`\"{}$>$The arguments
+
+returns$>$Exit code
+
+Definition at line 371 of file Thread.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Utility\+Thread.\+h\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Thread.\+cpp\end{DoxyCompactItemize}

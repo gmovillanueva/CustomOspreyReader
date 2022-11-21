@@ -1,0 +1,468 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::Protocols::Lynx::StreamChannel</compoundname>
+    <includes refid="dc/dba/_stream_channel_8h" local="no">StreamChannel.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a29005e3c78c4a32ca39a4570089ae89a" prot="protected" static="no" mutable="no">
+        <type><ref refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory" kindref="compound">Canberra::DataTypes::Serialization::MessageFactory</ref> &amp;</type>
+        <definition>Canberra::DataTypes::Serialization::MessageFactory&amp; Canberra::Protocols::Lynx::StreamChannel::_MessageFactory</definition>
+        <argsstring></argsstring>
+        <name>_MessageFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="24" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a73bfc7cfc5123819de001959489db3fa" prot="protected" static="no" mutable="no">
+        <type><ref refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client" kindref="compound">Canberra::Utility::Network::TcpClient</ref></type>
+        <definition>Canberra::Utility::Network::TcpClient Canberra::Protocols::Lynx::StreamChannel::_Channel</definition>
+        <argsstring></argsstring>
+        <name>_Channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="25" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1af9125122398b284775efd5b9c21dcd70" prot="protected" static="no" mutable="no">
+        <type><ref refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section" kindref="compound">Canberra::Utility::Core::CriticalSection</ref></type>
+        <definition>Canberra::Utility::Core::CriticalSection Canberra::Protocols::Lynx::StreamChannel::_Lock</definition>
+        <argsstring></argsstring>
+        <name>_Lock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="26" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1af4852e2bf0fd7651f05da290b5f03f27" prot="protected" static="no" mutable="no">
+        <type><ref refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point" kindref="compound">Canberra::Utility::Network::EndPoint</ref></type>
+        <definition>Canberra::Utility::Network::EndPoint Canberra::Protocols::Lynx::StreamChannel::_ClientEP</definition>
+        <argsstring></argsstring>
+        <name>_ClientEP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="27" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a1c211e7e773d99652ac6ad61044d8ed1" prot="protected" static="no" mutable="no">
+        <type><ref refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point" kindref="compound">Canberra::Utility::Network::EndPoint</ref></type>
+        <definition>Canberra::Utility::Network::EndPoint Canberra::Protocols::Lynx::StreamChannel::_DevEP</definition>
+        <argsstring></argsstring>
+        <name>_DevEP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="28" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a621168cb972c11354bd443eae5a3d6e0" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::Protocols::Lynx::StreamChannel::_Abort</definition>
+        <argsstring></argsstring>
+        <name>_Abort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="29" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a830d4d2a6a2791e8b40ab1926a06b4ea" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::Protocols::Lynx::StreamChannel::_Enable</definition>
+        <argsstring></argsstring>
+        <name>_Enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="30" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a2beb3080b29ab6cfe4ff9e993b2ce87d" prot="protected" static="no" mutable="no">
+        <type><ref refid="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings" kindref="compound">ChannelSettings</ref></type>
+        <definition>ChannelSettings Canberra::Protocols::Lynx::StreamChannel::_Settings</definition>
+        <argsstring></argsstring>
+        <name>_Settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="31" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a4f13721504b88c937bad92927fd59c8a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Protocols::Lynx::StreamChannel::StreamChannel</definition>
+        <argsstring>(const StreamChannel &amp;)</argsstring>
+        <name>StreamChannel</name>
+        <param>
+          <type>const <ref refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel" kindref="compound">StreamChannel</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a10db07a974ee446ccfe837b3e073d1dd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel" kindref="compound">StreamChannel</ref> &amp;</type>
+        <definition>StreamChannel&amp; Canberra::Protocols::Lynx::StreamChannel::operator=</definition>
+        <argsstring>(const StreamChannel &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel" kindref="compound">StreamChannel</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_a8f92ad69f6d77233b6f0a0b1fdd8c3a0_1a8f92ad69f6d77233b6f0a0b1fdd8c3a0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::StreamChannel::Receive</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Stream, ULONG *Recv=NULL, LONG Flags=0)</argsstring>
+        <name>Receive</name>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Stream</declname>
+        </param>
+        <param>
+          <type>ULONG *</type>
+          <declname>Recv</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>LONG</type>
+          <declname>Flags</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method gets a command that has been streamed to this client from the Lynx. /summary&gt; param name=&quot;Resp&quot;&gt;The command response that was received</para><para>returns&gt;0==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="34" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.cpp" bodystart="135" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_a4e9856b9d971d348685ecb99a4abf18f_1a4e9856b9d971d348685ecb99a4abf18f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Protocols::Lynx::StreamChannel::StreamChannel</definition>
+        <argsstring>(Canberra::DataTypes::Serialization::MessageFactory &amp;MF)</argsstring>
+        <name>StreamChannel</name>
+        <param>
+          <type><ref refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory" kindref="compound">Canberra::DataTypes::Serialization::MessageFactory</ref> &amp;</type>
+          <declname>MF</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This is the destructor for this class instance. This method will release all allocated resources /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="37" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.cpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_a67d945e9fdd144393c5b0a5916ab7c91_1a67d945e9fdd144393c5b0a5916ab7c91" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::Protocols::Lynx::StreamChannel::~StreamChannel</definition>
+        <argsstring>()</argsstring>
+        <name>~StreamChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method establishes a connection between the client and the lynx. /summary&gt; param name=&quot;Client&quot;&gt;The IP address of the client. If &quot;&quot; then local address is discovered</para><para>param name=&quot;Dest&quot;&gt;The IP address of the device.</para><para>returns&gt;0==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="38" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.cpp" bodystart="44" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_a629b6f9979646a09818c66aff827361d_1a629b6f9979646a09818c66aff827361d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::StreamChannel::ReceiveCommand</definition>
+        <argsstring>(Canberra::DataTypes::Application::CommandData **Resp)</argsstring>
+        <name>ReceiveCommand</name>
+        <param>
+          <type><ref refid="d2/d2c/class_canberra_1_1_data_types_1_1_application_1_1_command_data" kindref="compound">Canberra::DataTypes::Application::CommandData</ref> **</type>
+          <declname>Resp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method gets the value of a named property. /summary&gt; param name=&quot;N&quot;&gt;The property name.</para><para>param name=&quot;V&quot;&gt;The property value.</para><para>returns&gt;0==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="41" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.cpp" bodystart="203" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_a7b4e6b0164c4a5f1a480b02d1464fa3d_1a7b4e6b0164c4a5f1a480b02d1464fa3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::StreamChannel::Open</definition>
+        <argsstring>(const Canberra::Utility::Core::String &amp;Client, const Canberra::Utility::Core::String &amp;Dest)</argsstring>
+        <name>Open</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>Client</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>Dest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method terminates the connection between the client and the lynx. /summary&gt; returns&gt;0==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="44" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.cpp" bodystart="55" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_ae17c78aeb2b818dde70190333800101c_1ae17c78aeb2b818dde70190333800101c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::StreamChannel::Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will issue a recv socket call on a socket configured either for blocking or nonblocking. This method will block until all of the requested information is received. The size of the byte stream indicates what this method will block for. This method was written to override the Receive implementation contained within the TcpClient class. The reason for overriding it is to allow for aborting a non-blocking receive call. /summary&gt; param name=&quot;Stream&quot;&gt;The stream recv&apos;d</para><para>param name=&quot;NumReceived&quot;&gt;The number of bytes recv&apos;d</para><para>param name=&quot;Flags&quot;&gt;The flags</para><para>returns&gt;Win32 code. 0==Sucess</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="47" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.cpp" bodystart="111" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_a1fbff1210a7b805bd5f53a43cb96ed76_1a1fbff1210a7b805bd5f53a43cb96ed76" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Protocols::Lynx::StreamChannel::GetEnable</definition>
+        <argsstring>() const</argsstring>
+        <name>GetEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method sets the value of the enable state /summary&gt; param name=&quot;v&quot;&gt;The value.</para><para>returns&gt;None</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="50" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.cpp" bodystart="427" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_a25463e9739805a93b457c17874743de8_1a25463e9739805a93b457c17874743de8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::Protocols::Lynx::StreamChannel::PutEnable</definition>
+        <argsstring>(const bool v)</argsstring>
+        <name>PutEnable</name>
+        <param>
+          <type>const bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method gets the value of the enable active state Active state means that streaming is enabled and the streaming channel is open. /summary&gt; returns&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="51" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.cpp" bodystart="434" bodyend="429"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a65c28476884189dff9b42f367a509b67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Protocols::Lynx::StreamChannel::GetActive</definition>
+        <argsstring>()</argsstring>
+        <name>GetActive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="54" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.cpp" bodystart="443" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_ab23bb82c6b1c841c4eca44ca6e9dbdb4_1ab23bb82c6b1c841c4eca44ca6e9dbdb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::StreamChannel::GetProperty</definition>
+        <argsstring>(const Canberra::Utility::Core::String &amp;Name, Canberra::Utility::Core::Variant &amp;Val)</argsstring>
+        <name>GetProperty</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>Name</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d79/class_canberra_1_1_utility_1_1_core_1_1_variant" kindref="compound">Canberra::Utility::Core::Variant</ref> &amp;</type>
+          <declname>Val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method sets the value of a named property. /summary&gt; param name=&quot;Name&quot;&gt;The property name.</para><para>param name=&quot;Val&quot;&gt;The property value.</para><para>returns&gt;0==Success</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="57" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.cpp" bodystart="287" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_ad2c0bf4b51ed784406ee68895ad71320_1ad2c0bf4b51ed784406ee68895ad71320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::Protocols::Lynx::StreamChannel::PutProperty</definition>
+        <argsstring>(const Canberra::Utility::Core::String &amp;Name, const Canberra::Utility::Core::Variant &amp;Val)</argsstring>
+        <name>PutProperty</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">Canberra::Utility::Core::String</ref> &amp;</type>
+          <declname>Name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d3/d79/class_canberra_1_1_utility_1_1_core_1_1_variant" kindref="compound">Canberra::Utility::Core::Variant</ref> &amp;</type>
+          <declname>Val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method gets the value of the enable state /summary&gt; returns&gt;The value</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="58" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.cpp" bodystart="336" bodyend="330"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>An instance of this class contains Lynx version 1.1 modifications. This instance specifically contains all information necessary to implement data streaming /summary&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="534">
+        <label>Canberra::DataTypes::Serialization::MessageFactory</label>
+        <link refid="d0/d7d/class_canberra_1_1_data_types_1_1_serialization_1_1_message_factory"/>
+        <childnode refid="535" relation="usage">
+          <edgelabel>_Signature</edgelabel>
+        </childnode>
+      </node>
+      <node id="533">
+        <label>Canberra::Utility::Network::Socket</label>
+        <link refid="d4/d75/class_canberra_1_1_utility_1_1_network_1_1_socket"/>
+        <childnode refid="530" relation="usage">
+          <edgelabel>_EndPoint</edgelabel>
+        </childnode>
+        <childnode refid="529" relation="usage">
+          <edgelabel>_Name</edgelabel>
+        </childnode>
+      </node>
+      <node id="536">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="537">
+        <label>Canberra::Utility::Core::ByteStream</label>
+        <link refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream"/>
+      </node>
+      <node id="532">
+        <label>Canberra::Utility::Network::TcpSocket</label>
+        <link refid="df/d69/class_canberra_1_1_utility_1_1_network_1_1_tcp_socket"/>
+        <childnode refid="533" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="526">
+        <label>Canberra::Protocols::Lynx::StreamChannel</label>
+        <link refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel"/>
+        <childnode refid="527" relation="usage">
+          <edgelabel>_Lock</edgelabel>
+        </childnode>
+        <childnode refid="530" relation="usage">
+          <edgelabel>_DevEP</edgelabel>
+          <edgelabel>_ClientEP</edgelabel>
+        </childnode>
+        <childnode refid="531" relation="usage">
+          <edgelabel>_Channel</edgelabel>
+        </childnode>
+        <childnode refid="534" relation="usage">
+          <edgelabel>_MessageFactory</edgelabel>
+        </childnode>
+        <childnode refid="538" relation="usage">
+          <edgelabel>_Settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="538">
+        <label>Canberra::Protocols::Lynx::ChannelSettings</label>
+        <link refid="dc/d22/class_canberra_1_1_protocols_1_1_lynx_1_1_channel_settings"/>
+      </node>
+      <node id="529">
+        <label>Canberra::Utility::Core::String</label>
+        <link refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string"/>
+      </node>
+      <node id="527">
+        <label>Canberra::Utility::Core::CriticalSection</label>
+        <link refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section"/>
+        <childnode refid="528" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="530">
+        <label>Canberra::Utility::Network::EndPoint</label>
+        <link refid="d3/d97/class_canberra_1_1_utility_1_1_network_1_1_end_point"/>
+      </node>
+      <node id="531">
+        <label>Canberra::Utility::Network::TcpClient</label>
+        <link refid="d0/d5b/class_canberra_1_1_utility_1_1_network_1_1_tcp_client"/>
+        <childnode refid="532" relation="public-inheritance">
+        </childnode>
+        <childnode refid="530" relation="usage">
+          <edgelabel>_ServerEP</edgelabel>
+        </childnode>
+      </node>
+      <node id="528">
+        <label>Canberra::Utility::Core::SyncObject</label>
+        <link refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object"/>
+        <childnode refid="529" relation="usage">
+          <edgelabel>_Name</edgelabel>
+        </childnode>
+      </node>
+      <node id="535">
+        <label>Canberra::DataTypes::Serialization::DigitalSignature</label>
+        <link refid="da/d3c/class_canberra_1_1_data_types_1_1_serialization_1_1_digital_signature"/>
+        <childnode refid="536" relation="public-inheritance">
+        </childnode>
+        <childnode refid="537" relation="usage">
+          <edgelabel>_Key</edgelabel>
+          <edgelabel>_Signature</edgelabel>
+          <edgelabel>_RandomData</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" line="19" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/StreamChannel.h" bodystart="19" bodyend="59"/>
+    <listofallmembers>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a621168cb972c11354bd443eae5a3d6e0" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>_Abort</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a73bfc7cfc5123819de001959489db3fa" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>_Channel</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1af4852e2bf0fd7651f05da290b5f03f27" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>_ClientEP</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a1c211e7e773d99652ac6ad61044d8ed1" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>_DevEP</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a830d4d2a6a2791e8b40ab1926a06b4ea" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>_Enable</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1af9125122398b284775efd5b9c21dcd70" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>_Lock</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a29005e3c78c4a32ca39a4570089ae89a" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>_MessageFactory</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a2beb3080b29ab6cfe4ff9e993b2ce87d" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>_Settings</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_ae17c78aeb2b818dde70190333800101c_1ae17c78aeb2b818dde70190333800101c" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>Close</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a65c28476884189dff9b42f367a509b67" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>GetActive</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_a1fbff1210a7b805bd5f53a43cb96ed76_1a1fbff1210a7b805bd5f53a43cb96ed76" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>GetEnable</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_ab23bb82c6b1c841c4eca44ca6e9dbdb4_1ab23bb82c6b1c841c4eca44ca6e9dbdb4" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>GetProperty</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_a7b4e6b0164c4a5f1a480b02d1464fa3d_1a7b4e6b0164c4a5f1a480b02d1464fa3d" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>Open</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a10db07a974ee446ccfe837b3e073d1dd" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>operator=</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_a25463e9739805a93b457c17874743de8_1a25463e9739805a93b457c17874743de8" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>PutEnable</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_ad2c0bf4b51ed784406ee68895ad71320_1ad2c0bf4b51ed784406ee68895ad71320" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>PutProperty</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_a8f92ad69f6d77233b6f0a0b1fdd8c3a0_1a8f92ad69f6d77233b6f0a0b1fdd8c3a0" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>Receive</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_a629b6f9979646a09818c66aff827361d_1a629b6f9979646a09818c66aff827361d" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>ReceiveCommand</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_1a4f13721504b88c937bad92927fd59c8a" prot="protected" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>StreamChannel</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_a4e9856b9d971d348685ecb99a4abf18f_1a4e9856b9d971d348685ecb99a4abf18f" prot="public" virt="non-virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>StreamChannel</name></member>
+      <member refid="d6/dea/class_canberra_1_1_protocols_1_1_lynx_1_1_stream_channel_a67d945e9fdd144393c5b0a5916ab7c91_1a67d945e9fdd144393c5b0a5916ab7c91" prot="public" virt="virtual"><scope>Canberra::Protocols::Lynx::StreamChannel</scope><name>~StreamChannel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

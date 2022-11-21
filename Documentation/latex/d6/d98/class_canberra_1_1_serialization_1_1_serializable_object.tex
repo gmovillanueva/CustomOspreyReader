@@ -1,0 +1,145 @@
+\hypertarget{class_canberra_1_1_serialization_1_1_serializable_object}{}\section{Canberra\+:\+:Serialization\+:\+:Serializable\+Object Class Reference}
+\label{class_canberra_1_1_serialization_1_1_serializable_object}\index{Canberra\+::\+Serialization\+::\+Serializable\+Object@{Canberra\+::\+Serialization\+::\+Serializable\+Object}}
+
+
+Inheritance diagram for Canberra\+:\+:Serialization\+:\+:Serializable\+Object\+:
+% FIG 0
+
+
+Collaboration diagram for Canberra\+:\+:Serialization\+:\+:Serializable\+Object\+:
+% FIG 1
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializable_object_a1ef23dd76e79aefac5c609181beb5430}\label{class_canberra_1_1_serialization_1_1_serializable_object_a1ef23dd76e79aefac5c609181beb5430}} 
+enum {\bfseries Type\+Code\+Tag} \{ \newline
+{\bfseries Unknown} =0, 
+{\bfseries Byte} =1, 
+{\bfseries Short} =2, 
+{\bfseries Long} =3, 
+\newline
+{\bfseries Ushort} =4, 
+{\bfseries Ubyte} =5, 
+{\bfseries Ulong} =6, 
+{\bfseries Float} =7, 
+\newline
+{\bfseries Double} =8, 
+{\bfseries String} =9, 
+{\bfseries Int64} =10, 
+{\bfseries Uint64} =11, 
+\newline
+{\bfseries Bool} =12, 
+{\bfseries Null} =13, 
+{\bfseries Date\+Time} =14, 
+{\bfseries Blob} =15, 
+\newline
+{\bfseries Array} =16, 
+{\bfseries Custom\+Type\+Offset} =20
+ \}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializable_object_a163e11a5f23b834ce8544f494084045e}\label{class_canberra_1_1_serialization_1_1_serializable_object_a163e11a5f23b834ce8544f494084045e}} 
+typedef enum Canberra\+::\+Serialization\+::\+Serializable\+Object\+::\+Type\+Code\+Tag {\bfseries Type\+Code}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializable_object_a0ef0ea4e4e766e15086f54ebb05744cd}\label{class_canberra_1_1_serialization_1_1_serializable_object_a0ef0ea4e4e766e15086f54ebb05744cd}} 
+{\bfseries Serializable\+Object} (U\+L\+O\+NG Type)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializable_object_ab619feca491ffd7547c45f0ec6dcfe0b}\label{class_canberra_1_1_serialization_1_1_serializable_object_ab619feca491ffd7547c45f0ec6dcfe0b}} 
+virtual U\+L\+O\+NG {\bfseries Get\+Type} ()
+\item 
+virtual U\+L\+O\+NG \hyperlink{class_canberra_1_1_serialization_1_1_serializable_object_a1af5a56d77422d2d6f56d1fb8bc9f376_a1af5a56d77422d2d6f56d1fb8bc9f376}{Get\+Size} ()
+\item 
+virtual U\+L\+O\+NG \hyperlink{class_canberra_1_1_serialization_1_1_serializable_object_a33e593c04b50f36e8dad06b3b7471a9c_a33e593c04b50f36e8dad06b3b7471a9c}{Serialize} (\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&Str, const L\+O\+NG Offset=0)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializable_object_a430c3ea76c8389e480d48a97ff2df2d0}\label{class_canberra_1_1_serialization_1_1_serializable_object_a430c3ea76c8389e480d48a97ff2df2d0}} 
+virtual U\+L\+O\+NG {\bfseries Deserialize} (\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&Str, const L\+O\+NG Offset=0)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializable_object_aba841e892df8481bd3fdca757e6f10d4}\label{class_canberra_1_1_serialization_1_1_serializable_object_aba841e892df8481bd3fdca757e6f10d4}} 
+bool {\bfseries Get\+Use\+Meta\+Data} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializable_object_a3fd4cc1bf197d9367f49b76c71582058}\label{class_canberra_1_1_serialization_1_1_serializable_object_a3fd4cc1bf197d9367f49b76c71582058}} 
+void {\bfseries Put\+Use\+Meta\+Data} (bool v)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializable_object_aeea4076233d10b8d485e474e47455e36}\label{class_canberra_1_1_serialization_1_1_serializable_object_aeea4076233d10b8d485e474e47455e36}} 
+virtual U\+L\+O\+NG {\bfseries Get\+Data\+Size} ()=0
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializable_object_ad53b676c25c6fdf48aa861b36709eba4}\label{class_canberra_1_1_serialization_1_1_serializable_object_ad53b676c25c6fdf48aa861b36709eba4}} 
+virtual U\+L\+O\+NG {\bfseries Serialize\+Data} (\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&Str, const \hyperlink{class_canberra_1_1_serialization_1_1_meta_data}{Meta\+Data} \&MD, const L\+O\+NG Offset=0)=0
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializable_object_aea035ce63d01acfb02185016fb648ece}\label{class_canberra_1_1_serialization_1_1_serializable_object_aea035ce63d01acfb02185016fb648ece}} 
+virtual U\+L\+O\+NG {\bfseries Deserialize\+Data} (\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&Str, const \hyperlink{class_canberra_1_1_serialization_1_1_meta_data}{Meta\+Data} \&MD, const L\+O\+NG Offset=0)=0
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializable_object_a62efa0d30e9df187718f2832622ac9fc}\label{class_canberra_1_1_serialization_1_1_serializable_object_a62efa0d30e9df187718f2832622ac9fc}} 
+U\+L\+O\+NG {\bfseries \+\_\+\+Type}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializable_object_a4821112683d68c98c1522d75f186fb21}\label{class_canberra_1_1_serialization_1_1_serializable_object_a4821112683d68c98c1522d75f186fb21}} 
+bool {\bfseries \+\_\+\+Use\+Meta\+Data}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 14 of file Serializable\+Object.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializable_object_a1af5a56d77422d2d6f56d1fb8bc9f376_a1af5a56d77422d2d6f56d1fb8bc9f376}\label{class_canberra_1_1_serialization_1_1_serializable_object_a1af5a56d77422d2d6f56d1fb8bc9f376_a1af5a56d77422d2d6f56d1fb8bc9f376}} 
+\index{Canberra\+::\+Serialization\+::\+Serializable\+Object@{Canberra\+::\+Serialization\+::\+Serializable\+Object}!Get\+Size@{Get\+Size}}
+\index{Get\+Size@{Get\+Size}!Canberra\+::\+Serialization\+::\+Serializable\+Object@{Canberra\+::\+Serialization\+::\+Serializable\+Object}}
+\subsubsection{\texorpdfstring{Get\+Size()}{GetSize()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Serialization\+::\+Serializable\+Object\+::\+Get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will serialize this instances data into the byte stream /summary$>$ param name=\char`\"{}\+Str\char`\"{}$>$The stream
+
+param name=\char`\"{}\+Offset\char`\"{}$>$The byte position to start the write in the stream
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$The Win32 error code
+
+returns$>$The number of bytes serialized
+
+Reimplemented in \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectrum_a95b9306d8163e99c546cbae2afe59785_a95b9306d8163e99c546cbae2afe59785}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Spectrum}.
+
+
+
+Definition at line 11 of file Serializable\+Object.\+cpp.
+
+\mbox{\Hypertarget{class_canberra_1_1_serialization_1_1_serializable_object_a33e593c04b50f36e8dad06b3b7471a9c_a33e593c04b50f36e8dad06b3b7471a9c}\label{class_canberra_1_1_serialization_1_1_serializable_object_a33e593c04b50f36e8dad06b3b7471a9c_a33e593c04b50f36e8dad06b3b7471a9c}} 
+\index{Canberra\+::\+Serialization\+::\+Serializable\+Object@{Canberra\+::\+Serialization\+::\+Serializable\+Object}!Serialize@{Serialize}}
+\index{Serialize@{Serialize}!Canberra\+::\+Serialization\+::\+Serializable\+Object@{Canberra\+::\+Serialization\+::\+Serializable\+Object}}
+\subsubsection{\texorpdfstring{Serialize()}{Serialize()}}
+{\footnotesize\ttfamily U\+L\+O\+NG Canberra\+::\+Serialization\+::\+Serializable\+Object\+::\+Serialize (\begin{DoxyParamCaption}\item[{\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_byte_stream}{Canberra\+::\+Utility\+::\+Core\+::\+Byte\+Stream} \&}]{Str,  }\item[{const L\+O\+NG}]{Offset = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+summary$>$ This method will deserialize info from the byte stream into this instance data member /summary$>$ param name=\char`\"{}\+Str\char`\"{}$>$The stream
+
+param name=\char`\"{}\+Offset\char`\"{}$>$The byte position to start the read in the stream
+
+exception cref=\char`\"{}\+U\+L\+O\+N\+G\char`\"{}$>$The Win32 error code
+
+returns$>$The number of bytes deserialized
+
+Implements \hyperlink{class_canberra_1_1_serialization_1_1_serializable}{Canberra\+::\+Serialization\+::\+Serializable}.
+
+
+
+Reimplemented in \hyperlink{class_canberra_1_1_data_types_1_1_spectroscopy_1_1_spectrum_ac5f0fa880e88960afa1547a60ed8c8f4_ac5f0fa880e88960afa1547a60ed8c8f4}{Canberra\+::\+Data\+Types\+::\+Spectroscopy\+::\+Spectrum}.
+
+
+
+Definition at line 20 of file Serializable\+Object.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Serializable\+Object.\+h\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Serializable\+Object.\+cpp\end{DoxyCompactItemize}

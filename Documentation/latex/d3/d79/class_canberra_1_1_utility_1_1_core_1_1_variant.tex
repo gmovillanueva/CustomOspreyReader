@@ -1,0 +1,548 @@
+\hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant}{}\section{Canberra\+:\+:Utility\+:\+:Core\+:\+:Variant Class Reference}
+\label{class_canberra_1_1_utility_1_1_core_1_1_variant}\index{Canberra\+::\+Utility\+::\+Core\+::\+Variant@{Canberra\+::\+Utility\+::\+Core\+::\+Variant}}
+
+
+Collaboration diagram for Canberra\+:\+:Utility\+:\+:Core\+:\+:Variant\+:
+% FIG 0
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+union \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant_de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values}{Native\+Values}
+\item 
+union \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant_d9/d8e/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_8____unnamed____}{Native\+Values.\+\_\+\+\_\+unnamed\+\_\+\+\_\+}
+\item 
+class \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant_1_1_variant_helper}{Variant\+Helper}
+\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_aff423dabe071f284830608ca44fd7480}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_aff423dabe071f284830608ca44fd7480}} 
+enum {\bfseries Variant\+Type\+Tag} \{ \newline
+{\bfseries Unknown} = 0, 
+{\bfseries Ubyte} = 1, 
+{\bfseries Ushort} = 2, 
+{\bfseries Ulong} = 3, 
+\newline
+{\bfseries Byte} = 4, 
+{\bfseries Short} = 5, 
+{\bfseries Long} = 6, 
+{\bfseries Float} = 7, 
+\newline
+{\bfseries Double} = 8, 
+{\bfseries Wstring} = 9, 
+{\bfseries Int64} = 10, 
+{\bfseries Uint64} = 11, 
+\newline
+{\bfseries Bool} = 12, 
+{\bfseries Date\+Time} = 13, 
+{\bfseries Null} = 14, 
+{\bfseries Array} = 0x8000, 
+\newline
+{\bfseries a\+Ubyte} = 0x8000 + 1, 
+{\bfseries a\+Ushort} = 0x8000 + 2, 
+{\bfseries a\+Ulong} = 0x8000 + 3, 
+{\bfseries a\+Byte} = 0x8000 + 4, 
+\newline
+{\bfseries a\+Short} = 0x8000 + 5, 
+{\bfseries a\+Long} = 0x8000 + 6, 
+{\bfseries a\+Float} = 0x8000 + 7, 
+{\bfseries a\+Double} = 0x8000 + 8, 
+\newline
+{\bfseries a\+Wstring} = 0x8000 + 9, 
+{\bfseries a\+Int64} = 0x8000 + 10, 
+{\bfseries a\+Uint64} = 0x8000 + 11, 
+{\bfseries a\+Bool} = 0x8000 + 12, 
+\newline
+{\bfseries a\+Date\+Time} = 0x8000 + 13
+ \}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a7f5bbdc7dd8eca265e9142643f992fd4}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a7f5bbdc7dd8eca265e9142643f992fd4}} 
+typedef enum Canberra\+::\+Utility\+::\+Core\+::\+Variant\+::\+Variant\+Type\+Tag {\bfseries Variant\+Type}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_aa6addf94f64b2cf188e413a465759d1d}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_aa6addf94f64b2cf188e413a465759d1d}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{String} \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant_aa6addf94f64b2cf188e413a465759d1d}{Convert\+To\+String} (L\+C\+ID=1033) const
+\begin{DoxyCompactList}\small\item\em This method will convert the variant contents into a string /summary$>$ returns$>$The string rep. of the value\end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a119fcf7d42eedaf3ef1bda15e136234e}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a119fcf7d42eedaf3ef1bda15e136234e}} 
+double {\bfseries Convert\+To\+Double\+Time} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_ae4c838f2872392e71fbc218b071ec95d}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_ae4c838f2872392e71fbc218b071ec95d}} 
+U\+L\+O\+N\+G\+U\+L\+O\+NG {\bfseries Convert\+To\+Int64\+Time} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a9b2479cd3519c4b4c6740204bb233b60}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a9b2479cd3519c4b4c6740204bb233b60}} 
+void {\bfseries Assign\+Date\+Time} (U\+L\+O\+N\+G\+U\+L\+O\+NG int64\+Time)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_aa77b3e764e9f5053d0508d3bdaea37e1}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_aa77b3e764e9f5053d0508d3bdaea37e1}} 
+void {\bfseries Assign\+Date\+Time} (L\+O\+N\+G\+L\+O\+NG int64\+Time)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a3131c5d1e098a5ba773f02b952c2a2eb}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a3131c5d1e098a5ba773f02b952c2a2eb}} 
+void {\bfseries Assign\+Date\+Time} (double double\+Time)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a47d904851779630386141d674e620280}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a47d904851779630386141d674e620280}} 
+{\bfseries Variant} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \&v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a2b48194aa038c3e00a40b02bb8e6ab2b}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a2b48194aa038c3e00a40b02bb8e6ab2b}} 
+{\bfseries Variant} (unsigned char v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_ae064b85d2003bdc362c949db36d5bf16}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_ae064b85d2003bdc362c949db36d5bf16}} 
+{\bfseries Variant} (unsigned short v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_ade432d163a6843ea633d3cf84fa32680}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_ade432d163a6843ea633d3cf84fa32680}} 
+{\bfseries Variant} (unsigned long v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_ae4bdf44f0c71d141e6c83fb904b19d67}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_ae4bdf44f0c71d141e6c83fb904b19d67}} 
+{\bfseries Variant} (unsigned int v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a90f906352a6b52ac08b0bab0f26c1d1c}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a90f906352a6b52ac08b0bab0f26c1d1c}} 
+{\bfseries Variant} (U\+L\+O\+N\+G\+U\+L\+O\+NG v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a5456c89fd2ad43d57deddc97eb75895c}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a5456c89fd2ad43d57deddc97eb75895c}} 
+{\bfseries Variant} (char v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a2be4acee0c4a40c00e82532f16462a5d}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a2be4acee0c4a40c00e82532f16462a5d}} 
+{\bfseries Variant} (short v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_abbe4fc3696f2134b63bea93100000632}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_abbe4fc3696f2134b63bea93100000632}} 
+{\bfseries Variant} (long v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a81b3e7f7c1a3509766cb11670ffe6824}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a81b3e7f7c1a3509766cb11670ffe6824}} 
+{\bfseries Variant} (int v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_affce7e908bc5a6024d10467f1a8eec27}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_affce7e908bc5a6024d10467f1a8eec27}} 
+{\bfseries Variant} (L\+O\+N\+G\+L\+O\+NG v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a70c5097fdd83dce1bc6239cc1cb36b54}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a70c5097fdd83dce1bc6239cc1cb36b54}} 
+{\bfseries Variant} (float v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a938d1c6bd622c6c562920fce833fb9c9}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a938d1c6bd622c6c562920fce833fb9c9}} 
+{\bfseries Variant} (double v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a07fdd9080b9e150b2f9cd52b62d3afba}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a07fdd9080b9e150b2f9cd52b62d3afba}} 
+{\bfseries Variant} (bool v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a5dd6e827f416ecea0e7b17c334a4329d}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a5dd6e827f416ecea0e7b17c334a4329d}} 
+{\bfseries Variant} (const \hyperlink{struct___f_i_l_e_t_i_m_e}{F\+I\+L\+E\+T\+I\+ME} \&)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a1a2ad636121bc0a1deaf92bc559d278a}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a1a2ad636121bc0a1deaf92bc559d278a}} 
+{\bfseries Variant} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant_array}{Variant\+Array} \&)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a8962b602b34cadfcab99f45606165646}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a8962b602b34cadfcab99f45606165646}} 
+{\bfseries Variant} (const wchar\+\_\+t $\ast$v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_ae8779511739aac431e6d259d242cb21b}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_ae8779511739aac431e6d259d242cb21b}} 
+bool {\bfseries Get\+Has\+Value} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_aaa99f7898d13a20a125a31016d0de0d4}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_aaa99f7898d13a20a125a31016d0de0d4}} 
+Variant\+Type {\bfseries Get\+Type} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a30125a21a448987526da66e17430a093}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a30125a21a448987526da66e17430a093}} 
+bool {\bfseries Get\+Is\+Array} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a2953677191d014ddb2a19a18d645e46d}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a2953677191d014ddb2a19a18d645e46d}} 
+bool {\bfseries Get\+Is\+Null} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_ac424c00c183f223fc4707f0843487625}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_ac424c00c183f223fc4707f0843487625}} 
+void {\bfseries Make\+Null} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a283848a0a224a9a01946e0c55c933501}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a283848a0a224a9a01946e0c55c933501}} 
+void {\bfseries Clear} ()
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a3471f5e2b75d499943039cd6b528856e}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a3471f5e2b75d499943039cd6b528856e}} 
+void {\bfseries Assign} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \&v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a4175fd648525baa41234b84dbab6a085}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a4175fd648525baa41234b84dbab6a085}} 
+void {\bfseries Assign} (unsigned char v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a05099738f5cf50090694e5a6151e121d}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a05099738f5cf50090694e5a6151e121d}} 
+void {\bfseries Assign} (unsigned short v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a0c7e6c06e938f1c5f1e27d34dd34f19a}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a0c7e6c06e938f1c5f1e27d34dd34f19a}} 
+void {\bfseries Assign} (unsigned long v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a8ca1e7414d75967f6483081d45754338}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a8ca1e7414d75967f6483081d45754338}} 
+void {\bfseries Assign} (unsigned int v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_ac4baa0bd5428eb6282d6c74432c6d97b}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_ac4baa0bd5428eb6282d6c74432c6d97b}} 
+void {\bfseries Assign} (U\+L\+O\+N\+G\+U\+L\+O\+NG v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_af2e5b402cd0ac76ab63f82af911df46e}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_af2e5b402cd0ac76ab63f82af911df46e}} 
+void {\bfseries Assign} (char v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a531453e048fdef0e376c44a4e7ac68be}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a531453e048fdef0e376c44a4e7ac68be}} 
+void {\bfseries Assign} (short v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a3adef8fb213261c6b9d241a205879e5e}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a3adef8fb213261c6b9d241a205879e5e}} 
+void {\bfseries Assign} (L\+O\+N\+G\+L\+O\+NG v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a936f96394d1e8273b50a23664dac11b9}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a936f96394d1e8273b50a23664dac11b9}} 
+void {\bfseries Assign} (int v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a1da28161143c65377a9c5f750480399c}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a1da28161143c65377a9c5f750480399c}} 
+void {\bfseries Assign} (long v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a787b3d4d4a7246e53d4d41fda13cb109}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a787b3d4d4a7246e53d4d41fda13cb109}} 
+void {\bfseries Assign} (float v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a4ea32b9027403114761e6335622417ca}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a4ea32b9027403114761e6335622417ca}} 
+void {\bfseries Assign} (double v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a4dc9a36bd2c6fabeec5db5738b75d79d}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a4dc9a36bd2c6fabeec5db5738b75d79d}} 
+void {\bfseries Assign} (const wchar\+\_\+t $\ast$v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_ac97c1e734b9ea92fdf179be9a425ba76}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_ac97c1e734b9ea92fdf179be9a425ba76}} 
+void {\bfseries Assign} (bool v)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a8a997b3a5e625e1f2c53fe86f9af2cc0}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a8a997b3a5e625e1f2c53fe86f9af2cc0}} 
+void {\bfseries Assign} (const \hyperlink{struct___f_i_l_e_t_i_m_e}{F\+I\+L\+E\+T\+I\+ME} \&)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a148c3e5d1c44139e16ff750d2d7a8d7c}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a148c3e5d1c44139e16ff750d2d7a8d7c}} 
+void {\bfseries Assign} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant_array}{Variant\+Array} \&)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_ac7fdf4c07541274862366c41217b90ab}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_ac7fdf4c07541274862366c41217b90ab}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{String} {\bfseries To\+String} (L\+C\+ID=1033) const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_ade6284a075c20f01e1cfac4377464c7b}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_ade6284a075c20f01e1cfac4377464c7b}} 
+float {\bfseries To\+Float} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a47d32321912ccc51235015db60e6b13a}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a47d32321912ccc51235015db60e6b13a}} 
+double {\bfseries To\+Double} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a10a454a0ef13525abed9d7f14086bfe5}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a10a454a0ef13525abed9d7f14086bfe5}} 
+long {\bfseries To\+Long} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a97db52c647d4f1a7a02231691f6cded5}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a97db52c647d4f1a7a02231691f6cded5}} 
+int {\bfseries To\+Int} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a3a7a559437b2c96b6510fa8314ab28d1}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a3a7a559437b2c96b6510fa8314ab28d1}} 
+char {\bfseries To\+Byte} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a9a5f7fd8394456603ed69836ff49a792}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a9a5f7fd8394456603ed69836ff49a792}} 
+short {\bfseries To\+Short} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_adef3363ee5bfab19a8cc386ba5e647cd}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_adef3363ee5bfab19a8cc386ba5e647cd}} 
+bool {\bfseries To\+Bool} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a467fe2f0d326e0b0e1195bbd0709ea65}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a467fe2f0d326e0b0e1195bbd0709ea65}} 
+L\+O\+N\+G\+L\+O\+NG {\bfseries To\+Int64} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a3d01563e60f0438e833fc60344064a0c}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a3d01563e60f0438e833fc60344064a0c}} 
+unsigned char {\bfseries To\+Ubyte} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_aecae642c4085e5f7c13ce3015865ab32}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_aecae642c4085e5f7c13ce3015865ab32}} 
+unsigned short {\bfseries To\+Ushort} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a953a9d4e55be6ed6cac7b4fb7f595ed0}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a953a9d4e55be6ed6cac7b4fb7f595ed0}} 
+unsigned long {\bfseries To\+Ulong} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a3c878e9e1c7f5e5a93df1ba1022c60ee}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a3c878e9e1c7f5e5a93df1ba1022c60ee}} 
+unsigned int {\bfseries To\+Uint} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_afbe362226a87c8bb0e50fa6346fd375c}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_afbe362226a87c8bb0e50fa6346fd375c}} 
+U\+L\+O\+N\+G\+U\+L\+O\+NG {\bfseries To\+Uint64} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a17fae59fcdd89b2956bf3e40b6b8bedf}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a17fae59fcdd89b2956bf3e40b6b8bedf}} 
+\hyperlink{struct___f_i_l_e_t_i_m_e}{F\+I\+L\+E\+T\+I\+ME} {\bfseries To\+File\+Time} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_adae60dae55e286d1b87a1dbcfe52cbe9}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_adae60dae55e286d1b87a1dbcfe52cbe9}} 
+{\bfseries operator const wchar\+\_\+t $\ast$} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a201228b90d228f04708572397b8580c8}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a201228b90d228f04708572397b8580c8}} 
+{\bfseries operator float} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_acfa2ae35d7eed771271fae4ba0389e43}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_acfa2ae35d7eed771271fae4ba0389e43}} 
+{\bfseries operator double} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a2b46e7d49e4b07a9b755550d9c0a4598}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a2b46e7d49e4b07a9b755550d9c0a4598}} 
+{\bfseries operator long} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a5b9cacbe3f0df6ba253c0003d03dd3b2}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a5b9cacbe3f0df6ba253c0003d03dd3b2}} 
+{\bfseries operator int} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_acb4970cd0859dfa5536d0f4fb3fddcce}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_acb4970cd0859dfa5536d0f4fb3fddcce}} 
+{\bfseries operator L\+O\+N\+G\+L\+O\+NG} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a530d85b18ac9a10419ae174c7f383d32}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a530d85b18ac9a10419ae174c7f383d32}} 
+{\bfseries operator char} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_aacd3aed43a173d431b9708d7c5d3dc29}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_aacd3aed43a173d431b9708d7c5d3dc29}} 
+{\bfseries operator short} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_ae30d52ac35fa09574dea2952ee17bcbf}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_ae30d52ac35fa09574dea2952ee17bcbf}} 
+{\bfseries operator bool} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a466c039fe0c577fff726b43ca77764a6}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a466c039fe0c577fff726b43ca77764a6}} 
+{\bfseries operator unsigned char} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a65a49c606bf72784d99168157761d65b}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a65a49c606bf72784d99168157761d65b}} 
+{\bfseries operator unsigned short} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a208d17fdf19869fa39787a0b9864cb34}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a208d17fdf19869fa39787a0b9864cb34}} 
+{\bfseries operator unsigned long} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_acf2a3b49bb5a8f94e59241fdfbe5e31d}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_acf2a3b49bb5a8f94e59241fdfbe5e31d}} 
+{\bfseries operator unsigned int} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_ac3f2e8b51221c078b52c2816b1562bd2}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_ac3f2e8b51221c078b52c2816b1562bd2}} 
+{\bfseries operator U\+L\+O\+N\+G\+U\+L\+O\+NG} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_aab5fcd7831663d868aaf630dc8857c32}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_aab5fcd7831663d868aaf630dc8857c32}} 
+{\bfseries operator F\+I\+L\+E\+T\+I\+ME} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a586ec6f2080afd8753311b687d126754}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a586ec6f2080afd8753311b687d126754}} 
+const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant_array}{Variant\+Array} \& {\bfseries get\+Array\+Value} () const
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a81f880c7efc47bd484e223843a87bf36}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a81f880c7efc47bd484e223843a87bf36}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \& {\bfseries operator=} (const wchar\+\_\+t $\ast$Rhs)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a91e97bb3ecc0c50cf2f7e422575e01fe}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a91e97bb3ecc0c50cf2f7e422575e01fe}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \& {\bfseries operator=} (const float Rhs)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_aefc66ce0aae832f6943cd5e6a44c92a6}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_aefc66ce0aae832f6943cd5e6a44c92a6}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \& {\bfseries operator=} (const double Rhs)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a652ef2784f2e7f8575771f389d9af5ac}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a652ef2784f2e7f8575771f389d9af5ac}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \& {\bfseries operator=} (const char Rhs)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_aa08bc1c3ede10bde361019c712329def}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_aa08bc1c3ede10bde361019c712329def}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \& {\bfseries operator=} (const short Rhs)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_af0f1bdd62bcda79a4b0b423e68eb70c8}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_af0f1bdd62bcda79a4b0b423e68eb70c8}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \& {\bfseries operator=} (const long Rhs)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_aea13195820c35480587cecab4bc3856b}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_aea13195820c35480587cecab4bc3856b}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \& {\bfseries operator=} (const int Rhs)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a985e78ef46f22d761d0f98658ab600a1}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a985e78ef46f22d761d0f98658ab600a1}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \& {\bfseries operator=} (const L\+O\+N\+G\+L\+O\+NG \&Rhs)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_ab924ec93fc92e2f153cdf0b0e658b60c}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_ab924ec93fc92e2f153cdf0b0e658b60c}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \& {\bfseries operator=} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \&Rhs)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a4f4fa3a1957211efbf22986682d709f2}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a4f4fa3a1957211efbf22986682d709f2}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \& {\bfseries operator=} (const bool Rhs)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a2f37f4d7c481872f8172fb728c2a6114}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a2f37f4d7c481872f8172fb728c2a6114}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \& {\bfseries operator=} (const unsigned char Rhs)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a0d970d810771db03db3adc06651aab12}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a0d970d810771db03db3adc06651aab12}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \& {\bfseries operator=} (const unsigned short Rhs)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_aff7ee8bf051ff08bc81f15711703d007}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_aff7ee8bf051ff08bc81f15711703d007}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \& {\bfseries operator=} (const unsigned int Rhs)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_aa68089c3daf75716892c1f1dba4ab12e}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_aa68089c3daf75716892c1f1dba4ab12e}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \& {\bfseries operator=} (const unsigned long Rhs)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_aca3aabb7bf45ca92e7120ab5552f74a8}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_aca3aabb7bf45ca92e7120ab5552f74a8}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \& {\bfseries operator=} (const U\+L\+O\+N\+G\+U\+L\+O\+NG \&Rhs)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a340619960e1b5c761afbead8cfb7250f}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a340619960e1b5c761afbead8cfb7250f}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \& {\bfseries operator=} (const \hyperlink{struct___f_i_l_e_t_i_m_e}{F\+I\+L\+E\+T\+I\+ME} \&Rhs)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a3a3d555e24a65690b9455b5757c03d86}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a3a3d555e24a65690b9455b5757c03d86}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \& {\bfseries operator=} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant_array}{Variant\+Array} \&Rhs)
+\item 
+L\+O\+NG \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant_abd010f8e9411a9cbd7fd8be1f76fd4b4_abd010f8e9411a9cbd7fd8be1f76fd4b4}{Compare} (const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \&V) const
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a6c2146a79402b4636837dff5786ebf23}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a6c2146a79402b4636837dff5786ebf23}} 
+static U\+L\+O\+N\+G\+U\+L\+O\+NG {\bfseries Double\+Time\+To\+Int64\+Time} (double dt)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a3585cc4461ae63789b8bf3c487c92dcf}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a3585cc4461ae63789b8bf3c487c92dcf}} 
+static double {\bfseries Int64\+Time\+To\+Double\+Time} (U\+L\+O\+N\+G\+U\+L\+O\+NG ft)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_ab0ab4594f9d701de44b86d91c10753df}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_ab0ab4594f9d701de44b86d91c10753df}} 
+static L\+O\+NG {\bfseries Compare\+Doubles} (double d1, double d2)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a51dd9b74aaf587fd204c66b3dfb7b38a}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a51dd9b74aaf587fd204c66b3dfb7b38a}} 
+static L\+O\+NG {\bfseries Compare\+Floats} (float d1, float d2)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_addbc31b338030d7086e9e44ab01fc3a2}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_addbc31b338030d7086e9e44ab01fc3a2}} 
+static long {\bfseries type\+Name2\+Number} (const wchar\+\_\+t $\ast$const name)
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_abbe5fa778a0d79ac90b21f9e6fb32c2d}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_abbe5fa778a0d79ac90b21f9e6fb32c2d}} 
+static const wchar\+\_\+t $\ast$ {\bfseries type\+Number2\+Name} (long num)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_ac15a41b5e92e03ce986e390d27ee83fa}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_ac15a41b5e92e03ce986e390d27ee83fa}} 
+static const long {\bfseries T\+Y\+P\+E\+\_\+\+E\+N\+UM} = 1024L
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a755a00b9bc91211d4a0db1ac27ef0ded}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a755a00b9bc91211d4a0db1ac27ef0ded}} 
+static const long {\bfseries T\+Y\+P\+E\+\_\+\+B\+L\+OB} = 1025L
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a07619f2eb3f32affc12daf6a40bb65fd}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a07619f2eb3f32affc12daf6a40bb65fd}} 
+Variant\+Type {\bfseries \+\_\+\+Type}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a03734c31788409ed8ef95af1a1df2de6}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a03734c31788409ed8ef95af1a1df2de6}} 
+union \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant_de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values}{Canberra\+::\+Utility\+::\+Core\+::\+Variant\+::\+Native\+Values} {\bfseries \+\_\+u\+Val}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a8b165057cccc80756fe893012aa55e6f}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a8b165057cccc80756fe893012aa55e6f}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{String} {\bfseries \+\_\+str\+Val}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a972467988919ff60c3d4d5f8c099a84b}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a972467988919ff60c3d4d5f8c099a84b}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_string}{String} {\bfseries \+\_\+fmt\+Val}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a6324443248ee6284297a384385d31ee7}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a6324443248ee6284297a384385d31ee7}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant_array}{Variant\+Array} $\ast$ {\bfseries \+\_\+var\+Array}
+\item 
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a4c83597850d0f70101e2161b9968a5c7}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a4c83597850d0f70101e2161b9968a5c7}} 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+union \{\\
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a2686648656aa9c5e42c80adcb2dee109}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a2686648656aa9c5e42c80adcb2dee109}} 
+ULONGULONG {\bfseries \_fileTimeIntVal}\\
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a92a05cf872c016c01c41eb1a94e85af8}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a92a05cf872c016c01c41eb1a94e85af8}} 
+\hyperlink{struct___f_i_l_e_t_i_m_e}{FILETIME} {\bfseries \_fileTime}\\
+\}; \\
+
+\end{tabbing}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 46 of file Variant.\+h.
+
+
+
+\subsection{Class Documentation}
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Variant\+::\+Native\+Values@{Canberra\+::\+Utility\+::\+Core\+::\+Variant\+::\+Native\+Values}}\label{union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values}
+\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values}
+\subsubsection{union Canberra\+:\+:Utility\+:\+:Core\+:\+:Variant\+:\+:Native\+Values}
+
+
+Definition at line 86 of file Variant.\+h.
+
+
+
+Collaboration diagram for Canberra\+:\+:Utility\+:\+:Core\+:\+:Variant\+:\+:Native\+Values\+:
+% FIG 1
+\begin{DoxyFields}{Class Members}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_ad3cb9f168af1e6be3389abc604af7542}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_ad3cb9f168af1e6be3389abc604af7542}} 
+union \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant_d9/d8e/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_8____unnamed____}{NativeValues}&
+\_\_unnamed\_\_&
+\\
+\hline
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a26461e6bc445b5f553098aba58712bbe}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a26461e6bc445b5f553098aba58712bbe}} 
+bool&
+boolVal&
+\\
+\hline
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a464bd89646061e595b7e6ca6ca8adadf}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a464bd89646061e595b7e6ca6ca8adadf}} 
+char&
+bVal&
+\\
+\hline
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a373e8f4f962d91b6901f5d8237b45a28}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a373e8f4f962d91b6901f5d8237b45a28}} 
+double&
+dVal&
+\\
+\hline
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a0b96f982251bb887df65ba73dda77640}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a0b96f982251bb887df65ba73dda77640}} 
+float&
+fVal&
+\\
+\hline
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a1edd1da715344ff3614fcbfa6e581ffd}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a1edd1da715344ff3614fcbfa6e581ffd}} 
+LONGLONG&
+i64Val&
+\\
+\hline
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_aff1a7fd37d4bafdd725f2e96b5dfa819}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_aff1a7fd37d4bafdd725f2e96b5dfa819}} 
+int&
+lVal&
+\\
+\hline
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_abeb6ef3d4c81194677f6e241836c7d41}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_abeb6ef3d4c81194677f6e241836c7d41}} 
+\hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant_array}{VariantArray} $\ast$&
+pArrayVal&
+\\
+\hline
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a1bc28f13691752668b4cb6f61e02f714}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a1bc28f13691752668b4cb6f61e02f714}} 
+short&
+sVal&
+\\
+\hline
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_ab87eaf999ed9da37674c0bcdb6ea87e1}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_ab87eaf999ed9da37674c0bcdb6ea87e1}} 
+unsigned char&
+ubVal&
+\\
+\hline
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a87770bd55bf6a7e0ff07a92e72f34311}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a87770bd55bf6a7e0ff07a92e72f34311}} 
+ULONGULONG&
+ui64Val&
+\\
+\hline
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a3a61d4a62de3aa16a4bf91e86c08564e}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a3a61d4a62de3aa16a4bf91e86c08564e}} 
+unsigned int&
+ulVal&
+\\
+\hline
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a3dca8c7ff5841ede91d58129eb115936}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a3dca8c7ff5841ede91d58129eb115936}} 
+unsigned short&
+usVal&
+\\
+\hline
+
+\end{DoxyFields}
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Variant\+::\+Native\+Values.\+\_\+\+\_\+unnamed\+\_\+\+\_\+@{Canberra\+::\+Utility\+::\+Core\+::\+Variant\+::\+Native\+Values.\+\_\+\+\_\+unnamed\+\_\+\+\_\+}}\label{union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_8____unnamed____}
+\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_8____unnamed____}
+\subsubsection{union Canberra\+:\+:Utility\+:\+:Core\+:\+:Variant\+:\+:Native\+Values.\+\_\+\+\_\+unnamed\+\_\+\+\_\+}
+
+
+Definition at line 100 of file Variant.\+h.
+
+\begin{DoxyFields}{Class Members}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a98d353447be3255ee722c11dcfe24ce5}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a98d353447be3255ee722c11dcfe24ce5}} 
+\hyperlink{struct___f_i_l_e_t_i_m_e}{FILETIME}&
+dateVal&
+\\
+\hline
+
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_a5e4636122333c4d2098198138b1344a3}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_a5e4636122333c4d2098198138b1344a3}} 
+ULONGULONG&
+int64DateVal&
+\\
+\hline
+
+\end{DoxyFields}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_canberra_1_1_utility_1_1_core_1_1_variant_abd010f8e9411a9cbd7fd8be1f76fd4b4_abd010f8e9411a9cbd7fd8be1f76fd4b4}\label{class_canberra_1_1_utility_1_1_core_1_1_variant_abd010f8e9411a9cbd7fd8be1f76fd4b4_abd010f8e9411a9cbd7fd8be1f76fd4b4}} 
+\index{Canberra\+::\+Utility\+::\+Core\+::\+Variant@{Canberra\+::\+Utility\+::\+Core\+::\+Variant}!Compare@{Compare}}
+\index{Compare@{Compare}!Canberra\+::\+Utility\+::\+Core\+::\+Variant@{Canberra\+::\+Utility\+::\+Core\+::\+Variant}}
+\subsubsection{\texorpdfstring{Compare()}{Compare()}}
+{\footnotesize\ttfamily L\+O\+NG Canberra\+::\+Utility\+::\+Core\+::\+Variant\+::\+Compare (\begin{DoxyParamCaption}\item[{const \hyperlink{class_canberra_1_1_utility_1_1_core_1_1_variant}{Variant} \&}]{V }\end{DoxyParamCaption}) const}
+
+summary$>$ This method will clear the value of this variant instance /summary$>$ 
+
+Definition at line 241 of file Variant.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Variant.\+h\item 
+Project1/\+Dependencies/\+Canberra\+\_\+\+V2/include/Variant.\+cpp\end{DoxyCompactItemize}

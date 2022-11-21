@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest" kind="class" language="C++" prot="public">
+    <compoundname>Canberra::DataTypes::Spectroscopy::RegionOfInterest</compoundname>
+    <basecompoundref refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object" prot="public" virt="non-virtual">Canberra::Serialization::SerializableObject</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a595a6d5ab1db110cd404cae4deb4416f" prot="protected" static="no" mutable="no">
+        <type>struct <ref refid="db/d75/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_roi_data_s" kindref="compound">RoiDataS</ref></type>
+        <definition>struct RoiDataS Canberra::DataTypes::Spectroscopy::RegionOfInterest::_Data</definition>
+        <argsstring></argsstring>
+        <name>_Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="18" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a2671066e4f786bc8788cc4d064802d02" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Spectroscopy::RegionOfInterest::Copy</definition>
+        <argsstring>(const RegionOfInterest &amp;v)</argsstring>
+        <name>Copy</name>
+        <param>
+          <type>const <ref refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest" kindref="compound">RegionOfInterest</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>This method will perform a deep copy /summary&gt; param name=&quot;v&quot;&gt;The src</para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="29" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_ac1fa66449af9ef06c5c29b9cb32d0c62_1ac1fa66449af9ef06c5c29b9cb32d0c62" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Spectroscopy::RegionOfInterest::HandleEndianness</definition>
+        <argsstring>()</argsstring>
+        <name>HandleEndianness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will serialize this instance into the byte stream /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;MD&quot;&gt;The metadata</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the write in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes serialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="30" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.cpp" bodystart="69" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_a9f59cf16468e03812383c3592866ac0b_1a9f59cf16468e03812383c3592866ac0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Spectroscopy::RegionOfInterest::RegionOfInterest</definition>
+        <argsstring>(const RegionOfInterest &amp;v)</argsstring>
+        <name>RegionOfInterest</name>
+        <param>
+          <type>const <ref refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest" kindref="compound">RegionOfInterest</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will initialize an instance of this class /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="33" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.cpp" bodystart="20" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_ac23add1024b2fa1a5355847f2a633cbe_1ac23add1024b2fa1a5355847f2a633cbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest" kindref="compound">RegionOfInterest</ref> &amp;</type>
+        <definition>Canberra::DataTypes::Spectroscopy::RegionOfInterest &amp; Canberra::DataTypes::Spectroscopy::RegionOfInterest::operator=</definition>
+        <argsstring>(const RegionOfInterest &amp;Rhs)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest" kindref="compound">RegionOfInterest</ref> &amp;</type>
+          <declname>Rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will initialize an instance of this class /summary&gt; param name=&quot;v&quot;&gt;The src</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="34" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_af101892e364a92b08a3814ead5845338_1af101892e364a92b08a3814ead5845338" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Spectroscopy::RegionOfInterest::RegionOfInterest</definition>
+        <argsstring>()</argsstring>
+        <name>RegionOfInterest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will initialize an instance of this class /summary&gt; param name=&quot;Start&quot;&gt;The start channel</para><para>param name=&quot;End&quot;&gt;The end channel</para><para>param name=&quot;Type&quot;&gt;The type of ROI</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="35" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.cpp" bodystart="26" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1adb38924f657cecaa87ed47cbea68b4d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Spectroscopy::RegionOfInterest::RegionOfInterest</definition>
+        <argsstring>(ULONG Start, ULONG End, ULONG Type)</argsstring>
+        <name>RegionOfInterest</name>
+        <param>
+          <type>ULONG</type>
+          <declname>Start</declname>
+        </param>
+        <param>
+          <type>ULONG</type>
+          <declname>End</declname>
+        </param>
+        <param>
+          <type>ULONG</type>
+          <declname>Type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="36" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.cpp" bodystart="38" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a4b4b5b872ed2a759572841fb12712db3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Canberra::DataTypes::Spectroscopy::RegionOfInterest::~RegionOfInterest</definition>
+        <argsstring>()</argsstring>
+        <name>~RegionOfInterest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="37" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.cpp" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_a8050cf3fd587d7932bb42f90df3815ef_1a8050cf3fd587d7932bb42f90df3815ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::RegionOfInterest::GetDataSize</definition>
+        <argsstring>()</argsstring>
+        <name>GetDataSize</name>
+        <reimplements refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1aeea4076233d10b8d485e474e47455e36">GetDataSize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will format the contained data for the processor /summary&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="40" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.cpp" bodystart="61" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_a2253a71ec6c74ce4037d8522c5d7f3b3_1a2253a71ec6c74ce4037d8522c5d7f3b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::RegionOfInterest::SerializeData</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const Canberra::Serialization::MetaData &amp;MD, const LONG Offset=0)</argsstring>
+        <name>SerializeData</name>
+        <reimplements refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1ad53b676c25c6fdf48aa861b36709eba4">SerializeData</reimplements>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data" kindref="compound">Canberra::Serialization::MetaData</ref> &amp;</type>
+          <declname>MD</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will deserialize info from the byte stream into this instance /summary&gt; param name=&quot;Str&quot;&gt;The stream</para><para>param name=&quot;MD&quot;&gt;The metadata</para><para>param name=&quot;Offset&quot;&gt;The byte position to start the read in the stream</para><para>exception cref=&quot;ULONG&quot;&gt;The Win32 error code</para><para>returns&gt;The number of bytes deserialized</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="41" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.cpp" bodystart="83" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a86e80ee24fd4e763b966c2aeaf9e7823" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::RegionOfInterest::DeserializeData</definition>
+        <argsstring>(Canberra::Utility::Core::ByteStream &amp;Str, const Canberra::Serialization::MetaData &amp;MD, const LONG Offset=0)</argsstring>
+        <name>DeserializeData</name>
+        <reimplements refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1aea035ce63d01acfb02185016fb648ece">DeserializeData</reimplements>
+        <param>
+          <type><ref refid="d2/dde/class_canberra_1_1_utility_1_1_core_1_1_byte_stream" kindref="compound">Canberra::Utility::Core::ByteStream</ref> &amp;</type>
+          <declname>Str</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/d32/class_canberra_1_1_serialization_1_1_meta_data" kindref="compound">Canberra::Serialization::MetaData</ref> &amp;</type>
+          <declname>MD</declname>
+        </param>
+        <param>
+          <type>const LONG</type>
+          <declname>Offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="42" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.cpp" bodystart="101" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a872cbc77ea65832730bbba1dfc905be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::RegionOfInterest::GetStartChannel</definition>
+        <argsstring>()</argsstring>
+        <name>GetStartChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="45" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.cpp" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a65c3f6c23d118a2c1958349a5ac005e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Spectroscopy::RegionOfInterest::PutStartChannel</definition>
+        <argsstring>(ULONG)</argsstring>
+        <name>PutStartChannel</name>
+        <param>
+          <type>ULONG</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="46" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.cpp" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a73c78e64f54f893b1e873530376455ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::RegionOfInterest::GetEndChannel</definition>
+        <argsstring>()</argsstring>
+        <name>GetEndChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="49" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.cpp" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a16c13bb2b5561acf6fa2e11056b03dc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Spectroscopy::RegionOfInterest::PutEndChannel</definition>
+        <argsstring>(ULONG)</argsstring>
+        <name>PutEndChannel</name>
+        <param>
+          <type>ULONG</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="50" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.cpp" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a25564f5ddd866f02168b17d14a1aa320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ULONG</type>
+        <definition>ULONG Canberra::DataTypes::Spectroscopy::RegionOfInterest::GetRegionType</definition>
+        <argsstring>()</argsstring>
+        <name>GetRegionType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="53" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.cpp" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_ae1820eab6fe54c57dbe26acd8735d06d_1ae1820eab6fe54c57dbe26acd8735d06d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Canberra::DataTypes::Spectroscopy::RegionOfInterest::PutRegionType</definition>
+        <argsstring>(ULONG)</argsstring>
+        <name>PutRegionType</name>
+        <param>
+          <type>ULONG</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; This method will return the size of the data to serialize in bytes /summary&gt; returns&gt;The number of bytes</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="54" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.cpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="326">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="325">
+        <label>Canberra::Serialization::SerializableObject</label>
+        <link refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object"/>
+        <childnode refid="326" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="324">
+        <label>Canberra::DataTypes::Spectroscopy::RegionOfInterest</label>
+        <link refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest"/>
+        <childnode refid="325" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="329">
+        <label>Canberra::Serialization::Serializable</label>
+        <link refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable"/>
+      </node>
+      <node id="328">
+        <label>Canberra::Serialization::SerializableObject</label>
+        <link refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object"/>
+        <childnode refid="329" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="330">
+        <label>Canberra::DataTypes::Spectroscopy::RoiDataS</label>
+        <link refid="db/d75/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_roi_data_s"/>
+      </node>
+      <node id="327">
+        <label>Canberra::DataTypes::Spectroscopy::RegionOfInterest</label>
+        <link refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest"/>
+        <childnode refid="328" relation="public-inheritance">
+        </childnode>
+        <childnode refid="330" relation="usage">
+          <edgelabel>_Data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" line="26" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/RegionOfInterest.h" bodystart="26" bodyend="56"/>
+    <listofallmembers>
+      <member refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a595a6d5ab1db110cd404cae4deb4416f" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>_Data</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a62efa0d30e9df187718f2832622ac9fc" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>_Type</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a4821112683d68c98c1522d75f186fb21" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>_UseMetaData</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a42d74858b0cea8269da2b35ccd5cb1ff" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Array</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a13dfc3b38fa4101b58ed1e111954a696" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Blob</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a3810fac464221c267d15ac677b734ec9" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Bool</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aa3a10ebe6b68339ed5c951d1cd63323b" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Byte</name></member>
+      <member refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a2671066e4f786bc8788cc4d064802d02" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Copy</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ab559832d01dfcf5ec9d13560b03c05fe" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>CustomTypeOffset</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aea4d059479031ecb9556cb06274f398e" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>DateTime</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a430c3ea76c8389e480d48a97ff2df2d0" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Deserialize</name></member>
+      <member refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a86e80ee24fd4e763b966c2aeaf9e7823" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>DeserializeData</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ab41926d1cfcca9c142c69707c2f202c0" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Double</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a92fcae28fd44acf6ee83b77f8813df55" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Float</name></member>
+      <member refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_a8050cf3fd587d7932bb42f90df3815ef_1a8050cf3fd587d7932bb42f90df3815ef" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>GetDataSize</name></member>
+      <member refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a73c78e64f54f893b1e873530376455ec" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>GetEndChannel</name></member>
+      <member refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a25564f5ddd866f02168b17d14a1aa320" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>GetRegionType</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_a1af5a56d77422d2d6f56d1fb8bc9f376_1a1af5a56d77422d2d6f56d1fb8bc9f376" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>GetSize</name></member>
+      <member refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a872cbc77ea65832730bbba1dfc905be2" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>GetStartChannel</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1ab619feca491ffd7547c45f0ec6dcfe0b" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>GetType</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1aba841e892df8481bd3fdca757e6f10d4" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>GetUseMetaData</name></member>
+      <member refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_ac1fa66449af9ef06c5c29b9cb32d0c62_1ac1fa66449af9ef06c5c29b9cb32d0c62" prot="protected" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>HandleEndianness</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430af31a37f97d6cbec3e2439cf0b9f0efee" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Int64</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430aff35725740fbbbbb5495460560c13d54" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Long</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a6c938a0fc1bf14041406d0a6df5da2b3" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Null</name></member>
+      <member refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_ac23add1024b2fa1a5355847f2a633cbe_1ac23add1024b2fa1a5355847f2a633cbe" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>operator=</name></member>
+      <member refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a16c13bb2b5561acf6fa2e11056b03dc8" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>PutEndChannel</name></member>
+      <member refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_ae1820eab6fe54c57dbe26acd8735d06d_1ae1820eab6fe54c57dbe26acd8735d06d" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>PutRegionType</name></member>
+      <member refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a65c3f6c23d118a2c1958349a5ac005e5" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>PutStartChannel</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a3fd4cc1bf197d9367f49b76c71582058" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>PutUseMetaData</name></member>
+      <member refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_a9f59cf16468e03812383c3592866ac0b_1a9f59cf16468e03812383c3592866ac0b" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>RegionOfInterest</name></member>
+      <member refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_af101892e364a92b08a3814ead5845338_1af101892e364a92b08a3814ead5845338" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>RegionOfInterest</name></member>
+      <member refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1adb38924f657cecaa87ed47cbea68b4d7" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>RegionOfInterest</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1a38579cdd4f2e813e7b0cca54e1b09529" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Serializable</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a0ef0ea4e4e766e15086f54ebb05744cd" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>SerializableObject</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_a33e593c04b50f36e8dad06b3b7471a9c_1a33e593c04b50f36e8dad06b3b7471a9c" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Serialize</name></member>
+      <member refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_a2253a71ec6c74ce4037d8522c5d7f3b3_1a2253a71ec6c74ce4037d8522c5d7f3b3" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>SerializeData</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a583b6f9cb2b9d3e17b4886d87bdedc58" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Short</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a38fdc153d55d83bc2e228ae8a3ed7245" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>String</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a163e11a5f23b834ce8544f494084045e" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>TypeCode</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>TypeCodeTag</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430af81c78c9fb7d47514b6d549e17acbfd1" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Ubyte</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430ad366730d966138edb3d1ab0dd5da08e6" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Uint64</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a2755dd9dd281c902476f2295855ee571" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Ulong</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430abfc7ae0d0aa2c1d6386055cdcbdb0d76" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Unknown</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a1ef23dd76e79aefac5c609181beb5430a92cba09c4c79914db36ac8c31aea8d63" prot="public" virt="non-virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>Ushort</name></member>
+      <member refid="d5/d4d/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_region_of_interest_1a4b4b5b872ed2a759572841fb12712db3" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>~RegionOfInterest</name></member>
+      <member refid="d0/d9f/class_canberra_1_1_serialization_1_1_serializable_1ac760495914b0d7047d1dcbd3fed642d4" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>~Serializable</name></member>
+      <member refid="d6/d98/class_canberra_1_1_serialization_1_1_serializable_object_1a72f15771099cf139f28e839e480d0721" prot="public" virt="virtual"><scope>Canberra::DataTypes::Spectroscopy::RegionOfInterest</scope><name>~SerializableObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

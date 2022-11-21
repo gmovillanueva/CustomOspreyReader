@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="Canberra::DataTypes\l::Spectroscopy::SCAbuffer\l::BufferEntry::EntryHeaderTag",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d5f/class_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry.html#de/d72/struct_canberra_1_1_data_types_1_1_spectroscopy_1_1_s_c_abuffer_1_1_buffer_entry_1_1_entry_header_tag"];
+}

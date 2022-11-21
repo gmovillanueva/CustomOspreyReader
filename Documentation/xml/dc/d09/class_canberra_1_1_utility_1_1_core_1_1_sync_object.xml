@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Canberra::Utility::Core::SyncObject</compoundname>
+    <derivedcompoundref refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section" prot="public" virt="non-virtual">Canberra::Utility::Core::CriticalSection</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a9a44373c6ab8ce73cbe373e64ec03c77" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::SyncObject::_IsNamed</definition>
+        <argsstring></argsstring>
+        <name>_IsNamed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SyncObject.h" line="16" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SyncObject.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1aeca23ab46d8c77eb0a279386bd395fbc" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::SyncObject::_IsGlobal</definition>
+        <argsstring></argsstring>
+        <name>_IsGlobal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SyncObject.h" line="17" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SyncObject.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1ae73fa76babd0fa3918c3724b044a2a48" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::SyncObject::_Initialized</definition>
+        <argsstring></argsstring>
+        <name>_Initialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SyncObject.h" line="18" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SyncObject.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a52c2b77c2ceb04ea1fb0461d59e67633" prot="protected" static="no" mutable="no">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>String Canberra::Utility::Core::SyncObject::_Name</definition>
+        <argsstring></argsstring>
+        <name>_Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SyncObject.h" line="19" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SyncObject.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1ae1f30f6fce9190ec3d32762eaa282900" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Canberra::Utility::Core::SyncObject::SyncObject</definition>
+        <argsstring>(const String &amp;Name)</argsstring>
+        <name>SyncObject</name>
+        <param>
+          <type>const <ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref> &amp;</type>
+          <declname>Name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SyncObject.h" line="23" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SyncObject.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a5e08bb62ffd90819f59fb6f2b7e86f31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual Canberra::Utility::Core::SyncObject::~SyncObject</definition>
+        <argsstring>(void)</argsstring>
+        <name>~SyncObject</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SyncObject.h" line="24" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SyncObject.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1aa9f9f2c078ea20863ef942bb598970aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ULONG</type>
+        <definition>virtual ULONG Canberra::Utility::Core::SyncObject::Create</definition>
+        <argsstring>()=0</argsstring>
+        <name>Create</name>
+        <reimplementedby refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_a0331da73e6a8472e107813080b1ac107_1a0331da73e6a8472e107813080b1ac107">Create</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SyncObject.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1ab5070ffad5432ae80f16767c2b9b525a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ULONG</type>
+        <definition>virtual ULONG Canberra::Utility::Core::SyncObject::Close</definition>
+        <argsstring>()=0</argsstring>
+        <name>Close</name>
+        <reimplementedby refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_1aa579ed1514a2d489dbb7997c199fb5ef">Close</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SyncObject.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1ab74ec3962f4c8e6a446f59cdfb8d4f70" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool Canberra::Utility::Core::SyncObject::WaitOne</definition>
+        <argsstring>(LONG TimeO=0)=0</argsstring>
+        <name>WaitOne</name>
+        <reimplementedby refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_a1f6ce2fecd7176f7580c091437920c96_1a1f6ce2fecd7176f7580c091437920c96">WaitOne</reimplementedby>
+        <param>
+          <type>LONG</type>
+          <declname>TimeO</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SyncObject.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a5c5fd1066372d180e16e475a5cf8fbc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ULONG</type>
+        <definition>virtual ULONG Canberra::Utility::Core::SyncObject::Lock</definition>
+        <argsstring>()=0</argsstring>
+        <name>Lock</name>
+        <reimplementedby refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_ad6db25d94bb0c5b7f877c435c9fd9206_1ad6db25d94bb0c5b7f877c435c9fd9206">Lock</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SyncObject.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a86a4157f361c42d5823ea733c9061d74" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ULONG</type>
+        <definition>virtual ULONG Canberra::Utility::Core::SyncObject::Unlock</definition>
+        <argsstring>()=0</argsstring>
+        <name>Unlock</name>
+        <reimplementedby refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_a78d9486915ae3ed0687fd404af8bb078_1a78d9486915ae3ed0687fd404af8bb078">Unlock</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SyncObject.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a2b8e2f0d70c75f60aff1bde4536b3217" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool Canberra::Utility::Core::SyncObject::TryLock</definition>
+        <argsstring>()=0</argsstring>
+        <name>TryLock</name>
+        <reimplementedby refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section_1adacf4a030fe35e920e2ddb1515c2221d">TryLock</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SyncObject.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1aa8c53151b7c5d01e08e498c5fe77ab99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::SyncObject::GetIsOpen</definition>
+        <argsstring>()</argsstring>
+        <name>GetIsOpen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SyncObject.h" line="45" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SyncObject.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1afd382a9a6edcf4d45b83e9b7e7e78b72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string" kindref="compound">String</ref></type>
+        <definition>String Canberra::Utility::Core::SyncObject::GetName</definition>
+        <argsstring>()</argsstring>
+        <name>GetName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SyncObject.h" line="48" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SyncObject.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1afa1bef8c30c3e1f85eda57c7bab72b06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::SyncObject::GetIsGlobal</definition>
+        <argsstring>()</argsstring>
+        <name>GetIsGlobal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SyncObject.h" line="51" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SyncObject.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a6ad6f6802cf9fa85552164ef0185a815" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::SyncObject::GetIsNamed</definition>
+        <argsstring>()</argsstring>
+        <name>GetIsNamed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/SyncObject.h" line="54" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SyncObject.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="542">
+        <label>Canberra::Utility::Core::CriticalSection</label>
+        <link refid="de/d82/class_canberra_1_1_utility_1_1_core_1_1_critical_section"/>
+        <childnode refid="541" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="541">
+        <label>Canberra::Utility::Core::SyncObject</label>
+        <link refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="544">
+        <label>Canberra::Utility::Core::String</label>
+        <link refid="da/d1c/class_canberra_1_1_utility_1_1_core_1_1_string"/>
+      </node>
+      <node id="543">
+        <label>Canberra::Utility::Core::SyncObject</label>
+        <link refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object"/>
+        <childnode refid="544" relation="usage">
+          <edgelabel>_Name</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/SyncObject.h" line="14" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/SyncObject.h" bodystart="13" bodyend="56"/>
+    <listofallmembers>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1ae73fa76babd0fa3918c3724b044a2a48" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::SyncObject</scope><name>_Initialized</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1aeca23ab46d8c77eb0a279386bd395fbc" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::SyncObject</scope><name>_IsGlobal</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a9a44373c6ab8ce73cbe373e64ec03c77" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::SyncObject</scope><name>_IsNamed</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a52c2b77c2ceb04ea1fb0461d59e67633" prot="protected" virt="non-virtual"><scope>Canberra::Utility::Core::SyncObject</scope><name>_Name</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1ab5070ffad5432ae80f16767c2b9b525a" prot="public" virt="pure-virtual"><scope>Canberra::Utility::Core::SyncObject</scope><name>Close</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1aa9f9f2c078ea20863ef942bb598970aa" prot="public" virt="pure-virtual"><scope>Canberra::Utility::Core::SyncObject</scope><name>Create</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1afa1bef8c30c3e1f85eda57c7bab72b06" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SyncObject</scope><name>GetIsGlobal</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a6ad6f6802cf9fa85552164ef0185a815" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SyncObject</scope><name>GetIsNamed</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1aa8c53151b7c5d01e08e498c5fe77ab99" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SyncObject</scope><name>GetIsOpen</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1afd382a9a6edcf4d45b83e9b7e7e78b72" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SyncObject</scope><name>GetName</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a5c5fd1066372d180e16e475a5cf8fbc3" prot="public" virt="pure-virtual"><scope>Canberra::Utility::Core::SyncObject</scope><name>Lock</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1ae1f30f6fce9190ec3d32762eaa282900" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::SyncObject</scope><name>SyncObject</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a2b8e2f0d70c75f60aff1bde4536b3217" prot="public" virt="pure-virtual"><scope>Canberra::Utility::Core::SyncObject</scope><name>TryLock</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a86a4157f361c42d5823ea733c9061d74" prot="public" virt="pure-virtual"><scope>Canberra::Utility::Core::SyncObject</scope><name>Unlock</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1ab74ec3962f4c8e6a446f59cdfb8d4f70" prot="public" virt="pure-virtual"><scope>Canberra::Utility::Core::SyncObject</scope><name>WaitOne</name></member>
+      <member refid="dc/d09/class_canberra_1_1_utility_1_1_core_1_1_sync_object_1a5e08bb62ffd90819f59fb6f2b7e86f31" prot="public" virt="virtual"><scope>Canberra::Utility::Core::SyncObject</scope><name>~SyncObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

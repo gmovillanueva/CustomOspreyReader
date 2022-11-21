@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values" kind="union" language="C++" prot="protected">
+    <compoundname>Canberra::Utility::Core::Variant::NativeValues</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1ab87eaf999ed9da37674c0bcdb6ea87e1" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char Canberra::Utility::Core::Variant::NativeValues::ubVal</definition>
+        <argsstring></argsstring>
+        <name>ubVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Variant.h" line="87" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Variant.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a3dca8c7ff5841ede91d58129eb115936" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short Canberra::Utility::Core::Variant::NativeValues::usVal</definition>
+        <argsstring></argsstring>
+        <name>usVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Variant.h" line="88" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Variant.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a3a61d4a62de3aa16a4bf91e86c08564e" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int Canberra::Utility::Core::Variant::NativeValues::ulVal</definition>
+        <argsstring></argsstring>
+        <name>ulVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Variant.h" line="89" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Variant.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a464bd89646061e595b7e6ca6ca8adadf" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Canberra::Utility::Core::Variant::NativeValues::bVal</definition>
+        <argsstring></argsstring>
+        <name>bVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Variant.h" line="91" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Variant.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a1bc28f13691752668b4cb6f61e02f714" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short Canberra::Utility::Core::Variant::NativeValues::sVal</definition>
+        <argsstring></argsstring>
+        <name>sVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Variant.h" line="92" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Variant.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1aff1a7fd37d4bafdd725f2e96b5dfa819" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Canberra::Utility::Core::Variant::NativeValues::lVal</definition>
+        <argsstring></argsstring>
+        <name>lVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Variant.h" line="93" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Variant.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a0b96f982251bb887df65ba73dda77640" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Canberra::Utility::Core::Variant::NativeValues::fVal</definition>
+        <argsstring></argsstring>
+        <name>fVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Variant.h" line="94" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Variant.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a373e8f4f962d91b6901f5d8237b45a28" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Canberra::Utility::Core::Variant::NativeValues::dVal</definition>
+        <argsstring></argsstring>
+        <name>dVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Variant.h" line="95" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Variant.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a26461e6bc445b5f553098aba58712bbe" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Canberra::Utility::Core::Variant::NativeValues::boolVal</definition>
+        <argsstring></argsstring>
+        <name>boolVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Variant.h" line="96" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Variant.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a1edd1da715344ff3614fcbfa6e581ffd" prot="public" static="no" mutable="no">
+        <type>LONGLONG</type>
+        <definition>LONGLONG Canberra::Utility::Core::Variant::NativeValues::i64Val</definition>
+        <argsstring></argsstring>
+        <name>i64Val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Variant.h" line="97" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Variant.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a87770bd55bf6a7e0ff07a92e72f34311" prot="public" static="no" mutable="no">
+        <type>ULONGULONG</type>
+        <definition>ULONGULONG Canberra::Utility::Core::Variant::NativeValues::ui64Val</definition>
+        <argsstring></argsstring>
+        <name>ui64Val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Variant.h" line="98" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Variant.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1ad3cb9f168af1e6be3389abc604af7542" prot="public" static="no" mutable="no">
+        <type>union Canberra::Utility::Core::Variant::NativeValues::@2</type>
+        <definition>union Canberra::Utility::Core::Variant::NativeValues::@2 Canberra::Utility::Core::Variant::NativeValues::@3</definition>
+        <argsstring></argsstring>
+        <name>@3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Variant.h" line="108" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1abeb6ef3d4c81194677f6e241836c7d41" prot="public" static="no" mutable="no">
+        <type><ref refid="dd/dee/class_canberra_1_1_utility_1_1_core_1_1_variant_array" kindref="compound">VariantArray</ref> *</type>
+        <definition>VariantArray* Canberra::Utility::Core::Variant::NativeValues::pArrayVal</definition>
+        <argsstring></argsstring>
+        <name>pArrayVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Project1/Dependencies/Canberra_V2/include/Variant.h" line="110" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Variant.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="278">
+        <label>Canberra::Utility::Core::Variant::NativeValues</label>
+        <link refid="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values"/>
+        <childnode refid="279" relation="usage">
+          <edgelabel>pArrayVal</edgelabel>
+        </childnode>
+      </node>
+      <node id="279">
+        <label>Canberra::Utility::Core::VariantArray</label>
+        <link refid="dd/dee/class_canberra_1_1_utility_1_1_core_1_1_variant_array"/>
+      </node>
+    </collaborationgraph>
+    <location file="Project1/Dependencies/Canberra_V2/include/Variant.h" line="86" column="1" bodyfile="Project1/Dependencies/Canberra_V2/include/Variant.h" bodystart="86" bodyend="111"/>
+    <listofallmembers>
+      <member refid="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a26461e6bc445b5f553098aba58712bbe" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Variant::NativeValues</scope><name>boolVal</name></member>
+      <member refid="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a464bd89646061e595b7e6ca6ca8adadf" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Variant::NativeValues</scope><name>bVal</name></member>
+      <member refid="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a373e8f4f962d91b6901f5d8237b45a28" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Variant::NativeValues</scope><name>dVal</name></member>
+      <member refid="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a0b96f982251bb887df65ba73dda77640" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Variant::NativeValues</scope><name>fVal</name></member>
+      <member refid="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a1edd1da715344ff3614fcbfa6e581ffd" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Variant::NativeValues</scope><name>i64Val</name></member>
+      <member refid="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1aff1a7fd37d4bafdd725f2e96b5dfa819" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Variant::NativeValues</scope><name>lVal</name></member>
+      <member refid="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1abeb6ef3d4c81194677f6e241836c7d41" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Variant::NativeValues</scope><name>pArrayVal</name></member>
+      <member refid="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a1bc28f13691752668b4cb6f61e02f714" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Variant::NativeValues</scope><name>sVal</name></member>
+      <member refid="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1ab87eaf999ed9da37674c0bcdb6ea87e1" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Variant::NativeValues</scope><name>ubVal</name></member>
+      <member refid="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a87770bd55bf6a7e0ff07a92e72f34311" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Variant::NativeValues</scope><name>ui64Val</name></member>
+      <member refid="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a3a61d4a62de3aa16a4bf91e86c08564e" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Variant::NativeValues</scope><name>ulVal</name></member>
+      <member refid="de/db0/union_canberra_1_1_utility_1_1_core_1_1_variant_1_1_native_values_1a3dca8c7ff5841ede91d58129eb115936" prot="public" virt="non-virtual"><scope>Canberra::Utility::Core::Variant::NativeValues</scope><name>usVal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
